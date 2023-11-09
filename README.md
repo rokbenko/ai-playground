@@ -6,6 +6,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
 
 <br>
 
-| Tutorial  | Short description | GitHub link | YouTube link |
-| ------------- | ------------- | ------------- | ------------- |
-| Lorem ipsum  | Lorem ipsum  | Link | Link |
+| | Tutorial  | Short description | GitHub link | YouTube link |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| #1 | **How do I get an OpenAI API response in JSON format?**  | Python and Node.js examples on how to get a valid JSON response  | [GitHub link](https://github.com/rokbenko/openai-api-tutorials/tree/main/Tutorials/%231%20How%20do%20I%20get%20an%20OpenAI%20API%20response%20in%20JSON%20format) | Coming soon... |
+| #2 | **How do I build a personal math tutor with the OpenAI Assistants API?**  | Python and Node.js examples on how to make a personal math tutor with the OpenAI Assistants API  | [GitHub link](https://github.com/rokbenko/openai-api-tutorials/tree/main/Tutorials/%232%20How%20do%20I%20build%20a%20personal%20math%20tutor%20with%20the%20OpenAI%20Assistants%20API) | Coming soon... |
