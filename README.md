@@ -2,7 +2,8 @@
 
 Code from the YouTube tutorials [Code OpenAI API with Rok](https://www.youtube.com/@codewithrok).
 
-Enjoying what you find in this repository? Your star ⭐ would be greatly appreciated! Positive feedback keeps me going. 🚀
+Enjoying what you find in this repository? Your star ⭐ would be greatly appreciated!<br>
+Positive feedback keeps me going. 🚀
 
 <br>
 
