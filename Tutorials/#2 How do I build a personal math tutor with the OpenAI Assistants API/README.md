@@ -12,49 +12,49 @@ If you run `personal_math_tutor.py`, you should get the following response:
 >
 > This is the run object: Run(xxxxx)
 >
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
 > Run status: completed
 >
 > \------------------------------------------------------------
 >
-> User: I need to solve the equation `3x + 11 = 14`. Can you help me?
+> User: I need to solve the equation `3x + 11 = 14`. Can you help me? <br>
 > Assistant: The solution to the equation `3x + 11 = 14` is `x = 1`, Rok Benko.
 
 Environment:
@@ -77,73 +77,73 @@ If you run `personal_math_tutor.js`, you should get the following response:
 >
 > This is the run object: {xxxxx}
 >
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
-> Run status: in_progress
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
+> Run status: in_progress <br>
 > Run status: completed
 >
 > Run status: completed
 >
 > \------------------------------------------------------------
 >
-> User: I need to solve the equation `3x + 11 = 14`. Can you help me?
+> User: I need to solve the equation `3x + 11 = 14`. Can you help me? <br>
 > Assistant: Sure, Rok Benko. To solve the equation for `x`, you need to isolate `x` on one side of the equation. Here is how to do it:
 >
 > 1. Subtract 11 from both sides of the equation: `3x + 11 - 11 = 14 - 11`, which simplifies to `3x = 3`
