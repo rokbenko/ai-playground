@@ -59,11 +59,6 @@ async function main() {
   retrieveRun();
 
   // Step 6: Retrieve the Messages added by the Assistant to the Thread
-  const allMessages = await openai.beta.threads.messages.list(
-    (thread_id = myThread.id)
-  );
-
-  // Step 7: Wait for the Assistant's Message
   const waitForAssistantMessage = async () => {
     await retrieveRun();
 
