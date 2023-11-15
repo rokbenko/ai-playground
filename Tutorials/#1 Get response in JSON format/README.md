@@ -4,6 +4,8 @@
 
 Python and Node.js examples on how to get a valid JSON response.
 
+<br>
+
 ## Working example in Python
 
 If you run `return_json.py`, you should get the following response:
