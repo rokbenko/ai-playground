@@ -1,4 +1,8 @@
-# #2 How do I build a personal math tutor with the OpenAI Assistants API using the Code Interpreter tool?
+# #2 Build a personal math tutor
+
+## Short description
+
+Python and Node.js examples on how to make a personal math tutor with the OpenAI Assistants API using the Code Interpreter tool.
 
 ## Working example in Python
 
