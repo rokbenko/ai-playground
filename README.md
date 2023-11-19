@@ -1,8 +1,12 @@
-# Code from OpenAI API YouTube tutorials
+<div align="center">
 
-Code from the YouTube tutorials [Code OpenAI API with Rok](https://www.youtube.com/@codewithrok). 🚀
+# Code from YouTube tutorials [Code OpenAI API with Rok](https://www.youtube.com/@codewithrok)
 
-Enjoying what you find in this repository? Your star ⭐ would be greatly appreciated!<br>
+Enjoying what you find in this repository? Your star ⭐ would be greatly appreciated!
+
+<br>
+
+</div>
 
 <br>
 
