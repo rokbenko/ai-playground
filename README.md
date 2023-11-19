@@ -1,6 +1,6 @@
 <div align="center">
 
-# Code from YouTube tutorials [Code OpenAI API with Rok](https://www.youtube.com/@codewithrok)
+# Code from the YouTube channel<br> [Code OpenAI API with Rok](https://www.youtube.com/@codewithrok)
 
 Enjoying what you find in this repository? Your star ⭐ would be greatly appreciated!
 
