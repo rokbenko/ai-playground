@@ -40,3 +40,9 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     </td>
   </tr>
 </table>
+
+<br>
+
+## License
+
+This project is open source and available under the [MIT License](https://github.com/rokbenko/openai-api-tutorials/blob/main/LICENSE).
