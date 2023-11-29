@@ -15,10 +15,10 @@ To start using chatMATH, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/rokbenko/openai-api-tutorials.git`
 2. Change the directory: `cd openai-api-tutorials/Tutorials/"3 Chat with a personal math tutor"`
-5. Install the dependencies: `npm i`
-6. Edit the `.env` file to set up your environment variables
-7. Run the development server: `npm run dev`
-8. To view the application, navigate to [http://localhost:3000](http://localhost:3000)
+3. Install the dependencies: `npm i`
+4. Edit the `.env` file to set up your environment variables
+5. Run the development server: `npm run dev`
+6. To view the application, navigate to [http://localhost:3000](http://localhost:3000)
 
 <br>
 
@@ -26,8 +26,8 @@ To start using chatMATH, follow these steps:
 
 The app was tested and worked in the following environment:
 
- - Windows `10`
- - Node.js `21.2.0`
+- Windows `10`
+- Node.js `21.2.0`
 
 <br>
 
@@ -48,9 +48,3 @@ The app was tested and worked in the following environment:
 ## Screenshot
 
 Coming soon...
-
-<br>
-
-## License
-
-This project is open source and available under the [MIT License](https://github.com/rokbenko/chatFTW/blob/main/LICENSE).

@@ -12,6 +12,7 @@ import Select from "@mui/material/Select";
 import { FiEdit } from "react-icons/fi";
 import { TbArrowUp } from "react-icons/tb";
 import { RxHamburgerMenu } from "react-icons/rx";
+import { FaGithub } from "react-icons/fa";
 import { FaStackOverflow } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
@@ -224,7 +225,7 @@ const Chat = (props: any) => {
                     </div>
                   </div>
                   <div className="text-2xl sm:text-4xl font-semibold text-center text-black dark:text-white flex flex-col gap-2 items-center justify-center h-screen">
-                    <h1>chatFTW</h1>
+                    <h1>chatMATH</h1>
                     <Image
                       src="/powered-by-openai-badge-outlined-on-dark.svg"
                       width={165.92}
@@ -236,6 +237,13 @@ const Chat = (props: any) => {
                       Made with ❤️ by Rok
                     </div>
                     <div className="flex pt-0 gap-2">
+                      <a
+                        target="_blank"
+                        href="https://github.com/rokbenko"
+                        className="opacity-50 hover:opacity-100 duration-200"
+                      >
+                        <FaGithub className="scale-75" />
+                      </a>
                       <a
                         target="_blank"
                         href="https://stackoverflow.com/users/10347145/rok-benko?tab=profile"
@@ -287,7 +295,7 @@ const Chat = (props: any) => {
                     overflowY: "hidden",
                   }}
                   // rows={1}
-                  placeholder="Message chatFTW..."
+                  placeholder="Message chatMATH..."
                   className="focus:outline-none focus:shadow-none m-0 w-full resize-none border-0 bg-transparent p-0 pr-7 focus:ring-0 focus-visible:ring-0 dark:bg-transparent pl-2 md:pl-0"
                   onChange={(e) => setMessage(e.target.value)}
                   onKeyDown={handleKeypress}
@@ -304,7 +312,7 @@ const Chat = (props: any) => {
           </form>
           <div className="px-2 py-2 text-center text-xs text-gray-600 dark:text-gray-300">
             <span>
-              chatFTW can make mistakes. Consider checking important
+              chatMATH can make mistakes. Consider checking important
               information.
             </span>
           </div>
