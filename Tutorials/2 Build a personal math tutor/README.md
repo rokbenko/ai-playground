@@ -4,6 +4,8 @@
 
 Python and Node.js examples on how to make a personal math tutor with the OpenAI Assistants API using the Code Interpreter tool.
 
+<br>
+
 ## Working example in Python
 
 If you run `personal_math_tutor.py`, you should get the following response:
