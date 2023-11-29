@@ -43,6 +43,13 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
       <a href="https://youtu.be/F-KRs6vg4mM">YouTube</a>
     </td>
   </tr>
+  <tr>
+    <td>#3</td>
+    <td>Chat with a personal math tutor</td>
+    <td>Next.js GUI for the <a href="https://github.com/rokbenko/openai-api-tutorials/tree/main/Tutorials/2%20Build%20a%20personal%20math%20tutor">#2 Build a personal math tutor</a> tutorial</td>
+    <td>Coming soon...</td>
+    <td>Coming soon...</td>
+  </tr>
 </table>
 
 <br>
