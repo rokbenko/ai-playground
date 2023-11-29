@@ -4,6 +4,10 @@
 
 Enjoying what you find in this repository? Your star ⭐ would be greatly appreciated!
 
+<a target="_blank" rel="noopener noreferrer" href="https://openai.com/">
+  <img src="https://github.com/rokbenko/chatFTW/raw/main/public/powered-by-openai-badge-outlined-on-dark.svg?raw=true" alt="Powered by OpenAI" style="max-width: 100%;height: 32px;">
+</a>
+
 <br>
 
 </div>
