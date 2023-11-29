@@ -1,39 +1,24 @@
-<div align="center">
-  
-# chatFTW
+# #3 Chat with a personal math tutor
 
-Enjoying what you find in this repository? Your star ⭐ would be greatly appreciated!
+## Short description
 
-<a target="_blank" rel="noopener noreferrer" href="https://openai.com/">
-  <img src="https://github.com/rokbenko/chatCLONE/raw/main/public/powered-by-openai-badge-outlined-on-dark.svg?raw=true" alt="Powered by OpenAI" style="max-width: 100%;height: 32px;">
-</a>
-
-<br>
-
-</div>
+chatMATH is a Next.js GUI for the <a href="https://github.com/rokbenko/openai-api-tutorials/tree/main/Tutorials/2%20Build%20a%20personal%20math%20tutor">#2 Build a personal math tutor</a> tutorial. The main focus is on advanced chat functionalities, with no attention given to non-relevant aspects. Therefore, the sidebar is completely removed.
 
 > [!NOTE]
-> chatFTW works with the latest OpenAI Node.js SDK version (i.e., `4.20.0` as of the time of writing).
-
-## Description
-
-chatFTW is designed to imitate OpenAI's official ChatGPT, serving as a GUI (i.e., graphical user interface) for tutorials presented on the <a href="https://www.youtube.com/@codewithrok">Code OpenAI API with Rok</a> YouTube channel. The main focus is on advanced chat functionalities, with no attention given to non-relevant aspects. Therefore, the sidebar is completely removed.
-
-> "FTW" is internet slang for, "For the win!" and is used especially to express approval or support of something. It is often added as enthusiastic emphasis to the end of a comment, message, or post. Sometimes genuine, but often sarcastic (<a href="https://en.amazingtalker.com/questions/638">source</a>).
-
-_PS: OpenAI discourages having a GPT's name end with "GPT" (<a href="https://openai.com/brand">source</a>)._
+> chatMATH is based on the <a href="https://github.com/rokbenko/chatFTW">chatFTW</a>.
 
 <br>
 
 ## Installation
 
-To start using chatFTW, follow these steps:
+To start using chatMATH, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/rokbenko/chatFTW.git`
-2. Install the dependencies: `npm i`
-3. Edit the `.env` file to set up your environment variables
-4. Run the development server: `npm run dev`
-5. To view the application, navigate to [http://localhost:3000](http://localhost:3000)
+1. Clone the repository: `git clone https://github.com/rokbenko/openai-api-tutorials.git`
+2. Change the directory: `cd openai-api-tutorials/Tutorials/"3 Chat with a personal math tutor"`
+5. Install the dependencies: `npm i`
+6. Edit the `.env` file to set up your environment variables
+7. Run the development server: `npm run dev`
+8. To view the application, navigate to [http://localhost:3000](http://localhost:3000)
 
 <br>
 
@@ -62,7 +47,7 @@ The app was tested and worked in the following environment:
 
 ## Screenshot
 
-![Screenshot](https://github.com/rokbenko/chatFTW/blob/main/screenshot.png?raw=true)
+Coming soon...
 
 <br>
 
