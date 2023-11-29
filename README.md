@@ -22,7 +22,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <td>Get response in JSON format</td>
     <td>Python and Node.js examples on how to get a valid JSON response</td>
     <td>
-      <a href="https://github.com/rokbenko/openai-api-tutorials/tree/main/Tutorials/%231%20Get%20response%20in%20JSON%20format">GitHub</a>
+      <a href="https://github.com/rokbenko/openai-api-tutorials/tree/main/Tutorials/1%20Get%20response%20in%20JSON%20format">GitHub</a>
     </td>
     <td>
       <a href="https://youtu.be/o4q2qsGKVkE">YouTube</a>
@@ -33,7 +33,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <td>Build a personal math tutor</td>
     <td>Python and Node.js examples on how to make a personal math tutor with the OpenAI Assistants API using the Code Interpreter tool</td>
     <td>
-      <a href="https://github.com/rokbenko/openai-api-tutorials/tree/main/Tutorials/%232%20Build%20a%20personal%20math%20tutor">GitHub</a>
+      <a href="https://github.com/rokbenko/openai-api-tutorials/tree/main/Tutorials/2%20Build%20a%20personal%20math%20tutor">GitHub</a>
     </td>
     <td>
       <a href="https://youtu.be/F-KRs6vg4mM">YouTube</a>
