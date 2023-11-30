@@ -1,9 +1,10 @@
 import * as React from "react";
 import { useEffect, useRef, useState } from "react";
+import Message from "./message";
+import Dialog from "./dialog";
 import Image from "next/image";
 import useAutoResizeTextArea from "@/hooks/useAutoResizeTextArea";
 import { GPT_35_MODEL, GPT_4_MODEL } from "@/shared/constants";
-import Message from "./message";
 import Box from "@mui/material/Box";
 import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
@@ -310,6 +311,9 @@ const Chat = (props: any) => {
               </div>
             </div>
           </form>
+          <div className="absolute bottom-8 right-8">
+            <Dialog />
+          </div>
           <div className="px-2 py-2 text-center text-xs text-gray-600 dark:text-gray-300">
             <span>
               chatMATH can make mistakes. Consider checking important
