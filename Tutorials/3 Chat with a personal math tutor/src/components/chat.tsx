@@ -10,17 +10,13 @@ import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
-import { FiEdit } from "react-icons/fi";
 import { TbArrowUp } from "react-icons/tb";
-import { RxHamburgerMenu } from "react-icons/rx";
 import { FaGithub } from "react-icons/fa";
 import { FaStackOverflow } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 
-const Chat = (props: any) => {
-  const { toggleComponentVisibility } = props;
-
+const Chat = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
   const [showEmptyChat, setShowEmptyChat] = useState(true);
@@ -116,20 +112,6 @@ const Chat = (props: any) => {
 
   return (
     <div className="flex max-w-full flex-1 flex-col">
-      <div className="sticky top-0 min-h-[40px] z-10 flex items-center bg-gray-900 text-gray-200 md:hidden">
-        <button
-          type="button"
-          className="-ml-0.5 -mt-0.5 inline-flex h-10 w-10 items-center justify-center rounded-lg hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white dark:hover:text-white"
-          onClick={toggleComponentVisibility}
-        >
-          <span className="sr-only">Open sidebar</span>
-          <RxHamburgerMenu size={18} />
-        </button>
-        <h1 className="flex-1 text-center text-base font-normal">New chat</h1>
-        <button type="button" className="px-3">
-          <FiEdit size={14} />
-        </button>
-      </div>
       <div className="relative h-full w-full transition-width flex flex-col overflow-hidden items-stretch flex-1">
         <div className="flex-1 overflow-hidden">
           <div className="relative h-full dark:bg-gray-800">
@@ -150,7 +132,7 @@ const Chat = (props: any) => {
                 </div>
               ) : null}
               {showEmptyChat ? (
-                <div className="py-10 px-2 relative w-full flex flex-col h-full">
+                <div className="pb-10 sm:pt-10 pt-4 px-2 relative w-full flex flex-col h-full">
                   <div className="flex items-center justify-center gap-2">
                     <div className="relative w-full md:w-1/2 lg:w-1/3 xl:w-1/4">
                       <Box>
