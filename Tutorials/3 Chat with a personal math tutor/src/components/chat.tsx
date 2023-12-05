@@ -4,7 +4,11 @@ import Message from "./message";
 import Dialog from "./dialog";
 import Image from "next/image";
 import useAutoResizeTextArea from "@/hooks/useAutoResizeTextArea";
-import { GPT_35_MODEL, GPT_4_MODEL } from "@/shared/constants";
+import {
+  GPT_35_MODEL,
+  GPT_4_MODEL,
+  CODE_INTERPRETER,
+} from "@/shared/constants";
 import Box from "@mui/material/Box";
 import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
@@ -122,7 +126,9 @@ const Chat = () => {
                     Model:{" "}
                     {selectedModel === GPT_35_MODEL.name
                       ? GPT_35_MODEL.name
-                      : GPT_4_MODEL.name}
+                      : selectedModel === GPT_4_MODEL.name
+                      ? GPT_4_MODEL.name
+                      : CODE_INTERPRETER.name}
                   </div>
                   {conversation.map((message, index) => (
                     <Message key={index} message={message} />
@@ -145,9 +151,6 @@ const Chat = () => {
                               },
                             ".MuiOutlinedInput-root .MuiSvgIcon-root ": {
                               fill: "rgba(255, 255, 255, 1) !important",
-                            },
-                            ".MuiList-root": {
-                              backgroundColor: "green",
                             },
                           }}
                         >
@@ -202,6 +205,9 @@ const Chat = () => {
                             <MenuItem value={GPT_4_MODEL.name}>
                               {GPT_4_MODEL.name}
                             </MenuItem>
+                            <MenuItem value={CODE_INTERPRETER.name}>
+                              {CODE_INTERPRETER.name}
+                            </MenuItem>
                           </Select>
                         </FormControl>
                       </Box>
@@ -249,6 +255,9 @@ const Chat = () => {
                         <FaYoutube className="scale-75" />
                       </a>
                     </div>
+                    <div className="mt-12">
+                      <Dialog />
+                    </div>
                   </div>
                 </div>
               ) : null}
@@ -293,9 +302,6 @@ const Chat = () => {
               </div>
             </div>
           </form>
-          <div className="absolute bottom-8 right-8">
-            <Dialog />
-          </div>
           <div className="px-2 py-2 text-center text-xs text-gray-600 dark:text-gray-300">
             <span>
               chatMATH can make mistakes. Consider checking important

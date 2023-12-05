@@ -12,4 +12,14 @@ export const GPT_4_MODEL = {
   available: true,
 };
 
-export const OPENAI_MODELS: OpenAIModel[] = [GPT_35_MODEL, GPT_4_MODEL];
+export const CODE_INTERPRETER = {
+  name: "Code Interpreter",
+  id: "gpt-4",
+  available: true,
+};
+
+export const OPENAI_MODELS: OpenAIModel[] = [
+  GPT_35_MODEL,
+  GPT_4_MODEL,
+  CODE_INTERPRETER,
+];
