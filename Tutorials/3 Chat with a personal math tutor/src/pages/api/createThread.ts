@@ -12,14 +12,14 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  if (req.method !== 'GET') {
+  if (req.method !== 'POST') {
     res.status(405).json({ error: 'Method not allowed' });
     return;
   }
 
   try {
-    const listAllAssistants = await openai.beta.assistants.list({});
-    res.status(200).json({ message: listAllAssistants });
+    const createNewThread = await openai.beta.threads.create({});
+    res.status(200).json({ message: createNewThread });
   } catch (error) {
     console.error(error);
     res.status(500).json({

@@ -1,11 +1,14 @@
-import { NextApiRequest, NextApiResponse } from "next";
-import { GPT_35_MODEL, GPT_4_MODEL } from "@/shared/constants";
-import { OpenAIModel } from "@/types/model";
-import { OpenAI } from "openai";
+import { NextApiRequest, NextApiResponse } from 'next';
+import { GPT_35_MODEL, GPT_4_MODEL } from '@/shared/constants';
+import { OpenAIModel } from '@/types/model';
+import { OpenAI } from 'openai';
 import {
   ChatCompletionMessageParam,
   ChatCompletionFunctionMessageParam,
-} from "openai/resources/chat";
+} from 'openai/resources/chat';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
@@ -15,8 +18,8 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  if (req.method !== "POST") {
-    res.status(405).json({ error: "Method not allowed" });
+  if (req.method !== 'POST') {
+    res.status(405).json({ error: 'Method not allowed' });
     return;
   }
 
@@ -28,8 +31,8 @@ export default async function handler(
 
   try {
     const promptMessage: ChatCompletionMessageParam = {
-      role: "system",
-      content: "You are ChatGPT. Respond to the user like you normally would.",
+      role: 'system',
+      content: 'You are ChatGPT. Respond to the user like you normally would.',
     };
 
     const initialMessages: ChatCompletionMessageParam[] = messages.splice(0, 3);
@@ -37,11 +40,11 @@ export default async function handler(
     const latestMessages: ChatCompletionMessageParam[] = messages
       .slice(-5)
       .map((message) => {
-        if (message.role === "function") {
+        if (message.role === 'function') {
           return {
             role: message.role,
             content: message.content,
-            name: "your_function_name",
+            name: 'your_function_name',
           } as ChatCompletionFunctionMessageParam;
         } else {
           return {
@@ -62,14 +65,14 @@ export default async function handler(
     if (!responseMessage) {
       res
         .status(400)
-        .json({ error: "Unable get response from OpenAI. Please try again." });
+        .json({ error: 'Unable get response from OpenAI. Please try again.' });
     }
 
     res.status(200).json({ message: responseMessage });
   } catch (error) {
     console.error(error);
     res.status(500).json({
-      error: "An error occurred during ping to OpenAI. Please try again.",
+      error: 'An error occurred during ping to OpenAI. Please try again.',
     });
   }
 }
