@@ -42,6 +42,7 @@ The app was tested and worked in the following environment:
 | ESLint       | `8.38.0`  |
 | Tailwind CSS | `3.3.1`   |
 | OpenAI       | `4.20.0`  |
+| Dotenv       | `16.3.1`  |
 
 <br>
 
