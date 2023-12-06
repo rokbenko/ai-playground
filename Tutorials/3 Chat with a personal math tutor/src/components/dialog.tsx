@@ -1,26 +1,26 @@
-import React from 'react';
-import Button from '@mui/material/Button';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import DialogTitle from '@mui/material/DialogTitle';
-import Dialog from '@mui/material/Dialog';
-import LoadingButton from '@mui/lab/LoadingButton';
-import Table from '@mui/material/Table';
-import TableBody from '@mui/material/TableBody';
-import TableCell from '@mui/material/TableCell';
-import TableHead from '@mui/material/TableHead';
-import TableRow from '@mui/material/TableRow';
+import React from "react";
+import Button from "@mui/material/Button";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+import DialogTitle from "@mui/material/DialogTitle";
+import Dialog from "@mui/material/Dialog";
+import LoadingButton from "@mui/lab/LoadingButton";
+import Table from "@mui/material/Table";
+import TableBody from "@mui/material/TableBody";
+import TableCell from "@mui/material/TableCell";
+import TableHead from "@mui/material/TableHead";
+import TableRow from "@mui/material/TableRow";
 
 export interface DialogProps {
   open: boolean;
   onClose: () => void;
 }
 
-function SimpleDialog(props: DialogProps) {
+function GetValuesForEnvVariablesDialog(props: DialogProps) {
   const { open: dialogOpen, onClose } = props;
 
   const [loadingAssistants, setLoadingAssistants] = React.useState(false);
-  const [loadingThreads, setLoadingThreads] = React.useState(false);
+  const [loadingThread, setLoadingThread] = React.useState(false);
 
   const [extractedInfoForAssistants, setExtractedInfoForAssistants] =
     React.useState([]);
@@ -30,21 +30,20 @@ function SimpleDialog(props: DialogProps) {
 
   const handleClose = () => {
     setLoadingAssistants(false);
-    setLoadingThreads(false);
+    setLoadingThread(false);
     onClose();
   };
 
-  const getAllAssistants = async (e: any) => {
-    setLoadingAssistants(true);
+  const assistantsFunction = async (e: any) => {
     e.preventDefault();
 
     setLoadingAssistants(true);
 
     try {
       const response = await fetch(`/api/listAssistants`, {
-        method: 'GET',
+        method: "GET",
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
       });
 
@@ -71,16 +70,16 @@ function SimpleDialog(props: DialogProps) {
     }
   };
 
-  const getAllThreads = async (e: any) => {
+  const threadFunction = async (e: any) => {
     e.preventDefault();
 
-    setLoadingThreads(true);
+    setLoadingThread(true);
 
     try {
       const response = await fetch(`api/createThread`, {
-        method: 'POST',
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
       });
 
@@ -103,7 +102,7 @@ function SimpleDialog(props: DialogProps) {
     } catch (error: any) {
       console.error(error);
     } finally {
-      setLoadingThreads(false);
+      setLoadingThread(false);
     }
   };
 
@@ -112,10 +111,10 @@ function SimpleDialog(props: DialogProps) {
       onClose={handleClose}
       open={dialogOpen}
       sx={{
-        '.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiDialog-paper': {
-          backgroundColor: 'rgb(249 250 251)',
-          borderRadius: '0.5rem',
-          padding: '1rem',
+        ".MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiDialog-paper": {
+          backgroundColor: "rgb(249 250 251)",
+          borderRadius: "0.5rem",
+          padding: "1rem",
         },
       }}
       fullWidth
@@ -127,19 +126,10 @@ function SimpleDialog(props: DialogProps) {
       <List sx={{ pt: 0 }}>
         <ListItem>
           <LoadingButton
-            onClick={getAllAssistants}
+            onClick={assistantsFunction}
             loading={loadingAssistants}
-            variant="contained"
-            className="text-white bg-gray-800 hover:bg-gray-600 w-full"
-            sx={{
-              '&.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary':
-                {
-                  color: 'white',
-                  backgroundColor: 'rgba(52,53,65,1)',
-                  borderColor: 'rgba(255, 255, 255, 0.5)',
-                  borderRadius: '0.5rem',
-                },
-            }}
+            variant="outlined"
+            className="w-full"
           >
             List all assistants
           </LoadingButton>
@@ -166,20 +156,12 @@ function SimpleDialog(props: DialogProps) {
             </Table>
           </ListItem>
         )}
-        <ListItem onClick={getAllThreads}>
+        <ListItem>
           <LoadingButton
-            loading={loadingThreads}
-            variant="contained"
-            className="text-white bg-gray-800 hover:bg-gray-600 w-full"
-            sx={{
-              '&.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary':
-                {
-                  color: 'white',
-                  backgroundColor: 'rgba(52,53,65,1)',
-                  borderColor: 'rgba(255, 255, 255, 0.5)',
-                  borderRadius: '0.5rem',
-                },
-            }}
+            onClick={threadFunction}
+            loading={loadingThread}
+            variant="outlined"
+            className="w-full"
           >
             Create a new Thread
           </LoadingButton>
@@ -200,8 +182,8 @@ function SimpleDialog(props: DialogProps) {
                     <TableCell>
                       {formatUnixTimestamp(
                         thread.created_at,
-                        'si-SL',
-                        'Europe/Ljubljana'
+                        "si-SL",
+                        "Europe/Ljubljana"
                       )}
                     </TableCell>
                   </TableRow>
@@ -222,17 +204,17 @@ const formatUnixTimestamp = (
 ) => {
   const milliseconds = timestamp * 1000;
   return new Intl.DateTimeFormat(locale, {
-    year: 'numeric',
-    month: 'numeric',
-    day: 'numeric',
-    hour: 'numeric',
-    minute: 'numeric',
-    second: 'numeric',
+    year: "numeric",
+    month: "numeric",
+    day: "numeric",
+    hour: "numeric",
+    minute: "numeric",
+    second: "numeric",
     timeZone: timeZone,
   }).format(new Date(milliseconds));
 };
 
-export default function SimpleDialogDemo() {
+export default function HandleDialogOpening() {
   const [open, setOpen] = React.useState(false);
 
   const handleOpen = () => {
@@ -246,29 +228,26 @@ export default function SimpleDialogDemo() {
   return (
     <div>
       <Button
-        variant="contained"
+        variant="outlined"
         onClick={handleOpen}
         sx={{
-          '&.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary':
+          "&.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary":
             {
-              color: 'rgba(0, 0, 0, 0.8)',
-              fontWeight: '600',
-              backgroundColor: 'rgba(255, 255, 255, 1)',
-              borderColor: 'rgba(255, 255, 255, 0.5)',
-              borderRadius: '0.5rem',
+              color: "rgba(0, 0, 0, 0.8)",
+              fontWeight: "600",
+              backgroundColor: "rgba(255, 255, 255, 1)",
+              borderColor: "rgba(255, 255, 255, 0.5)",
+              borderRadius: "0.5rem",
             },
-          '&.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary:hover':
+          "&.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary:hover":
             {
-              backgroundColor: 'rgba(255, 255, 255, 0.8)',
+              backgroundColor: "rgba(255, 255, 255, 0.8)",
             },
         }}
       >
         Get values for env variables
       </Button>
-      <SimpleDialog
-        open={open}
-        onClose={handleClose}
-      />
+      <GetValuesForEnvVariablesDialog open={open} onClose={handleClose} />
     </div>
   );
 }
