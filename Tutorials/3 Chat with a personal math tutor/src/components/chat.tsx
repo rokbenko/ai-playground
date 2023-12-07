@@ -1,3 +1,4 @@
+// Importing necessary modules and components
 import * as React from "react";
 import { useEffect, useRef, useState } from "react";
 import Message from "./message";
@@ -11,12 +12,16 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import { TbArrowUp } from "react-icons/tb";
-import { FaGithub } from "react-icons/fa";
-import { FaStackOverflow } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
+import {
+  FaGithub,
+  FaStackOverflow,
+  FaLinkedin,
+  FaYoutube,
+} from "react-icons/fa";
 
+// Main functional component
 const Chat = () => {
+  // State variables
   const [isLoading, setIsLoading] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
   const [showEmptyChat, setShowEmptyChat] = useState(true);
@@ -26,10 +31,12 @@ const Chat = () => {
   const bottomOfChatRef = useRef<HTMLDivElement>(null);
   const [selectedModel, setSelectedModel] = React.useState("");
 
+  // Handler for model selection change
   const handleModelChange = (event: any) => {
     setSelectedModel(event.target.value);
   };
 
+  // Effect for resizing the text area based on its content
   useEffect(() => {
     if (textAreaRef.current) {
       textAreaRef.current.style.height = "24px";
@@ -37,12 +44,14 @@ const Chat = () => {
     }
   }, [message, textAreaRef]);
 
+  // Effect for scrolling to the bottom of the chat when conversation changes
   useEffect(() => {
     if (bottomOfChatRef.current) {
       bottomOfChatRef.current.scrollIntoView({ behavior: "smooth" });
     }
   }, [conversation]);
 
+  // Function to handle sending a message
   const sendMessage = async (e: any) => {
     e.preventDefault();
 
@@ -113,34 +122,43 @@ const Chat = () => {
     }
   };
 
+  // Function to handle key press events
   const handleKeypress = (e: any) => {
-    // It's triggers by pressing the enter key
+    // It triggers by pressing the enter key
     if (e.keyCode == 13 && !e.shiftKey) {
       sendMessage(e);
       e.preventDefault();
     }
   };
 
+  // JSX structure for rendering the component
   return (
     <div className="flex max-w-full flex-1 flex-col">
+      {/* Main chat container */}
       <div className="relative h-full w-full transition-width flex flex-col overflow-hidden items-stretch flex-1">
         <div className="flex-1 overflow-hidden">
           <div className="relative h-full dark:bg-gray-800">
             <div className="w-full h-full overflow-y-auto">
+              {/* Render conversation if not empty */}
               {!showEmptyChat && conversation.length > 0 ? (
                 <div className="flex flex-col items-center text-sm bg-gray-800">
+                  {/* Model information */}
                   <div className="flex w-full items-center justify-center gap-1 border-b border-black/10 bg-gray-50 p-3 text-gray-500 dark:border-gray-900/50 dark:bg-gray-700 dark:text-gray-300">
                     Model: {CODE_INTERPRETER.name}
                   </div>
+                  {/* Render each message in the conversation */}
                   {conversation.map((message, index) => (
                     <Message key={index} message={message} />
                   ))}
+                  {/* Placeholder for scrolling to the bottom of the chat */}
                   <div className="w-full h-32 md:h-48 flex-shrink-0"></div>
                   <div ref={bottomOfChatRef}></div>
                 </div>
               ) : null}
+              {/* Render empty chat if needed */}
               {showEmptyChat ? (
                 <div className="pb-10 sm:pt-10 pt-4 px-2 relative w-full flex flex-col h-full">
+                  {/* Model selection dropdown */}
                   <div className="flex items-center justify-center gap-2">
                     <div className="relative w-full md:w-1/2 lg:w-1/3 xl:w-1/4">
                       <Box>
@@ -156,6 +174,7 @@ const Chat = () => {
                             },
                           }}
                         >
+                          {/* Model selection label */}
                           <InputLabel
                             id="model-select-label"
                             sx={{
@@ -167,6 +186,7 @@ const Chat = () => {
                           >
                             Model
                           </InputLabel>
+                          {/* Model selection dropdown */}
                           <Select
                             labelId="model-select-label"
                             id="model-select"
@@ -201,6 +221,7 @@ const Chat = () => {
                               },
                             }}
                           >
+                            {/* Model selection item */}
                             <MenuItem value={CODE_INTERPRETER.name}>
                               {CODE_INTERPRETER.name}
                             </MenuItem>
@@ -209,8 +230,10 @@ const Chat = () => {
                       </Box>
                     </div>
                   </div>
+                  {/* ChatMATH branding and information */}
                   <div className="text-2xl sm:text-4xl font-semibold text-center text-black dark:text-white flex flex-col gap-2 items-center justify-center h-screen">
                     <h1>chatMATH</h1>
+                    {/* OpenAI badge */}
                     <Image
                       src="/powered-by-openai-badge-outlined-on-dark.svg"
                       width={165.92}
@@ -218,9 +241,11 @@ const Chat = () => {
                       alt="Powered by OpenAI badge"
                       className="pt-3"
                     />
+                    {/* Footer information */}
                     <div className="font-normal text-sm pt-4">
                       Made with ❤️ by Rok
                     </div>
+                    {/* Social media icons */}
                     <div className="flex pt-0 gap-2">
                       <a
                         target="_blank"
@@ -251,19 +276,23 @@ const Chat = () => {
                         <FaYoutube className="scale-75" />
                       </a>
                     </div>
+                    {/* Dialog component */}
                     <div className="mt-12">
                       <Dialog />
                     </div>
                   </div>
                 </div>
               ) : null}
+              {/* Placeholder for additional content */}
               <div className="flex flex-col items-center text-sm dark:bg-gray-800"></div>
             </div>
           </div>
         </div>
+        {/* Form for user input */}
         <div className="absolute bottom-0 left-0 w-full dark:border-white/20 md:border-transparent md:dark:border-transparent md:bg-vert-light-gradient bg-white dark:bg-gray-800 md:!bg-transparent dark:md:bg-vert-dark-gradient pt-2">
           <form className="stretch mx-2 flex flex-row gap-3 last:mb-2 md:mx-4 md:last:mb-6 lg:mx-auto lg:max-w-2xl xl:max-w-3xl">
             <div className="relative flex flex-col h-full flex-1 items-stretch md:flex-col">
+              {/* Display error message if any */}
               {errorMessage ? (
                 <div className="mb-2 md:mb-0">
                   <div className="h-full flex ml-1 md:w-full md:m-auto md:mb-2 gap-0 md:gap-2 justify-center">
@@ -271,6 +300,7 @@ const Chat = () => {
                   </div>
                 </div>
               ) : null}
+              {/* Text area for user input */}
               <div className="flex flex-col w-full flex-grow py-[10px] pr-10 pl-3 md:pl-4 md:py-4 md:pr-12 relative border border-black/10 bg-white dark:border-gray-900/50 dark:text-white dark:bg-gray-700 rounded-2xl shadow-[0_0_20px_rgba(0,0,0,0.025)] dark:shadow-[0_0_20px_rgba(0,0,0,0.025)]">
                 <textarea
                   ref={textAreaRef}
@@ -282,12 +312,12 @@ const Chat = () => {
                     maxHeight: "200px",
                     overflowY: "hidden",
                   }}
-                  // rows={1}
                   placeholder="Message chatMATH..."
                   className="focus:outline-none focus:shadow-none m-0 w-full resize-none border-0 bg-transparent p-0 pr-7 focus:ring-0 focus-visible:ring-0 dark:bg-transparent pl-2 md:pl-0"
                   onChange={(e) => setMessage(e.target.value)}
                   onKeyDown={handleKeypress}
                 ></textarea>
+                {/* Send button */}
                 <button
                   disabled={isLoading || message?.length === 0}
                   onClick={sendMessage}
@@ -298,6 +328,7 @@ const Chat = () => {
               </div>
             </div>
           </form>
+          {/* Informational text */}
           <div className="px-2 py-2 text-center text-xs text-gray-600 dark:text-gray-300">
             <span>
               chatMATH can make mistakes. Consider checking important
@@ -310,4 +341,5 @@ const Chat = () => {
   );
 };
 
+// Exporting the component
 export default Chat;

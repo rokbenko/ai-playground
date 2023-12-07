@@ -20,6 +20,7 @@ export interface DialogProps {
   onClose: () => void;
 }
 
+// Define the Alert component using MuiAlert
 const Alert = React.forwardRef<HTMLDivElement, AlertProps>(function Alert(
   props,
   ref
@@ -27,30 +28,33 @@ const Alert = React.forwardRef<HTMLDivElement, AlertProps>(function Alert(
   return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
 });
 
+// Define the GetValuesForEnvVariablesDialog component
 function GetValuesForEnvVariablesDialog(props: DialogProps) {
+  // Destructure props
   const { open: dialogOpen, onClose } = props;
 
+  // State variables for loading states, snackbar, and extracted information
   const [loadingAssistants, setLoadingAssistants] = React.useState(false);
   const [loadingThread, setLoadingThread] = React.useState(false);
   const [snackbarOpen, setSnackbarOpen] = React.useState(false);
   const [snackbarSeverity, setSnackbarSeverity] = React.useState("");
   const [snackbarMessage, setSnackbarMessage] = React.useState("");
-
   const [extractedInfoForAssistants, setExtractedInfoForAssistants] =
     React.useState([]);
   const [extractedInfoForThread, setExtractedInfoForThread] = React.useState<
     { id: any; created_at: any }[]
   >([]);
 
+  // Function to close the dialog
   const handleDialogClose = () => {
     setLoadingAssistants(false);
     setLoadingThread(false);
     onClose();
   };
 
+  // Function to fetch and list all assistants
   const assistantsFunction = async (e: any) => {
     e.preventDefault();
-
     setLoadingAssistants(true);
 
     try {
@@ -84,9 +88,9 @@ function GetValuesForEnvVariablesDialog(props: DialogProps) {
     }
   };
 
+  // Function to create a new thread
   const threadFunction = async (e: any) => {
     e.preventDefault();
-
     setLoadingThread(true);
 
     try {
@@ -120,6 +124,7 @@ function GetValuesForEnvVariablesDialog(props: DialogProps) {
     }
   };
 
+  // Function to format Unix timestamp to a readable date
   const formatUnixTimestamp = (
     timestamp: number,
     locale: string,
@@ -137,6 +142,7 @@ function GetValuesForEnvVariablesDialog(props: DialogProps) {
     }).format(new Date(milliseconds));
   };
 
+  // Function to copy text to clipboard
   const copyToClipboard = async (text: string, idType: string) => {
     try {
       await copy(text);
@@ -151,6 +157,7 @@ function GetValuesForEnvVariablesDialog(props: DialogProps) {
     }
   };
 
+  // Function to handle Snackbar close event
   const handleSnackbarClose = (
     event: React.SyntheticEvent | Event,
     reason?: string
@@ -161,6 +168,7 @@ function GetValuesForEnvVariablesDialog(props: DialogProps) {
     setSnackbarOpen(false);
   };
 
+  // Function to map severity to Alert color
   const mapSeverityToAlertColor = (severity: string): AlertColor => {
     switch (severity) {
       case "success":
@@ -176,6 +184,7 @@ function GetValuesForEnvVariablesDialog(props: DialogProps) {
     }
   };
 
+  // Return the JSX structure for the component
   return (
     <>
       <Dialog
@@ -196,6 +205,7 @@ function GetValuesForEnvVariablesDialog(props: DialogProps) {
           Get values for env variables
         </DialogTitle>
         <List sx={{ pt: 0 }}>
+          {/* Button to list all assistants */}
           <ListItem>
             <LoadingButton
               onClick={assistantsFunction}
@@ -206,6 +216,7 @@ function GetValuesForEnvVariablesDialog(props: DialogProps) {
               List all assistants
             </LoadingButton>
           </ListItem>
+          {/* Table to display extracted information for assistants */}
           {extractedInfoForAssistants.length > 0 && (
             <ListItem>
               <Table>
@@ -221,6 +232,7 @@ function GetValuesForEnvVariablesDialog(props: DialogProps) {
                     <TableRow key={assistant.id}>
                       <TableCell className="whitespace-nowrap">
                         {assistant.id}
+                        {/* ClipboardCopy icon to copy ID to clipboard */}
                         <RxClipboardCopy
                           className="inline ml-3 hover:cursor-pointer"
                           onClick={() =>
@@ -236,6 +248,7 @@ function GetValuesForEnvVariablesDialog(props: DialogProps) {
               </Table>
             </ListItem>
           )}
+          {/* Button to create a new thread */}
           <ListItem>
             <LoadingButton
               onClick={threadFunction}
@@ -246,6 +259,7 @@ function GetValuesForEnvVariablesDialog(props: DialogProps) {
               Create a new Thread
             </LoadingButton>
           </ListItem>
+          {/* Table to display extracted information for the thread */}
           {extractedInfoForThread.length > 0 && (
             <ListItem>
               <Table>
@@ -260,6 +274,7 @@ function GetValuesForEnvVariablesDialog(props: DialogProps) {
                     <TableRow key={thread.id}>
                       <TableCell className="whitespace-nowrap">
                         {thread.id}
+                        {/* ClipboardCopy icon to copy ID to clipboard */}
                         <RxClipboardCopy
                           className="inline ml-3 hover:cursor-pointer"
                           onClick={() => copyToClipboard(thread.id, "Thread")}
@@ -280,12 +295,14 @@ function GetValuesForEnvVariablesDialog(props: DialogProps) {
           )}
         </List>
       </Dialog>
+      {/* Snackbar for displaying copy success/error messages */}
       <Snackbar
         open={snackbarOpen}
         autoHideDuration={5000}
         onClose={handleSnackbarClose}
         anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
       >
+        {/* Alert component for Snackbar messages */}
         <Alert
           onClose={handleSnackbarClose}
           severity={mapSeverityToAlertColor(snackbarSeverity)}
@@ -297,19 +314,25 @@ function GetValuesForEnvVariablesDialog(props: DialogProps) {
   );
 }
 
+// Define the HandleDialogOpening component
 export default function HandleDialogOpening() {
+  // State variable for dialog open/close
   const [open, setOpen] = React.useState(false);
 
+  // Function to open the dialog
   const handleDialogOpen = () => {
     setOpen(true);
   };
 
+  // Function to close the dialog
   const handleDialogClose = () => {
     setOpen(false);
   };
 
+  // Return the JSX structure for the component
   return (
     <div>
+      {/* Button to open the dialog */}
       <Button
         variant="outlined"
         onClick={handleDialogOpen}
@@ -330,6 +353,7 @@ export default function HandleDialogOpening() {
       >
         Get values for env variables
       </Button>
+      {/* Render GetValuesForEnvVariablesDialog component */}
       <GetValuesForEnvVariablesDialog open={open} onClose={handleDialogClose} />
     </div>
   );
