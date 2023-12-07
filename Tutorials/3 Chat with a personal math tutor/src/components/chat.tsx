@@ -4,11 +4,7 @@ import Message from "./message";
 import Dialog from "./dialog";
 import Image from "next/image";
 import useAutoResizeTextArea from "@/hooks/useAutoResizeTextArea";
-import {
-  GPT_35_MODEL,
-  GPT_4_MODEL,
-  CODE_INTERPRETER,
-} from "@/shared/constants";
+import { CODE_INTERPRETER } from "@/shared/constants";
 import Box from "@mui/material/Box";
 import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
@@ -60,48 +56,59 @@ const Chat = () => {
 
     setIsLoading(true);
 
-    // Add the message to the conversation
-    setConversation([
+    // Add the user message to the conversation immediately
+    const updatedConversation = [
       ...conversation,
       { content: message, role: "user" },
-      { content: null, role: "system" },
-    ]);
+    ];
+    setConversation(updatedConversation);
+
+    // Add a system message indicating typing immediately
+    const typingMessage = { content: "Typing", role: "system" };
+    setConversation([...updatedConversation, typingMessage]);
 
     // Clear the message & remove empty chat
     setMessage("");
     setShowEmptyChat(false);
 
     try {
+      // Include both user and system messages for display purposes
+      const allMessages = [...updatedConversation];
+
+      // Separate user messages from the conversation for API call
+      const userMessages = allMessages.filter((msg) => msg.role === "user");
+
       const response = await fetch(`/api/openai`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          messages: [...conversation, { content: message, role: "user" }],
+          messages: userMessages,
           model: selectedModel,
         }),
       });
 
+      // Process the response and update the conversation
       if (response.ok) {
         const data = await response.json();
 
-        // Add the message to the conversation
-        setConversation([
-          ...conversation,
-          { content: message, role: "user" },
+        // Replace the typing system message with the actual response
+        const updatedMessages = [
+          ...allMessages,
           { content: data.message, role: "system" },
-        ]);
+        ];
+
+        // Update the conversation with the actual response
+        setConversation(updatedMessages);
       } else {
         console.error(response);
         setErrorMessage(response.statusText);
       }
-
-      setIsLoading(false);
     } catch (error: any) {
       console.error(error);
       setErrorMessage(error.message);
-
+    } finally {
       setIsLoading(false);
     }
   };
@@ -123,12 +130,7 @@ const Chat = () => {
               {!showEmptyChat && conversation.length > 0 ? (
                 <div className="flex flex-col items-center text-sm bg-gray-800">
                   <div className="flex w-full items-center justify-center gap-1 border-b border-black/10 bg-gray-50 p-3 text-gray-500 dark:border-gray-900/50 dark:bg-gray-700 dark:text-gray-300">
-                    Model:{" "}
-                    {selectedModel === GPT_35_MODEL.name
-                      ? GPT_35_MODEL.name
-                      : selectedModel === GPT_4_MODEL.name
-                      ? GPT_4_MODEL.name
-                      : CODE_INTERPRETER.name}
+                    Model: {CODE_INTERPRETER.name}
                   </div>
                   {conversation.map((message, index) => (
                     <Message key={index} message={message} />
@@ -199,12 +201,6 @@ const Chat = () => {
                               },
                             }}
                           >
-                            <MenuItem value={GPT_35_MODEL.name}>
-                              {GPT_35_MODEL.name}
-                            </MenuItem>
-                            <MenuItem value={GPT_4_MODEL.name}>
-                              {GPT_4_MODEL.name}
-                            </MenuItem>
                             <MenuItem value={CODE_INTERPRETER.name}>
                               {CODE_INTERPRETER.name}
                             </MenuItem>

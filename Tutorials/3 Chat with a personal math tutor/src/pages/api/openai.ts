@@ -1,12 +1,6 @@
-import { NextApiRequest, NextApiResponse } from 'next';
-import { GPT_35_MODEL, GPT_4_MODEL } from '@/shared/constants';
-import { OpenAIModel } from '@/types/model';
-import { OpenAI } from 'openai';
-import {
-  ChatCompletionMessageParam,
-  ChatCompletionFunctionMessageParam,
-} from 'openai/resources/chat';
-import dotenv from 'dotenv';
+import { NextApiRequest, NextApiResponse } from "next";
+import { OpenAI } from "openai";
+import dotenv from "dotenv";
 
 dotenv.config();
 
@@ -14,65 +8,64 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
 
+const delay = (ms: any) => new Promise((resolve) => setTimeout(resolve, ms));
+
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  if (req.method !== 'POST') {
-    res.status(405).json({ error: 'Method not allowed' });
+  if (req.method !== "POST") {
+    res.status(405).json({ error: "Method not allowed" });
     return;
   }
 
   const body = req.body;
-  const messages = (body?.messages || []) as ChatCompletionMessageParam[];
-  const model = GPT_35_MODEL.name
-    ? (GPT_35_MODEL as OpenAIModel)
-    : (GPT_4_MODEL as OpenAIModel);
+  const messages = (body?.messages || []).map((message: any) => ({
+    role: message.role,
+    content: message.content,
+  }));
 
   try {
-    const promptMessage: ChatCompletionMessageParam = {
-      role: 'system',
-      content: 'You are ChatGPT. Respond to the user like you normally would.',
-    };
+    const assistantId = process.env.OPENAI_ASSISTANT_ID as string;
+    const threadId = process.env.OPENAI_THREAD_ID as string;
 
-    const initialMessages: ChatCompletionMessageParam[] = messages.splice(0, 3);
+    const latestMessage = messages[messages.length - 1];
 
-    const latestMessages: ChatCompletionMessageParam[] = messages
-      .slice(-5)
-      .map((message) => {
-        if (message.role === 'function') {
-          return {
-            role: message.role,
-            content: message.content,
-            name: 'your_function_name',
-          } as ChatCompletionFunctionMessageParam;
-        } else {
-          return {
-            role: message.role,
-            content: message.content,
-          } as ChatCompletionMessageParam;
-        }
-      });
-
-    const completion = await openai.chat.completions.create({
-      model: model.id,
-      temperature: 0.5,
-      messages: [promptMessage, ...initialMessages, ...latestMessages],
+    // Step 1: Add Messages to the Thread
+    await openai.beta.threads.messages.create(threadId, {
+      role: latestMessage.role,
+      content: latestMessage.content,
     });
 
-    const responseMessage = completion.choices[0]?.message?.content?.trim();
+    // Step 2: Run the Assistant
+    let myRun = await openai.beta.threads.runs.create(threadId, {
+      assistant_id: assistantId,
+      instructions: "Please address the user as Rok Benko.",
+    });
 
-    if (!responseMessage) {
-      res
-        .status(400)
-        .json({ error: 'Unable get response from OpenAI. Please try again.' });
+    // Step 3: Periodically retrieve the Run to check on its status
+    let runStatus = myRun.status;
+    while (runStatus !== "completed") {
+      await delay(15000); // 15 seconds delay
+      myRun = await openai.beta.threads.runs.retrieve(threadId, myRun.id);
+      runStatus = myRun.status;
     }
+
+    // Step 4: Retrieve the Messages added by the Assistant to the Thread
+    const allMessages = await openai.beta.threads.messages.list(threadId);
+
+    const responseMessage =
+      Array.isArray(allMessages.data[0].content) &&
+      allMessages.data[0].content[0]?.type === "text"
+        ? allMessages.data[0].content[0].text.value
+        : "No text content found";
 
     res.status(200).json({ message: responseMessage });
   } catch (error) {
     console.error(error);
     res.status(500).json({
-      error: 'An error occurred during ping to OpenAI. Please try again.',
+      error:
+        "An error occurred during the conversation with OpenAI. Please try again.",
     });
   }
 }

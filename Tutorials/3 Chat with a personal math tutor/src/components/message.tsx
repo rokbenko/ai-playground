@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import { SiOpenai } from "react-icons/si";
 import { HiUser } from "react-icons/hi";
 
@@ -6,6 +7,16 @@ const Message = (props: any) => {
   const { role, content: text } = message;
 
   const isUser = role === "user";
+
+  const [showTypingAnimation, setShowTypingAnimation] = useState(true);
+
+  useEffect(() => {
+    if (text === "Typing") {
+      setShowTypingAnimation(true);
+    } else {
+      setShowTypingAnimation(false);
+    }
+  }, [text]);
 
   return (
     <div
@@ -39,7 +50,7 @@ const Message = (props: any) => {
             <div className="flex flex-grow flex-col gap-3">
               <div className="min-h-20 flex flex-col items-start gap-4 whitespace-pre-wrap break-words">
                 <div className="markdown prose w-full break-words dark:prose-invert dark">
-                  {!isUser && text === null ? (
+                  {!isUser && showTypingAnimation ? (
                     <div className="typing flex items-center mt-[10px]">
                       <span className="typing-dot"></span>
                       <span className="typing-dot"></span>
