@@ -42,18 +42,6 @@ const Message = (props: any) => {
                 <SiOpenai className="h-4 w-4 text-white" />
               )}
             </div>
-            {/* Typing indicator */}
-            <div className="text-xs flex items-center justify-center gap-1 absolute left-0 top-2 -ml-4 -translate-x-full group-hover:visible !invisible">
-              <button
-                disabled
-                className="text-gray-300 dark:text-gray-400"
-              ></button>
-              <span className="flex-grow flex-shrink-0">1 / 1</span>
-              <button
-                disabled
-                className="text-gray-300 dark:text-gray-400"
-              ></button>
-            </div>
           </div>
           {/* Message content */}
           <div className="relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]">
