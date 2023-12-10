@@ -47,8 +47,12 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <td>#3</td>
     <td>Chat with a personal math tutor</td>
     <td>Next.js GUI for the <a href="https://github.com/rokbenko/openai-api-tutorials/tree/main/Tutorials/2%20Build%20a%20personal%20math%20tutor">#2 Build a personal math tutor</a> tutorial</td>
-    <td>Coming soon...</td>
-    <td>Coming soon...</td>
+    <td>
+      <a href="https://github.com/rokbenko/openai-api-tutorials/tree/main/Tutorials/3%20Chat%20with%20a%20personal%20math%20tutor">GitHub</a>
+    </td>
+    <td>
+      <a href="https://youtu.be/QThg_MqiYCo">YouTube</a>
+    </td>
   </tr>
 </table>
 
