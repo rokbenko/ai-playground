@@ -48,4 +48,10 @@ The app was tested and worked in the following environment:
 
 ## Screenshot
 
-Coming soon...
+### Get values for environmental variables:
+
+![Screenshot env](https://github.com/rokbenko/openai-api-tutorials/blob/main/Tutorials/3%20Chat%20with%20a%20personal%20math%20tutor/screenshot_env.gif)
+
+### Chat with a personal math tutor:
+
+![Screenshot chat](https://github.com/rokbenko/openai-api-tutorials/blob/main/Tutorials/3%20Chat%20with%20a%20personal%20math%20tutor/screenshot_chat.gif)
