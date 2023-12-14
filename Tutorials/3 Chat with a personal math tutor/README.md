@@ -48,7 +48,7 @@ The app was tested and worked in the following environment:
 
 ## Screenshot
 
-### Get values for environmental variables:
+### Get values for environment variables:
 
 ![Screenshot env](https://github.com/rokbenko/openai-api-tutorials/blob/main/Tutorials/3%20Chat%20with%20a%20personal%20math%20tutor/screenshot_env.gif)
 
