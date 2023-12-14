@@ -10,7 +10,7 @@ Python and Node.js examples on how to get a valid JSON response.
 
 If you run `return_json.py`, you should get the following response:
 
-> {<br> > &nbsp;&nbsp;"response": "Hello! How can I assist you today?"<br>
+> {<br> &nbsp;&nbsp;"response": "Hello! How can I assist you today?"<br>
 > }<br>
 > True
 
@@ -26,7 +26,7 @@ Environment:
 
 If you run `return_json.js`, you should get the following response:
 
-> {<br> > &nbsp;&nbsp;"response": "Hello! How can I assist you today?"<br>
+> {<br> &nbsp;&nbsp;"response": "Hello! How can I assist you today?"<br>
 > }<br>
 > true
 
