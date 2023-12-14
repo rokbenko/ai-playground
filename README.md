@@ -18,6 +18,28 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
 
 <br>
 
+<table>
+  <tr>
+    <th></th>
+    <th>Tutorial</th>
+    <th>Short description</th>
+    <th colspan="2">Links</th>
+  </tr>
+  <tr>
+    <td>#1</td>
+    <td>Gemini Pro API starter</td>
+    <td>Python and Node.js examples on how to use the Gemini Pro API</td>
+    <td>
+      <a href="#">Coming soon...</a>
+    </td>
+    <td>
+      <a href="#">Coming soon...</a>
+    </td>
+  </tr>
+</table>
+
+<br>
+
 ## License
 
 This project is open source and available under the [MIT License](https://github.com/rokbenko/google-generativeai-api-tutorials/blob/main/LICENSE).
