@@ -30,10 +30,10 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <td>Gemini Pro API starter</td>
     <td>Python and Node.js examples on how to use the Gemini Pro API</td>
     <td>
-      <a href="#">Coming soon...</a>
+      <a href="https://github.com/rokbenko/google-generativeai-api-tutorials/tree/main/Tutorials/1%20Gemini%20Pro%20API%20starter">GitHub</a>
     </td>
     <td>
-      <a href="#">Coming soon...</a>
+      <a href="https://youtu.be/0qv_4x1K6hU">YouTube</a>
     </td>
   </tr>
 </table>
