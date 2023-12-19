@@ -33,7 +33,7 @@ my_run = client.beta.threads.runs.create(
 print(f"This is the run object: {my_run} \n")
 
 # Step 5: Periodically retrieve the Run to check on its status to see if it has moved to completed
-while my_run.status != "completed":
+while my_run.status == "in_progress":
     keep_retrieving_run = client.beta.threads.runs.retrieve(
         thread_id=my_thread.id,
         run_id=my_run.id
@@ -42,6 +42,9 @@ while my_run.status != "completed":
 
     if keep_retrieving_run.status == "completed":
         print("\n")
+        break
+    else:
+        print(f"Run status: {keep_retrieving_run.status}")
         break
 
 # Step 6: Retrieve the Messages added by the Assistant to the Thread
