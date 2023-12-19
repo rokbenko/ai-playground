@@ -55,10 +55,16 @@ export default async function handler(
 
     // Step 3: Periodically retrieve the Run to check on its status
     let runStatus = myRun.status;
-    while (runStatus !== "completed") {
+    while (runStatus === "queued" || runStatus === "in_progress") {
       await delay(15000); // 15 seconds delay
       myRun = await openai.beta.threads.runs.retrieve(threadId, myRun.id);
       runStatus = myRun.status;
+
+      if (runStatus === "completed") {
+        break;
+      } else {
+        throw new Error(`Run status: ${runStatus}`);
+      }
     }
 
     // Step 4: Retrieve the Messages added by the Assistant to the Thread
