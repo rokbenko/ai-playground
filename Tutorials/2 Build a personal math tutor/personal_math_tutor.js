@@ -41,21 +41,25 @@ async function main() {
   // Step 5: Periodically retrieve the Run to check on its status to see if it has moved to completed
   const retrieveRun = async () => {
     let keepRetrievingRun;
-
-    while (myRun.status !== "completed") {
+  
+    while (myRun.status === "in_progress") {
       keepRetrievingRun = await openai.beta.threads.runs.retrieve(
         (thread_id = myThread.id),
         (run_id = myRun.id)
       );
-
+  
       console.log(`Run status: ${keepRetrievingRun.status}`);
-
+  
       if (keepRetrievingRun.status === "completed") {
         console.log("\n");
+        break;
+      } else {
+        console.log(`Run status: ${keepRetrievingRun.status}`);
         break;
       }
     }
   };
+  
   retrieveRun();
 
   // Step 6: Retrieve the Messages added by the Assistant to the Thread
