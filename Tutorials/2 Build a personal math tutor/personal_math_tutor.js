@@ -41,43 +41,42 @@ async function main() {
   // Step 5: Periodically retrieve the Run to check on its status to see if it has moved to completed
   const retrieveRun = async () => {
     let keepRetrievingRun;
-  
-    while (myRun.status === "in_progress") {
+
+    while (myRun.status === "queued" || myRun.status === "in_progress") {
       keepRetrievingRun = await openai.beta.threads.runs.retrieve(
         (thread_id = myThread.id),
         (run_id = myRun.id)
       );
-  
       console.log(`Run status: ${keepRetrievingRun.status}`);
-  
+
       if (keepRetrievingRun.status === "completed") {
         console.log("\n");
+
+        // Step 6: Retrieve the Messages added by the Assistant to the Thread
+        const allMessages = await openai.beta.threads.messages.list(
+          (thread_id = myThread.id)
+        );
+
+        console.log(
+          "------------------------------------------------------------ \n"
+        );
+
+        console.log("User: ", myThreadMessage.content[0].text.value);
+        console.log("Assistant: ", allMessages.data[0].content[0].text.value);
+
         break;
+      } else if (
+        keepRetrievingRun.status === "queued" ||
+        keepRetrievingRun.status === "in_progress"
+      ) {
+        // pass
       } else {
         console.log(`Run status: ${keepRetrievingRun.status}`);
         break;
       }
     }
   };
-  
   retrieveRun();
-
-  // Step 6: Retrieve the Messages added by the Assistant to the Thread
-  const waitForAssistantMessage = async () => {
-    await retrieveRun();
-
-    const allMessages = await openai.beta.threads.messages.list(
-      (thread_id = myThread.id)
-    );
-
-    console.log(
-      "------------------------------------------------------------ \n"
-    );
-
-    console.log("User: ", myThreadMessage.content[0].text.value);
-    console.log("Assistant: ", allMessages.data[0].content[0].text.value);
-  };
-  waitForAssistantMessage();
 }
 
 main();
