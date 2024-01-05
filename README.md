@@ -24,7 +24,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <td>Get response in JSON format</td>
     <td>Python and Node.js examples on how to get a valid JSON response</td>
     <td>
-      <a href="https://github.com/rokbenko/openai-api-tutorials/tree/main/Tutorials/1%20Get%20response%20in%20JSON%20format">GitHub</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/1-Get_response_in_JSON_format">GitHub</a>
     </td>
     <td>
       <a href="https://youtu.be/o4q2qsGKVkE">YouTube</a>
@@ -35,7 +35,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <td>Build a personal math tutor</td>
     <td>Python and Node.js examples on how to make a personal math tutor with the OpenAI Assistants API using the Code Interpreter tool</td>
     <td>
-      <a href="https://github.com/rokbenko/openai-api-tutorials/tree/main/Tutorials/2%20Build%20a%20personal%20math%20tutor">GitHub</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/2-Build_a_personal_math_tutor">GitHub</a>
     </td>
     <td>
       <a href="https://youtu.be/F-KRs6vg4mM">YouTube</a>
@@ -44,9 +44,9 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   <tr>
     <td>#3</td>
     <td>Chat with a personal math tutor</td>
-    <td>Next.js GUI for the <a href="https://github.com/rokbenko/openai-api-tutorials/tree/main/Tutorials/2%20Build%20a%20personal%20math%20tutor">#2 Build a personal math tutor</a> tutorial</td>
+    <td>Next.js GUI for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/2-Build_a_personal_math_tutor">#2 Build a personal math tutor</a> tutorial</td>
     <td>
-      <a href="https://github.com/rokbenko/openai-api-tutorials/tree/main/Tutorials/3%20Chat%20with%20a%20personal%20math%20tutor">GitHub</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/3-Chat_with_a_personal_math_tutor">GitHub</a>
     </td>
     <td>
       <a href="https://youtu.be/QThg_MqiYCo">YouTube</a>
@@ -70,7 +70,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <td>Gemini Pro API starter</td>
     <td>Python and Node.js examples on how to use the Gemini Pro API</td>
     <td>
-      <a href="https://github.com/rokbenko/google-ai-api-tutorials/tree/main/Tutorials/1%20Gemini%20Pro%20API%20starter">GitHub</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/google-ai-tutorials/1-Gemini_Pro_API_starter">GitHub</a>
     </td>
     <td>
       <a href="https://youtu.be/0qv_4x1K6hU">YouTube</a>
@@ -81,7 +81,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <td>Vertex AI Gemini Pro API starter</td>
     <td>Python and Node.js examples on how to use the Vertex AI Gemini Pro API</td>
     <td>
-      <a href="https://github.com/rokbenko/google-ai-api-tutorials/tree/main/Tutorials/2%20Vertex%20AI%20Gemini%20Pro%20API%20starter">GitHub</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/google-ai-tutorials/2-Vertex_AI_Gemini_Pro_API_starter">GitHub</a>
     </td>
     <td>
       <a href="https://youtu.be/I8W-4oq1onY">YouTube</a>
@@ -95,4 +95,4 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
 
 ### License
 
-This project is open source and available under the [MIT License](https://github.com/rokbenko/google-generativeai-api-tutorials/blob/main/LICENSE).
+This project is open source and available under the [MIT License](https://github.com/rokbenko/ai-playground/blob/main/LICENSE).
