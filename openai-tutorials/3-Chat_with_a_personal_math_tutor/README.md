@@ -2,7 +2,7 @@
 
 ## Short description
 
-chatMATH is a Next.js GUI for the <a href="https://github.com/rokbenko/openai-api-tutorials/tree/main/Tutorials/2%20Build%20a%20personal%20math%20tutor">#2 Build a personal math tutor</a> tutorial. The main focus is on advanced chat functionalities, with no attention given to non-relevant aspects. Therefore, the sidebar is completely removed.
+chatMATH is a Next.js GUI for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/2-Build_a_personal_math_tutor">#2 Build a personal math tutor</a> tutorial. The main focus is on advanced chat functionalities, with no attention given to non-relevant aspects. Therefore, the sidebar is completely removed.
 
 > [!NOTE]
 > chatMATH is based on the <a href="https://github.com/rokbenko/chatFTW">chatFTW</a>.
@@ -13,8 +13,8 @@ chatMATH is a Next.js GUI for the <a href="https://github.com/rokbenko/openai-ap
 
 To start using chatMATH, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/rokbenko/openai-api-tutorials.git`
-2. Change the directory: `cd openai-api-tutorials/Tutorials/"3 Chat with a personal math tutor"`
+1. Clone the repository: `git clone https://github.com/rokbenko/ai-playground.git`
+2. Change the directory: `cd ai-playground/openai-tutorials/3-Chat_with_a_personal_math_tutor`
 3. Install the dependencies: `npm i`
 4. Edit the `.env` file to set up your environment variables
 5. Run the development server: `npm run dev`
@@ -50,8 +50,8 @@ The app was tested and worked in the following environment:
 
 ### Get values for environment variables:
 
-![Screenshot env](https://github.com/rokbenko/openai-api-tutorials/blob/main/Tutorials/3%20Chat%20with%20a%20personal%20math%20tutor/screenshot_env.gif)
+![Screenshot env](https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/3-Chat_with_a_personal_math_tutor/screenshot_env.gif)
 
 ### Chat with a personal math tutor:
 
-![Screenshot chat](https://github.com/rokbenko/openai-api-tutorials/blob/main/Tutorials/3%20Chat%20with%20a%20personal%20math%20tutor/screenshot_chat.gif)
+![Screenshot chat](https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/3-Chat_with_a_personal_math_tutor/screenshot_chat.gif)
