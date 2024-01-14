@@ -56,7 +56,9 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <td>#4</td>
     <td>Build a customer support chatbot</td>
     <td>Python and Node.js examples on how to make a customer support chatbot with the OpenAI Assistants API using the Knowledge Retrieval tool</td>
-    <td>Coming soon...</td>
+    <td>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_a_customer_support_chatbot">GitHub</a>
+    </td>
     <td>Coming soon...</td>
   </tr>
 </table>
