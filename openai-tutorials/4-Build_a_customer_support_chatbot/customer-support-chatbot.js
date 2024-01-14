@@ -2,6 +2,7 @@ const OpenAI = require("openai");
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
+const fs = require("fs");
 
 async function main() {
   // Step 1: Upload a File with an "assistants" purpose
@@ -31,8 +32,8 @@ async function main() {
     {
       role: "user",
       content: "What can I buy in your online store?",
-    },
-    (file_ids = myFile.id)
+      file_ids: [myFile.id],
+    }
   );
   console.log("This is the message object: ", myThreadMessage, "\n");
 
