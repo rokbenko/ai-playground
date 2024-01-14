@@ -52,6 +52,13 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
       <a href="https://youtu.be/QThg_MqiYCo">YouTube</a>
     </td>
   </tr>
+  <tr>
+    <td>#4</td>
+    <td>Build a customer support chatbot</td>
+    <td>Python and Node.js examples on how to make a customer support chatbot with the OpenAI Assistants API using the Knowledge Retrieval tool</td>
+    <td>Coming soon...</td>
+    <td>Coming soon...</td>
+  </tr>
 </table>
 
 <br>
