@@ -43,9 +43,8 @@ If you run `customer_support_chatbot.py`, you should get the following response:
 > \------------------------------------------------------------
 >
 > User: What can I buy in your online store? <br>
-> Assistant: In your online store, you sell books. You offer standard and expedited shipping, with a standard warranty that covers products for 1 week from the date of purchase. There is also a special offer available now
-
-- customers can use the DISCOUNT20 coupon to get a 20% discount. If you have any further questions or need assistance, you can reach out to the customer support through the chatbot.
+> Assistant: In your online store, you sell books. You offer standard and expedited shipping, with a standard warranty that covers products for 1 week from the date of purchase. 
+> There is also a special offer available now - customers can use the DISCOUNT20 coupon to get a 20% discount. If you have any further questions or need assistance, you can reach out to the customer support through the chatbot.
 
 Environment:
 
@@ -92,8 +91,8 @@ If you run `customer_support_chatbot.js`, you should get the following response:
 > User: What can I buy in your online store? <br>
 > Assistant: In our online store, we sell books. We offer standard and expedited shipping options and
 > provide a standard warranty that covers products for 1 week from the date of purchase. Currently, we
-> have a special offer - customers can use the "DISCOUNT20" coupon code to get a 20% discount. If you have any further questions or need assistance, our customer support is available through the chatboty
-> ou're currently using.
+> have a special offer - customers can use the "DISCOUNT20" coupon code to get a 20% discount. If you have any further questions or need assistance, our customer support is available through the chatbot
+> you're currently using.
 
 Environment:
 
