@@ -59,7 +59,9 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <td>
       <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_a_customer_support_chatbot">GitHub</a>
     </td>
-    <td>Coming soon...</td>
+    <td>
+      <a href="https://youtu.be/xbgX8fu78DI">YouTube</a>
+    </td>
   </tr>
 </table>
 
