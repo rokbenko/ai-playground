@@ -113,8 +113,8 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   </tr>
   <tr>
     <td>#1</td>
-    <td>Milvus starter</td>
-    <td>Python and Node.js examples on how to install Milvus standalone using Docker, connect to a Milvus server and list all collections</td>
+    <td>Milvus Standalone starter</td>
+    <td>Python and Node.js examples on how to install Milvus Standalone using Docker, connect to a Milvus server and list all collections</td>
     <td>
       <a href="#">Coming soon...</a>
     </td>
