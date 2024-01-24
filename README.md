@@ -1,6 +1,6 @@
 <div align="center">
 
-# Code from AI tutorials presented on the <br> [Code with Rok](https://www.youtube.com/@codewithrok) YouTube channel
+# Code from AI tutorials presented on the <br> [Code with Rok](https://www.youtube.com/@codewithrok) <br> YouTube channel
 
 Enjoying what you find in this repository? Your star ⭐ would be greatly appreciated!
 
@@ -10,7 +10,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
 
 <br>
 
-## OpenAI tutorials
+## OpenAI
 
 <table>
   <tr>
@@ -67,7 +67,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
 
 <br>
 
-## Google AI tutorials
+## Google AI
 
 <table>
   <tr>
@@ -96,6 +96,30 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     </td>
     <td>
       <a href="https://youtu.be/I8W-4oq1onY">YouTube</a>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+## Milvus
+
+<table>
+  <tr>
+    <th></th>
+    <th>Tutorial</th>
+    <th>Short description</th>
+    <th colspan="2">Links</th>
+  </tr>
+  <tr>
+    <td>#1</td>
+    <td>Milvus starter</td>
+    <td>Python and Node.js examples on how to install Milvus standalone using Docker, connect to a Milvus server and list all collections</td>
+    <td>
+      <a href="#">Coming soon...</a>
+    </td>
+    <td>
+      <a href="#">Coming soon...</a>
     </td>
   </tr>
 </table>
