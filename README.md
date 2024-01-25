@@ -116,10 +116,10 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <td>Milvus Standalone starter</td>
     <td>Python and Node.js examples on how to install Milvus Standalone using Docker, connect to a Milvus server and list all collections</td>
     <td>
-      <a href="#">Coming soon...</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/milvus-tutorials/1-Milvus_standalone_starter">GitHub</a>
     </td>
     <td>
-      <a href="#">Coming soon...</a>
+      <a href="https://youtu.be/OD5FS7qUfBQ">YouTube</a>
     </td>
   </tr>
 </table>
