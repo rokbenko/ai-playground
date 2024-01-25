@@ -10,7 +10,7 @@ Python and Node.js examples on how to install Milvus Standalone using Docker, co
 
 If you run `milvus_standalone.py`, you should get the following response:
 
-> List all collections:
+> List all collections: <br>
 > []
 
 Environment:
@@ -25,22 +25,22 @@ Environment:
 
 If you run `milvus_standalone.js`, you should get the following response:
 
-> List all collections:  
-> {
-> collection_names: [],  
->  collection_ids: [],  
->  created_timestamps: [],  
->  created_utc_timestamps: [],
-> inMemory_percentages: [],
-> query_service_available: [],
-> status: {
-> error_code: 'Success',
-> reason: '',
-> code: 0,
-> retriable: false,
-> detail: ''
-> },
-> data: []
+> List all collections: <br>
+> { <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;collection_names: [], <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;collection_ids: [], <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;created_timestamps: [], <br> 
+> &nbsp;&nbsp;&nbsp;&nbsp;created_utc_timestamps: [], <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;inMemory_percentages: [], <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;query_service_available: [], <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;status: { <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;error_code: 'Success', <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reason: '', <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;code: 0, <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;retriable: false, <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;detail: '' <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;}, <br>
+> &nbsp;&nbsp;&nbsp;&nbsp;data: [] <br>
 > }
 
 Environment:
