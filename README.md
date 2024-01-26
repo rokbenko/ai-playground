@@ -122,6 +122,17 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
       <a href="https://youtu.be/OD5FS7qUfBQ">YouTube</a>
     </td>
   </tr>
+  <tr>
+    <td>#2</td>
+    <td>Attu (GUI for Milvus) starter</td>
+    <td>Instructions on how to set up Attu, a GUI for Milvus</td>
+    <td>
+      <a href="#">Coming soon...</a>
+    </td>
+    <td>
+      <a href="#">Coming soon...</a>
+    </td>
+  </tr>
 </table>
 
 <br>
