@@ -2,7 +2,7 @@
 
 ## Short description
 
-Instructions on how to set up Attu, a GUI for Milvus.
+Instructions on how to run Attu, a GUI for Milvus, using Docker.
 
 <br>
 
