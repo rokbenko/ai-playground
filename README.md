@@ -125,7 +125,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   <tr>
     <td>#2</td>
     <td>Attu (GUI for Milvus) starter</td>
-    <td>Instructions on how to set up Attu, a GUI for Milvus</td>
+    <td>Instructions on how to run Attu, a GUI for Milvus, using Docker</td>
     <td>
       <a href="#">Coming soon...</a>
     </td>
