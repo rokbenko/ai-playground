@@ -6,7 +6,7 @@ Instructions on how to run Attu, a GUI for Milvus, using Docker.
 
 <br>
 
-## Set up Attu
+## Run Attu
 
 First, run the following command to get your `IPv4 Address`:
 
@@ -14,7 +14,7 @@ First, run the following command to get your `IPv4 Address`:
 ipconfig
 ```
 
-Second, run the following command to set up Attu:
+Second, run the following command to start a container for running Attu:
 
 ```bash
 docker run --name attu -p 8000:3000 -e HOST_URL=http://xxx.xxx.x.x:8000 -e MILVUS_URL=http://xxx.xxx.x.x:19530 zilliz/attu:v2.3.6
