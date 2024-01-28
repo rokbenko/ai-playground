@@ -127,10 +127,10 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <td>Attu (GUI for Milvus) starter</td>
     <td>Instructions on how to run Attu, a GUI for Milvus, using Docker</td>
     <td>
-      <a href="#">Coming soon...</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/milvus-tutorials/2-Attu_gui_for_milvus_starter">GitHub</a>
     </td>
     <td>
-      <a href="#">Coming soon...</a>
+      <a href="https://youtu.be/oUQUVcJBnYk">YouTube</a>
     </td>
   </tr>
 </table>
