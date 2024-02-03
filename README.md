@@ -133,6 +133,17 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
       <a href="https://youtu.be/oUQUVcJBnYk">YouTube</a>
     </td>
   </tr>
+  <tr>
+    <td>#3</td>
+    <td>Text similarity search</td>
+    <td>Python example on how to do text similarity search with Milvus (<i>note: vectors were calculated with spaCy</i>)</td>
+    <td>
+      <a href="#">Coming soon...</a>
+    </td>
+    <td>
+      <a href="#">Coming soon...</a>
+    </td>
+  </tr>
 </table>
 
 <br>
