@@ -10,7 +10,7 @@ connections.connect(host="localhost", port="19530")
 try:
     while True:
         # Get user input for movie description or exit
-        user_input = input("Describe what movie would you like to watch (or type 'exit' to quit):\n")
+        user_input = input("\nDescribe what movie would you like to watch (or type 'exit' to quit):\n")
 
         # Exit loop if user types 'exit'
         if user_input.lower() == 'exit':
