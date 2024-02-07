@@ -138,10 +138,10 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <td>Text similarity search</td>
     <td>Python example on how to do text similarity search with Milvus (<i>note: input vector is calculated with spaCy</i>)</td>
     <td>
-      <a href="#">Coming soon...</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/milvus-tutorials/3-Text_similarity_search">GitHub</a>
     </td>
     <td>
-      <a href="#">Coming soon...</a>
+      <a href="https://youtu.be/ySZp0rcGr4A">YouTube</a>
     </td>
   </tr>
 </table>
