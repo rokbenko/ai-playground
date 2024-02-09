@@ -67,7 +67,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
 
 <br>
 
-## Google AI
+## Gemini
 
 <table>
   <tr>
