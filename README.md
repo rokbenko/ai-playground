@@ -81,7 +81,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <td>Gemini Pro API starter</td>
     <td>Python and Node.js examples on how to use the Gemini Pro API</td>
     <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/google-ai-tutorials/1-Gemini_Pro_API_starter">GitHub</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/gemini-tutorials/1-Gemini_Pro_API_starter">GitHub</a>
     </td>
     <td>
       <a href="https://youtu.be/0qv_4x1K6hU">YouTube</a>
@@ -92,7 +92,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <td>Vertex AI Gemini Pro API starter</td>
     <td>Python and Node.js examples on how to use the Vertex AI Gemini Pro API</td>
     <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/google-ai-tutorials/2-Vertex_AI_Gemini_Pro_API_starter">GitHub</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/gemini-tutorials/2-Vertex_AI_Gemini_Pro_API_starter">GitHub</a>
     </td>
     <td>
       <a href="https://youtu.be/I8W-4oq1onY">YouTube</a>
