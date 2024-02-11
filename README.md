@@ -114,7 +114,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   <tr>
     <td>#1</td>
     <td>Create Llama app</td>
-    <td>Instructions on how to create a LlamaIndex chat streaming app using the OpenAI model and Next.js GUI with 1 command</td>
+    <td>Instructions on how to create a LlamaIndex chat streaming app using the OpenAI model and Next.js GUI with 1 command in 2 minutes</td>
     <td>
       <a href="#">Coming soon...</a>
     </td>
