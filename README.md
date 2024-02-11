@@ -33,7 +33,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   <tr>
     <td>#2</td>
     <td>Build a personal math tutor</td>
-    <td>Python and Node.js examples on how to make a personal math tutor with the OpenAI Assistants API using the Code Interpreter tool</td>
+    <td>Python and Node.js examples on how to build a personal math tutor with the OpenAI Assistants API using the Code Interpreter tool</td>
     <td>
       <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/2-Build_a_personal_math_tutor">GitHub</a>
     </td>
@@ -55,7 +55,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   <tr>
     <td>#4</td>
     <td>Build a customer support chatbot</td>
-    <td>Python and Node.js examples on how to make a customer support chatbot with the OpenAI Assistants API using the Knowledge Retrieval tool</td>
+    <td>Python and Node.js examples on how to build a customer support chatbot with the OpenAI Assistants API using the Knowledge Retrieval tool</td>
     <td>
       <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_a_customer_support_chatbot">GitHub</a>
     </td>
