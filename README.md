@@ -116,10 +116,10 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <td>Create Llama app</td>
     <td>Instructions on how to create a LlamaIndex chat streaming app using the OpenAI model and Next.js GUI with 1 command in 2 minutes</td>
     <td>
-      <a href="#">Coming soon...</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/llamaindex-tutorials/1-Create-llama">GitHub</a>
     </td>
     <td>
-      <a href="#">Coming soon...</a>
+      <a href="https://youtu.be/IQqiIfRLNY4">YouTube</a>
     </td>
   </tr>
 </table>
