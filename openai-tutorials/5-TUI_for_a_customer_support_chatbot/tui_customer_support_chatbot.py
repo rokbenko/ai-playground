@@ -25,7 +25,7 @@ while True:
 
     # Check if the user wants to quit
     if user_input.lower() == "quit":
-        console.print("\nAssistant: Have a nice day! :wave: \n", style="black on white")
+        console.print("\nAssistant: Have a nice day! :wave:", style="black on white")
         break
 
     # Add user message to the thread
