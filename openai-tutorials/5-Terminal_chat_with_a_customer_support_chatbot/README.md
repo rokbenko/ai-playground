@@ -1,4 +1,4 @@
-# #5 Terminal chat with a customer support chatbot
+# #5 Terminal user interface for a customer support chatbot
 
 ## Short description
 
@@ -17,15 +17,16 @@ npm install terminal-kit
 ```
 
 > [!WARNING]
-> The assistant might sometimes behave strangely. The Assistants API is still in beta and it seems that OpenAI has troubles keeping it realiable, as discussed on the official <a href="https://community.openai.com/t/assistant-not-able-to-access-uploaded-file/524495/1">OpenAI forum</a>.<br>
-> The assistant might sometimes answer like it cannot access the files you uploaded. You might think you did something wrong but if you run identical code later or next day, the assistant will successfully accesss all files and give you an answer.<br>
+> The assistant might sometimes behave strangely. The Assistants API is still in beta, and it seems that OpenAI has trouble keeping it realiable, as discussed on the official <a href="https://community.openai.com/t/assistant-not-able-to-access-uploaded-file/524495/1">OpenAI forum</a>.
+> <br><br>
+> The assistant might sometimes answer that it cannot access the files you uploaded. You might think you did something wrong, but if you run identical code later or the next day, the assistant will successfully access all files and give you an answer.
+> <br><br>
 > The weird responses I got were the following:
->
-> - Assistant: I currently do not have access to the file you uploaded. Could you provide some details about what you're selling or any specific questions you have in mind?
-> - Assistant: I currently don't have the ability to directly access the contents of the file you uploaded. However, if you can provide some details or specific questions about the
->   than happy to assist you in finding the information you need.
-> - Assistant: I currently don't have visibility into the specific contents of the file you've uploaded. Could you provide more details about the file or its contents so that I can assist you further?
-> - Assistant: I see you've uploaded a file. How can I assist you with it?
+> - *Assistant: I currently do not have access to the file you uploaded. Could you provide some details about what you're selling or any specific questions you have in mind?*
+> - *Assistant: I currently don't have the ability to directly access the contents of the file you uploaded. However, if you can provide some details or specific questions about the
+>   than happy to assist you in finding the information you need.*
+> - *Assistant: I currently don't have visibility into the specific contents of the file you've uploaded. Could you provide more details about the file or its contents so that I can assist you further?*
+> - *Assistant: I see you've uploaded a file. How can I assist you with it?*
 
 <br>
 
@@ -40,7 +41,6 @@ If you run `tui_customer_support_chatbot.py`, you should be able to chat with a 
 > User: quit
 > <br><br>
 > Assistant: Have a nice day! 👋
-> <br><br>
 
 Environment:
 
@@ -54,7 +54,6 @@ Environment:
 
 If you run `tui_customer_support_chatbot.js`, you should be able to chat with a customer support chatbot in a terminal:
 
-> <br><br>
 > User: What can I buy in your online store?
 > <br><br>
 > Assistant: In our online store, we sell books. We offer standard and expedited shipping options, and our standard warranty covers products for 1 week from the date of purchase. Additionally, we have a current special offer where customers can use the code DISCOUNT20 to get a 20% discount. If you have any further questions or need assistance, you can reach out to our customer support through the chatbot.
@@ -62,7 +61,6 @@ If you run `tui_customer_support_chatbot.js`, you should be able to chat with a 
 > User: quit
 > <br><br>
 > Assistant: Have a nice day!
-> <br><br>
 
 Environment:
 
