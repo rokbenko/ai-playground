@@ -63,6 +63,17 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
       <a href="https://youtu.be/xbgX8fu78DI">YouTube</a>
     </td>
   </tr>
+  <tr>
+    <td>#5</td>
+    <td>Terminal user interface for a customer support chatbot</td>
+    <td>Python and Node.js TUIs for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_a_customer_support_chatbot">#4 Build a customer support chatbot</a> tutorial</td>
+    <td>
+      <a href="#">Coming soon...</a>
+    </td>
+    <td>
+      <a href="#">Coming soon...</a>
+    </td>
+  </tr>
 </table>
 
 <br>
