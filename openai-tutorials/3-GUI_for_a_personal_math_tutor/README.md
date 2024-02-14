@@ -14,7 +14,7 @@ chatMATH is a Next.js GUI for the <a href="https://github.com/rokbenko/ai-playgr
 To start using chatMATH, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/rokbenko/ai-playground.git`
-2. Change the directory: `cd ai-playground/openai-tutorials/3-Chat_with_a_personal_math_tutor`
+2. Change the directory: `cd ai-playground/openai-tutorials/3-GUI_for_a_personal_math_tutor`
 3. Install the dependencies: `npm i`
 4. Edit the `.env` file to set up your environment variables
 5. Run the development server: `npm run dev`
