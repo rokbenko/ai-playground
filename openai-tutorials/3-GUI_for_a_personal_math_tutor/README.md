@@ -1,4 +1,4 @@
-# #3 Chat with a personal math tutor
+# #3 Graphical user interface for a personal math tutor
 
 ## Short description
 
