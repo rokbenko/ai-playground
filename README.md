@@ -46,7 +46,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <td>Graphical user interface for a personal math tutor</td>
     <td>Next.js GUI for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/2-Build_a_personal_math_tutor">#2 Build a personal math tutor</a> tutorial</td>
     <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/3-Chat_with_a_personal_math_tutor">GitHub</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/3-GUI_for_a_personal_math_tutor">GitHub</a>
     </td>
     <td>
       <a href="https://youtu.be/QThg_MqiYCo">YouTube</a>
