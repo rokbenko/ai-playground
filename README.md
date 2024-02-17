@@ -68,10 +68,10 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <td>Terminal user interface for a customer support chatbot</td>
     <td>Python and Node.js TUIs for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_a_customer_support_chatbot">#4 Build a customer support chatbot</a> tutorial</td>
     <td>
-      <a href="#">Coming soon...</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/5-TUI_for_a_customer_support_chatbot">GitHub</a>
     </td>
     <td>
-      <a href="#">Coming soon...</a>
+      <a href="https://youtu.be/RUZwYQnIX_0">YouTube</a>
     </td>
   </tr>
 </table>
