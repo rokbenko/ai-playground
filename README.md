@@ -78,7 +78,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
 
 <br>
 
-## [Gemini](https://gemini.google.com/?hl=en)
+## [Gemini](https://deepmind.google/technologies/gemini/#introduction)
 
 <table>
   <tr>
