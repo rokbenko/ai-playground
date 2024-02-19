@@ -137,6 +137,30 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
 
 <br>
 
+## spaCy
+
+<table>
+  <tr>
+    <th></th>
+    <th>Tutorial</th>
+    <th>Short description</th>
+    <th colspan="2">Links</th>
+  </tr>
+  <tr>
+    <td>#1</td>
+    <td>Add a new entity to NER</td>
+    <td>Jupyter Notebook example on how to add a new entity to NER using spaCy</td>
+    <td>
+      <a href="#">Coming soon...</a>
+    </td>
+    <td>
+      <a href="#">Coming soon...</a>
+    </td>
+  </tr>
+</table>
+
+<br>
+
 ## Milvus
 
 <table>
