@@ -10,7 +10,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
 
 <br>
 
-## OpenAI
+## [OpenAI](https://openai.com/)
 
 <table>
   <tr>
@@ -78,7 +78,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
 
 <br>
 
-## Gemini
+## [Gemini](https://gemini.google.com/?hl=en)
 
 <table>
   <tr>
@@ -113,7 +113,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
 
 <br>
 
-## LlamaIndex
+## [LlamaIndex](https://www.llamaindex.ai/)
 
 <table>
   <tr>
@@ -137,7 +137,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
 
 <br>
 
-## spaCy
+## [spaCy](https://spacy.io/)
 
 <table>
   <tr>
@@ -161,7 +161,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
 
 <br>
 
-## Milvus
+## [Milvus](https://milvus.io/)
 
 <table>
   <tr>
