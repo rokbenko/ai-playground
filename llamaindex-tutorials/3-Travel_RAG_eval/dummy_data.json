@@ -1,0 +1,60 @@
+{
+  "trips": [
+    {
+      "id": 1,
+      "name": "Trip A",
+      "destination": "Canada",
+      "familyFriendly": true,
+      "availability": {
+        "May": true,
+        "June": false
+      },
+      "activities": ["hiking", "skiing", "sightseeing"],
+      "accommodation": "Cozy cabins in the mountains",
+      "duration": "7 days",
+      "budget": "$2000"
+    },
+    {
+      "id": 2,
+      "name": "Trip B",
+      "destination": "USA",
+      "familyFriendly": false,
+      "availability": {
+        "May": true,
+        "June": true
+      },
+      "activities": ["surfing", "shopping", "nightlife"],
+      "accommodation": "Luxury beachfront resort",
+      "duration": "10 days",
+      "budget": "$4000"
+    },
+    {
+      "id": 3,
+      "name": "Trip C",
+      "destination": "Italy",
+      "familyFriendly": true,
+      "availability": {
+        "May": false,
+        "June": true
+      },
+      "activities": ["wine tasting", "cultural tours", "gondola rides"],
+      "accommodation": "Charming bed and breakfasts",
+      "duration": "14 days",
+      "budget": "$3000"
+    },
+    {
+      "id": 4,
+      "name": "Trip D",
+      "destination": "Japan",
+      "familyFriendly": true,
+      "availability": {
+        "May": true,
+        "June": true
+      },
+      "activities": ["sushi making", "temple visits", "hot springs"],
+      "accommodation": "Traditional Ryokans",
+      "duration": "12 days",
+      "budget": "$3500"
+    }
+  ]
+}
