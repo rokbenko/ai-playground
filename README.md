@@ -144,6 +144,17 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
       <a href="#">Coming soon...</a>
     </td>
   </tr>
+  <tr>
+    <td>#3</td>
+    <td>Travel RAG evaluation</td>
+    <td>Evaluation for the <a href="https://github.com/rokbenko/ai-playground/tree/main/llamaindex-tutorials/2-Travel_RAG">#2 Travel RAG</a> tutorial</td>
+    <td>
+      <a href="#">Coming soon...</a>
+    </td>
+    <td>
+      <a href="#">Coming soon...</a>
+    </td>
+  </tr>
 </table>
 
 <br>
