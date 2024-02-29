@@ -170,8 +170,8 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   </tr>
   <tr>
     <td>#1</td>
-    <td>Add a new entity to NER</td>
-    <td>Jupyter Notebook example on how to add a new entity to NER using spaCy</td>
+    <td>Add a new entity label to NER</td>
+    <td>Jupyter Notebook example on how to add a new entity label to spaCy's default NER</td>
     <td>
       <a href="#">Coming soon...</a>
     </td>
