@@ -146,8 +146,8 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   </tr>
   <tr>
     <td>#3</td>
-    <td>Travel RAG evaluation</td>
-    <td>Evaluation for the <a href="https://github.com/rokbenko/ai-playground/tree/main/llamaindex-tutorials/2-Travel_RAG">#2 Travel RAG</a> tutorial</td>
+    <td>Travel recommendation RAG evaluation</td>
+    <td>Evaluation for the <a href="https://github.com/rokbenko/ai-playground/tree/main/llamaindex-tutorials/2-GUI_for_a_travel_recommendation_RAG">#2 Graphical user interface for a travel recommendation RAG</a> tutorial</td>
     <td>
       <a href="#">Coming soon...</a>
     </td>
