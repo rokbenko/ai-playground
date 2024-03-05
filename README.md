@@ -173,10 +173,10 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <td>Add a new entity label to NER</td>
     <td>Jupyter Notebook example on how to add a new entity label to spaCy's default NER</td>
     <td>
-      <a href="#">Coming soon...</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/spacy-tutorials/1-Add_new_entity_label_to_NER">GitHub</a>
     </td>
     <td>
-      <a href="#">Coming soon...</a>
+      <a href="https://youtu.be/W-0EOzFomO0">YouTube</a>
     </td>
   </tr>
 </table>
