@@ -43,7 +43,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   </tr>
   <tr>
     <td>#3</td>
-    <td>Graphical user interface for a personal math tutor</td>
+    <td>GUI for a personal math tutor</td>
     <td>Next.js GUI for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/2-Build_a_personal_math_tutor">#2 Build a personal math tutor</a> tutorial</td>
     <td>
       <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/3-GUI_for_a_personal_math_tutor">GitHub</a>
@@ -65,7 +65,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   </tr>
   <tr>
     <td>#5</td>
-    <td>Terminal user interface for a customer support chatbot</td>
+    <td>TUI for a customer support chatbot</td>
     <td>Python and Node.js TUIs for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_a_customer_support_chatbot">#4 Build a customer support chatbot</a> tutorial</td>
     <td>
       <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/5-TUI_for_a_customer_support_chatbot">GitHub</a>
@@ -135,8 +135,8 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   </tr>
   <tr>
     <td>#2</td>
-    <td>Graphical user interface for a travel recommendation RAG</td>
-    <td>Streamlit GUI for a travel recommendation RAG using LlamaIndex with OpenAI model</td>
+    <td>GUI for a travel recommendation RAG</td>
+    <td>Streamlit GUI for a travel recommendation streaming RAG using LlamaIndex with OpenAI model</td>
     <td>
       <a href="#">Coming soon...</a>
     </td>
@@ -146,7 +146,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   </tr>
   <tr>
     <td>#3</td>
-    <td>Travel recommendation RAG evaluation</td>
+    <td>Travel recommendation RAG eval</td>
     <td>Evaluation for the <a href="https://github.com/rokbenko/ai-playground/tree/main/llamaindex-tutorials/2-GUI_for_a_travel_recommendation_RAG">#2 Graphical user interface for a travel recommendation RAG</a> tutorial</td>
     <td>
       <a href="#">Coming soon...</a>
@@ -205,7 +205,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   </tr>
   <tr>
     <td>#2</td>
-    <td>Attu (GUI for Milvus) starter</td>
+    <td>Attu starter</td>
     <td>Instructions on how to run Attu, a GUI for Milvus, using Docker</td>
     <td>
       <a href="https://github.com/rokbenko/ai-playground/tree/main/milvus-tutorials/2-Attu_gui_for_milvus_starter">GitHub</a>

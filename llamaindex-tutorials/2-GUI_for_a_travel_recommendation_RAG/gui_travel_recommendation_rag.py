@@ -22,7 +22,7 @@ else:
         type = "default")
 
 # App title
-st.title("Travel RAG")
+st.title("Travel recommendation RAG")
 
 # Set OpenAI model to the Streamlit session state
 if "openai_model" not in st.session_state:
