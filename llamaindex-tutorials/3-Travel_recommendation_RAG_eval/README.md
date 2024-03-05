@@ -1,3 +1,3 @@
 ```bash
-python travel_rag_eval.py
+python travel_recommendation_rag_eval.py
 ```
