@@ -135,8 +135,8 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   </tr>
   <tr>
     <td>#2</td>
-    <td>Travel RAG</td>
-    <td>Streamlit travel RAG app using LlamaIndex with OpenAI model</td>
+    <td>Graphical user interface for a travel recommendation RAG</td>
+    <td>Streamlit GUI for a travel recommendation RAG using LlamaIndex with OpenAI model</td>
     <td>
       <a href="#">Coming soon...</a>
     </td>
