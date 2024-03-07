@@ -136,12 +136,12 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   <tr>
     <td>#2</td>
     <td>GUI for a travel recommendation RAG</td>
-    <td>Streamlit GUI for a travel recommendation streaming RAG using LlamaIndex with OpenAI model</td>
+    <td>Streamlit GUI for a travel recommendation streaming RAG using LlamaIndex with an OpenAI model</td>
     <td>
-      <a href="#">Coming soon...</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/llamaindex-tutorials/2-GUI_for_a_travel_recommendation_RAG">GitHub</a>
     </td>
     <td>
-      <a href="#">Coming soon...</a>
+      <a href="https://youtu.be/93uru3QmgAo">YouTube</a>
     </td>
   </tr>
   <tr>
