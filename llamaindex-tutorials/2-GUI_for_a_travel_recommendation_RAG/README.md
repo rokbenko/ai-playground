@@ -17,6 +17,8 @@ To start using the travel recommendation RAG, follow these steps:
 5. Run the Streamlit app: `streamlit run gui_travel_recommendation_rag.py`
 6. To view the application, navigate to [http://localhost:8501](http://localhost:8501)
 
+<br>
+
 ## Environment
 
 The app was tested and worked in the following environment:
@@ -37,4 +39,4 @@ The app was tested and worked in the following environment:
 
 ## Screenshot
 
-![Screenshot](https://github.com/rokbenko/ai-playground/blob/main/llamaindex-tutorials/2-Travel_RAG/screenshot.gif)
+![Screenshot](https://github.com/rokbenko/ai-playground/blob/main/llamaindex-tutorials/2-GUI_for_a_travel_recommendation_RAG/screenshot.gif)
