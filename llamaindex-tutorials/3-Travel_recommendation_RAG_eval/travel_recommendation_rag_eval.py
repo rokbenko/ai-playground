@@ -1,8 +1,14 @@
 import streamlit as st
 from llama_index.core import SimpleDirectoryReader, VectorStoreIndex
-from llama_index.core.evaluation import RelevancyEvaluator
 from llama_index.core.llama_dataset.generator import RagDatasetGenerator
 from llama_index.llms.openai import OpenAI
+from llama_index.core.evaluation import (
+    BatchEvalRunner,
+    CorrectnessEvaluator,
+    FaithfulnessEvaluator,
+    RelevancyEvaluator
+)
+import asyncio
 import pandas as pd
 
 # Load data from the specified directory
@@ -10,8 +16,19 @@ reader = SimpleDirectoryReader(input_files = ["./dummy_data.json"])
 documents = reader.load_data()
 
 # Generate questions from the loaded documents
-data_generator = RagDatasetGenerator.from_documents(documents)
-eval_questions = data_generator.generate_questions_from_nodes()[:3]  # Take only the first 3 questions
+dataset_generator = RagDatasetGenerator.from_documents(
+    documents = documents,
+    llm = OpenAI(
+        model = "gpt-3.5-turbo",
+        api_key = st.secrets["OPENAI_API_KEY"]
+    )
+)
+
+# Take only the first 3 questions
+eval_questions = dataset_generator.generate_dataset_from_nodes()[:3]
+
+# Create a vector index from the loaded documents
+vector_index = VectorStoreIndex.from_documents(documents)
 
 # Initialize the OpenAI model
 openai_model = OpenAI(
@@ -24,46 +41,59 @@ openai_model = OpenAI(
     max_tokens = 250
 )
 
-# Initialize the evaluator for assessing response relevancy
-evaluator = RelevancyEvaluator(llm = openai_model)
+# Initialize the evaluators
+correctness_evaluator = CorrectnessEvaluator(llm = openai_model) # Useful for measuring if the response is correct against a reference answer
+faithfulness_evaluator = FaithfulnessEvaluator(llm = openai_model) # Useful for measuring if the response is hallucinated
+relevancy_evaluator = RelevancyEvaluator(llm = openai_model) # Useful for measuring if the query is actually answered by the response
 
-# Create a vector index from the loaded documents
-vector_index = VectorStoreIndex.from_documents(documents)
-
-# Create an empty DataFrame to store all evaluation results
-all_eval_df = pd.DataFrame(
-    columns = ["Query", "Response", "Source", "Evaluation Result", "Reasoning"]
-)
-
-# Function to display evaluation results and update the global DataFrame
-def display_eval_df(query: str, response, eval_result: str) -> None:
-    eval_df = pd.DataFrame(
+# Define an asynchronous function for evaluation
+async def evaluate_async():
+    # Initialize the BatchEvalRunner
+    runner = BatchEvalRunner(
         {
-            "Query": [query],
-            "Response": [str(response)],
-            "Source": [response.source_nodes[0].node.get_content()],
-            "Evaluation Result": "Pass" if eval_result.passing else "Fail",
-            "Reasoning": [eval_result.feedback],
-        }
+            "correctness": correctness_evaluator,
+            "faithfulness": faithfulness_evaluator,
+            "relevancy": relevancy_evaluator
+        },
+        show_progress = True
     )
 
-    print(eval_df)
-
-    # Append the DataFrame to the global DataFrame
-    global all_eval_df
-    all_eval_df = pd.concat([all_eval_df, eval_df], ignore_index = True)
-
-# Loop through each question, query the vector index, evaluate the response, and display the results
-for question in eval_questions:
-    query_engine = vector_index.as_query_engine()
-    response_vector = query_engine.query(question.query)
-    eval_result = evaluator.evaluate_response(
-        query = question.query,
-        response = response_vector
+    # Run the asynchronous evaluation
+    eval_result = await runner.aevaluate_queries(
+        query_engine = vector_index.as_query_engine(),
+        queries = [question.query for question in eval_questions]
     )
 
-    display_eval_df(question.query, response_vector, eval_result)
+    return eval_result
 
-# Save the global DataFrame to an Excel file using xlsxwriter
-with pd.ExcelWriter('eval_result.xlsx', engine = 'xlsxwriter') as writer:
-    all_eval_df.to_excel(writer, sheet_name = 'Sheet1', index = False)
+# Run the asynchronous function using asyncio
+result = asyncio.run(evaluate_async())
+
+# Extract relevant information from the evaluation results
+data = []
+for i, question in enumerate(eval_questions):
+    correctness_result = result['correctness'][i]
+    faithfulness_result = result['faithfulness'][i]
+    relevancy_result = result['relevancy'][i]
+    data.append({
+        'Query': question.query,
+        'Correctness response': correctness_result.response,
+        'Correctness passing': correctness_result.passing,
+        'Correctness feedback': correctness_result.feedback,
+        'Correctness score': correctness_result.score,
+        'Faithfulness response': faithfulness_result.response,
+        'Faithfulness passing': faithfulness_result.passing,
+        'Faithfulness feedback': faithfulness_result.feedback,
+        'Faithfulness score': faithfulness_result.score,
+        'Relevancy response': relevancy_result.response,
+        'Relevancy passing': relevancy_result.passing,
+        'Relevancy feedback': relevancy_result.feedback,
+        'Relevancy score': relevancy_result.score,
+    })
+
+# Create a pandas DataFrame
+df = pd.DataFrame(data)
+
+# Save the pandas DataFrame to an Excel file using xlsxwriter
+with pd.ExcelWriter('eval_report.xlsx', engine = 'xlsxwriter') as writer:
+    df.to_excel(writer, sheet_name = 'Sheet1', index = False)
