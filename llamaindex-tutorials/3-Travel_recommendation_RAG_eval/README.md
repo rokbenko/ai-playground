@@ -14,5 +14,5 @@ Environment:
 
 - Windows `10`
 - Python `3.11.8`
-- Streamlit SDK `1.31.1`
-- LlamaIndex SDK `0.10.12`
+- Streamlit Python SDK `1.31.1`
+- LlamaIndex Python SDK `0.10.12`
