@@ -17,12 +17,18 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <th></th>
     <th>Tutorial title</th>
     <th>Tutorial description</th>
+    <th>Tech stack</th>
     <th colspan="2">Links</th>
   </tr>
   <tr>
     <td>#1</td>
     <td>Get response in JSON format</td>
     <td>Python and Node.js examples on how to get a JSON response</td>
+    <td>
+      <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
+      <img alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-%23202020?style=flat&logo=javascript">
+      <img alt="Node.js badge" src="https://img.shields.io/badge/Node.js-%23202020?style=flat&logo=nodedotjs">
+    </td>
     <td>
       <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/1-Get_response_in_JSON_format">GitHub</a>
     </td>
@@ -35,6 +41,11 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <td>Build a personal math tutor</td>
     <td>Python and Node.js examples on how to build a personal math tutor with the OpenAI Assistants API using the Code Interpreter tool</td>
     <td>
+      <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
+      <img alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-%23202020?style=flat&logo=javascript">
+      <img alt="Node.js badge" src="https://img.shields.io/badge/Node.js-%23202020?style=flat&logo=nodedotjs">
+    </td>
+    <td>
       <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/2-Build_personal_math_tutor">GitHub</a>
     </td>
     <td>
@@ -45,6 +56,12 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <td>#3</td>
     <td>GUI for a personal math tutor</td>
     <td>Next.js GUI for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/2-Build_personal_math_tutor">#2 Build a personal math tutor</a> tutorial</td>
+    <td>
+      <img alt="React badge" src="https://img.shields.io/badge/React-%23202020?style=flat&logo=react">
+      <img alt="Next.js badge" src="https://img.shields.io/badge/Next.js-%23202020?style=flat&logo=nextdotjs">
+      <img alt="Tailwind CSS badge" src="https://img.shields.io/badge/Tailwind%20CSS-%23202020?style=flat&logo=tailwindcss">
+      <img alt="Material UI badge" src="https://img.shields.io/badge/Material%20UI-%23202020?style=flat&logo=mui">
+    </td>
     <td>
       <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/3-GUI_personal_math_tutor">GitHub</a>
     </td>
@@ -57,6 +74,11 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <td>Build a customer support chatbot</td>
     <td>Python and Node.js examples on how to build a customer support chatbot with the OpenAI Assistants API using the Knowledge Retrieval tool</td>
     <td>
+      <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
+      <img alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-%23202020?style=flat&logo=javascript">
+      <img alt="Node.js badge" src="https://img.shields.io/badge/Node.js-%23202020?style=flat&logo=nodedotjs">
+    </td>
+    <td>
       <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_customer_support_chatbot">GitHub</a>
     </td>
     <td>
@@ -68,6 +90,11 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <td>TUI for a customer support chatbot</td>
     <td>Python and Node.js TUIs for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_customer_support_chatbot">#4 Build a customer support chatbot</a> tutorial</td>
     <td>
+      <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
+      <img alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-%23202020?style=flat&logo=javascript">
+      <img alt="Node.js badge" src="https://img.shields.io/badge/Node.js-%23202020?style=flat&logo=nodedotjs">
+    </td>
+    <td>
       <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/5-TUI_customer_support_chatbot">GitHub</a>
     </td>
     <td>
@@ -78,6 +105,11 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <td>#6</td>
     <td>TUI for a customer support chatbot with response streaming</td>
     <td>Python and Node.js TUIs for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_customer_support_chatbot">#4 Build a customer support chatbot</a> tutorial with response streaming</td>
+    <td>
+      <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
+      <img alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-%23202020?style=flat&logo=javascript">
+      <img alt="Node.js badge" src="https://img.shields.io/badge/Node.js-%23202020?style=flat&logo=nodedotjs">
+    </td>
     <td>
       <a href="#">Coming soon...</a>
     </td>
@@ -96,12 +128,18 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <th></th>
     <th>Tutorial title</th>
     <th>Tutorial description</th>
+    <th>Tech stack</th>
     <th colspan="2">Links</th>
   </tr>
   <tr>
     <td>#1</td>
     <td>Gemini Pro API starter</td>
     <td>Python and Node.js examples on how to use the Gemini Pro API</td>
+    <td>
+      <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
+      <img alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-%23202020?style=flat&logo=javascript">
+      <img alt="Node.js badge" src="https://img.shields.io/badge/Node.js-%23202020?style=flat&logo=nodedotjs">
+    </td>
     <td>
       <a href="https://github.com/rokbenko/ai-playground/tree/main/gemini-tutorials/1-Gemini_Pro_API_starter">GitHub</a>
     </td>
@@ -113,6 +151,11 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <td>#2</td>
     <td>Vertex AI Gemini Pro API starter</td>
     <td>Python and Node.js examples on how to use the Vertex AI Gemini Pro API</td>
+    <td>
+      <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
+      <img alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-%23202020?style=flat&logo=javascript">
+      <img alt="Node.js badge" src="https://img.shields.io/badge/Node.js-%23202020?style=flat&logo=nodedotjs">
+    </td>
     <td>
       <a href="https://github.com/rokbenko/ai-playground/tree/main/gemini-tutorials/2-Vertex_AI_Gemini_Pro_API_starter">GitHub</a>
     </td>
@@ -131,12 +174,16 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <th></th>
     <th>Tutorial title</th>
     <th>Tutorial description</th>
+    <th>Tech stack</th>
     <th colspan="2">Links</th>
   </tr>
   <tr>
     <td>#1</td>
     <td>Create Llama app</td>
     <td>Instructions on how to create a LlamaIndex chat streaming app using the OpenAI model and Next.js GUI with 1 command in 2 minutes</td>
+    <td>
+      <img alt="Next.js badge" src="https://img.shields.io/badge/Next.js-%23202020?style=flat&logo=nextdotjs">
+    </td>
     <td>
       <a href="https://github.com/rokbenko/ai-playground/tree/main/llamaindex-tutorials/1-Create_llama">GitHub</a>
     </td>
@@ -149,6 +196,9 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <td>GUI for a travel recommendation RAG</td>
     <td>Streamlit GUI for a travel recommendation streaming RAG using LlamaIndex with an OpenAI model</td>
     <td>
+      <img alt="Streamlit badge" src="https://img.shields.io/badge/Streamlit-%23202020?style=flat&logo=streamlit">
+    </td>
+    <td>
       <a href="https://github.com/rokbenko/ai-playground/tree/main/llamaindex-tutorials/2-GUI_for_a_travel_recommendation_RAG">GitHub</a>
     </td>
     <td>
@@ -159,6 +209,9 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <td>#3</td>
     <td>Travel recommendation RAG eval</td>
     <td>Evaluation for the <a href="https://github.com/rokbenko/ai-playground/tree/main/llamaindex-tutorials/2-GUI_for_a_travel_recommendation_RAG">#2 Graphical user interface for a travel recommendation RAG</a> tutorial</td>
+    <td>
+      <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
+    </td>
     <td>
       <a href="https://github.com/rokbenko/ai-playground/tree/main/llamaindex-tutorials/3-Travel_recommendation_RAG_eval">GitHub</a>
     </td>
@@ -177,12 +230,16 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <th></th>
     <th>Tutorial title</th>
     <th>Tutorial description</th>
+    <th>Tech stack</th>
     <th colspan="2">Links</th>
   </tr>
   <tr>
     <td>#1</td>
     <td>Add a new entity label to NER</td>
     <td>Jupyter Notebook example on how to add a new entity label to spaCy's default NER</td>
+    <td>
+      <img alt="Jupyter Notebook badge" src="https://img.shields.io/badge/Jupyter%20Notebook-%23202020?style=flat&logo=jupyter">
+    </td>
     <td>
       <a href="https://github.com/rokbenko/ai-playground/tree/main/spacy-tutorials/1-Add_new_entity_label_to_NER">GitHub</a>
     </td>
@@ -201,12 +258,19 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <th></th>
     <th>Tutorial title</th>
     <th>Tutorial description</th>
+    <th>Tech stack</th>
     <th colspan="2">Links</th>
   </tr>
   <tr>
     <td>#1</td>
     <td>Milvus Standalone starter</td>
     <td>Python and Node.js examples on how to install Milvus Standalone using Docker, connect to a Milvus server and list all collections</td>
+    <td>
+      <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
+      <img alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-%23202020?style=flat&logo=javascript">
+      <img alt="Node.js badge" src="https://img.shields.io/badge/Node.js-%23202020?style=flat&logo=nodedotjs">
+      <img alt="Docker badge" src="https://img.shields.io/badge/Docker-%23202020?style=flat&logo=docker">
+    </td>
     <td>
       <a href="https://github.com/rokbenko/ai-playground/tree/main/milvus-tutorials/1-Milvus_standalone_starter">GitHub</a>
     </td>
@@ -219,6 +283,9 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <td>Attu starter</td>
     <td>Instructions on how to run Attu, a GUI for Milvus, using Docker</td>
     <td>
+      <img alt="Docker badge" src="https://img.shields.io/badge/Docker-%23202020?style=flat&logo=docker">
+    </td>
+    <td>
       <a href="https://github.com/rokbenko/ai-playground/tree/main/milvus-tutorials/2-Attu_gui_for_milvus_starter">GitHub</a>
     </td>
     <td>
@@ -228,7 +295,10 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   <tr>
     <td>#3</td>
     <td>Text similarity search</td>
-    <td>Python example on how to do text similarity search with Milvus (<i>note: input vector is calculated with spaCy</i>)</td>
+    <td>Python example on how to do text similarity search with Milvus (<i>Note: input vector is calculated with spaCy</i>)</td>
+    <td>
+      <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
+    </td>
     <td>
       <a href="https://github.com/rokbenko/ai-playground/tree/main/milvus-tutorials/3-Text_similarity_search">GitHub</a>
     </td>
