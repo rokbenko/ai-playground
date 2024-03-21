@@ -1,6 +1,6 @@
 <div align="center">
 
-# Code from tutorials presented on<br> the [Code AI with Rok](https://www.youtube.com/@codewithrok)<br> YouTube channel
+# Code from tutorials presented on<br> the [Code AI with Rok](https://www.youtube.com/@CodeAIwithRok)<br> YouTube channel
 
 Enjoying what you find in this repository? Your star ⭐ would be greatly appreciated!
 
