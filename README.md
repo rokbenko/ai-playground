@@ -77,7 +77,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   <tr>
     <td>#6</td>
     <td>TUI for a customer support chatbot with response streaming</td>
-    <td>Python and Node.js examples on how to add response streaming functionality to the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/5-TUI_customer_support_chatbot">#5 TUI for a customer support chatbot</a> tutorial</td>
+    <td>Python and Node.js TUIs for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_customer_support_chatbot">#4 Build a customer support chatbot</a> tutorial with response streaming</td>
     <td>
       <a href="#">Coming soon...</a>
     </td>
