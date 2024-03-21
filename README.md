@@ -1,6 +1,6 @@
 <div align="center">
 
-# Code from AI tutorials presented on the <br> [Code with Rok](https://www.youtube.com/@codewithrok) <br> YouTube channel
+# Code from tutorials presented on<br> the [Code AI with Rok](https://www.youtube.com/@codewithrok)<br> YouTube channel
 
 Enjoying what you find in this repository? Your star ⭐ would be greatly appreciated!
 
@@ -22,7 +22,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   <tr>
     <td>#1</td>
     <td>Get response in JSON format</td>
-    <td>Python and Node.js examples on how to get a valid JSON response</td>
+    <td>Python and Node.js examples on how to get a JSON response</td>
     <td>
       <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/1-Get_response_in_JSON_format">GitHub</a>
     </td>
@@ -35,7 +35,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <td>Build a personal math tutor</td>
     <td>Python and Node.js examples on how to build a personal math tutor with the OpenAI Assistants API using the Code Interpreter tool</td>
     <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/2-Build_a_personal_math_tutor">GitHub</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/2-Build_personal_math_tutor">GitHub</a>
     </td>
     <td>
       <a href="https://youtu.be/F-KRs6vg4mM">YouTube</a>
@@ -44,9 +44,9 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   <tr>
     <td>#3</td>
     <td>GUI for a personal math tutor</td>
-    <td>Next.js GUI for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/2-Build_a_personal_math_tutor">#2 Build a personal math tutor</a> tutorial</td>
+    <td>Next.js GUI for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/2-Build_personal_math_tutor">#2 Build a personal math tutor</a> tutorial</td>
     <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/3-GUI_for_a_personal_math_tutor">GitHub</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/3-GUI_personal_math_tutor">GitHub</a>
     </td>
     <td>
       <a href="https://youtu.be/QThg_MqiYCo">YouTube</a>
@@ -57,7 +57,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <td>Build a customer support chatbot</td>
     <td>Python and Node.js examples on how to build a customer support chatbot with the OpenAI Assistants API using the Knowledge Retrieval tool</td>
     <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_a_customer_support_chatbot">GitHub</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_customer_support_chatbot">GitHub</a>
     </td>
     <td>
       <a href="https://youtu.be/xbgX8fu78DI">YouTube</a>
@@ -66,9 +66,9 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   <tr>
     <td>#5</td>
     <td>TUI for a customer support chatbot</td>
-    <td>Python and Node.js TUIs for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_a_customer_support_chatbot">#4 Build a customer support chatbot</a> tutorial</td>
+    <td>Python and Node.js TUIs for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_customer_support_chatbot">#4 Build a customer support chatbot</a> tutorial</td>
     <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/5-TUI_for_a_customer_support_chatbot">GitHub</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/5-TUI_customer_support_chatbot">GitHub</a>
     </td>
     <td>
       <a href="https://youtu.be/RUZwYQnIX_0">YouTube</a>
@@ -77,7 +77,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   <tr>
     <td>#6</td>
     <td>TUI for a customer support chatbot with response streaming</td>
-    <td>Python and Node.js examples on how to add response streaming functionality to the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/5-TUI_for_a_customer_support_chatbot">#5 TUI for a customer support chatbot</a> tutorial</td>
+    <td>Python and Node.js examples on how to add response streaming functionality to the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/5-TUI_customer_support_chatbot">#5 TUI for a customer support chatbot</a> tutorial</td>
     <td>
       <a href="#">Coming soon...</a>
     </td>

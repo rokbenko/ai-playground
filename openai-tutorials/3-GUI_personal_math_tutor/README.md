@@ -2,7 +2,7 @@
 
 ## Short description
 
-chatMATH is a Next.js GUI for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/2-Build_a_personal_math_tutor">#2 Build a personal math tutor</a> tutorial. The main focus is on advanced chat functionalities, with no attention given to non-relevant aspects. Therefore, the sidebar is completely removed.
+chatMATH is a Next.js GUI for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/2-Build_personal_math_tutor">#2 Build a personal math tutor</a> tutorial. The main focus is on advanced chat functionalities, with no attention given to non-relevant aspects. Therefore, the sidebar is completely removed.
 
 > [!NOTE]
 > chatMATH is based on the <a href="https://github.com/rokbenko/chatFTW">chatFTW</a>.
@@ -14,7 +14,7 @@ chatMATH is a Next.js GUI for the <a href="https://github.com/rokbenko/ai-playgr
 To start using chatMATH, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/rokbenko/ai-playground.git`
-2. Change the directory: `cd ai-playground/openai-tutorials/3-GUI_for_a_personal_math_tutor`
+2. Change the directory: `cd ai-playground/openai-tutorials/3-GUI_personal_math_tutor`
 3. Install the dependencies: `npm i`
 4. Edit the `.env` file to set up your environment variables
 5. Run the development server: `npm run dev`
@@ -50,8 +50,8 @@ The app was tested and worked in the following environment:
 
 ### Get values for environment variables:
 
-![Screenshot env](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/3-GUI_for_a_personal_math_tutor/screenshot_env.gif)
+![Screenshot env](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/3-GUI_personal_math_tutor/screenshot_env.gif)
 
 ### Chat with a personal math tutor:
 
-![Screenshot chat](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/3-GUI_for_a_personal_math_tutor/screenshot_chat.gif)
+![Screenshot chat](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/3-GUI_personal_math_tutor/screenshot_chat.gif)
