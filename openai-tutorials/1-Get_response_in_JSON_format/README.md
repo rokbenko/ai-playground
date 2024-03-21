@@ -2,7 +2,7 @@
 
 ## Short description
 
-Python and Node.js examples on how to get a valid JSON response.
+Python and Node.js examples on how to get a JSON response.
 
 <br>
 
