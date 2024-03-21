@@ -15,8 +15,8 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
 <table>
   <tr>
     <th></th>
-    <th>Tutorial</th>
-    <th>Short description</th>
+    <th>Tutorial title</th>
+    <th>Tutorial description</th>
     <th colspan="2">Links</th>
   </tr>
   <tr>
@@ -94,8 +94,8 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
 <table>
   <tr>
     <th></th>
-    <th>Tutorial</th>
-    <th>Short description</th>
+    <th>Tutorial title</th>
+    <th>Tutorial description</th>
     <th colspan="2">Links</th>
   </tr>
   <tr>
@@ -129,8 +129,8 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
 <table>
   <tr>
     <th></th>
-    <th>Tutorial</th>
-    <th>Short description</th>
+    <th>Tutorial title</th>
+    <th>Tutorial description</th>
     <th colspan="2">Links</th>
   </tr>
   <tr>
@@ -175,8 +175,8 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
 <table>
   <tr>
     <th></th>
-    <th>Tutorial</th>
-    <th>Short description</th>
+    <th>Tutorial title</th>
+    <th>Tutorial description</th>
     <th colspan="2">Links</th>
   </tr>
   <tr>
@@ -199,8 +199,8 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
 <table>
   <tr>
     <th></th>
-    <th>Tutorial</th>
-    <th>Short description</th>
+    <th>Tutorial title</th>
+    <th>Tutorial description</th>
     <th colspan="2">Links</th>
   </tr>
   <tr>
