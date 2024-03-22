@@ -285,7 +285,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
       <img alt="Docker badge" src="https://img.shields.io/badge/Docker-%23202020?style=flat&logo=docker">
     </td>
     <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/milvus-tutorials/2-Attu_gui_for_milvus_starter">GitHub</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/milvus-tutorials/2-Attu_starter">GitHub</a>
     </td>
     <td>
       <a href="https://youtu.be/oUQUVcJBnYk">YouTube</a>
