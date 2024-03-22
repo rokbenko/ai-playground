@@ -2,7 +2,7 @@
 
 ## Short description
 
-Evaluation for the <a href="https://github.com/rokbenko/ai-playground/tree/main/llamaindex-tutorials/2-GUI_travel_recommendation_RAG">#2 GUI for a travel recommendation RAG</a> tutorial.
+Evaluation of the <a href="https://github.com/rokbenko/ai-playground/tree/main/llamaindex-tutorials/2-GUI_travel_recommendation_RAG">#2 GUI for a travel recommendation RAG</a> tutorial.
 
 <br>
 
