@@ -2,7 +2,7 @@
 
 ## Short description
 
-Python example on how to do text similarity search with Milvus (_note: input vector is calculated with spaCy_).
+Python example on how to do text similarity search with Milvus (_Note: input vector is calculated with spaCy_).
 
 <br>
 
