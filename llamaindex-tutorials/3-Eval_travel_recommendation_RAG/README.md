@@ -1,14 +1,14 @@
-# #3 Travel recommendation RAG eval
+# #3 Evaluation of a travel recommendation RAG
 
 ## Short description
 
-Evaluation for the <a href="https://github.com/rokbenko/ai-playground/tree/main/llamaindex-tutorials/2-GUI_for_a_travel_recommendation_RAG">#2 Graphical user interface for a travel recommendation RAG</a> tutorial.
+Evaluation for the <a href="https://github.com/rokbenko/ai-playground/tree/main/llamaindex-tutorials/2-GUI_travel_recommendation_RAG">#2 GUI for a travel recommendation RAG</a> tutorial.
 
 <br>
 
 ## Working example in Python
 
-If you run `travel_recommendation_rag_eval.py`, you should get the evaluation report in an <a href="https://github.com/rokbenko/ai-playground/blob/main/llamaindex-tutorials/3-Travel_recommendation_RAG_eval/eval_report.xlsx">Excel file</a>.
+If you run `travel_recommendation_rag_eval.py`, you should get the evaluation report in an <a href="https://github.com/rokbenko/ai-playground/blob/main/llamaindex-tutorials/3-Eval_travel_recommendation_RAG/eval_report.xlsx">Excel file</a>.
 
 Environment:
 
