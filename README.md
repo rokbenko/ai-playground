@@ -198,7 +198,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
       <img alt="Streamlit badge" src="https://img.shields.io/badge/Streamlit-%23202020?style=flat&logo=streamlit">
     </td>
     <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/llamaindex-tutorials/2-GUI_for_a_travel_recommendation_RAG">GitHub</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/llamaindex-tutorials/2-GUI_travel_recommendation_RAG">GitHub</a>
     </td>
     <td>
       <a href="https://youtu.be/93uru3QmgAo">YouTube</a>
@@ -207,12 +207,12 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   <tr>
     <td>#3</td>
     <td>Travel recommendation RAG eval</td>
-    <td>Evaluation for the <a href="https://github.com/rokbenko/ai-playground/tree/main/llamaindex-tutorials/2-GUI_for_a_travel_recommendation_RAG">#2 Graphical user interface for a travel recommendation RAG</a> tutorial</td>
+    <td>Evaluation for the <a href="https://github.com/rokbenko/ai-playground/tree/main/llamaindex-tutorials/2-GUI_travel_recommendation_RAG">#2 Graphical user interface for a travel recommendation RAG</a> tutorial</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
     </td>
     <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/llamaindex-tutorials/3-Travel_recommendation_RAG_eval">GitHub</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/llamaindex-tutorials/3-Eval_travel_recommendation_RAG">GitHub</a>
     </td>
     <td>
       <a href="https://youtu.be/l5z_Peocss0">YouTube</a>
