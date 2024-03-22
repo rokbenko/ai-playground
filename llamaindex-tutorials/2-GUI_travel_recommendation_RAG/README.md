@@ -11,7 +11,7 @@ Streamlit GUI for a travel recommendation streaming RAG using LlamaIndex with an
 To start using the travel recommendation RAG, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/rokbenko/ai-playground.git`
-2. Change the directory: `cd ai-playground/llamaindex-tutorials/2-GUI_for_a_travel_recommendation_RAG`
+2. Change the directory: `cd ai-playground/llamaindex-tutorials/2-GUI_travel_recommendation_RAG`
 3. Install <a href="https://www.llamaindex.ai/">LlamaIndex</a>: `pip install llama-index==0.10.12`
 4. Install <a href="https://streamlit.io/">Streamlit</a>: `pip install streamlit==1.31.1`
 5. Run the Streamlit app: `streamlit run gui_travel_recommendation_rag.py`
@@ -39,4 +39,4 @@ The app was tested and worked in the following environment:
 
 ## Screenshot
 
-![Screenshot](https://github.com/rokbenko/ai-playground/blob/main/llamaindex-tutorials/2-GUI_for_a_travel_recommendation_RAG/screenshot.gif)
+![Screenshot](https://github.com/rokbenko/ai-playground/blob/main/llamaindex-tutorials/2-GUI_travel_recommendation_RAG/screenshot.gif)
