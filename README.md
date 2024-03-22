@@ -297,6 +297,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <td>Python example on how to do text similarity search with Milvus (<i>Note: input vector is calculated with spaCy</i>)</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
+      <img alt="spaCy badge" src="https://img.shields.io/badge/spaCy-%23202020?style=flat&logo=spacy">
     </td>
     <td>
       <a href="https://github.com/rokbenko/ai-playground/tree/main/milvus-tutorials/3-Text_similarity_search">GitHub</a>
