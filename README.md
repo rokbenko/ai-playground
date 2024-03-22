@@ -57,7 +57,6 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <td>GUI for a personal math tutor</td>
     <td>Next.js GUI for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/2-Build_personal_math_tutor">#2 Build a personal math tutor</a> tutorial</td>
     <td>
-      <img alt="React badge" src="https://img.shields.io/badge/React-%23202020?style=flat&logo=react">
       <img alt="Next.js badge" src="https://img.shields.io/badge/Next.js-%23202020?style=flat&logo=nextdotjs">
       <img alt="Tailwind CSS badge" src="https://img.shields.io/badge/Tailwind%20CSS-%23202020?style=flat&logo=tailwindcss">
       <img alt="Material UI badge" src="https://img.shields.io/badge/Material%20UI-%23202020?style=flat&logo=mui">
