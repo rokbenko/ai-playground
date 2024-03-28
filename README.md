@@ -110,10 +110,10 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
       <img alt="Node.js badge" src="https://img.shields.io/badge/Node.js-%23202020?style=flat&logo=nodedotjs">
     </td>
     <td>
-      <a href="#">Coming soon...</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/6-TUI_customer_support_chatbot_streaming">GitHub</a>
     </td>
     <td>
-      <a href="#">Coming soon...</a>
+      <a href="https://youtu.be/d8dsFlLATrw">YouTube</a>
     </td>
   </tr>
 </table>
