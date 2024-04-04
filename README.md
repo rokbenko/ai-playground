@@ -234,7 +234,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   </tr>
   <tr>
     <td>#1</td>
-    <td>Agents starter</td>
+    <td>uAgents starter</td>
     <td>Python examples on how to create an agent, create an interval task, get the agent's address and use storage</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
