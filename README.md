@@ -222,6 +222,34 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
 
 <br>
 
+## [Fetch.ai](https://fetch.ai/)
+
+<table>
+  <tr>
+    <th></th>
+    <th>Tutorial title</th>
+    <th>Tutorial description</th>
+    <th>Tech stack</th>
+    <th colspan="2">Links</th>
+  </tr>
+  <tr>
+    <td>#1</td>
+    <td>Agents starter</td>
+    <td>Python examples on how to create an agent, create an interval task, get the agent's address and use storage</td>
+    <td>
+      <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
+    </td>
+    <td>
+      <a href="#">Coming soon... ✨</a>
+    </td>
+    <td>
+      <a href="#">Coming soon... ✨</a>
+    </td>
+  </tr>
+</table>
+
+<br>
+
 ## [spaCy](https://spacy.io/)
 
 <table>
