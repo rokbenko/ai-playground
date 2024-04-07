@@ -4,6 +4,8 @@
 
 Enjoying what you find in this repository? Your star ⭐ would be greatly appreciated!
 
+**Do you want to support me? 👉 <a href="https://www.patreon.com/rokbenko">Join my community</a>.**
+
 <br>
 
 </div>
