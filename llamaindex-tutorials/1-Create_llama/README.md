@@ -12,4 +12,4 @@ To create the app, simply run the following command:
 npx create-llama@latest
 ```
 
-See the official <a href="https://github.com/run-llama/LlamaIndexTS/tree/main/packages/create-llama">GitHub repository directory</a>.
+See the official <a href="https://github.com/run-llama/create-llama">GitHub repository directory</a>.
