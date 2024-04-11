@@ -9,7 +9,7 @@ All credits go to <a href="https://github.com/marcusschiesser">Marcus Schiesser<
 To create the app, simply run the following command:
 
 ```bash
-npm create-llama@latest
+npx create-llama@latest
 ```
 
 See the official <a href="https://github.com/run-llama/LlamaIndexTS/tree/main/packages/create-llama">GitHub repository directory</a>.
