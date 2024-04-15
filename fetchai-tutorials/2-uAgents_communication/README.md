@@ -8,17 +8,21 @@ Python examples on how to make agents communicate with each other.
 
 ## Working examples in Python
 
+### Step 1: Run Bob
+
 If you run `bob.py`, you should get the following response:
 
 > INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Bob]: Starting server on http://0.0.0.0:8001 (Press CTRL+C to quit)
 
+### Step 2: Run Alice
+
 If you run `alice.py`, you should get the following response:
 
-> INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Alice]: Starting server on http://0.0.0.0:8000 (Press CTRL+C to quit)
-> INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Alice]: I've received a message from Bob: 'Hello, Alice! I'm agent Bob.'
-> INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Alice]: I've received a message from Bob: 'Hello, Alice! I'm agent Bob.'
-> INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Alice]: I've received a message from Bob: 'Hello, Alice! I'm agent Bob.'
-> INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Alice]: I've received a message from Bob: 'Hello, Alice! I'm agent Bob.'
+> INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Alice]: Starting server on http://0.0.0.0:8000 (Press CTRL+C to quit)<br>
+> INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Alice]: I've received a message from Bob: 'Hello, Alice! I'm agent Bob.'<br>
+> INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Alice]: I've received a message from Bob: 'Hello, Alice! I'm agent Bob.'<br>
+> INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Alice]: I've received a message from Bob: 'Hello, Alice! I'm agent Bob.'<br>
+> INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Alice]: I've received a message from Bob: 'Hello, Alice! I'm agent Bob.'<br>
 > INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Alice]: I've received a message from Bob: 'Hello, Alice! I'm agent Bob.'
 
 <br>
