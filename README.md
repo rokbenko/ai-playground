@@ -246,6 +246,20 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
       <a href="#">Coming soon... ✨</a>
     </td>
   </tr>
+  <tr>
+    <td>#2</td>
+    <td>uAgents communication</td>
+    <td>Python examples on how to make agents communicate with each other</td>
+    <td>
+      <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
+    </td>
+    <td>
+      <a href="#">Coming soon... ✨</a>
+    </td>
+    <td>
+      <a href="#">Coming soon... ✨</a>
+    </td>
+  </tr>
 </table>
 
 <br>
