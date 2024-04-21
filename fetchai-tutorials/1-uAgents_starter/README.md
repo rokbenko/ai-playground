@@ -3,10 +3,11 @@
 ## Short description
 
 Python examples on how to:
-  - create an agent (see `alice.py`),
-  - create an interval task (see `alice_interval_task.py`),
-  - get the agent's address (see `alice_address.py`) and
-  - use storage (see `alice_storage.py`).
+
+- create an agent with a startup task (see `alice.py`),
+- create an agent with an interval task (see `alice_interval_task.py`),
+- create an agent and get its address (see `alice_address.py`) and
+- create a stateful agent (see `alice_storage.py`).
 
 <br>
 

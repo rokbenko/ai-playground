@@ -237,15 +237,15 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   <tr>
     <td>#1</td>
     <td>uAgents starter</td>
-    <td>Python examples on how to create an agent, create an interval task, get the agent's address and use storage</td>
+    <td>Python examples on how to create an agent with a startup task, create an agent with an interval task, create an agent and get its address, and create a stateful agent</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
     </td>
     <td>
-      <a href="#">Coming soon... ✨</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/fetchai-tutorials/1-uAgents_starter">GitHub</a>
     </td>
     <td>
-      <a href="#">Coming soon... ✨</a>
+      <a href="https://youtu.be/AZhKvDc2O20">YouTube</a>
     </td>
   </tr>
   <tr>
