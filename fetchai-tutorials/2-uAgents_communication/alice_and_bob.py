@@ -7,11 +7,11 @@ class Message(Model):
 
 # Create agents named Alice and Bob
 alice = Agent(
-    name = "alice",
+    name = "Alice",
     seed = "igfdba9pub4590bgdbgdfjbgdlkhbkdhbdhkd89ht"
 )
 bob = Agent(
-    name = "bob",
+    name = "Bob",
     seed = "ldsjbg9bqw7bt390bsbdgjfsbgkdfgiseht8h0agh"
 )
 
