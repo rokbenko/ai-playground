@@ -29,7 +29,7 @@ async def alice_message_handler(ctx: Context, sender: str, msg: Message):
 
 # Bob's on interval task
 @bob.on_interval(period = 4.0)
-# Define start_conversation function which will be called every 2 seconds
+# Define start_conversation function which will be called every 4 seconds
 async def start_conversation(ctx: Context):
     # Create a message for Alice
     msg = Message(message = "Hello, Alice! I'm agent Bob.")
