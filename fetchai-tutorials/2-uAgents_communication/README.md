@@ -2,7 +2,7 @@
 
 ## Short description
 
-Python examples on how to make agents communicate with each other locally and remotely.
+Python examples on how to make agents communicate with each other locally or remotely using Almanac contracts.
 
 <br>
 
@@ -26,20 +26,7 @@ If you run `alice_and_bob.py`, you should get the following response:
 
 ### Remote communication
 
-#### Step 1: Run Bob
-
-If you run `bob.py`, you should get the following response:
-
-> INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [&nbsp;&nbsp; Bob]: Registering on almanac contract...<br>
-> INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [&nbsp;&nbsp; Bob]: Registering on almanac contract...complete<br>
-> INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [&nbsp;&nbsp; Bob]: Starting server on http://0.0.0.0:8001 (Press CTRL+C to quit)<br>
-> INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [&nbsp;&nbsp; Bob]: I've received a message from agent1qtkp83xdzjn6pupps8jj309mu5km6h58cgcwzl3afw9frrnmqhk9kwrur80: 'Hello, Bob! I'm agent Alice.'<br>
-> INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [&nbsp;&nbsp; Bob]: I've received a message from agent1qtkp83xdzjn6pupps8jj309mu5km6h58cgcwzl3afw9frrnmqhk9kwrur80: 'Hello, Bob! I'm agent Alice.'<br>
-> INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [&nbsp;&nbsp; Bob]: I've received a message from agent1qtkp83xdzjn6pupps8jj309mu5km6h58cgcwzl3afw9frrnmqhk9kwrur80: 'Hello, Bob! I'm agent Alice.'<br>
-> INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [&nbsp;&nbsp; Bob]: I've received a message from agent1qtkp83xdzjn6pupps8jj309mu5km6h58cgcwzl3afw9frrnmqhk9kwrur80: 'Hello, Bob! I'm agent Alice.'<br>
-> INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [&nbsp;&nbsp; Bob]: I've received a message from agent1qtkp83xdzjn6pupps8jj309mu5km6h58cgcwzl3afw9frrnmqhk9kwrur80: 'Hello, Bob! I'm agent Alice.'
-
-#### Step 2: Run Alice
+#### Step 1: Run Alice
 
 If you run `alice.py`, you should get the following response:
 
@@ -51,6 +38,19 @@ If you run `alice.py`, you should get the following response:
 > INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Alice]: I've received a message from agent1qwr3c63ayxz87xcvkhxw98qq2mc885r60gk4krfqsq4zhszmntar5j7nnpn: 'Hello, Alice! I'm agent Bob.'<br>
 > INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Alice]: I've received a message from agent1qwr3c63ayxz87xcvkhxw98qq2mc885r60gk4krfqsq4zhszmntar5j7nnpn: 'Hello, Alice! I'm agent Bob.'<br>
 > INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Alice]: I've received a message from agent1qwr3c63ayxz87xcvkhxw98qq2mc885r60gk4krfqsq4zhszmntar5j7nnpn: 'Hello, Alice! I'm agent Bob.'
+
+#### Step 2: Run Bob
+
+If you run `bob.py`, you should get the following response:
+
+> INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [&nbsp;&nbsp; Bob]: Registering on almanac contract...<br>
+> INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [&nbsp;&nbsp; Bob]: Registering on almanac contract...complete<br>
+> INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [&nbsp;&nbsp; Bob]: Starting server on http://0.0.0.0:8001 (Press CTRL+C to quit)<br>
+> INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [&nbsp;&nbsp; Bob]: I've received a message from agent1qtkp83xdzjn6pupps8jj309mu5km6h58cgcwzl3afw9frrnmqhk9kwrur80: 'Hello, Bob! I'm agent Alice.'<br>
+> INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [&nbsp;&nbsp; Bob]: I've received a message from agent1qtkp83xdzjn6pupps8jj309mu5km6h58cgcwzl3afw9frrnmqhk9kwrur80: 'Hello, Bob! I'm agent Alice.'<br>
+> INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [&nbsp;&nbsp; Bob]: I've received a message from agent1qtkp83xdzjn6pupps8jj309mu5km6h58cgcwzl3afw9frrnmqhk9kwrur80: 'Hello, Bob! I'm agent Alice.'<br>
+> INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [&nbsp;&nbsp; Bob]: I've received a message from agent1qtkp83xdzjn6pupps8jj309mu5km6h58cgcwzl3afw9frrnmqhk9kwrur80: 'Hello, Bob! I'm agent Alice.'<br>
+> INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [&nbsp;&nbsp; Bob]: I've received a message from agent1qtkp83xdzjn6pupps8jj309mu5km6h58cgcwzl3afw9frrnmqhk9kwrur80: 'Hello, Bob! I'm agent Alice.'
 
 <br>
 

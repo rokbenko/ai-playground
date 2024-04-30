@@ -251,15 +251,15 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   <tr>
     <td>#2</td>
     <td>uAgents communication</td>
-    <td>Python examples on how to make agents communicate with each other locally and remotely</td>
+    <td>Python examples on how to make agents communicate with each other locally or remotely using Almanac contracts</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
     </td>
     <td>
-      <a href="#">Coming soon... ✨</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/fetchai-tutorials/2-uAgents_communication">GitHub</a>
     </td>
     <td>
-      <a href="#">Coming soon... ✨</a>
+      <a href="https://youtu.be/40sixkWgXGc">YouTube</a>
     </td>
   </tr>
 </table>
