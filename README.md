@@ -41,7 +41,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   <tr>
     <td>#2</td>
     <td>Build a personal math tutor</td>
-    <td>Python and Node.js examples on how to build a personal math tutor with the OpenAI Assistants API `v1` using the Code Interpreter tool</td>
+    <td>Python and Node.js examples on how to build a personal math tutor with the OpenAI Assistants API <code>v1</code> using the Code Interpreter tool</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
       <img alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-%23202020?style=flat&logo=javascript">
@@ -73,7 +73,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   <tr>
     <td>#4</td>
     <td>Build a customer support chatbot</td>
-    <td>Python and Node.js examples on how to build a customer support chatbot with the OpenAI Assistants API `v1` using the Knowledge Retrieval tool</td>
+    <td>Python and Node.js examples on how to build a customer support chatbot with the OpenAI Assistants API <code>v1</code> using the Knowledge Retrieval tool</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
       <img alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-%23202020?style=flat&logo=javascript">
