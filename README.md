@@ -354,8 +354,24 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
 
 <br>
 
----
+## ⭐ Star history
 
-### License
+[![Star history chart](https://api.star-history.com/svg?repos=rokbenko/ai-playground&type=Date)](https://star-history.com/#rokbenko/ai-playground&Date)
+
+<br>
+
+## 🤝 Contributing
+
+Thank you for considering contributing to my repository. While I don't accept direct additions of tutorials, I warmly welcome contributions in the following forms:
+
+ - **Reporting major issues**: Found a bug, or error? Feel free to open an issue on GitHub. Be sure to provide as much detail as possible, including steps to reproduce the issue.
+ - **Fixing minor issues**: Found a typo, grammatical error, or other small issue? Feel free to open a pull request to fix them directly.
+ - **Making suggestions**: Have an idea how I can enhance my tutorials or topics I should cover? Share your thoughts by creating a new issue outlining your suggestion. I'll carefully consider all reasonable ideas.
+
+To [contribute](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project), simply fork my repository, make your desired changes, push the changes, make a pull request, and I'll review it as soon as possible.
+
+<br>
+
+## 📄 License
 
 This project is open source and available under the [MIT License](https://github.com/rokbenko/ai-playground/blob/main/LICENSE).
