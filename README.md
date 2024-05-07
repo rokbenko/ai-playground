@@ -40,8 +40,11 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   </tr>
   <tr>
     <td>#2</td>
-    <td>Build a personal math tutor</td>
-    <td>Python and Node.js examples on how to build a personal math tutor with the OpenAI Assistants API <code>v1</code> using the Code Interpreter tool</td>
+    <td>
+      Build a personal math tutor<br>
+      <sup>Note: Using Assistants API <code>v1</code> beta</sup>
+    </td>
+    <td>Python and Node.js examples on how to build a personal math tutor with the OpenAI Assistants API <code>v1</code> beta using the Code Interpreter tool</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
       <img alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-%23202020?style=flat&logo=javascript">
@@ -56,7 +59,10 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   </tr>
   <tr>
     <td>#3</td>
-    <td>GUI for a personal math tutor</td>
+    <td>
+      GUI for a personal math tutor<br>
+      <sup>Note: Using Assistants API <code>v1</code> beta</sup>
+    </td>
     <td>Next.js GUI for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/2-Build_personal_math_tutor">#2 Build a personal math tutor</a> tutorial</td>
     <td>
       <img alt="Next.js badge" src="https://img.shields.io/badge/Next.js-%23202020?style=flat&logo=nextdotjs">
@@ -72,8 +78,11 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   </tr>
   <tr>
     <td>#4</td>
-    <td>Build a customer support chatbot</td>
-    <td>Python and Node.js examples on how to build a customer support chatbot with the OpenAI Assistants API <code>v1</code> using the Knowledge Retrieval tool</td>
+    <td>
+      Build a customer support chatbot<br>
+      <sup>Note: Using Assistants API <code>v1</code> beta</sup>
+    </td>
+    <td>Python and Node.js examples on how to build a customer support chatbot with the OpenAI Assistants API <code>v1</code> beta using the Knowledge Retrieval tool</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
       <img alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-%23202020?style=flat&logo=javascript">
@@ -88,7 +97,10 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   </tr>
   <tr>
     <td>#5</td>
-    <td>TUI for a customer support chatbot</td>
+    <td>
+      TUI for a customer support chatbot<br>
+      <sup>Note: Using Assistants API <code>v1</code> beta</sup>
+    </td>
     <td>Python and Node.js TUIs for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_customer_support_chatbot">#4 Build a customer support chatbot</a> tutorial</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
@@ -104,7 +116,10 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   </tr>
   <tr>
     <td>#6</td>
-    <td>TUI for a customer support chatbot with response streaming</td>
+    <td>
+      TUI for a customer support chatbot with response streaming<br>
+      <sup>Note: Using Assistants API <code>v1</code> beta</sup>
+    </td>
     <td>Python and Node.js TUIs for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_customer_support_chatbot">#4 Build a customer support chatbot</a> tutorial with response streaming</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
