@@ -41,8 +41,8 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   <tr>
     <td>#2</td>
     <td>
-      Build a personal math tutor<br>
-      <sup>Note: Using Assistants API <code>v1</code> beta</sup>
+      Build a personal math tutor*<br>
+      <sup>*Using Assistants API <code>v1</code> beta</sup>
     </td>
     <td>Python and Node.js examples on how to build a personal math tutor with the OpenAI Assistants API <code>v1</code> beta using the Code Interpreter tool</td>
     <td>
@@ -60,8 +60,8 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   <tr>
     <td>#3</td>
     <td>
-      GUI for a personal math tutor<br>
-      <sup>Note: Using Assistants API <code>v1</code> beta</sup>
+      GUI for a personal math tutor*<br>
+      <sup>*Using Assistants API <code>v1</code> beta</sup>
     </td>
     <td>Next.js GUI for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/2-Build_personal_math_tutor">#2 Build a personal math tutor</a> tutorial</td>
     <td>
@@ -79,8 +79,8 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   <tr>
     <td>#4</td>
     <td>
-      Build a customer support chatbot<br>
-      <sup>Note: Using Assistants API <code>v1</code> beta</sup>
+      Build a customer support chatbot*<br>
+      <sup>*Using Assistants API <code>v1</code> beta</sup>
     </td>
     <td>Python and Node.js examples on how to build a customer support chatbot with the OpenAI Assistants API <code>v1</code> beta using the Knowledge Retrieval tool</td>
     <td>
@@ -98,8 +98,8 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   <tr>
     <td>#5</td>
     <td>
-      TUI for a customer support chatbot<br>
-      <sup>Note: Using Assistants API <code>v1</code> beta</sup>
+      TUI for a customer support chatbot*<br>
+      <sup>*Using Assistants API <code>v1</code> beta</sup>
     </td>
     <td>Python and Node.js TUIs for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_customer_support_chatbot">#4 Build a customer support chatbot</a> tutorial</td>
     <td>
@@ -117,8 +117,8 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   <tr>
     <td>#6</td>
     <td>
-      TUI for a customer support chatbot with response streaming<br>
-      <sup>Note: Using Assistants API <code>v1</code> beta</sup>
+      TUI for a customer support chatbot with response streaming*<br>
+      <sup>*Using Assistants API <code>v1</code> beta</sup>
     </td>
     <td>Python and Node.js TUIs for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_customer_support_chatbot">#4 Build a customer support chatbot</a> tutorial with response streaming</td>
     <td>
