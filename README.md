@@ -383,7 +383,13 @@ Thank you for considering contributing to my repository. While I don't accept di
  - **Fixing minor issues**: Found a typo, grammatical error, or other small issue? Feel free to open a pull request to fix them directly.
  - **Making suggestions**: Have an idea how I can enhance my tutorials or topics I should cover? Share your thoughts by creating a new issue outlining your suggestion. I'll carefully consider all reasonable ideas.
 
-To [contribute](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project), simply fork my repository, make your desired changes, push the changes, make a pull request, and I'll review it as soon as possible.
+To [contribute](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project), do the following:
+ 1. Fork this repository.
+ 2. Make your desired changes.
+ 3. Create a commit and push the changes.
+ 4. Create a pull request.
+
+I'll review your pull request and get back to you as soon as possible.
 
 <br>
 
