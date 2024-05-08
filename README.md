@@ -148,6 +148,13 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
       </ul>
     </td>
     <td>
+      <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
+      <img alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-%23202020?style=flat&logo=javascript">
+      <img alt="Node.js badge" src="https://img.shields.io/badge/Node.js-%23202020?style=flat&logo=nodedotjs">
+      <img alt="Next.js badge" src="https://img.shields.io/badge/Next.js-%23202020?style=flat&logo=nextdotjs">
+      <img alt="Streamlit badge" src="https://img.shields.io/badge/Streamlit-%23202020?style=flat&logo=streamlit">
+    </td>
+    <td>
       <a href="#">Coming soon... ✨</a>
     </td>
     <td>
