@@ -65,6 +65,12 @@ If you run `tui_personal_math_tutor_v2_beta.py`, you should be able to chat with
 > <br>
 > ai-playground\openai-tutorials\7-Assistants_API_v1_to_v2_beta_migration>
 
+Both Python examples were tested and worked in the following environment:
+
+- Windows `10`
+- Python `3.11.8`
+- OpenAI Python SDK `1.26.0`
+
 <br>
 
 ## Node.js TUI working examples
@@ -100,6 +106,12 @@ If you run `tui_personal_math_tutor_v2_beta.js`, you should be able to chat with
 > Assistant: Have a nice day!<br>
 > <br>
 > ai-playground\openai-tutorials\7-Assistants_API_v1_to_v2_beta_migration>
+
+Both Node.js examples were tested and worked in the following environment:
+
+- Windows `10`
+- Node.js `21.2.0`
+- OpenAI Node.js SDK `4.42.0`
 
 <br>
 
