@@ -8,7 +8,7 @@ Examples on how to migrate the OpenAI Assistants API `v1` to `v2` beta:
 - Node.js TUI for the File Search tool (see [`tui_customer_support_chatbot_v2_beta.js`](https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/7-Assistants_API_v1_to_v2_beta_migration/TUI/tui_customer_support_chatbot_v2_beta.js))
 - Python TUI for the Code Interpreter tool (see [`tui_personal_math_tutor_v2_beta.py`](https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/7-Assistants_API_v1_to_v2_beta_migration/TUI/tui_personal_math_tutor_v2_beta.py))
 - Node.js TUI for the Code Interpreter tool (see [`tui_personal_math_tutor_v2_beta.js`](https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/7-Assistants_API_v1_to_v2_beta_migration/TUI/tui_personal_math_tutor_v2_beta.js))
-- Next.js GUI for the File Search tool and Code Interpreter tool (Coming soon... ✨)
+- Next.js GUI for the File Search tool and Code Interpreter tool (see [Next.js GUI](https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/7-Assistants_API_v1_to_v2_beta_migration/GUI/Next.js))
 - Streamlit GUI for the File Search tool and Code Interpreter tool (Coming soon... ✨)
 
 > [!NOTE]
@@ -17,25 +17,13 @@ Examples on how to migrate the OpenAI Assistants API `v1` to `v2` beta:
 > - TUI stands for _Text User Interface_
 > - GUI stands for _Graphical User Interface_
 
-<a href="https://github.com/Textualize/rich">rich</a> is used as a Python terminal formatter.
-
-```bash
-pip install rich
-```
-
-<a href="https://github.com/cronvel/terminal-kit">terminal-kit<a> is used as a Node.js terminal formatter.
-
-```bash
-npm install terminal-kit
-```
-
 <br>
 
 ## Python TUI working examples
 
 ### File Search tool
 
-If you run `tui_customer_support_chatbot_v2_beta.py`, you should be able to chat with the customer support chatbot assistant:
+If you run [`tui_customer_support_chatbot_v2_beta.py`](https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/7-Assistants_API_v1_to_v2_beta_migration/TUI/tui_customer_support_chatbot_v2_beta.py), you should be able to chat with the customer support chatbot assistant:
 
 > ai-playground\openai-tutorials\7-Assistants_API_v1_to_v2_beta_migration> python tui_customer_support_chatbot_v2_beta.py<br>
 > <br>
@@ -51,7 +39,7 @@ If you run `tui_customer_support_chatbot_v2_beta.py`, you should be able to chat
 
 ### Code Interpreter tool
 
-If you run `tui_personal_math_tutor_v2_beta.py`, you should be able to chat with the personal math tutor assistant:
+If you run [`tui_personal_math_tutor_v2_beta.py`](https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/7-Assistants_API_v1_to_v2_beta_migration/TUI/tui_personal_math_tutor_v2_beta.py), you should be able to chat with the personal math tutor assistant:
 
 > ai-playground\openai-tutorials\7-Assistants_API_v1_to_v2_beta_migration> python tui_personal_math_tutor_v2_beta.py<br>
 > <br>
@@ -77,7 +65,7 @@ Both Python examples were tested and worked in the following environment:
 
 ### File Search tool
 
-If you run `tui_customer_support_chatbot_v2_beta.js`, you should be able to chat with the customer support chatbot assistant:
+If you run [`tui_customer_support_chatbot_v2_beta.js`](https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/7-Assistants_API_v1_to_v2_beta_migration/TUI/tui_customer_support_chatbot_v2_beta.js), you should be able to chat with the customer support chatbot assistant:
 
 > ai-playground\openai-tutorials\7-Assistants_API_v1_to_v2_beta_migration> python tui_customer_support_chatbot_v2_beta.js<br>
 > <br>
@@ -93,7 +81,7 @@ If you run `tui_customer_support_chatbot_v2_beta.js`, you should be able to chat
 
 ### Code Interpreter tool
 
-If you run `tui_personal_math_tutor_v2_beta.js`, you should be able to chat with the personal math tutor assistant:
+If you run [`tui_personal_math_tutor_v2_beta.js`](https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/7-Assistants_API_v1_to_v2_beta_migration/TUI/tui_personal_math_tutor_v2_beta.js), you should be able to chat with the personal math tutor assistant:
 
 > ai-playground\openai-tutorials\7-Assistants_API_v1_to_v2_beta_migration> python tui_personal_math_tutor_v2_beta.js<br>
 > <br>
@@ -117,7 +105,46 @@ Both Node.js examples were tested and worked in the following environment:
 
 ## Next.js GUI example
 
-Coming soon... ✨
+### Short description
+
+Next.js GUI for the File Search tool (i.e., customer support chatbot assistant) and Code Interpreter tool (i.e., personal math tutor assistant).
+
+### Installation
+
+To start using the Next.js GUI, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/rokbenko/ai-playground.git`
+2. Change the directory: `cd ai-playground/openai-tutorials/7-Assistants_API_v1_to_v2_beta_migration/GUI/Next.js`
+3. Install the dependencies: `npm i`
+4. Edit the `.env` file to set up your environment variables
+5. Run the development server: `npm run dev`
+6. To view the application, navigate to [http://localhost:3000](http://localhost:3000)
+
+### Environment
+
+The app was tested and worked in the following environment:
+
+- Windows `10`
+- Node.js `21.2.0`
+
+### Tech stack
+
+| Technology              | Version    |
+| ----------------------- | ---------- |
+| OpenAI Node.js SDK      | `4.47.1`   |
+| Next.js                 | `14.2.3`   |
+| React                   | `^18`      |
+| TypeScript              | `^5`       |
+| ESLint                  | `^8`       |
+| Material UI for Next.js | `^5.15.11` |
+| SASS                    | `^1.77.2`  |
+| Tailwind CSS            | `^3.4.1`   |
+| React icons             | `^5.2.1`   |
+| Dotenv                  | `16.4.5`   |
+
+### Screenshot
+
+![Screenshot](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/7-Assistants_API_v1_to_v2_beta_migration/GUI/Next.js/screenshot.gif)
 
 <br>
 
