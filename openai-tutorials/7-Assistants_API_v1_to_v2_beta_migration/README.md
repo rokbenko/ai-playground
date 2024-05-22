@@ -120,6 +120,15 @@ To start using the Next.js GUI, follow these steps:
 5. Run the development server: `npm run dev`
 6. To view the application, navigate to [http://localhost:3000](http://localhost:3000)
 
+> [!NOTE]
+> Your `.env` file should contain the following three environment variables:
+>
+> ```bash
+> OPENAI_CUSTOMER_SUPPORT_CHATBOT_ASSISTANT_ID=asst_xxxxx
+> OPENAI_CUSTOMER_SUPPORT_CHATBOT_FILE_ID=file-xxxxx
+> OPENAI_PERSONAL_MATH_TUTOR_ASSISTANT_ID=asst_xxxxx
+> ```
+
 ### Environment
 
 The app was tested and worked in the following environment:
