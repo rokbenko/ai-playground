@@ -211,6 +211,34 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
 
 <br>
 
+## [Snowflake](https://www.snowflake.com/en/)
+
+<table>
+  <tr>
+    <th></th>
+    <th>Tutorial title</th>
+    <th>Tutorial description</th>
+    <th>Tech stack</th>
+    <th colspan="2">Links</th>
+  </tr>
+  <tr>
+    <td>#1</td>
+    <td>Snowflake Cortex LLM functions starter</td>
+    <td>Python example on how to use the Snowflake Cortex LLM functions</td>
+    <td>
+      <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
+    </td>
+    <td>
+      <a href="#">Coming soon... ✨</a>
+    </td>
+    <td>
+      <a href="#">Coming soon... ✨</a>
+    </td>
+  </tr>
+</table>
+
+<br>
+
 ## [LlamaIndex](https://www.llamaindex.ai/)
 
 <table>
@@ -309,34 +337,6 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
 
 <br>
 
-## [spaCy](https://spacy.io/)
-
-<table>
-  <tr>
-    <th></th>
-    <th>Tutorial title</th>
-    <th>Tutorial description</th>
-    <th>Tech stack</th>
-    <th colspan="2">Links</th>
-  </tr>
-  <tr>
-    <td>#1</td>
-    <td>Add a new entity label to NER</td>
-    <td>Jupyter Notebook example on how to add a new entity label to spaCy's default NER</td>
-    <td>
-      <img alt="Jupyter Notebook badge" src="https://img.shields.io/badge/Jupyter%20Notebook-%23202020?style=flat&logo=jupyter">
-    </td>
-    <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/spacy-tutorials/1-Add_new_entity_label_to_NER">GitHub</a>
-    </td>
-    <td>
-      <a href="https://youtu.be/W-0EOzFomO0">YouTube</a>
-    </td>
-  </tr>
-</table>
-
-<br>
-
 ## [Milvus](https://milvus.io/)
 
 <table>
@@ -391,6 +391,34 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     </td>
     <td>
       <a href="https://youtu.be/ySZp0rcGr4A">YouTube</a>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+## [spaCy](https://spacy.io/)
+
+<table>
+  <tr>
+    <th></th>
+    <th>Tutorial title</th>
+    <th>Tutorial description</th>
+    <th>Tech stack</th>
+    <th colspan="2">Links</th>
+  </tr>
+  <tr>
+    <td>#1</td>
+    <td>Add a new entity label to NER</td>
+    <td>Jupyter Notebook example on how to add a new entity label to spaCy's default NER</td>
+    <td>
+      <img alt="Jupyter Notebook badge" src="https://img.shields.io/badge/Jupyter%20Notebook-%23202020?style=flat&logo=jupyter">
+    </td>
+    <td>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/spacy-tutorials/1-Add_new_entity_label_to_NER">GitHub</a>
+    </td>
+    <td>
+      <a href="https://youtu.be/W-0EOzFomO0">YouTube</a>
     </td>
   </tr>
 </table>
