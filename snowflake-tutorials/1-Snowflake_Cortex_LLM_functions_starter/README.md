@@ -8,6 +8,15 @@ Python example on how to use the Snowflake Cortex LLM functions.
 
 ## Working example in Python
 
+> [!IMPORTANT]
+> Before you run `snowflake_cortex_llm.py`, add a `.env` file that should contain the following three environment variables:
+>
+> ```bash
+> SNOWFLAKE_ACCOUNT="xxxxxxx-xxxxxxx"
+> SNOWFLAKE_USER="xxxxx"
+> SNOWFLAKE_USER_PASSWORD="xxxxx"
+> ```
+
 If you run `snowflake_cortex_llm.py`, you should get an output:
 
 > Summarize() is experimental since 1.0.12. Do not use it in production.<br>
