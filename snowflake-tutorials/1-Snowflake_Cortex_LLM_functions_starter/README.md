@@ -53,4 +53,4 @@ Environment:
 
 - Windows `10`
 - Python `3.11.8`
-- [Snowflake Python API](https://pypi.org/project/snowflake/) `0.8.0`
+- [Snowflake Python SDK](https://pypi.org/project/snowflake/) `0.8.0`
