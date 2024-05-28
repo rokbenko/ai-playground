@@ -229,10 +229,10 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
     </td>
     <td>
-      <a href="#">Coming soon... ✨</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/snowflake-tutorials/1-Snowflake_Cortex_LLM_functions_starter">GitHub</a>
     </td>
     <td>
-      <a href="#">Coming soon... ✨</a>
+      <a href="https://youtu.be/3vCuoezBMEY">YouTube</a>
     </td>
   </tr>
 </table>
