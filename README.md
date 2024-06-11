@@ -13,18 +13,18 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
 <details>
   <summary>Table of contents</summary>
   
-  - [LLMs](https://github.com/rokbenko/ai-playground/edit/main/README.md#-llms-)<br>
-    - [OpenAI](https://github.com/rokbenko/ai-playground/edit/main/README.md#openai)<br>
-    - [Gemini](https://github.com/rokbenko/ai-playground/edit/main/README.md#gemini)<br>
-  - [Frameworks](https://github.com/rokbenko/ai-playground/edit/main/README.md#%EF%B8%8F-frameworks-%EF%B8%8F)<br>
-    - [LlamaIndex](https://github.com/rokbenko/ai-playground/edit/main/README.md#llamaindex)<br>
-    - [Fetch.ai](https://github.com/rokbenko/ai-playground/edit/main/README.md#fetchai)<br>
-  - [Cloud](https://github.com/rokbenko/ai-playground/edit/main/README.md#%EF%B8%8F-cloud-%EF%B8%8F)<br>
-    - [Snowflake](https://github.com/rokbenko/ai-playground/edit/main/README.md#snowflake)<br>
-  - [Vector databases](https://github.com/rokbenko/ai-playground/edit/main/README.md#%EF%B8%8F-vector-databases-%EF%B8%8F)<br>
-    - [Milvus](https://github.com/rokbenko/ai-playground/edit/main/README.md#milvus)<br>
-  - [NLP](https://github.com/rokbenko/ai-playground/edit/main/README.md#-nlp-)<br>
-    - [spaCy](https://github.com/rokbenko/ai-playground/edit/main/README.md#spacy)<br>
+  - [LLMs](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-llms-)<br>
+    - [OpenAI](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#openai)<br>
+    - [Gemini](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#gemini)<br>
+  - [Frameworks](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#%EF%B8%8F-frameworks-%EF%B8%8F)<br>
+    - [LlamaIndex](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#llamaindex)<br>
+    - [Fetch.ai](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#fetchai)<br>
+  - [Cloud](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#%EF%B8%8F-cloud-%EF%B8%8F)<br>
+    - [Snowflake](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#snowflake)<br>
+  - [Vector databases](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#%EF%B8%8F-vector-databases-%EF%B8%8F)<br>
+    - [Milvus](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#milvus)<br>
+  - [NLP](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-nlp-)<br>
+    - [spaCy](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#spacy)<br>
 </details>
 
 <br>
