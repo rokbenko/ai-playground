@@ -1,16 +1,35 @@
 <div align="center">
 
-# Code from tutorials presented on<br> the [Code AI with Rok](https://www.youtube.com/@CodeAIwithRok)<br> YouTube channel
+# Code from tutorials presented on<br> the [Code AI with Rok](https://www.youtube.com/@rokbenko?sub_confirmation=1)<br> YouTube channel
 
 Enjoying what you find in this repository? Your star ⭐ would be greatly appreciated!
 
-**Do you want to support me? 👉 <a href="https://www.patreon.com/rokbenko">Join my community</a>.**
+Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenko">community</a>.
 
 <br>
 
 </div>
 
+<details>
+  <summary>Table of contents</summary>
+  
+  - [LLMs](https://github.com/rokbenko/ai-playground/edit/main/README.md#-llms-)<br>
+    - [OpenAI](https://github.com/rokbenko/ai-playground/edit/main/README.md#openai)<br>
+    - [Gemini](https://github.com/rokbenko/ai-playground/edit/main/README.md#gemini)<br>
+  - [Frameworks](https://github.com/rokbenko/ai-playground/edit/main/README.md#%EF%B8%8F-frameworks-%EF%B8%8F)<br>
+    - [LlamaIndex](https://github.com/rokbenko/ai-playground/edit/main/README.md#llamaindex)<br>
+    - [Fetch.ai](https://github.com/rokbenko/ai-playground/edit/main/README.md#fetchai)<br>
+  - [Cloud](https://github.com/rokbenko/ai-playground/edit/main/README.md#%EF%B8%8F-cloud-%EF%B8%8F)<br>
+    - [Snowflake](https://github.com/rokbenko/ai-playground/edit/main/README.md#snowflake)<br>
+  - [Vector databases](https://github.com/rokbenko/ai-playground/edit/main/README.md#%EF%B8%8F-vector-databases-%EF%B8%8F)<br>
+    - [Milvus](https://github.com/rokbenko/ai-playground/edit/main/README.md#milvus)<br>
+  - [NLP](https://github.com/rokbenko/ai-playground/edit/main/README.md#-nlp-)<br>
+    - [spaCy](https://github.com/rokbenko/ai-playground/edit/main/README.md#spacy)<br>
+</details>
+
 <br>
+
+# 👾 LLMs 👾
 
 ## [OpenAI](https://openai.com/)
 
@@ -211,33 +230,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
 
 <br>
 
-## [Snowflake](https://www.snowflake.com/en/)
-
-<table>
-  <tr>
-    <th></th>
-    <th>Tutorial title</th>
-    <th>Tutorial description</th>
-    <th>Tech stack</th>
-    <th colspan="2">Links</th>
-  </tr>
-  <tr>
-    <td>#1</td>
-    <td>Snowflake Cortex LLM functions starter</td>
-    <td>Python example on how to use the Snowflake Cortex LLM functions</td>
-    <td>
-      <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
-    </td>
-    <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/snowflake-tutorials/1-Snowflake_Cortex_LLM_functions_starter">GitHub</a>
-    </td>
-    <td>
-      <a href="https://youtu.be/3vCuoezBMEY">YouTube</a>
-    </td>
-  </tr>
-</table>
-
-<br>
+# 🛠️ Frameworks 🛠️
 
 ## [LlamaIndex](https://www.llamaindex.ai/)
 
@@ -337,6 +330,38 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
 
 <br>
 
+# ☁️ Cloud ☁️
+
+## [Snowflake](https://www.snowflake.com/en/)
+
+<table>
+  <tr>
+    <th></th>
+    <th>Tutorial title</th>
+    <th>Tutorial description</th>
+    <th>Tech stack</th>
+    <th colspan="2">Links</th>
+  </tr>
+  <tr>
+    <td>#1</td>
+    <td>Snowflake Cortex LLM functions starter</td>
+    <td>Python example on how to use the Snowflake Cortex LLM functions</td>
+    <td>
+      <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
+    </td>
+    <td>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/snowflake-tutorials/1-Snowflake_Cortex_LLM_functions_starter">GitHub</a>
+    </td>
+    <td>
+      <a href="https://youtu.be/3vCuoezBMEY">YouTube</a>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+# 🗄️ Vector databases 🗄️
+
 ## [Milvus](https://milvus.io/)
 
 <table>
@@ -397,6 +422,8 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
 
 <br>
 
+# 🤖 NLP 🤖
+
 ## [spaCy](https://spacy.io/)
 
 <table>
@@ -425,13 +452,13 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
 
 <br>
 
-## ⭐ Star history
+# ⭐ Star history ⭐
 
 [![Star history chart](https://api.star-history.com/svg?repos=rokbenko/ai-playground&type=Date)](https://star-history.com/#rokbenko/ai-playground&Date)
 
 <br>
 
-## 🤝 Contributing
+# 🤝 Contributing 🤝
 
 Thank you for considering contributing to my repository. While I don't accept direct additions of tutorials, I warmly welcome contributions in the following forms:
 
@@ -450,6 +477,6 @@ I'll review your pull request and get back to you as soon as possible.
 
 <br>
 
-## 📄 License
+# 📄 License 📄
 
 This project is open source and available under the [MIT License](https://github.com/rokbenko/ai-playground/blob/main/LICENSE).
