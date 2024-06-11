@@ -360,7 +360,7 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
 
 <br>
 
-# 🗄️ Vector databases 🗄️
+# 🗃️ Vector databases 🗃️
 
 ## [Milvus](https://milvus.io/)
 
