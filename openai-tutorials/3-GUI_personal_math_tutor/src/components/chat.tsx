@@ -256,7 +256,7 @@ const Chat = () => {
                       </a>
                       <a
                         target="_blank"
-                        href="https://stackoverflow.com/users/10347145/rok-benko?tab=profile"
+                        href="https://stackoverflow.com/users/10347145/"
                         className="opacity-50 hover:opacity-100 duration-200"
                       >
                         <FaStackOverflow className="scale-75" />
@@ -270,7 +270,7 @@ const Chat = () => {
                       </a>
                       <a
                         target="_blank"
-                        href="https://www.youtube.com/@codewithrok"
+                        href="https://www.youtube.com/@rokbenko?sub_confirmation=1"
                         className="opacity-50 hover:opacity-100 duration-200"
                       >
                         <FaYoutube className="scale-75" />
