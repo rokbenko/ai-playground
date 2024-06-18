@@ -9,7 +9,7 @@ Examples on how to migrate the OpenAI Assistants API `v1` to `v2` beta:
 - Python TUI for the Code Interpreter tool (see [`tui_personal_math_tutor_v2_beta.py`](https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/7-Assistants_API_v1_to_v2_beta_migration/TUI/tui_personal_math_tutor_v2_beta.py))
 - Node.js TUI for the Code Interpreter tool (see [`tui_personal_math_tutor_v2_beta.js`](https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/7-Assistants_API_v1_to_v2_beta_migration/TUI/tui_personal_math_tutor_v2_beta.js))
 - Next.js GUI for the File Search tool and Code Interpreter tool (see [Next.js GUI](https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/7-Assistants_API_v1_to_v2_beta_migration/GUI/Next.js))
-- Streamlit GUI for the File Search tool and Code Interpreter tool (Coming soon... ✨)
+- Streamlit GUI for the File Search tool and Code Interpreter tool (see [Streamlit GUI](https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/7-Assistants_API_v1_to_v2_beta_migration/GUI/Streamlit))
 
 > [!NOTE]
 > For those unfamiliar with the terms "TUI" and "GUI":
@@ -116,9 +116,9 @@ To start using the Next.js GUI, follow these steps:
 1. Clone the repository: `git clone https://github.com/rokbenko/ai-playground.git`
 2. Change the directory: `cd ai-playground/openai-tutorials/7-Assistants_API_v1_to_v2_beta_migration/GUI/Next.js`
 3. Install the dependencies: `npm i`
-4. Edit the `.env` file to set up your environment variables
+4. Create an `.env` file to set up your environment variables
 5. Run the development server: `npm run dev`
-6. To view the application, navigate to [http://localhost:3000](http://localhost:3000)
+6. To view the app, navigate to [http://localhost:3000](http://localhost:3000)
 
 > [!NOTE]
 > Your `.env` file should contain the following three environment variables:
@@ -158,5 +158,45 @@ The app was tested and worked in the following environment:
 <br>
 
 ## Streamlit GUI example
+
+### Short description
+
+Streamlit GUI for the File Search tool (i.e., customer support chatbot assistant) and Code Interpreter tool (i.e., personal math tutor assistant).
+
+### Installation
+
+To start using the Streamlit GUI, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/rokbenko/ai-playground.git`
+2. Change the directory: `cd ai-playground/openai-tutorials/7-Assistants_API_v1_to_v2_beta_migration/GUI/Streamlit`
+3. Create a `.streamlit` folder and inside it create a `secrets.toml` file to set up your environment variables
+4. Run the app: `streamlit run 1_Select_an_OpenAI_assistant_to_chat_with.py`
+5. To view the app, navigate to [http://localhost:8501](http://localhost:8501)
+
+> [!NOTE]
+> Your `secrets.toml` file should contain the following four environment variables:
+>
+> ```bash
+> OPENAI_API_KEY="sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+> OPENAI_CUSTOMER_SUPPORT_CHATBOT_ASSISTANT_ID="asst_xxxxx"
+> OPENAI_CUSTOMER_SUPPORT_CHATBOT_FILE_ID="file-xxxxx"
+> OPENAI_PERSONAL_MATH_TUTOR_ASSISTANT_ID="asst_xxxxx"
+> ```
+
+### Environment
+
+The app was tested and worked in the following environment:
+
+- Windows `10`
+- Python `3.11.8`
+
+### Tech stack
+
+| Technology              | Version    |
+| ----------------------- | ---------- |
+| OpenAI Python SDK       | `1.34.0`   |
+| Streamlit               | `1.35.0`   |
+
+### Screenshot
 
 Coming soon... ✨
