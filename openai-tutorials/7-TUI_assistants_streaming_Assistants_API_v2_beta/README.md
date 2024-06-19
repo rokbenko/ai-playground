@@ -11,6 +11,15 @@ There are four examples:
 - Python TUI for the File Search tool (see [`tui_customer_support_chatbot_v2_beta.py`](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/7-TUI_assistants_streaming_Assistants_API_v2_beta/tui_customer_support_chatbot_v2_beta.py))
 - Node.js TUI for the File Search tool (see [`tui_customer_support_chatbot_v2_beta.js`](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/7-TUI_assistants_streaming_Assistants_API_v2_beta/tui_customer_support_chatbot_v2_beta.js))
 
+> [!IMPORTANT]
+> Before you run any scripts, create an `.env` file to set up your environment variables. Your `.env` file should contain the following three environment variables:
+>
+> ```bash
+> OPENAI_CUSTOMER_SUPPORT_CHATBOT_ASSISTANT_ID=asst_xxxxx
+> OPENAI_CUSTOMER_SUPPORT_CHATBOT_FILE_ID=file-xxxxx
+> OPENAI_PERSONAL_MATH_TUTOR_ASSISTANT_ID=asst_xxxxx
+> ```
+
 > [!NOTE]
 > The code in this tutorial works with the [OpenAI Assistants API `v2` beta](https://platform.openai.com/docs/api-reference/assistants).
 
