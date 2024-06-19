@@ -11,7 +11,7 @@ Next.js GUI for the personal math tutor and customer support chatbot with respon
 
 ## Installation
 
-To start using the Next.js app, follow these steps:
+To start using the app, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/rokbenko/ai-playground.git`
 2. Change the directory: `cd ai-playground/openai-tutorials/8-GUI_Nextjs_assistants_streaming_Assistants_API_v2_beta`
@@ -20,7 +20,7 @@ To start using the Next.js app, follow these steps:
 5. Run the development server: `npm run dev`
 6. To view the app, navigate to [http://localhost:3000](http://localhost:3000)
 
-> [!NOTE]
+> [!IMPORTANT]
 > Your `.env` file should contain the following three environment variables:
 >
 > ```bash
