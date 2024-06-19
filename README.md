@@ -154,23 +154,50 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
   </tr>
   <tr>
     <td>#7</td>
-    <td>Assistants API <code>v1</code> to <code>v2</code> beta migration</td>
     <td>
-      Examples on how to migrate the OpenAI Assistants API <code>v1</code> to <code>v2</code> beta:<br>
-      <ul>
-        <li>Python TUI for the File Search tool</li>
-        <li>Node.js TUI for the File Search tool</li>
-        <li>Python TUI for the Code Interpreter tool</li>
-        <li>Node.js TUI for the Code Interpreter tool</li>
-        <li>Next.js GUI for the File Search tool and Code Interpreter tool</li>
-        <li>Streamlit GUI for the File Search tool and Code Interpreter tool</li>
-      </ul>
+      TUI for assistants with response streaming*<br>
+      <sup>*Assistants API <code>v2</code> beta</sup>
     </td>
+    <td>Python and Node.js TUIs for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/2-Build_personal_math_tutor">#2 Build a personal math tutor</a> and <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_customer_support_chatbot">#4 Build a customer support chatbot</a> tutorials with response streaming</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
       <img alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-%23202020?style=flat&logo=javascript">
       <img alt="Node.js badge" src="https://img.shields.io/badge/Node.js-%23202020?style=flat&logo=nodedotjs">
+    </td>
+    <td>
+      <a href="#">Coming soon... ✨</a>
+    </td>
+    <td>
+      <a href="#">Coming soon... ✨</a>
+    </td>
+  </tr>
+  <tr>
+    <td>#8</td>
+    <td>
+      Next.js GUI for assistants with response streaming*<br>
+      <sup>*Assistants API <code>v2</code> beta</sup>
+    </td>
+    <td>Next.js GUI for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/2-Build_personal_math_tutor">#2 Build a personal math tutor</a> and <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_customer_support_chatbot">#4 Build a customer support chatbot</a> tutorials with response streaming</td>
+    <td>
       <img alt="Next.js badge" src="https://img.shields.io/badge/Next.js-%23202020?style=flat&logo=nextdotjs">
+      <img alt="Tailwind CSS badge" src="https://img.shields.io/badge/Tailwind%20CSS-%23202020?style=flat&logo=tailwindcss">
+      <img alt="Material UI badge" src="https://img.shields.io/badge/Material%20UI-%23202020?style=flat&logo=mui">
+    </td>
+    <td>
+      <a href="#">Coming soon... ✨</a>
+    </td>
+    <td>
+      <a href="#">Coming soon... ✨</a>
+    </td>
+  </tr>
+  <tr>
+    <td>#9</td>
+    <td>
+      Streamlit GUI for assistants with response streaming*<br>
+      <sup>*Assistants API <code>v2</code> beta</sup>
+    </td>
+    <td>Streamlit GUI for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/2-Build_personal_math_tutor">#2 Build a personal math tutor</a> and <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_customer_support_chatbot">#4 Build a customer support chatbot</a> tutorials with response streaming</td>
+    <td>
       <img alt="Streamlit badge" src="https://img.shields.io/badge/Streamlit-%23202020?style=flat&logo=streamlit">
     </td>
     <td>
