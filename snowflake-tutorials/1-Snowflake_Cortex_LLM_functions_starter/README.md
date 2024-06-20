@@ -54,3 +54,4 @@ Environment:
 - Windows `10`
 - Python `3.11.8`
 - [Snowflake Python SDK](https://pypi.org/project/snowflake/) `0.8.0`
+- Dotenv `1.0.1`
