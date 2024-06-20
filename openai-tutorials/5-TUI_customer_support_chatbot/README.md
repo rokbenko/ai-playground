@@ -4,18 +4,6 @@
 
 Python and Node.js TUIs for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_customer_support_chatbot">#4 Build a customer support chatbot</a> tutorial.
 
-<a href="https://github.com/Textualize/rich">rich</a> is used as a Python terminal formatter.
-
-```bash
-pip install rich
-```
-
-<a href="https://github.com/cronvel/terminal-kit">terminal-kit<a> is used as a Node.js terminal formatter.
-
-```bash
-npm install terminal-kit
-```
-
 > [!WARNING]
 > The assistant might sometimes behave strangely. The Assistants API is still in beta, and it seems that OpenAI has trouble keeping it realiable, as discussed on the official <a href="https://community.openai.com/t/assistant-not-able-to-access-uploaded-file/524495/1">OpenAI forum</a>.
 > <br><br>
@@ -48,6 +36,7 @@ Environment:
 - Windows `10`
 - Python `3.12.1`
 - OpenAI Python SDK `1.12.0`
+- Rich `13.7.0`
 - Dotenv `1.0.1`
 
 <br>
@@ -69,4 +58,5 @@ Environment:
 - Windows `10`
 - Node.js `21.2.0`
 - OpenAI Node.js SDK `4.28.0`
+- Terminal Kit `3.0.1`
 - Dotenv `16.3.1`
