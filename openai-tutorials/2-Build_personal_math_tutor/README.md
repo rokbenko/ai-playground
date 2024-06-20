@@ -1,15 +1,17 @@
 # #2 Build a personal math tutor
 
-## Short description
+<br>
+
+## 📖 Short description 📖
 
 Python and Node.js examples on how to build a personal math tutor with the OpenAI Assistants API `v1` beta using the Code Interpreter tool.
 
-> [!IMPORTANT]
+> [!NOTE]
 > The code in this tutorial works with the [OpenAI Assistants API `v1` beta](https://platform.openai.com/docs/api-reference/assistants-v1). In April 2024, the [OpenAI Assistants API `v2` beta](https://platform.openai.com/docs/api-reference/assistants) was released. See the [migration guide](https://platform.openai.com/docs/assistants/migration/agents).
 
 <br>
 
-## Working example in Python
+## 🔥 Working example in Python 🔥
 
 If you run `personal_math_tutor.py`, you should get the following response:
 
@@ -66,15 +68,20 @@ If you run `personal_math_tutor.py`, you should get the following response:
 > User: I need to solve the equation `3x + 11 = 14`. Can you help me? <br>
 > Assistant: The solution to the equation `3x + 11 = 14` is `x = 1`, Rok Benko.
 
-Environment:
+### ⚒️ Tech stack ⚒️
+
+OS:
 
 - Windows `10`
-- Python `3.10.1`
-- OpenAI Python SDK `1.1.1`
+
+Dependencies:
+
+- [Python](https://www.python.org/) `3.10.1`
+- [OpenAI Python API SDK](https://pypi.org/project/openai/) `1.1.1`
 
 <br>
 
-## Working example in Node.js
+## 🔥 Working example in Node.js 🔥
 
 If you run `personal_math_tutor.js`, you should get the following response:
 
@@ -160,8 +167,13 @@ If you run `personal_math_tutor.js`, you should get the following response:
 >
 > So, the solution to your equation `3x + 11 = 14` is `x = 1`.
 
-Environment:
+### ⚒️ Tech stack ⚒️
+
+OS:
 
 - Windows `10`
-- Node.js `20.9.0`
-- OpenAI Node.js SDK `4.17.0`
+
+Dependencies:
+
+- [Node.js](https://nodejs.org/en) `20.9.0`
+- [OpenAI Node.js API SDK](https://www.npmjs.com/package/openai) `4.17.0`
