@@ -37,7 +37,7 @@ Environment:
 - Python `3.12.1`
 - OpenAI Python SDK `1.12.0`
 - Rich `13.7.0`
-- Dotenv `1.0.1`
+- Dotenv `0.21.1`
 
 <br>
 
@@ -59,4 +59,4 @@ Environment:
 - Node.js `21.2.0`
 - OpenAI Node.js SDK `4.28.0`
 - Terminal Kit `3.0.1`
-- Dotenv `16.3.1`
+- Dotenv `16.4.3`
