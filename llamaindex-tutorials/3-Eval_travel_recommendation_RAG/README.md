@@ -16,3 +16,4 @@ Environment:
 - Python `3.11.8`
 - Streamlit Python SDK `1.31.1`
 - LlamaIndex Python SDK `0.10.12`
+- Pandas `2.2.0`
