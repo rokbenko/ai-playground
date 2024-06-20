@@ -1,12 +1,14 @@
 # #1 Get response in JSON format
 
-## Short description
+<br>
+
+## 📖 Short description 📖
 
 Python and Node.js examples on how to get a JSON response.
 
 <br>
 
-## Working example in Python
+## 🔥 Working example in Python 🔥
 
 If you run `return_json.py`, you should get the following response:
 
@@ -14,15 +16,20 @@ If you run `return_json.py`, you should get the following response:
 > }<br>
 > True
 
-Environment:
+### ⚒️ Tech stack ⚒️
+
+#### OS
 
 - Windows `10`
-- Python `3.10.1`
-- OpenAI Python SDK `1.1.1`
+
+#### Dependencies
+  
+- [Python](https://www.python.org/) `3.10.1`
+- [OpenAI Python API SDK](https://pypi.org/project/openai/) `1.1.1`
 
 <br>
 
-## Working example in Node.js
+## 🔥 Working example in Node.js 🔥
 
 If you run `return_json.js`, you should get the following response:
 
@@ -30,8 +37,13 @@ If you run `return_json.js`, you should get the following response:
 > }<br>
 > true
 
-Environment:
+### ⚒️ Tech stack ⚒️
+
+#### OS
 
 - Windows `10`
-- Node.js `20.9.0`
-- OpenAI Node.js SDK `4.16.1`
+
+#### Dependencies
+
+- [Node.js](https://nodejs.org/en) `20.9.0`
+- [OpenAI Node.js API SDK](https://www.npmjs.com/package/openai) `4.16.1`
