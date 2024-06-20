@@ -48,6 +48,7 @@ Environment:
 - Windows `10`
 - Python `3.12.1`
 - OpenAI Python SDK `1.12.0`
+- Dotenv `1.0.1`
 
 <br>
 
@@ -68,3 +69,4 @@ Environment:
 - Windows `10`
 - Node.js `21.2.0`
 - OpenAI Node.js SDK `4.28.0`
+- Dotenv `16.3.1`
