@@ -73,3 +73,4 @@ Environment:
 - Windows `10`
 - Python `3.12.1`
 - Milvus Python SDK `2.3.6`
+- spaCy Python SDK `3.7.4`
