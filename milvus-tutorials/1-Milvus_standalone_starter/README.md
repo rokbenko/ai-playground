@@ -1,27 +1,34 @@
 # #1 Milvus Standalone starter
 
-## Short description
+<br>
+
+## 📖 Description 📖
 
 Python and Node.js examples on how to install Milvus Standalone using Docker, connect to a Milvus server and list all collections.
 
 <br>
 
-## Working example in Python
+## 🔥 Working example in Python 🔥
 
 If you run `milvus_standalone.py`, you should get the following response:
 
 > List all collections: <br>
 > []
 
-Environment:
+### ⚒️ Tech stack ⚒️
+
+OS:
 
 - Windows `10`
-- Python `3.12.1`
-- Milvus Python SDK `2.3.6`
+
+Dependencies:
+
+- [Python](https://www.python.org/) `3.12.1`
+- [Milvus Python SDK](https://pypi.org/project/pymilvus/) `2.3.6`
 
 <br>
 
-## Working example in Node.js
+## 🔥 Working example in Node.js 🔥
 
 If you run `milvus_standalone.js`, you should get the following response:
 
@@ -43,8 +50,13 @@ If you run `milvus_standalone.js`, you should get the following response:
 > &nbsp;&nbsp;&nbsp;&nbsp;data: [] <br>
 > }
 
-Environment:
+### ⚒️ Tech stack ⚒️
+
+OS:
 
 - Windows `10`
-- Node.js `21.2.0`
-- Milvus Node.js SDK `2.3.5`
+
+Dependencies:
+
+- [Node.js](https://nodejs.org/en) `21.2.0`
+- [Milvus Node.js SDK](https://www.npmjs.com/package/@zilliz/milvus2-sdk-node) `2.3.5`
