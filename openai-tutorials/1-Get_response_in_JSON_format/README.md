@@ -2,7 +2,7 @@
 
 <br>
 
-## 📖 Short description 📖
+## 📖 Description 📖
 
 Python and Node.js examples on how to get a JSON response using the OpenAI Chat Completions API.
 
