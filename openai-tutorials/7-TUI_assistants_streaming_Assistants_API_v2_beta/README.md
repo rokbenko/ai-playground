@@ -8,10 +8,10 @@ Python and Node.js TUIs for the personal math tutor and customer support chatbot
 
 There are four examples:
 
-- Python TUI for the Code Interpreter tool (see [`tui_personal_math_tutor_v2_beta.py`](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/7-TUI_assistants_streaming_Assistants_API_v2_beta/tui_personal_math_tutor_v2_beta.py))
-- Node.js TUI for the Code Interpreter tool (see [`tui_personal_math_tutor_v2_beta.js`](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/7-TUI_assistants_streaming_Assistants_API_v2_beta/tui_personal_math_tutor_v2_beta.js))
-- Python TUI for the File Search tool (see [`tui_customer_support_chatbot_v2_beta.py`](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/7-TUI_assistants_streaming_Assistants_API_v2_beta/tui_customer_support_chatbot_v2_beta.py))
-- Node.js TUI for the File Search tool (see [`tui_customer_support_chatbot_v2_beta.js`](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/7-TUI_assistants_streaming_Assistants_API_v2_beta/tui_customer_support_chatbot_v2_beta.js))
+- Python TUI for the Code Interpreter tool (see [`tui_personal_math_tutor_v2_beta.py`](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/7-TUI_assistants_streaming_Assistants_API_v2_beta/tui_personal_math_tutor_v2_beta.py)),
+- Node.js TUI for the Code Interpreter tool (see [`tui_personal_math_tutor_v2_beta.js`](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/7-TUI_assistants_streaming_Assistants_API_v2_beta/tui_personal_math_tutor_v2_beta.js)),
+- Python TUI for the File Search tool (see [`tui_customer_support_chatbot_v2_beta.py`](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/7-TUI_assistants_streaming_Assistants_API_v2_beta/tui_customer_support_chatbot_v2_beta.py)), and
+- Node.js TUI for the File Search tool (see [`tui_customer_support_chatbot_v2_beta.js`](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/7-TUI_assistants_streaming_Assistants_API_v2_beta/tui_customer_support_chatbot_v2_beta.js)).
 
 > [!IMPORTANT]
 > Before you run any scripts, create an `.env` file to set up your environment variables.
