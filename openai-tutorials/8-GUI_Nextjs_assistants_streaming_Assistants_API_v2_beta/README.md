@@ -1,6 +1,8 @@
-# #8 Next.js graphical user interface for OpenAI assistants with response streaming using the OpenAI Assistants API `v2` beta
+# #8 Next.js GUI for assistants with response streaming using the OpenAI Assistants API `v2` beta
 
-## Short description
+<br>
+
+## 📖 Description 📖
 
 Next.js GUI for the personal math tutor and customer support chatbot with response streaming. Both assistants were built in previous tutorials (see [#2 Build a personal math tutor](https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/2-Build_personal_math_tutor) and [#4 Build a customer support chatbot](https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_customer_support_chatbot)). The personal math tutor is using the Code Interpreter tool, while the customer support chatbot is using the File Search tool.
 
@@ -9,7 +11,7 @@ Next.js GUI for the personal math tutor and customer support chatbot with respon
 
 <br>
 
-## Installation
+## 🚀 Installation 🚀
 
 To start using the app, follow these steps:
 
@@ -21,42 +23,38 @@ To start using the app, follow these steps:
 6. To view the app, navigate to [http://localhost:3000](http://localhost:3000)
 
 > [!IMPORTANT]
-> Your `.env` file should contain the following three environment variables:
+> Your `.env` file should contain the following environment variables:
 >
 > ```bash
-> OPENAI_CUSTOMER_SUPPORT_CHATBOT_ASSISTANT_ID=asst_xxxxx
-> OPENAI_CUSTOMER_SUPPORT_CHATBOT_FILE_ID=file-xxxxx
-> OPENAI_PERSONAL_MATH_TUTOR_ASSISTANT_ID=asst_xxxxx
+> OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxx
+> OPENAI_CUSTOMER_SUPPORT_CHATBOT_ASSISTANT_ID=asst_xxxxxxxxxxxxxxxxxxxxxxxxx
+> OPENAI_CUSTOMER_SUPPORT_CHATBOT_FILE_ID=file-xxxxxxxxxxxxxxxxxxxxxxxxx
+> OPENAI_PERSONAL_MATH_TUTOR_ASSISTANT_ID=asst_xxxxxxxxxxxxxxxxxxxxxxxxx
 > ```
 
 <br>
 
-## Environment
+## ⚒️ Tech stack ⚒️
 
-The app was tested and worked in the following environment:
+OS:
 
 - Windows `10`
-- Node.js `21.2.0`
+
+Dependencies:
+
+- [OpenAI Node.js API SDK](https://www.npmjs.com/package/openai) `4.47.1`
+- [Next.js](https://www.npmjs.com/package/next) `14.2.3`
+- [React](https://www.npmjs.com/package/react) `^18`
+- [TypeScript](https://www.npmjs.com/package/typescript) `^5`
+- [Tailwind CSS](https://www.npmjs.com/package/tailwindcss) `^3.4.1`
+- [Material UI Next.js](https://www.npmjs.com/package/@mui/material-nextjs) `^5.15.11`
+- [SASS](https://www.npmjs.com/package/sass) `^1.77.2`
+- [React Icons](https://www.npmjs.com/package/react-icons) `^5.2.1`
+- [ESLint](https://www.npmjs.com/package/eslint) `^8`
+- [Dotenv](https://www.npmjs.com/package/dotenv) `16.4.5`
 
 <br>
 
-## Tech stack
-
-| Technology              | Version    |
-| ----------------------- | ---------- |
-| OpenAI Node.js SDK      | `4.47.1`   |
-| Next.js                 | `14.2.3`   |
-| React                   | `^18`      |
-| TypeScript              | `^5`       |
-| ESLint                  | `^8`       |
-| Material UI for Next.js | `^5.15.11` |
-| SASS                    | `^1.77.2`  |
-| Tailwind CSS            | `^3.4.1`   |
-| React icons             | `^5.2.1`   |
-| Dotenv                  | `16.4.5`   |
-
-<br>
-
-## Screenshot
+## 📽️ Demonstration 📽️
 
 Coming soon... ✨
