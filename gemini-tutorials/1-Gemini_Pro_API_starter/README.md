@@ -1,26 +1,33 @@
 # #1 Gemini Pro API starter
 
-## Short description
+<br>
+
+## 📖 Description 📖
 
 Python and Node.js examples on how to use the Gemini Pro API.
 
 <br>
 
-## Working example in Python
+## 🔥 Working example in Python 🔥
 
 If you run `gemini_pro.py`, you should get a response:
 
 > Hello! I'm Happy to Chat!
 
-Environment:
+### ⚒️ Tech stack ⚒️
+
+OS:
 
 - Windows `10`
-- Python `3.10.1`
-- Google Generative AI Python SDK `0.3.1`
+
+Dependencies:
+
+- [Python](https://www.python.org/) `3.10.1`
+- [Google Generative AI Python API SDK](https://pypi.org/project/google-generativeai/) `0.3.1`
 
 <br>
 
-## Working example in Node.js
+## 🔥 Working example in Node.js 🔥
 
 If you run `gemini_pro.js`, you should get a response:
 
@@ -31,8 +38,13 @@ If you run `gemini_pro.js`, you should get a response:
 world and discover new things.<br><br>
 > So, what can I help you with today?
 
-Environment:
+### ⚒️ Tech stack ⚒️
+
+OS:
 
 - Windows `10`
-- Node.js `21.2.0`
-- Google Generative AI Node.js SDK `0.1.1`
+
+Dependencies:
+
+- [Node.js](https://nodejs.org/en) `21.2.0`
+- [Google Generative AI Node.js API SDK](https://www.npmjs.com/package/@google/generative-ai) `0.1.1`
