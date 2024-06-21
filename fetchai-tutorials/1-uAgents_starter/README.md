@@ -1,6 +1,8 @@
 # #1 uAgents starter
 
-## Short description
+<br>
+
+## 📖 Description 📖
 
 Python examples on how to:
 
@@ -11,7 +13,7 @@ Python examples on how to:
 
 <br>
 
-## Working examples in Python
+## 🔥 Working examples in Python 🔥
 
 If you run `alice.py`, you should get the following response:
 
@@ -49,8 +51,13 @@ If you run `alice_storage.py`, you should get the following response:
 
 <br>
 
-Environment:
+## ⚒️ Tech stack ⚒️
+
+OS:
 
 - Windows `10`
-- Python `3.11.8`
-- uAgents Python SDK `0.11.0`
+
+Dependencies:
+
+- [Python](https://www.python.org/) `3.11.8`
+- [uAgents Python SDK](https://pypi.org/project/uagents/) `0.11.0`
