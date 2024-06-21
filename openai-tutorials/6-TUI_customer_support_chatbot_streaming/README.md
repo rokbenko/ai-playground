@@ -13,7 +13,7 @@ Python and Node.js TUIs for the <a href="https://github.com/rokbenko/ai-playgrou
 
 ## 🔥 Working example in Python 🔥
 
-If you run `tui_customer_support_chatbot_streaming.py`, you should be able to chat with a customer support chatbot in a terminal and receive its responses in a **streaming(!)** way:
+If you run `tui_customer_support_chatbot_streaming.py`, you should be able to chat with the customer support chatbot in a terminal and receive its responses in a **streaming(!)** way:
 
 > User: What can I buy in your online store?
 > <br><br>
@@ -40,7 +40,7 @@ Dependencies:
 
 ## 🔥 Working example in Node.js 🔥
 
-If you run `tui_customer_support_chatbot_streaming.js`, you should be able to chat with a customer support chatbot in a terminal and receive its responses in a **streaming(!)** way:
+If you run `tui_customer_support_chatbot_streaming.js`, you should be able to chat with the customer support chatbot in a terminal and receive its responses in a **streaming(!)** way:
 
 > User: What can I buy in your online store?
 > <br><br>
