@@ -37,8 +37,8 @@ OS:
 Dependencies:
 
 - [Python](https://www.python.org/) `3.11.8`
-- [LlamaIndex Python SDK](https://pypi.org/project/llama-index/) `0.10.12`
 - [Streamlit](https://pypi.org/project/streamlit/) `1.31.1`
+- [LlamaIndex Python SDK](https://pypi.org/project/llama-index/) `0.10.12`
 
 <br>
 
