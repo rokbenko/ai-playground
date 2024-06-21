@@ -2,7 +2,7 @@
 
 <br>
 
-## 📖 Short description 📖
+## 📖 Description 📖
 
 Python and Node.js examples on how to build a personal math tutor with the OpenAI Assistants API `v1` beta using the Code Interpreter tool.
 
