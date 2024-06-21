@@ -1,12 +1,14 @@
 # #3 Text similarity search
 
-## Short description
+<br>
+
+## 📖 Description 📖
 
 Python example on how to do text similarity search with Milvus (_Note: input vector is calculated with spaCy_).
 
 <br>
 
-## Collection info
+## ℹ️ Collection info ℹ️
 
 The _Movies_ collection had the following data:
 
@@ -25,7 +27,7 @@ The _Movies_ collection had the following data:
 
 <br>
 
-## Working example in Python
+## 🔥 Working example in Python 🔥
 
 Run `text_similarity_search.py`.
 
@@ -68,9 +70,14 @@ You should get the following response:
 
 <br>
 
-Environment:
+## ⚒️ Tech stack ⚒️
+
+OS:
 
 - Windows `10`
-- Python `3.12.1`
-- Milvus Python SDK `2.3.6`
-- spaCy Python SDK `3.7.4`
+
+Dependencies:
+
+- [Python](https://www.python.org/) `3.12.1`
+- [Milvus Python SDK](https://pypi.org/project/pymilvus/) `2.3.6`
+- [spaCy Python SDK](https://pypi.org/project/spacy/) `3.7.4`
