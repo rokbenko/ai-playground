@@ -44,7 +44,7 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
   <tr>
     <td>#1</td>
     <td>Get response in JSON format</td>
-    <td>Python and Node.js examples on how to get a JSON response</td>
+    <td>Python and Node.js examples on how to get a JSON response using the OpenAI Chat Completions API</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
       <img alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-%23202020?style=flat&logo=javascript">
