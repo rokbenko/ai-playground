@@ -1,6 +1,8 @@
-# #9 Streamlit graphical user interface for OpenAI assistants with response streaming using the OpenAI Assistants API `v2` beta
+# #9 Streamlit GUI for assistants with response streaming using the OpenAI Assistants API `v2` beta
 
-## Short description
+<br>
+
+## 📖 Description 📖
 
 Streamlit GUI for the personal math tutor and customer support chatbot with response streaming. Both assistants were built in previous tutorials (see [#2 Build a personal math tutor](https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/2-Build_personal_math_tutor) and [#4 Build a customer support chatbot](https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_customer_support_chatbot)). The personal math tutor is using the Code Interpreter tool, while the customer support chatbot is using the File Search tool.
 
@@ -9,7 +11,7 @@ Streamlit GUI for the personal math tutor and customer support chatbot with resp
 
 <br>
 
-## Installation
+## 🚀 Installation 🚀
 
 To start using the app, follow these steps:
 
@@ -20,35 +22,31 @@ To start using the app, follow these steps:
 5. To view the app, navigate to [http://localhost:8501](http://localhost:8501)
 
 > [!IMPORTANT]
-> Your `secrets.toml` file should contain the following four environment variables:
+> Your `secrets.toml` file should contain the following environment variables:
 >
 > ```bash
-> OPENAI_API_KEY="sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-> OPENAI_CUSTOMER_SUPPORT_CHATBOT_ASSISTANT_ID="asst_xxxxx"
-> OPENAI_CUSTOMER_SUPPORT_CHATBOT_FILE_ID="file-xxxxx"
-> OPENAI_PERSONAL_MATH_TUTOR_ASSISTANT_ID="asst_xxxxx"
+> OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxx
+> OPENAI_CUSTOMER_SUPPORT_CHATBOT_ASSISTANT_ID=asst_xxxxxxxxxxxxxxxxxxxxxxxxx
+> OPENAI_CUSTOMER_SUPPORT_CHATBOT_FILE_ID=file-xxxxxxxxxxxxxxxxxxxxxxxxx
+> OPENAI_PERSONAL_MATH_TUTOR_ASSISTANT_ID=asst_xxxxxxxxxxxxxxxxxxxxxxxxx
 > ```
 
 <br>
 
-## Environment
+## ⚒️ Tech stack ⚒️
 
-The app was tested and worked in the following environment:
+OS:
 
 - Windows `10`
-- Python `3.11.8`
+
+Dependencies:
+
+- [OpenAI Python API SDK](https://pypi.org/project/openai/) `1.34.0`
+- [Python](https://www.python.org/) `3.11.8`
+- [Streamlit](https://pypi.org/project/streamlit/) `1.36.0`
 
 <br>
 
-## Tech stack
-
-| Technology        | Version  |
-| ----------------- | -------- |
-| OpenAI Python SDK | `1.34.0` |
-| Streamlit         | `1.35.0` |
-
-<br>
-
-## Screenshot
+## 📽️ Demonstration 📽️
 
 Coming soon... ✨
