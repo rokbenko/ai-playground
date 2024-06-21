@@ -6,10 +6,10 @@
 
 Python examples on how to:
 
-- create an agent with a startup task (see `alice.py`),
-- create an agent with an interval task (see `alice_interval_task.py`),
-- create an agent and get its address (see `alice_address.py`), and
-- create a stateful agent (see `alice_storage.py`).
+- create an agent with a startup task (see [`alice.py`](https://github.com/rokbenko/ai-playground/blob/main/fetchai-tutorials/1-uAgents_starter/alice.py)),
+- create an agent with an interval task (see [`alice_interval_task.py`](https://github.com/rokbenko/ai-playground/blob/main/fetchai-tutorials/1-uAgents_starter/alice_interval_task.py)),
+- create an agent and get its address (see [`alice_address.py`](https://github.com/rokbenko/ai-playground/blob/main/fetchai-tutorials/1-uAgents_starter/alice_address.py)), and
+- create a stateful agent (see [`alice_storage.py`](https://github.com/rokbenko/ai-playground/blob/main/fetchai-tutorials/1-uAgents_starter/alice_storage.py)).
 
 <br>
 
