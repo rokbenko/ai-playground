@@ -4,7 +4,7 @@
 
 ## 📖 Short description 📖
 
-Python and Node.js examples on how to get a JSON response.
+Python and Node.js examples on how to get a JSON response using the OpenAI Chat Completions API.
 
 <br>
 
