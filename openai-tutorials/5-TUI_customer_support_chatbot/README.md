@@ -1,6 +1,8 @@
-# #5 Terminal user interface for a customer support chatbot
+# #5 Python and Node.js TUIs for a customer support chatbot
 
-## Short description
+<br>
+
+## 📖 Description 📖
 
 Python and Node.js TUIs for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_customer_support_chatbot">#4 Build a customer support chatbot</a> tutorial.
 
@@ -17,9 +19,12 @@ Python and Node.js TUIs for the <a href="https://github.com/rokbenko/ai-playgrou
 > - _Assistant: I currently don't have visibility into the specific contents of the file you've uploaded. Could you provide more details about the file or its contents so that I can assist you further?_
 > - _Assistant: I see you've uploaded a file. How can I assist you with it?_
 
+> [!NOTE]
+> The code in this tutorial works with the [OpenAI Assistants API `v1` beta](https://platform.openai.com/docs/api-reference/assistants-v1). In April 2024, the [OpenAI Assistants API `v2` beta](https://platform.openai.com/docs/api-reference/assistants) was released. See the [migration guide](https://platform.openai.com/docs/assistants/migration/agents).
+
 <br>
 
-## Working example in Python
+## 🔥 Working example in Python 🔥
 
 If you run `tui_customer_support_chatbot.py`, you should be able to chat with a customer support chatbot in a terminal:
 
@@ -31,17 +36,22 @@ If you run `tui_customer_support_chatbot.py`, you should be able to chat with a 
 > <br><br>
 > Assistant: Have a nice day! 👋
 
-Environment:
+### ⚒️ Tech stack ⚒️
+
+OS:
 
 - Windows `10`
-- Python `3.12.1`
-- OpenAI Python SDK `1.12.0`
-- Rich `13.7.0`
-- Dotenv `1.0.1`
+
+Dependencies:
+
+- [Python](https://www.python.org/) `3.12.1`
+- [OpenAI Python API SDK](https://pypi.org/project/openai/) `1.12.0`
+- [Rich](https://pypi.org/project/rich/) `13.7.0`
+- [Dotenv](https://pypi.org/project/python-dotenv/) `1.0.1`
 
 <br>
 
-## Working example in Node.js
+## 🔥 Working example in Node.js 🔥
 
 If you run `tui_customer_support_chatbot.js`, you should be able to chat with a customer support chatbot in a terminal:
 
@@ -53,10 +63,15 @@ If you run `tui_customer_support_chatbot.js`, you should be able to chat with a 
 > <br><br>
 > Assistant: Have a nice day!
 
-Environment:
+### ⚒️ Tech stack ⚒️
+
+OS:
 
 - Windows `10`
-- Node.js `21.2.0`
-- OpenAI Node.js SDK `4.28.0`
-- Terminal Kit `3.0.1`
-- Dotenv `16.4.3`
+
+Dependencies:
+
+- [Node.js](https://nodejs.org/en) `21.2.0`
+- [OpenAI Node.js API SDK](https://www.npmjs.com/package/openai) `4.28.0`
+- [Terminal Kit](https://www.npmjs.com/package/terminal-kit) `3.0.1`
+- [Dotenv](https://www.npmjs.com/package/dotenv) `16.4.3`
