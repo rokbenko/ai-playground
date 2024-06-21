@@ -1,12 +1,14 @@
 # #2 uAgents communication
 
-## Short description
+<br>
+
+## 📖 Description 📖
 
 Python examples on how to make agents communicate with each other locally or remotely using Almanac contracts.
 
 <br>
 
-## Working examples in Python
+## 🔥 Working examples in Python 🔥
 
 ### Local communication
 
@@ -54,8 +56,13 @@ If you run `bob.py`, you should get the following response:
 
 <br>
 
-Environment:
+## ⚒️ Tech stack ⚒️
+
+OS:
 
 - Windows `10`
-- Python `3.11.8`
-- uAgents Python SDK `0.11.0`
+
+Dependencies:
+
+- [Python](https://www.python.org/) `3.11.8`
+- [uAgents Python SDK](https://pypi.org/project/uagents/) `0.11.0`
