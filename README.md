@@ -29,9 +29,9 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
 
 <br>
 
-# 👾 LLMs 👾
+## 👾 LLMs 👾
 
-## [OpenAI](https://openai.com/)
+### [OpenAI](https://openai.com/)
 
 <table>
   <tr>
@@ -211,7 +211,7 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
 
 <br>
 
-## [Gemini](https://deepmind.google/technologies/gemini/#introduction)
+### [Gemini](https://deepmind.google/technologies/gemini/#introduction)
 
 <table>
   <tr>
@@ -257,9 +257,9 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
 
 <br>
 
-# 🛠️ Frameworks 🛠️
+## 🛠️ Frameworks 🛠️
 
-## [LlamaIndex](https://www.llamaindex.ai/)
+### [LlamaIndex](https://www.llamaindex.ai/)
 
 <table>
   <tr>
@@ -315,7 +315,7 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
 
 <br>
 
-## [Fetch.ai](https://fetch.ai/)
+### [Fetch.ai](https://fetch.ai/)
 
 <table>
   <tr>
@@ -357,9 +357,9 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
 
 <br>
 
-# ☁️ Cloud ☁️
+## ☁️ Cloud ☁️
 
-## [Snowflake](https://www.snowflake.com/en/)
+### [Snowflake](https://www.snowflake.com/en/)
 
 <table>
   <tr>
@@ -387,9 +387,9 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
 
 <br>
 
-# 🗃️ Vector databases 🗃️
+## 🗃️ Vector databases 🗃️
 
-## [Milvus](https://milvus.io/)
+### [Milvus](https://milvus.io/)
 
 <table>
   <tr>
@@ -449,9 +449,9 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
 
 <br>
 
-# 🤖 NLP 🤖
+## 🤖 NLP 🤖
 
-## [spaCy](https://spacy.io/)
+### [spaCy](https://spacy.io/)
 
 <table>
   <tr>
@@ -479,13 +479,13 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
 
 <br>
 
-# ⭐ Star history ⭐
+## ⭐ Star history ⭐
 
 [![Star history chart](https://api.star-history.com/svg?repos=rokbenko/ai-playground&type=Date)](https://star-history.com/#rokbenko/ai-playground&Date)
 
 <br>
 
-# 🤝 Contributing 🤝
+## 🤝 Contributing 🤝
 
 Thank you for considering contributing to my repository. While I don't accept direct additions of tutorials, I warmly welcome contributions in the following forms:
 
@@ -504,6 +504,6 @@ I'll review your pull request and get back to you as soon as possible.
 
 <br>
 
-# 📄 License 📄
+## 📄 License 📄
 
 This project is open source and available under the [MIT License](https://github.com/rokbenko/ai-playground/blob/main/LICENSE).
