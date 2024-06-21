@@ -4,7 +4,7 @@
 
 ## 📖 Description 📖
 
-Python examples on how to make agents communicate with each other locally or remotely using Almanac contracts.
+Python examples on how to make Fetch.ai agents communicate with each other locally or remotely using Almanac contracts.
 
 <br>
 
