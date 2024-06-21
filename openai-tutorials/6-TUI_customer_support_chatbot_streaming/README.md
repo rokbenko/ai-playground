@@ -1,39 +1,67 @@
-# #6 Terminal user interface for a customer support chatbot with response streaming
+# #6 Python and Node.js TUIs for a customer support chatbot with response streaming
 
-## Short description
+<br>
+
+## 📖 Description 📖
 
 Python and Node.js TUIs for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_customer_support_chatbot">#4 Build a customer support chatbot</a> tutorial with response streaming.
 
 <br>
 
-## Working example in Python
+## 🔥 Working example in Python 🔥
 
-If you run `tui_customer_support_chatbot_streaming.py`, you should be able to chat with the assistant and receive its responses in a **streaming** way.
+If you run `tui_customer_support_chatbot_streaming.py`, you should be able to chat with a customer support chatbot in a terminal and receive its responses in a **streaming(!)** way:
 
-Environment:
+> User: What can I buy in your online store?
+> <br><br>
+> Assistant: In our online store, we sell books. We offer standard and expedited shipping options, and our standard warranty covers products for 1 week from the date of purchase. Additionally, we have a current special offer where customers can use the code DISCOUNT20 to get a 20% discount. If you have any further questions or need assistance, you can reach out to our customer support through the chatbot.
+> <br><br>
+> User: quit
+> <br><br>
+> Assistant: Have a nice day! 👋
+
+### ⚒️ Tech stack ⚒️
+
+OS:
 
 - Windows `10`
-- Python `3.11.8`
-- OpenAI Python SDK `1.14.2`
-- Rich `13.7.0`
-- Dotenv `1.0.1`
+
+Dependencies:
+
+- [Python](https://www.python.org/) `3.11.8`
+- [OpenAI Python API SDK](https://pypi.org/project/openai/) `1.14.2`
+- [Rich](https://pypi.org/project/rich/) `13.7.0`
+- [Dotenv](https://pypi.org/project/python-dotenv/) `1.0.1`
 
 <br>
 
-## Working example in Node.js
+## 🔥 Working example in Node.js 🔥
 
-If you run `tui_customer_support_chatbot_streaming.js`, you should be able to chat with the assistant and receive its responses in a **streaming** way.
+If you run `tui_customer_support_chatbot_streaming.js`, you should be able to chat with a customer support chatbot in a terminal and receive its responses in a **streaming(!)** way:
 
-Environment:
+> User: What can I buy in your online store?
+> <br><br>
+> Assistant: In our online store, we sell books. We offer standard and expedited shipping options, and our standard warranty covers products for 1 week from the date of purchase. Additionally, we have a current special offer where customers can use the code DISCOUNT20 to get a 20% discount. If you have any further questions or need assistance, you can reach out to our customer support through the chatbot.
+> <br><br>
+> User: quit
+> <br><br>
+> Assistant: Have a nice day!
+
+### ⚒️ Tech stack ⚒️
+
+OS:
 
 - Windows `10`
-- Node.js `21.2.0`
-- OpenAI Node.js SDK `4.29.2`
-- Terminal Kit `3.0.1`
-- Dotenv `16.4.3`
+
+Dependencies:
+
+- [Node.js](https://nodejs.org/en) `21.2.0`
+- [OpenAI Node.js API SDK](https://www.npmjs.com/package/openai) `4.29.2`
+- [Terminal Kit](https://www.npmjs.com/package/terminal-kit) `3.0.1`
+- [Dotenv](https://www.npmjs.com/package/dotenv) `16.4.3`
 
 <br>
 
-## Screenshot
+## 📽️ Demonstration 📽️
 
-![Screenshot](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/6-TUI_customer_support_chatbot_streaming/screenshot.gif)
+![Demonstration of how to chat with a customer support chatbot in a terminal and receive its responses in a streaming way](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/6-TUI_customer_support_chatbot_streaming/screenshot.gif)
