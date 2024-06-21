@@ -6,6 +6,9 @@
 
 Python and Node.js TUIs for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_customer_support_chatbot">#4 Build a customer support chatbot</a> tutorial with response streaming.
 
+> [!NOTE]
+> The code in this tutorial works with the [OpenAI Assistants API `v1` beta](https://platform.openai.com/docs/api-reference/assistants-v1). In April 2024, the [OpenAI Assistants API `v2` beta](https://platform.openai.com/docs/api-reference/assistants) was released. See the [migration guide](https://platform.openai.com/docs/assistants/migration/agents).
+
 <br>
 
 ## 🔥 Working example in Python 🔥
