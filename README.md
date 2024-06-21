@@ -328,7 +328,15 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
   <tr>
     <td>#1</td>
     <td>uAgents starter</td>
-    <td>Python examples on how to create an agent with a startup task, create an agent with an interval task, create an agent and get its address, and create a stateful agent</td>
+    <td>
+      Python examples on how to:<br>
+      <ul>
+        <li>create a Fetch.ai agent with a startup task</li>
+        <li>create a Fetch.ai agent with an interval task</li>
+        <li>create a Fetch.ai agent and get its address</li>
+        <li>create a Fetch.ai stateful agent</li>
+      </ul>
+    </td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
     </td>
@@ -342,7 +350,7 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
   <tr>
     <td>#2</td>
     <td>uAgents communication</td>
-    <td>Python examples on how to make agents communicate with each other locally or remotely using Almanac contracts</td>
+    <td>Python examples on how to make Fetch.ai agents communicate with each other locally or remotely using Almanac contracts</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
     </td>
