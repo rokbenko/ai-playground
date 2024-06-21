@@ -1,12 +1,14 @@
 # #2 Attu (GUI for Milvus) starter
 
-## Short description
+<br>
+
+## 📖 Description 📖
 
 Instructions on how to run Attu, a GUI for Milvus, using Docker.
 
 <br>
 
-## Run Attu
+## 🔥 How to run Attu 🔥
 
 First, run the following command to get your `IPv4 Address`:
 
@@ -24,14 +26,19 @@ Where `xxx.xxx.x.x` is your `IPv4 Address`.
 
 <br>
 
-## Python script to get embeddings
+## 🔥 How to get embeddings 🔥
 
 If you run `get_embeddings.py`, you will get a JSON file with key-value pairs matching collection fields in Attu.
 
 See the <a href="https://github.com/rokbenko/ai-playground/blob/main/milvus-tutorials/2-Attu_starter/dummy_data.json">JSON file</a> generated in the tutorial.
 
-Environment:
+### ⚒️ Tech stack ⚒️
+
+OS:
 
 - Windows `10`
-- Python `3.12.1`
-- spaCy Python SDK `3.7.2`
+
+Dependencies:
+
+- [Python](https://www.python.org/) `3.12.1`
+- [spaCy Python SDK](https://pypi.org/project/spacy/) `3.7.2`
