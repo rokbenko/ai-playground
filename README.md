@@ -286,7 +286,7 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
   <tr>
     <td>#2</td>
     <td>GUI for a travel recommendation RAG</td>
-    <td>Streamlit GUI for a travel recommendation streaming RAG using LlamaIndex with an OpenAI model</td>
+    <td>Streamlit GUI for a travel recommendation RAG with response streaming using LlamaIndex with an OpenAI model</td>
     <td>
       <img alt="Streamlit badge" src="https://img.shields.io/badge/Streamlit-%23202020?style=flat&logo=streamlit">
     </td>
