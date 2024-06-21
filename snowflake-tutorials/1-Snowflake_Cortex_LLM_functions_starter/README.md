@@ -1,21 +1,25 @@
 # #1 Snowflake Cortex LLM functions starter
 
-## Short description
+<br>
+
+## 📖 Description 📖
 
 Python example on how to use the Snowflake Cortex LLM functions.
 
-<br>
-
-## Working example in Python
-
 > [!IMPORTANT]
-> Before you run `snowflake_cortex_llm.py`, add a `.env` file that should contain the following three environment variables:
+> Before you run `snowflake_cortex_llm.py`, create an `.env` file to set up your environment variables.
+>
+> Your `.env` file should contain the following environment variables:
 >
 > ```bash
 > SNOWFLAKE_ACCOUNT="xxxxxxx-xxxxxxx"
 > SNOWFLAKE_USER="xxxxx"
 > SNOWFLAKE_USER_PASSWORD="xxxxx"
 > ```
+
+<br>
+
+## 🔥 Working example in Python 🔥
 
 If you run `snowflake_cortex_llm.py`, you should get an output:
 
@@ -49,9 +53,16 @@ If you run `snowflake_cortex_llm.py`, you should get an output:
 > Die jüngsten Fortschritte in der Zusammenarbeit mit KI können verschiedene Branchen revolutionieren. Von der Gesundheitsversorgung bis hin zu Finanzmitteln steihen revolutioniegern KI-gestützte Lösungen die Effizienz und Genauigkeit. Im Gesundheitswesen wie Lösungen die Erd KI verwendet, um den vollständigen Ausgang von Patienten vorherzusagen, Behandigen Ausgang vodlungspläne zu personalisieren und sogar bei Operationen zu helfen. Finanzielle rationen zu helf
 > Institutionen nutzen KI, um betrügerische Aktivitäten aufzuzeugen und verantwortn und verantwortungsvoll einzurichten, bieten persönliche Banking
 
-Environment:
+<br>
+
+## ⚒️ Tech stack ⚒️
+
+OS:
 
 - Windows `10`
-- Python `3.11.8`
+
+Dependencies:
+
+- [Python](https://www.python.org/) `3.11.8`
 - [Snowflake Python SDK](https://pypi.org/project/snowflake/) `0.8.0`
-- Dotenv `1.0.1`
+- [Dotenv](https://pypi.org/project/python-dotenv/) `1.0.1`
