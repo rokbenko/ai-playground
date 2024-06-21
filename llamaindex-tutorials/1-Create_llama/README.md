@@ -1,6 +1,8 @@
 # #1 Create Llama app
 
-## Short description
+<br>
+
+## 📖 Description 📖
 
 Instructions on how to create a LlamaIndex chat streaming app using the OpenAI model and Next.js GUI with 1 command in 2 minutes.
 
