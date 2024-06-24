@@ -259,6 +259,32 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
 
 ## 🛠️ Frameworks 🛠️
 
+### [LangChain](https://www.langchain.com/)
+
+<table>
+  <tr>
+    <th></th>
+    <th>Tutorial title</th>
+    <th>Tutorial description</th>
+    <th>Tech stack</th>
+    <th colspan="2">Links</th>
+  </tr>
+  <td>#1</td>
+  <td>TUI for LangGraph agent with a web connection</td>
+  <td>Python and Node.js TUIs for a LangGraph agent using the Tavily tool to get a web connection and an OpenAI LLM</td>
+  <td>
+    <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
+    <img alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-%23202020?style=flat&logo=javascript">
+    <img alt="Node.js badge" src="https://img.shields.io/badge/Node.js-%23202020?style=flat&logo=nodedotjs">
+  </td>
+  <td>
+    <a href="#">Coming soon... ✨</a>
+  </td>
+  <td>
+    <a href="#">Coming soon... ✨</a>
+  </td>
+</table>
+
 ### [LlamaIndex](https://www.llamaindex.ai/)
 
 <table>
@@ -286,7 +312,7 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
   <tr>
     <td>#2</td>
     <td>GUI for a travel recommendation RAG</td>
-    <td>Streamlit GUI for a travel recommendation RAG with response streaming using LlamaIndex with an OpenAI model</td>
+    <td>Streamlit GUI for a travel recommendation RAG with response streaming using LlamaIndex with an OpenAI LLM</td>
     <td>
       <img alt="Streamlit badge" src="https://img.shields.io/badge/Streamlit-%23202020?style=flat&logo=streamlit">
     </td>
