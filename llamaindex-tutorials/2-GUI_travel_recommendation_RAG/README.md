@@ -4,7 +4,7 @@
 
 ## 📖 Description 📖
 
-Streamlit GUI for a travel recommendation RAG with response streaming using LlamaIndex with an OpenAI model.
+Streamlit GUI for a travel recommendation RAG with response streaming using LlamaIndex with an OpenAI LLM.
 
 <br>
 
