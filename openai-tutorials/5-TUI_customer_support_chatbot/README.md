@@ -26,7 +26,7 @@ Python and Node.js TUIs for the <a href="https://github.com/rokbenko/ai-playgrou
 
 ## 🔥 Working example in Python 🔥
 
-If you run `tui_customer_support_chatbot.py`, you should be able to chat with a customer support chatbot in a terminal:
+If you run [`tui_customer_support_chatbot.py`](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/5-TUI_customer_support_chatbot/tui_customer_support_chatbot.py), you should be able to chat with a customer support chatbot in a terminal:
 
 > User: What can I buy in your online store?
 > <br><br>
@@ -53,7 +53,7 @@ Dependencies:
 
 ## 🔥 Working example in Node.js 🔥
 
-If you run `tui_customer_support_chatbot.js`, you should be able to chat with a customer support chatbot in a terminal:
+If you run [`tui_customer_support_chatbot.js`](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/5-TUI_customer_support_chatbot/tui_customer_support_chatbot.js), you should be able to chat with a customer support chatbot in a terminal:
 
 > User: What can I buy in your online store?
 > <br><br>
