@@ -29,7 +29,7 @@ The _Movies_ collection had the following data:
 
 ## 🔥 Working example in Python 🔥
 
-Run `text_similarity_search.py`.
+Run [`text_similarity_search.py`](https://github.com/rokbenko/ai-playground/blob/main/milvus-tutorials/3-Text_similarity_search/text_similarity_search.py).
 
 If you type:
 
