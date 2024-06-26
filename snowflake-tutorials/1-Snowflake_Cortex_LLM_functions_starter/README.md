@@ -7,7 +7,7 @@
 Python example on how to use the Snowflake Cortex LLM functions.
 
 > [!IMPORTANT]
-> Before you run `snowflake_cortex_llm.py`, create an `.env` file to set up your environment variables.
+> Before you run [`snowflake_cortex_llm.py`](https://github.com/rokbenko/ai-playground/blob/main/snowflake-tutorials/1-Snowflake_Cortex_LLM_functions_starter/snowflake_cortex_llm.py), create an `.env` file to set up your environment variables.
 >
 > Your `.env` file should contain the following environment variables:
 >
@@ -21,7 +21,7 @@ Python example on how to use the Snowflake Cortex LLM functions.
 
 ## 🔥 Working example in Python 🔥
 
-If you run `snowflake_cortex_llm.py`, you should get an output:
+If you run [`snowflake_cortex_llm.py`](https://github.com/rokbenko/ai-playground/blob/main/snowflake-tutorials/1-Snowflake_Cortex_LLM_functions_starter/snowflake_cortex_llm.py), you should get an output:
 
 > Summarize() is experimental since 1.0.12. Do not use it in production.<br>
 > Summarize() Snowflake Cortex LLM function result:<br>
