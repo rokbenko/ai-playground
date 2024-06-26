@@ -10,7 +10,7 @@ Python and Node.js examples on how to use the Vertex AI Gemini Pro API.
 
 ## 🔥 Working example in Python 🔥
 
-If you run `vertex_gemini_pro.py`, you should get a response:
+If you run [`vertex_gemini_pro.py`](https://github.com/rokbenko/ai-playground/blob/main/gemini-tutorials/2-Vertex_AI_Gemini_Pro_API_starter/vertex_gemini_pro.py), you should get a response:
 
 > Hi there! How can I assist you today?
 
@@ -29,7 +29,7 @@ Dependencies:
 
 ## 🔥 Working example in Node.js 🔥
 
-If you run `vertex_gemini_pro.js`, you should get a response:
+If you run [`vertex_gemini_pro.js`](https://github.com/rokbenko/ai-playground/blob/main/gemini-tutorials/2-Vertex_AI_Gemini_Pro_API_starter/vertex_gemini_pro.js), you should get a response:
 
 > Hi there! How can I assist you today?
 
