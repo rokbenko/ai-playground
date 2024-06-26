@@ -10,7 +10,7 @@ Python and Node.js examples on how to install Milvus Standalone using Docker, co
 
 ## 🔥 Working example in Python 🔥
 
-If you run `milvus_standalone.py`, you should get the following response:
+If you run [`milvus_standalone.py`](https://github.com/rokbenko/ai-playground/blob/main/milvus-tutorials/1-Milvus_standalone_starter/milvus_standalone.py), you should get the following response:
 
 > List all collections: <br>
 > []
@@ -30,7 +30,7 @@ Dependencies:
 
 ## 🔥 Working example in Node.js 🔥
 
-If you run `milvus_standalone.js`, you should get the following response:
+If you run [`milvus_standalone.js`](https://github.com/rokbenko/ai-playground/blob/main/milvus-tutorials/1-Milvus_standalone_starter/milvus_standalone.js), you should get the following response:
 
 > List all collections: <br>
 > { <br>
