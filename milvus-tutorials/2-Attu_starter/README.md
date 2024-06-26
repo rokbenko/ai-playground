@@ -28,7 +28,7 @@ Where `xxx.xxx.x.x` is your `IPv4 Address`.
 
 ## 🔥 How to get embeddings 🔥
 
-If you run `get_embeddings.py`, you will get a JSON file with key-value pairs matching collection fields in Attu.
+If you run [`get_embeddings.py`](https://github.com/rokbenko/ai-playground/blob/main/milvus-tutorials/2-Attu_starter/get_embeddings.py), you will get a JSON file with key-value pairs matching collection fields in Attu.
 
 See the <a href="https://github.com/rokbenko/ai-playground/blob/main/milvus-tutorials/2-Attu_starter/dummy_data.json">JSON file</a> generated in the tutorial.
 
