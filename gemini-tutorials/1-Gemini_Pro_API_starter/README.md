@@ -10,7 +10,7 @@ Python and Node.js examples on how to use the Gemini Pro API.
 
 ## 🔥 Working example in Python 🔥
 
-If you run `gemini_pro.py`, you should get a response:
+If you run [`gemini_pro.py`](https://github.com/rokbenko/ai-playground/blob/main/gemini-tutorials/1-Gemini_Pro_API_starter/gemini_pro.py), you should get a response:
 
 > Hello! I'm Happy to Chat!
 
@@ -29,7 +29,7 @@ Dependencies:
 
 ## 🔥 Working example in Node.js 🔥
 
-If you run `gemini_pro.js`, you should get a response:
+If you run [`gemini_pro.js`](https://github.com/rokbenko/ai-playground/blob/main/gemini-tutorials/1-Gemini_Pro_API_starter/gemini_pro.js), you should get a response:
 
 > Sure, here you go:<br><br>
 > Hi there! I'm a friendly AI assistant, here to help you with any questions or tasks you may have. Feel free to ask me anything, and I'll do my best to assist you.<br>        
