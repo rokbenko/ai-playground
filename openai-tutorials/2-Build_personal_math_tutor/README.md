@@ -13,7 +13,7 @@ Python and Node.js examples on how to build a personal math tutor with the OpenA
 
 ## 🔥 Working example in Python 🔥
 
-If you run `personal_math_tutor.py`, you should get the following response:
+If you run [`personal_math_tutor.py`](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/2-Build_personal_math_tutor/personal_math_tutor.py), you should get the following response:
 
 > This is the assistant object: Assistant(xxxxx)
 >
@@ -83,7 +83,7 @@ Dependencies:
 
 ## 🔥 Working example in Node.js 🔥
 
-If you run `personal_math_tutor.js`, you should get the following response:
+If you run [`personal_math_tutor.js`](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/2-Build_personal_math_tutor/personal_math_tutor.js), you should get the following response:
 
 > This is the assistant object: {xxxxx}
 >
