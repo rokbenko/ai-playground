@@ -36,8 +36,6 @@ There are four examples:
 
 If you run [`tui_personal_math_tutor_v2_beta.py`](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/7-TUI_assistants_streaming_Assistants_API_v2_beta/tui_personal_math_tutor_v2_beta.py), you should be able to chat with the personal math tutor in a terminal and receive its responses in a **streaming(!)** way:
 
-> ai-playground\openai-tutorials\7-Assistants_API_v1_to_v2_beta_migration> python tui_personal_math_tutor_v2_beta.py<br>
-> <br>
 > User: I need to solve the equation 3x + 11 = 14. Can you help me?<br>
 > <br>
 > Assistant: The solution to the equation 3x + 11 = 14 is x = 1.<br>
@@ -45,8 +43,6 @@ If you run [`tui_personal_math_tutor_v2_beta.py`](https://github.com/rokbenko/ai
 > User: quit<br>
 > <br>
 > Assistant: Have a nice day! 👋<br>
-> <br>
-> ai-playground\openai-tutorials\7-Assistants_API_v1_to_v2_beta_migration>
 
 ### ⚒️ Tech stack ⚒️
 
@@ -65,8 +61,6 @@ Dependencies:
 
 If you run [`tui_customer_support_chatbot_v2_beta.py`](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/7-TUI_assistants_streaming_Assistants_API_v2_beta/tui_customer_support_chatbot_v2_beta.py), you should be able to chat with the customer support chatbot in a terminal and receive its responses in a **streaming(!)** way:
 
-> ai-playground\openai-tutorials\7-Assistants_API_v1_to_v2_beta_migration> python tui_customer_support_chatbot_v2_beta.py<br>
-> <br>
 > User: What can I buy in your online store?<br>
 > <br>
 > Assistant: In our online store, we currently sell books. We offer standard and expedited shipping options, and our standard warranty covers products for 1 week from the date of purchase. Additionally, we have a special offer available where you can use the DISCOUNT20 coupon to get a 20% discount on your purchase. If you have any further questions or need assistance, you can contact our customer support through the chatbot. Feel free browse our selection and take advantage of the discount offer!<br>
@@ -74,8 +68,6 @@ If you run [`tui_customer_support_chatbot_v2_beta.py`](https://github.com/rokben
 > User: quit<br>
 > <br>
 > Assistant: Have a nice day! 👋<br>
-> <br>
-> ai-playground\openai-tutorials\7-Assistants_API_v1_to_v2_beta_migration>
 
 ### ⚒️ Tech stack ⚒️
 
@@ -98,8 +90,6 @@ Dependencies:
 
 If you run [`tui_personal_math_tutor_v2_beta.js`](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/7-TUI_assistants_streaming_Assistants_API_v2_beta/tui_personal_math_tutor_v2_beta.js), you should be able to chat with the personal math tutor in a terminal and receive its responses in a **streaming(!)** way:
 
-> ai-playground\openai-tutorials\7-Assistants_API_v1_to_v2_beta_migration> python tui_personal_math_tutor_v2_beta.js<br>
-> <br>
 > User: I need to solve the equation 3x + 11 = 14. Can you help me?<br>
 > <br>
 > Assistant: The solution to the equation 3x + 11 = 14 is x = 1.<br>
@@ -107,8 +97,6 @@ If you run [`tui_personal_math_tutor_v2_beta.js`](https://github.com/rokbenko/ai
 > User: quit<br>
 > <br>
 > Assistant: Have a nice day!<br>
-> <br>
-> ai-playground\openai-tutorials\7-Assistants_API_v1_to_v2_beta_migration>
 
 ### ⚒️ Tech stack ⚒️
 
@@ -127,8 +115,6 @@ Dependencies:
 
 If you run [`tui_customer_support_chatbot_v2_beta.js`](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/7-TUI_assistants_streaming_Assistants_API_v2_beta/tui_customer_support_chatbot_v2_beta.js), you should be able to chat with the customer support chatbot in a terminal and receive its responses in a **streaming(!)** way:
 
-> ai-playground\openai-tutorials\7-Assistants_API_v1_to_v2_beta_migration> python tui_customer_support_chatbot_v2_beta.js<br>
-> <br>
 > User: What can I buy in your online store?<br>
 > <br>
 > Assistant: In our online store, we currently sell books. We offer standard and expedited shipping options, and our standard warranty covers products for 1 week from the date of purchase. Additionally, we have a special offer available where you can use the DISCOUNT20 coupon to get a 20% discount on your purchase. If you have any further questions or need assistance, you can contact our customer support through the chatbot. Feel free browse our selection and take advantage of the discount offer!<br>
@@ -136,8 +122,6 @@ If you run [`tui_customer_support_chatbot_v2_beta.js`](https://github.com/rokben
 > User: quit<br>
 > <br>
 > Assistant: Have a nice day!<br>
-> <br>
-> ai-playground\openai-tutorials\7-Assistants_API_v1_to_v2_beta_migration>
 
 ### ⚒️ Tech stack ⚒️
 
