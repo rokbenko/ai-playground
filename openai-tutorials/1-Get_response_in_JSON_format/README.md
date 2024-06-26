@@ -10,7 +10,7 @@ Python and Node.js examples on how to get a JSON response using the OpenAI Chat 
 
 ## 🔥 Working example in Python 🔥
 
-If you run `return_json.py`, you should get the following response:
+If you run [`return_json.py`](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/1-Get_response_in_JSON_format/return_json.py), you should get the following response:
 
 > {<br> &nbsp;&nbsp;"response": "Hello! How can I assist you today?"<br>
 > }<br>
@@ -31,7 +31,7 @@ Dependencies:
 
 ## 🔥 Working example in Node.js 🔥
 
-If you run `return_json.js`, you should get the following response:
+If you run [`return_json.js`](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/1-Get_response_in_JSON_format/return_json.js), you should get the following response:
 
 > {<br> &nbsp;&nbsp;"response": "Hello! How can I assist you today?"<br>
 > }<br>
