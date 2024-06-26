@@ -10,7 +10,7 @@ Evaluation of the <a href="https://github.com/rokbenko/ai-playground/tree/main/l
 
 ## 🔥 Working example in Python 🔥
 
-If you run `travel_recommendation_rag_eval.py`, you should get the evaluation report in an <a href="https://github.com/rokbenko/ai-playground/blob/main/llamaindex-tutorials/3-Eval_travel_recommendation_RAG/eval_report.xlsx">Excel file</a>.
+If you run [`travel_recommendation_rag_eval.py`](https://github.com/rokbenko/ai-playground/blob/main/llamaindex-tutorials/3-Eval_travel_recommendation_RAG/travel_recommendation_rag_eval.py), you should get the evaluation report in an <a href="https://github.com/rokbenko/ai-playground/blob/main/llamaindex-tutorials/3-Eval_travel_recommendation_RAG/eval_report.xlsx">Excel file</a>.
 
 <br>
 
