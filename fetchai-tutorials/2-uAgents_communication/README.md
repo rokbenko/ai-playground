@@ -12,7 +12,7 @@ Python examples on how to make Fetch.ai agents communicate with each other local
 
 ### Local communication
 
-If you run `alice_and_bob.py`, you should get the following response:
+If you run [`alice_and_bob.py`](https://github.com/rokbenko/ai-playground/blob/main/fetchai-tutorials/2-uAgents_communication/alice_and_bob.py), you should get the following response:
 
 > INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [bureau]: Starting server on http://0.0.0.0:8000 (Press CTRL+C to quit)<br>
 > INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Alice]: I've received a message from agent1q0y5kq3h2s904zkrjtx7wz3z2mgj3j6k5w9tqs5wtpm0hryc6me0sg9gkuh: 'Hello, Alice! I'm agent Bob.'<br>
@@ -30,7 +30,7 @@ If you run `alice_and_bob.py`, you should get the following response:
 
 #### Step 1: Run Alice
 
-If you run `alice.py`, you should get the following response:
+If you run [`alice.py`](https://github.com/rokbenko/ai-playground/blob/main/fetchai-tutorials/2-uAgents_communication/alice.py), you should get the following response:
 
 > INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Alice]: Registering on almanac contract...<br>
 > INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Alice]: Registering on almanac contract...complete<br>
@@ -43,7 +43,7 @@ If you run `alice.py`, you should get the following response:
 
 #### Step 2: Run Bob
 
-If you run `bob.py`, you should get the following response:
+If you run [`bob.py`](https://github.com/rokbenko/ai-playground/blob/main/fetchai-tutorials/2-uAgents_communication/bob.py), you should get the following response:
 
 > INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [&nbsp;&nbsp; Bob]: Registering on almanac contract...<br>
 > INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [&nbsp;&nbsp; Bob]: Registering on almanac contract...complete<br>
