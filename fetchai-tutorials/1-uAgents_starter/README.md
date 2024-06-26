@@ -15,12 +15,12 @@ Python examples on how to:
 
 ## 🔥 Working examples in Python 🔥
 
-If you run `alice.py`, you should get the following response:
+If you run [`alice.py`](https://github.com/rokbenko/ai-playground/blob/main/fetchai-tutorials/1-uAgents_starter/alice.py), you should get the following response:
 
 > INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Alice]: Hello, I'm agent Alice!<br>
 > INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Alice]: Starting server on http://0.0.0.0:8000 (Press CTRL+C to quit)
 
-If you run `alice_interval_task.py`, you should get the following response:
+If you run [`alice_interval_task.py`](https://github.com/rokbenko/ai-playground/blob/main/fetchai-tutorials/1-uAgents_starter/alice_interval_task.py), you should get the following response:
 
 > INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Alice]: Hello, I'm agent Alice!<br>
 > INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Alice]: Starting server on http://0.0.0.0:8000 (Press CTRL+C to quit)<br>
@@ -30,7 +30,7 @@ If you run `alice_interval_task.py`, you should get the following response:
 > INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Alice]: Hello, I'm agent Alice!<br>
 > INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Alice]: Hello, I'm agent Alice!
 
-If you run `alice_address.py`, you should get the following response:
+If you run [`alice_address.py`](https://github.com/rokbenko/ai-playground/blob/main/fetchai-tutorials/1-uAgents_starter/alice_address.py), you should get the following response:
 
 > INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Alice]: Hello, I'm agent Alice and my address is agent1qtkp83xdzjn6pupps8jj309mu5km6h58cgcwzl3afw9frrnmqhk9kwrur80.<br>
 > INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Alice]: Starting server on http://0.0.0.0:8000 (Press CTRL+C to quit)<br>
@@ -40,7 +40,7 @@ If you run `alice_address.py`, you should get the following response:
 > INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Alice]: Hello, I'm agent Alice and my address is agent1qtkp83xdzjn6pupps8jj309mu5km6h58cgcwzl3afw9frrnmqhk9kwrur80.<br>
 > INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Alice]: Hello, I'm agent Alice and my address is agent1qtkp83xdzjn6pupps8jj309mu5km6h58cgcwzl3afw9frrnmqhk9kwrur80.
 
-If you run `alice_storage.py`, you should get the following response:
+If you run [`alice_storage.py`](https://github.com/rokbenko/ai-playground/blob/main/fetchai-tutorials/1-uAgents_starter/alice_storage.py), you should get the following response:
 
 > INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Alice]: My count is: 0<br>
 > INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Alice]: My count is: 1<br>
