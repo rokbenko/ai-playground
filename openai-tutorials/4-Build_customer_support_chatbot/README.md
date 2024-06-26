@@ -13,7 +13,7 @@ Python and Node.js examples on how to build a customer support chatbot with the 
 
 ## 🔥 Working example in Python 🔥
 
-If you run `customer_support_chatbot.py`, you should get the following response:
+If you run [`customer_support_chatbot.py`](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/4-Build_customer_support_chatbot/customer_support_chatbot.py), you should get the following response:
 
 > This is the file object: FileObject(xxxxx)
 >
@@ -66,7 +66,7 @@ Dependencies:
 
 ## 🔥 Working example in Node.js 🔥
 
-If you run `customer_support_chatbot.js`, you should get the following response:
+If you run [`customer_support_chatbot.js`](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/4-Build_customer_support_chatbot/customer_support_chatbot.js), you should get the following response:
 
 > This is the file object: {xxxxx}
 >
