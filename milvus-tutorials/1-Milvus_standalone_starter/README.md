@@ -8,6 +8,16 @@ Python and Node.js examples on how to install Milvus Standalone using Docker, co
 
 <br>
 
+## 💡 How to build Milvus Docker containers 💡
+
+Run the following command to build Milvus Docker containers from the [`docker-compose.yml`](https://github.com/rokbenko/ai-playground/blob/main/milvus-tutorials/1-Milvus_standalone_starter/docker-compose.yml) file:
+
+```
+docker compose up -d
+```
+
+<br>
+
 ## 🔥 Working example in Python 🔥
 
 If you run [`milvus_standalone.py`](https://github.com/rokbenko/ai-playground/blob/main/milvus-tutorials/1-Milvus_standalone_starter/milvus_standalone.py), you should get the following response:
