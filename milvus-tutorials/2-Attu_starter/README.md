@@ -8,7 +8,7 @@ Instructions on how to run Attu, a GUI for Milvus, using Docker.
 
 <br>
 
-## 🔥 How to run Attu 🔥
+## 💡 How to run Attu (GUI for Milvus) 💡
 
 First, run the following command to get your `IPv4 Address`:
 
@@ -26,7 +26,7 @@ Where `xxx.xxx.x.x` is your `IPv4 Address`.
 
 <br>
 
-## 🔥 How to get embeddings 🔥
+## 💡 How to get embeddings 💡
 
 If you run [`get_embeddings.py`](https://github.com/rokbenko/ai-playground/blob/main/milvus-tutorials/2-Attu_starter/get_embeddings.py), you will get a JSON file with key-value pairs matching collection fields in Attu.
 
