@@ -31,6 +31,15 @@ This directory has the following structure:
         tui_assistants_streaming.py
 ```
 
+> [!NOTE]
+> The code in this tutorial works with the [OpenAI Assistants API `v2` beta](https://platform.openai.com/docs/api-reference/assistants).
+
+<br>
+
+## 🚀 Installation 🚀
+
+Coming soon... ✨
+
 > [!IMPORTANT]
 > Before you run any scripts, create an `.env` file to set up your environment variables.
 >
@@ -58,9 +67,6 @@ This directory has the following structure:
 > OPENAI_FILE_ID_2=file-xxxxxxxxxxxxxxxxxxxxxxxxx
 > OPENAI_FILE_ID_3=file-xxxxxxxxxxxxxxxxxxxxxxxxx
 > ```
-
-> [!NOTE]
-> The code in this tutorial works with the [OpenAI Assistants API `v2` beta](https://platform.openai.com/docs/api-reference/assistants).
 
 <br>
 
@@ -190,18 +196,20 @@ Dependencies:
 
 ## 📽️ Demonstration 📽️
 
-Python Code Interpreter tool example:
+Python response polling example:
 
 Coming soon... ✨
 
-Python File Search tool example:
+Python response streaming example:
 
 Coming soon... ✨
 
-Node.js Code Interpreter tool example:
+<br>
+
+Node.js response polling example:
 
 Coming soon... ✨
 
-Node.js File Search tool example:
+Node.js response streaming example:
 
 Coming soon... ✨
