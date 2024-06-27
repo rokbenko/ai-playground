@@ -12,8 +12,9 @@ const openai = new OpenAI({
 // Set up terminal kit for output formatting
 const term = require("terminal-kit").terminal;
 
-// Get assistant ID from environment variables
-const assistantID = process.env.OPENAI_PERSONAL_MATH_TUTOR_ASSISTANT_ID;
+// Get file and assistant IDs from environment variables
+const assistantID = process.env.OPENAI_CUSTOMER_SUPPORT_CHATBOT_ASSISTANT_ID;
+const fileID = process.env.OPENAI_CUSTOMER_SUPPORT_CHATBOT_FILE_ID;
 
 // Asynchronous function to create a new thread
 async function createThread() {
@@ -108,6 +109,13 @@ async function main() {
       {
         role: "user",
         content: userInput,
+        attachments: [
+          // Change from v1 to v2 beta: Messages have the attachments parameter instead of the file_ids parameter
+          {
+            file_id: fileID,
+            tools: [{ type: "file_search" }],
+          },
+        ],
       }
     );
 
