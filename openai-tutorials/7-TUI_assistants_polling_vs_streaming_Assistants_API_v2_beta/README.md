@@ -32,7 +32,7 @@ This directory has the following structure:
 ```
 
 > [!NOTE]
-> The code in this tutorial works with the [OpenAI Assistants API `v2` beta](https://platform.openai.com/docs/api-reference/assistants).
+> The code in this directory works with the [OpenAI Assistants API `v2` beta](https://platform.openai.com/docs/api-reference/assistants).
 
 <br>
 
