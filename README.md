@@ -155,10 +155,10 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
   <tr>
     <td>#7</td>
     <td>
-      TUI for assistants with response streaming*<br>
+      TUI for assistants: response polling vs. streaming*<br>
       <sup>*Assistants API <code>v2</code> beta</sup>
     </td>
-    <td>Python and Node.js TUIs for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/2-Build_personal_math_tutor">#2 Build a personal math tutor</a> and <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_customer_support_chatbot">#4 Build a customer support chatbot</a> tutorials with response streaming</td>
+    <td>Python and Node.js TUIs for assistants to show the difference between response polling (manual or with helpers) and streaming (with helpers)</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
       <img alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-%23202020?style=flat&logo=javascript">
