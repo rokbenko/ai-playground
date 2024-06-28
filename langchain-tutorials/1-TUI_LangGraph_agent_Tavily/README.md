@@ -31,19 +31,19 @@ This directory has the following structure:
 
 ## 🚀 Installation 🚀
 
-Before running [`tui_langgraph_agent_tavily.py`](https://github.com/rokbenko/ai-playground/blob/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily/python/tui_langgraph_agent_tavily.py) or [`tui_langgraph_agent_tavily.js`](https://github.com/rokbenko/ai-playground/blob/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily/nodejs/tui_langgraph_agent_tavily.js), follow these steps to start using TUIs.
+Before running [`tui_langgraph_agent_tavily.py`](https://github.com/rokbenko/ai-playground/blob/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily/python/tui_langgraph_agent_tavily.py) or [`tui_langgraph_agent_tavily.js`](https://github.com/rokbenko/ai-playground/blob/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily/nodejs/tui_langgraph_agent_tavily.js), follow the instructions below.
 
 > [!NOTE]
-> The following instructions are specific to Windows. For macOS or Linux, please use the corresponding commands for your operating system.
+> The instructions are specific to Windows. For macOS or Linux, please use the corresponding commands for your operating system.
 
 ### Python
 
 1. Clone the repository: `git clone https://github.com/rokbenko/ai-playground.git`
 2. Change the directory: `cd ai-playground/langchain-tutorials/1-TUI_LangGraph_agent_Tavily/python`
-3. Create an `.env` file to set up your environment variables
-4. Create a virtual environment named `my-venv`: `python -m venv my-venv`
-5. Activate the virtual environment `my-venv`: `my-venv\Scripts\activate`
-6. Install the dependencies: `python -m pip install -r requirements.txt`
+3. Create a virtual environment named `my-venv`: `python -m venv my-venv`
+4. Activate the virtual environment `my-venv`: `my-venv\Scripts\activate`
+5. Install the dependencies: `python -m pip install -r requirements.txt`
+6. Create an `.env` file to set up your environment variables
 7. Run the Python script: `python tui_langgraph_agent_tavily.py`
 
 > [!WARNING]
@@ -62,7 +62,7 @@ Before running [`tui_langgraph_agent_tavily.py`](https://github.com/rokbenko/ai-
 > ```
 
 > [!TIP]
-> You can verify that the virtual environment is created successfully if you see a folder named `my-venv` inside the `python` directory.
+> You can verify that the virtual environment is *created* successfully if you see a folder named `my-venv` inside the `python` directory.
 >
 > ```
 > │   README.md
@@ -83,13 +83,13 @@ Before running [`tui_langgraph_agent_tavily.py`](https://github.com/rokbenko/ai-
 >         tui_langgraph_agent_tavily.py
 > ```
 >
-> You can verify that the virtual environment is activated successfully if you see `(my-venv)` at the beginning of your terminal prompt, like this:
+> You can verify that the virtual environment is *activated* successfully if you see `(my-venv)` at the beginning of your terminal prompt, like this:
 > 
 > ```
 > (my-venv) C:\your\path\to\ai-playground\langchain-tutorials\1-TUI_LangGraph_agent_Tavily\python
 > ```
 >
-> You can verify that the virtual environment is deactivated successfully if you *don't* see `(my-venv)` anymore at the beginning of your terminal prompt, like this:
+> You can verify that the virtual environment is *deactivated* successfully if you don't see `(my-venv)` anymore at the beginning of your terminal prompt, like this:
 >
 > ```
 > C:\your\path\to\ai-playground\langchain-tutorials\1-TUI_LangGraph_agent_Tavily\python
