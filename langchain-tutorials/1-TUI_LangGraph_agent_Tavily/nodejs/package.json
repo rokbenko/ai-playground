@@ -1,0 +1,20 @@
+{
+  "name": "langgraph-agent-with-a-web-connection",
+  "version": "1.0.0",
+  "description": "Node.js TUI for a LangGraph agent using the Tavily tool to get a web connection and an OpenAI LLM",
+  "main": "tui_langgraph_agent_tavily.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rok Benko",
+  "license": "MIT",
+  "dependencies": {
+    "@langchain/community": "^0.2.14",
+    "@langchain/core": "^0.2.10",
+    "@langchain/langgraph": "^0.0.25",
+    "@langchain/openai": "^0.2.1",
+    "langchain": "^0.2.7",
+    "terminal-kit": "^3.1.1"
+  },
+  "type": "module"
+}

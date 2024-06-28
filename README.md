@@ -270,7 +270,7 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
     <th colspan="2">Links</th>
   </tr>
   <td>#1</td>
-  <td>TUI for LangGraph agent with a web connection</td>
+  <td>TUI for a LangGraph agent with a web connection</td>
   <td>Python and Node.js TUIs for a LangGraph agent using the Tavily tool to get a web connection and an OpenAI LLM</td>
   <td>
     <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
