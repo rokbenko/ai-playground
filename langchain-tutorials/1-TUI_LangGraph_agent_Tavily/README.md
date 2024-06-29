@@ -4,7 +4,7 @@
 
 ## 📖 Description 📖
 
-Python and Node.js TUIs for a LangGraph ReAct agent using the [Tavily](https://tavily.com/) tool to get a web connection and an OpenAI LLM. The [ReAct](https://arxiv.org/abs/2210.03629) agent is able to decide on its own whether to use tools or not.
+Python and Node.js TUIs for a LangGraph ReAct agent using the Tavily tool to get a web connection and an OpenAI LLM.
 
 This directory has the following structure:
 
@@ -26,6 +26,15 @@ This directory has the following structure:
         requirements.txt
         tui_langgraph_agent_tavily.py
 ```
+
+<br>
+
+## 🧠 Learning goals 🧠
+
+1. **Building a [LangGraph](https://langchain-ai.github.io/langgraph/) agent:** LangGraph is an extension of LangChain designed to create highly customizable agents. In LangChain `v0.1`, agents were built using `AgentExecutor`. Now, in `v0.2`, it's recommended to use LangGraph instead. Although `AgentExecutor` is still available, it’s moving towards deprecating.
+2. **Understanding [ReAct](https://arxiv.org/abs/2210.03629) agents:** Our LangGraph agent will be of the ReAct type, which stands for "Reason" and "Act". This means the agent will go through a cycle of thinking and acting. Basically, the agent will decide whether to use tools or not and will keep repeating this *think-and-act* process until it finds an answer for the user.
+3. **Connecting an agent to the web with [Tavily](https://tavily.com/):** Our LangGraph agent will connect to the web using Tavily, a search engine optimized for LLMs and RAGs. This allows the agent to access real-time data beyond what the LLM the agent is using was originally trained on, enabling it to answer questions based on the latest information available.
+
 
 <br>
 
