@@ -32,9 +32,8 @@ This directory has the following structure:
 ## 🧠 Learning goals 🧠
 
 1. **Building a [LangGraph](https://langchain-ai.github.io/langgraph/) agent:** LangGraph is an extension of LangChain designed to create highly customizable agents. In LangChain `v0.1`, agents were built using `AgentExecutor`. Now, in `v0.2`, it's recommended to use LangGraph instead. Although `AgentExecutor` is still available, it’s moving towards deprecating.
-2. **Understanding [ReAct](https://arxiv.org/abs/2210.03629) agents:** Our LangGraph agent will be of the ReAct type, which stands for "Reason" and "Act". This means the agent will go through a cycle of thinking and acting. Basically, the agent will decide whether to use tools or not and will keep repeating this *reason-and-act* process until it finds an answer for the user.
+2. **Understanding [ReAct](https://arxiv.org/abs/2210.03629) agents:** Our LangGraph agent will be of the ReAct type, which stands for "Reason" and "Act". This means the agent will go through a cycle of thinking and acting. Basically, the agent will decide whether to use tools or not and will keep repeating this _reason-and-act_ process until it finds an answer for the user.
 3. **Connecting an agent to the web with [Tavily](https://tavily.com/):** Our LangGraph agent will connect to the web using Tavily, a search engine optimized for LLMs and RAGs. This allows the agent to access real-time data beyond what the LLM the agent is using was originally trained on, enabling it to answer questions based on the latest information available.
-
 
 <br>
 
@@ -71,7 +70,7 @@ Before running [`tui_langgraph_agent_tavily.py`](https://github.com/rokbenko/ai-
 > ```
 
 > [!TIP]
-> You can verify that the virtual environment is *created* successfully if you see a folder named `my-venv` inside the `python` directory.
+> You can verify that the virtual environment is _created_ successfully if you see a folder named `my-venv` inside the `python` directory.
 >
 > ```
 > │   README.md
@@ -92,20 +91,19 @@ Before running [`tui_langgraph_agent_tavily.py`](https://github.com/rokbenko/ai-
 >         tui_langgraph_agent_tavily.py
 > ```
 >
-> You can verify that the virtual environment is *activated* successfully if you see `(my-venv)` at the beginning of your terminal prompt, like this:
-> 
+> You can verify that the virtual environment is _activated_ successfully if you see `(my-venv)` at the beginning of your terminal prompt, like this:
+>
 > ```
 > (my-venv) C:\your\path\to\ai-playground\langchain-tutorials\1-TUI_LangGraph_agent_Tavily\python
 > ```
 >
-> You can verify that the virtual environment is *deactivated* successfully if you don't see `(my-venv)` anymore at the beginning of your terminal prompt, like this:
+> You can verify that the virtual environment is _deactivated_ successfully if you don't see `(my-venv)` anymore at the beginning of your terminal prompt, like this:
 >
 > ```
 > C:\your\path\to\ai-playground\langchain-tutorials\1-TUI_LangGraph_agent_Tavily\python
 > ```
 
-> [!NOTE]
-> `venv` is a built-in Python module that allows you to create and manage virtual environments. If you have Python `v3.3` or higher installed, you can start using `venv` right away.
+> [!NOTE] > `venv` is a built-in Python module that allows you to create and manage virtual environments. If you have Python `v3.3` or higher installed, you can start using `venv` right away.
 
 ### Node.js
 
@@ -156,14 +154,13 @@ If you run [`tui_langgraph_agent_tavily.py`](https://github.com/rokbenko/ai-play
 > - Heat Index: 13.0°C (55.4°F)<br>
 > - Dewpoint: 9.1°C (48.3°F)<br>
 > - Gust: 8.2 mph
-> <br>
-> For more details, you can visit [WeatherAPI.com](https://www.weatherapi.com/)
-> <br><br>
-> User:<br>
-> Quit
-> <br><br>
-> Agent:<br>
-> Have a nice day! 👋
+>   <br>
+>   For more details, you can visit [WeatherAPI.com](https://www.weatherapi.com/) > <br><br>
+>   User:<br>
+>   Quit
+>   <br><br>
+>   Agent:<br>
+>   Have a nice day! 👋
 
 ### ⚒️ Tech stack ⚒️
 
@@ -174,6 +171,7 @@ OS:
 Dependencies:
 
 - [Python](https://www.python.org/) `3.11.8`
+- [Dotenv](https://pypi.org/project/python-dotenv/) `1.0.1`
 - [LangChain Python SDK](https://pypi.org/project/langchain/) `0.2.5`
 - [LangChain Core Python SDK](https://pypi.org/project/langchain-core/) `0.2.9`
 - [LangChain Community Python SDK](https://pypi.org/project/langchain-community/) `0.2.5`
@@ -214,14 +212,13 @@ If you run [`tui_langgraph_agent_tavily.js`](https://github.com/rokbenko/ai-play
 > - Heat Index: 13.0°C (55.4°F)<br>
 > - Dewpoint: 9.1°C (48.3°F)<br>
 > - Gust: 8.2 mph
-> <br>
-> For more details, you can visit [WeatherAPI.com](https://www.weatherapi.com/)
-> <br><br>
-> User:<br>
-> Quit
-> <br><br>
-> Agent:<br>
-> Have a nice day!
+>   <br>
+>   For more details, you can visit [WeatherAPI.com](https://www.weatherapi.com/) > <br><br>
+>   User:<br>
+>   Quit
+>   <br><br>
+>   Agent:<br>
+>   Have a nice day!
 
 ### ⚒️ Tech stack ⚒️
 
