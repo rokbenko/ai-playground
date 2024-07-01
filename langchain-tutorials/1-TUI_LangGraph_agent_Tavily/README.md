@@ -1,4 +1,4 @@
-# #1 Python and Node.js TUIs for a LangGraph agent with a web connection
+# #1 Python and Node.js TUIs for a LangGraph agent with a web connection through Tavily
 
 <br>
 
@@ -103,7 +103,8 @@ Before running [`tui_langgraph_agent_tavily.py`](https://github.com/rokbenko/ai-
 > C:\your\path\to\ai-playground\langchain-tutorials\1-TUI_LangGraph_agent_Tavily\python
 > ```
 
-> [!NOTE] > `venv` is a built-in Python module that allows you to create and manage virtual environments. If you have Python `v3.3` or higher installed, you can start using `venv` right away.
+> [!NOTE]
+> `venv` is a built-in Python module that allows you to create and manage virtual environments. If you have Python `v3.3` or higher installed, you can start using `venv` right away.
 
 ### Node.js
 
@@ -128,39 +129,24 @@ Before running [`tui_langgraph_agent_tavily.py`](https://github.com/rokbenko/ai-
 If you run [`tui_langgraph_agent_tavily.py`](https://github.com/rokbenko/ai-playground/blob/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily/python/tui_langgraph_agent_tavily.py), you should be able to chat with the agent in a terminal:
 
 > User:<br>
-> Hi, I'm Bob.
+> Hi, I'm Bob!
 > <br><br>
 > Agent:<br>
 > Hello Bob! How can I assist you today?
 > <br><br>
 > User:<br>
-> What's the current weather in San Francisco? Give me exact data, like temperature, condition, wind, etc.
+> Did Slovenia qualify for the Top 16 countries in Euro 2024 football?
 > <br><br>
-> The agent is calling the tool 'tavily_search_results_json' with the query 'current weather in San Francisco'. Please wait for the agent's answer...
+> The agent is calling the tool 'tavily_search_results_json' with the query 'Slovenia Euro 2024 football Top 16 countries qualification'. Please wait for the agent's answer...
 > <br><br>
 > Agent:<br>
-> The current weather in San Francisco is as follows:<br>
->
-> - Temperature: 15.6°C (60.1°F)<br>
-> - Condition: Sunny<br>
-> - Wind: 6.9 mph, coming from NNW direction<br>
-> - Pressure: 1013.0 mb<br>
-> - Humidity: 83%<br>
-> - Visibility: 16.0km (9.0 miles)<br>
-> - UV Index: 4.0<br>
-> - Cloud Cover: 0%<br>
-> - Feels Like: 15.6°C (60.1°F)<br>
-> - Wind Chill: 12.3°C (54.1°F)<br>
-> - Heat Index: 13.0°C (55.4°F)<br>
-> - Dewpoint: 9.1°C (48.3°F)<br>
-> - Gust: 8.2 mph
->   <br>
->   For more details, you can visit [WeatherAPI.com](https://www.weatherapi.com/) > <br><br>
->   User:<br>
->   Quit
->   <br><br>
->   Agent:<br>
->   Have a nice day! 👋
+> Yes, Slovenia qualified for the Top 16 countries in Euro 2024 football as one of the four best third-placed teams along with Netherlands, Georgia, and Slovakia.
+> <br><br>
+> User:<br>
+> Quit
+> <br><br>
+> Agent:<br>
+> Have a nice day! 👋
 
 ### ⚒️ Tech stack ⚒️
 
@@ -186,39 +172,24 @@ Dependencies:
 If you run [`tui_langgraph_agent_tavily.js`](https://github.com/rokbenko/ai-playground/blob/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily/nodejs/tui_langgraph_agent_tavily.js), you should be able to chat with the agent in a terminal:
 
 > User:<br>
-> Hi, I'm Bob.
+> Hi, I'm Bob!
 > <br><br>
 > Agent:<br>
 > Hello Bob! How can I assist you today?
 > <br><br>
 > User:<br>
-> What's the current weather in San Francisco? Give me exact data, like temperature, condition, wind, etc.
+> Did Slovenia qualify for the Top 16 countries in Euro 2024 football?
 > <br><br>
-> The agent is calling the tool 'tavily_search_results_json' with the query 'current weather in San Francisco'. Please wait for the agent's answer...
+> The agent is calling the tool 'tavily_search_results_json' with the query 'Slovenia Euro 2024 football Top 16 countries qualification'. Please wait for the agent's answer...
 > <br><br>
 > Agent:<br>
-> The current weather in San Francisco is as follows:<br>
->
-> - Temperature: 15.6°C (60.1°F)<br>
-> - Condition: Sunny<br>
-> - Wind: 6.9 mph, coming from NNW direction<br>
-> - Pressure: 1013.0 mb<br>
-> - Humidity: 83%<br>
-> - Visibility: 16.0km (9.0 miles)<br>
-> - UV Index: 4.0<br>
-> - Cloud Cover: 0%<br>
-> - Feels Like: 15.6°C (60.1°F)<br>
-> - Wind Chill: 12.3°C (54.1°F)<br>
-> - Heat Index: 13.0°C (55.4°F)<br>
-> - Dewpoint: 9.1°C (48.3°F)<br>
-> - Gust: 8.2 mph
->   <br>
->   For more details, you can visit [WeatherAPI.com](https://www.weatherapi.com/) > <br><br>
->   User:<br>
->   Quit
->   <br><br>
->   Agent:<br>
->   Have a nice day!
+> Yes, Slovenia qualified for the Top 16 countries in Euro 2024 football as one of the four best third-placed teams along with Netherlands, Georgia, and Slovakia.
+> <br><br>
+> User:<br>
+> Quit
+> <br><br>
+> Agent:<br>
+> Have a nice day!
 
 ### ⚒️ Tech stack ⚒️
 
