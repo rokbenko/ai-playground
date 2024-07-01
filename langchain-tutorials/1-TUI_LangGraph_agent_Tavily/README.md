@@ -211,4 +211,4 @@ Dependencies:
 
 ## 📽️ Demonstration 📽️
 
-Coming soon... ✨
+![Demonstration of how to chat in a terminal with the LangGraph ReAct agent with a web connection through Tavily](https://github.com/rokbenko/ai-playground/blob/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily/demonstration.gif)
