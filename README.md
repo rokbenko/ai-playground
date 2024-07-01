@@ -278,10 +278,10 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
     <img alt="Node.js badge" src="https://img.shields.io/badge/Node.js-%23202020?style=flat&logo=nodedotjs">
   </td>
   <td>
-    <a href="#">Coming soon... ✨</a>
+    <a href="https://github.com/rokbenko/ai-playground/tree/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily">GitHub</a>
   </td>
   <td>
-    <a href="#">Coming soon... ✨</a>
+    <a href="https://youtu.be/Qa0B5m0t1Cs">YouTube</a>
   </td>
 </table>
 
