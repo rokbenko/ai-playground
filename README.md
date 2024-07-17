@@ -17,6 +17,7 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
     - [OpenAI](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#openai)<br>
     - [Gemini](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#gemini)<br>
   - [Frameworks](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#%EF%B8%8F-frameworks-%EF%B8%8F)<br>
+    - [LangChain](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#langchain)<br>
     - [LlamaIndex](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#llamaindex)<br>
     - [Fetch.ai](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#fetchai)<br>
   - [Cloud](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#%EF%B8%8F-cloud-%EF%B8%8F)<br>
