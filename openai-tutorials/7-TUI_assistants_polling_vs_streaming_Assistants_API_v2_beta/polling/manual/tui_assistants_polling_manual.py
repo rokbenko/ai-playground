@@ -17,7 +17,7 @@ client = OpenAI(
 )
 
 # Initialize Rich for better output formatting and visualization
-console = Console()
+output_formatter = Console()
 
 # Initialize variables
 attachments = []
@@ -46,11 +46,11 @@ header = """
 <br>
 """
 md_header = Markdown(header)
-console.print(md_header)
+output_formatter.print(md_header)
 
 # Check if assistant ID is added in the .env file and display an error message if not
 if not assistant_id:
-    console.print(
+    output_formatter.print(
         "\nExiting the script[red]...[/red]\nError: ASSISTANT_ID environment variable is not added in the .env file. Please add it.\n",
         style="red",
     )
@@ -82,16 +82,18 @@ try:
                 all_tools.append(tool_name)
 
     # Display assistant details
-    console.print("Assistant found in the .env file", style="on deep_sky_blue1")
-    console.print(f"Assistant: {get_name}", style="deep_sky_blue1")
-    console.print(f"Instructions: {get_instructions}", style="deep_sky_blue1")
-    console.print(f"Tools: {','.join(all_tools)}", style="deep_sky_blue1")
-    console.print(
+    output_formatter.print(
+        "Assistant found in the .env file", style="on deep_sky_blue1"
+    )
+    output_formatter.print(f"Assistant: {get_name}", style="deep_sky_blue1")
+    output_formatter.print(f"Instructions: {get_instructions}", style="deep_sky_blue1")
+    output_formatter.print(f"Tools: {','.join(all_tools)}", style="deep_sky_blue1")
+    output_formatter.print(
         f"LLM: [deep_sky_blue1]{get_model}[/deep_sky_blue1]", style="deep_sky_blue1"
     )
 except OpenAIError as e:
     # Handle error when retrieving assistant details
-    console.print(
+    output_formatter.print(
         f"\nExiting the script[red]...[/red]\nError retrieving assistant details:\n{e}\n",
         style="red",
     )
@@ -127,7 +129,7 @@ def generate_table(files_with_tools):
 # Check if file IDs are added in the .env file
 if not file_id_values:
     # If no, display a warning message
-    console.print(
+    output_formatter.print(
         "\nWarning: There are no environment variables starting with FILE_ID_ added in the .env file. Consequently, no files will be added to the assistant.\n",
         style="yellow3",
     )
@@ -137,14 +139,14 @@ if not file_id_values:
 
     # If no, exit the script
     if confirm.lower() == "n" or confirm.lower() == "no":
-        console.print(
+        output_formatter.print(
             "\nExiting the script[red]...[/red]\nPlease edit the .env file and add environment variables starting with FILE_ID_. Then run the script again.\n",
             style="red",
         )
         exit(1)
 else:
     # If yes, display the files
-    console.print("\nFiles found in the .env file", style="on deep_sky_blue1")
+    output_formatter.print("\nFiles found in the .env file", style="on deep_sky_blue1")
 
     for value in file_id_values:
         try:
@@ -152,7 +154,7 @@ else:
             file_details = client.files.retrieve(file_id=value)
         except OpenAIError as e:
             # Handle error when retrieving file details
-            console.print(
+            output_formatter.print(
                 f"Exiting the script[red]...[/red]\nError retrieving file details:\n{e}\n",
                 style="red",
             )
@@ -168,7 +170,7 @@ else:
 
         # If invalid tool is entered, display an error message
         if add_tool.lower() != "code_interpreter" and add_tool.lower() != "file_search":
-            console.print(
+            output_formatter.print(
                 "\nExiting the script[red]...[/red]\nYou entered an invalid tool. A tool must be either code_interpreter or file_search. Please try again.\n",
                 style="red",
             )
@@ -201,14 +203,14 @@ if file_id_values:
         table.add_row(get_filename, get_file_id_masked, get_tools)
 
     # Display the table with file details
-    console.print(table)
+    output_formatter.print(table)
 
 try:
     # Step 1: Create a new thread
     my_thread = client.beta.threads.create()
 except OpenAIError as e:
     # Handle error when creating a new thread
-    console.print(
+    output_formatter.print(
         f"\nExiting the script[red]...[/red]\nError creating a new thread:\n{e}\n",
         style="red",
     )
@@ -222,7 +224,9 @@ while True:
 
     # Check if the user wants to quit the chat
     if user_question.lower() == "quit":
-        console.print("Assistant: Have a nice day! :wave:\n", style="black on white")
+        output_formatter.print(
+            "Assistant: Have a nice day! :wave:\n", style="black on white"
+        )
         break
 
     try:
@@ -257,7 +261,7 @@ while True:
             )
     except OpenAIError as e:
         # Handle error when adding the user question to the thread messages
-        console.print(
+        output_formatter.print(
             f"\nExiting the script[red]...[/red]\nError adding the user question to thread messages:\n{e}\n",
             style="red",
         )
@@ -272,7 +276,7 @@ while True:
         )
     except OpenAIError as e:
         # Handle error when running the assistant
-        console.print(
+        output_formatter.print(
             f"\nExiting the script[red]...[/red]\nError running the assistant:\n{e}\n",
             style="red",
         )
@@ -312,7 +316,7 @@ while True:
                     live.stop()
 
                     # Display the assistant answer
-                    console.print(
+                    output_formatter.print(
                         f"Assistant: {all_messages.data[0].content[0].text.value}",
                         style="black on white",
                     )
@@ -331,7 +335,7 @@ while True:
                     exit(1)
             except OpenAIError as e:
                 # Handle error when retrieving the run
-                console.print(
+                output_formatter.print(
                     f"\nExiting the script[red]...[/red]\nError retrieving the run:\n{e}\n",
                     style="red",
                 )
