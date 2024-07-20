@@ -32,7 +32,7 @@ file_ids = {
     key: value for key, value in os.environ.items() if key.startswith("FILE_ID_")
 }
 
-# Convert the dictionary to a list of values
+# Convert the object with key-value pairs (i.e., dictionary) to an array containing a list of values
 file_id_values = list(file_ids.values())
 
 # Display the header and subheader
@@ -51,7 +51,7 @@ output_formatter.print(md_header)
 # Check if assistant ID is added in the .env file and display an error message if not
 if not assistant_id:
     output_formatter.print(
-        "\nExiting the script[red]...[/red]\nError: ASSISTANT_ID environment variable is not added in the .env file. Please add it.\n",
+        "\nExiting the script[red]...[/red]\nPlease edit the .env file and add the environment variable ASSISTANT_ID. Then run the script again.\n",
         style="red",
     )
     exit(1)
@@ -98,33 +98,6 @@ except OpenAIError as e:
         style="red",
     )
     exit(1)
-
-
-# Define a function to generate a table
-def generate_table(files_with_tools):
-    """
-    Generates a table with two columns: "File" and "Tool". The table is populated with rows
-    containing the file name and the corresponding tool for each file in the given
-    `files_with_tools` list of tuples. The function returns the generated table.
-
-    Parameters:
-    - files_with_tools (list): A list of tuples containing the file name and the tool
-      associated with each file.
-
-    Returns:
-    - table (Table): The generated table with two columns and rows populated with the
-      file names and tools.
-    """
-    table = Table(row_styles=["", "dim"])
-    table.add_column("File", justify="left", style="deep_sky_blue1")
-    table.add_column("Tool", justify="left", style="deep_sky_blue1")
-
-    for file, tool in files_with_tools:
-        table.add_row(file, tool)
-
-    if files_with_tools:
-        return table
-
 
 # Check if file IDs are added in the .env file
 if not file_id_values:
@@ -246,11 +219,11 @@ while True:
                 file_id = attachment["file_id"]
                 tools = attachment["tools"]
 
-                # Construct the attachment dictionary as required
-                attachment_dict = {"file_id": file_id, "tools": tools}
+                # Construct the attachment object with key-value pairs (i.e., dictionary)
+                attachment_object = {"file_id": file_id, "tools": tools}
 
                 # Append the constructed attachment to 'my_files'
-                my_files.append(attachment_dict)
+                my_files.append(attachment_object)
 
             # Step 3: Add the user question to the thread messages
             my_thread_message = client.beta.threads.messages.create(
@@ -332,7 +305,7 @@ while True:
                     time.sleep(5)
                     pass
                 else:
-                    exit(1)
+                    break
             except OpenAIError as e:
                 # Handle error when retrieving the run
                 output_formatter.print(
