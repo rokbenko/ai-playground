@@ -15,7 +15,7 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
   
   - [LLMs](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-llms-)<br>
     - [OpenAI](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#openai)<br>
-    - [Gemini](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#gemini)<br>
+    - [Google](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#google)<br>
   - [Frameworks](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#%EF%B8%8F-frameworks-%EF%B8%8F)<br>
     - [LangChain](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#langchain)<br>
     - [LlamaIndex](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#llamaindex)<br>
@@ -212,7 +212,7 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
 
 <br>
 
-### [Gemini](https://deepmind.google/technologies/gemini/#introduction)
+### [Google](https://deepmind.google/)
 
 <table>
   <tr>
