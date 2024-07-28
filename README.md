@@ -232,7 +232,7 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
       <img alt="Node.js badge" src="https://img.shields.io/badge/Node.js-%23202020?style=flat&logo=nodedotjs">
     </td>
     <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/gemini-tutorials/1-Gemini_Pro_API_starter">GitHub</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/google-tutorials/1-Gemini_Pro_API_starter">GitHub</a>
     </td>
     <td>
       <a href="https://youtu.be/0qv_4x1K6hU">YouTube</a>
@@ -248,7 +248,7 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
       <img alt="Node.js badge" src="https://img.shields.io/badge/Node.js-%23202020?style=flat&logo=nodedotjs">
     </td>
     <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/gemini-tutorials/2-Vertex_AI_Gemini_Pro_API_starter">GitHub</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/google-tutorials/2-Vertex_AI_Gemini_Pro_API_starter">GitHub</a>
     </td>
     <td>
       <a href="https://youtu.be/I8W-4oq1onY">YouTube</a>
