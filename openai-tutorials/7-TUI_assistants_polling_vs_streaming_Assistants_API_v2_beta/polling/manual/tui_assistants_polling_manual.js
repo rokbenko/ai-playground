@@ -19,14 +19,14 @@ const outputFormatter = terminalKit.terminal;
 const attachments = [];
 const myFiles = [];
 
-// Get assistant ID from environment variables
-const assistantID = process.env.ASSISTANT_ID;
+// Get assistant ID from environment variables starting with "OPENAI_ASSISTANT_ID_"
+const assistantID = process.env.OPENAI_ASSISTANT_ID;
 
 // Get all file IDs from environment variables
-// Collect all environment variables starting with "FILE_ID_"
+// Collect all environment variables starting with "OPENAI_FILE_ID_"
 const fileIDs = Object.fromEntries(
   Object.entries(process.env).filter(([key, value]) =>
-    key.startsWith("FILE_ID_")
+    key.startsWith("OPENAI_FILE_ID_")
   )
 );
 
@@ -41,7 +41,7 @@ outputFormatter.defaultColor(
 // Check if assistant ID is added in the .env file and display an error message if not
 if (!assistantID) {
   outputFormatter.red(
-    "\nExiting the script...\nPlease edit the .env file and add the environment variable ASSISTANT_ID. Then run the script again.\n\n"
+    "\nExiting the script...\nPlease edit the .env file and add the environment variable OPENAI_ASSISTANT_ID. Then run the script again.\n\n"
   );
   process.exit(1);
 }
@@ -130,7 +130,7 @@ async function checkFiles() {
   if (fileIDvalues.length === 0) {
     // If no, display a warning message
     outputFormatter.yellow(
-      "\nWarning: There are no environment variables starting with FILE_ID_ added in the .env file. Consequently, no files will be added to the assistant.\n\n"
+      "\nWarning: There are no environment variables starting with OPENAI_FILE_ID_ added in the .env file. Consequently, no files will be added to the assistant.\n\n"
     );
 
     // Ask the user if they are okay with no files being added to the assistant
@@ -139,7 +139,7 @@ async function checkFiles() {
     // If no, exit the script
     if (confirm.toLowerCase() === "n" || confirm.toLowerCase() === "no") {
       outputFormatter.red(
-        "\nExiting the script...\nPlease edit the .env file and add environment variables starting with FILE_ID_. Then run the script again.\n\n"
+        "\nExiting the script...\nPlease edit the .env file and add environment variables starting with OPENAI_FILE_ID_. Then run the script again.\n\n"
       );
       process.exit(1);
     }

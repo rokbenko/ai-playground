@@ -23,13 +23,13 @@ output_formatter = Console()
 attachments = []
 my_files = []
 
-# Get assistant ID from environment variables
-assistant_id = os.getenv("ASSISTANT_ID")
+# Get assistant ID from environment variables starting with "OPENAI_ASSISTANT_ID"
+assistant_id = os.getenv("OPENAI_ASSISTANT_ID")
 
 # Get all file IDs from environment variables
-# Collect all environment variables starting with "FILE_ID_"
+# Collect all environment variables starting with "OPENAI_FILE_ID_"
 file_ids = {
-    key: value for key, value in os.environ.items() if key.startswith("FILE_ID_")
+    key: value for key, value in os.environ.items() if key.startswith("OPENAI_FILE_ID_")
 }
 
 # Convert the object with key-value pairs (i.e., dictionary) to an array containing a list of values
@@ -51,7 +51,7 @@ output_formatter.print(md_header)
 # Check if assistant ID is added in the .env file and display an error message if not
 if not assistant_id:
     output_formatter.print(
-        "\nExiting the script[red]...[/red]\nPlease edit the .env file and add the environment variable ASSISTANT_ID. Then run the script again.\n",
+        "\nExiting the script[red]...[/red]\nPlease edit the .env file and add the environment variable OPENAI_ASSISTANT_ID. Then run the script again.\n",
         style="red",
     )
     exit(1)
@@ -103,7 +103,7 @@ except OpenAIError as e:
 if not file_id_values:
     # If no, display a warning message
     output_formatter.print(
-        "\nWarning: There are no environment variables starting with FILE_ID_ added in the .env file. Consequently, no files will be added to the assistant.\n",
+        "\nWarning: There are no environment variables starting with OPENAI_FILE_ID_ added in the .env file. Consequently, no files will be added to the assistant.\n",
         style="yellow3",
     )
 
@@ -113,7 +113,7 @@ if not file_id_values:
     # If no, exit the script
     if confirm.lower() == "n" or confirm.lower() == "no":
         output_formatter.print(
-            "\nExiting the script[red]...[/red]\nPlease edit the .env file and add environment variables starting with FILE_ID_. Then run the script again.\n",
+            "\nExiting the script[red]...[/red]\nPlease edit the .env file and add environment variables starting with OPENAI_FILE_ID_. Then run the script again.\n",
             style="red",
         )
         exit(1)
