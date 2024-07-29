@@ -13,7 +13,7 @@ Python and Node.js examples on how to build a personal math tutor using the Open
 
 ## 🧠 Learning goals 🧠
 
-- **Understanding the OpenAI Assistants API flow:** We will explore the complete process of building an assistant using the OpenAI Assistants API `v1` beta. The steps include:
+- **Understanding the flow of the OpenAI Assistants API `v1` beta:** We will explore the complete process of building an assistant using the OpenAI Assistants API `v1` beta. The steps include:
 
 1. Creating an assistant
 2. Creating a thread
