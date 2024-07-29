@@ -31,9 +31,9 @@ This directory has the following structure:
 
 ## 🧠 Learning goals 🧠
 
-1. **Building a [LangGraph](https://langchain-ai.github.io/langgraph/) agent:** LangGraph is an extension of LangChain designed to create highly customizable agents. In LangChain `v0.1`, agents were built using `AgentExecutor`. Now, in `v0.2`, it's recommended to use LangGraph instead. Although `AgentExecutor` is still available, it’s moving towards deprecating.
-2. **Understanding [ReAct](https://arxiv.org/abs/2210.03629) agents:** Our LangGraph agent will be of the ReAct type, which stands for "Reason" and "Act". This means the agent will go through a cycle of thinking and acting. Basically, the agent will decide whether to use tools or not and will keep repeating this _reason-and-act_ process until it finds an answer for the user.
-3. **Connecting an agent to the web with [Tavily](https://tavily.com/):** Our LangGraph agent will connect to the web using Tavily, a search engine optimized for LLMs and RAGs. This allows the agent to access real-time data beyond what the LLM the agent is using was originally trained on, enabling it to answer questions based on the latest information available.
+- **Building a [LangGraph](https://langchain-ai.github.io/langgraph/) agent:** LangGraph is an extension of LangChain designed to create highly customizable agents. In LangChain `v0.1`, agents were built using `AgentExecutor`. Now, in `v0.2`, it's recommended to use LangGraph instead. Although `AgentExecutor` is still available, it’s moving towards deprecating.
+- **Understanding [ReAct](https://arxiv.org/abs/2210.03629) agents:** Our LangGraph agent will be of the ReAct type, which stands for "Reason" and "Act". This means the agent will go through a cycle of thinking and acting. Basically, the agent will decide whether to use tools or not and will keep repeating this _reason-and-act_ process until it finds an answer for the user.
+- **Connecting an agent to the web with [Tavily](https://tavily.com/):** Our LangGraph agent will connect to the web using Tavily, a search engine optimized for LLMs and RAGs. This allows the agent to access real-time data beyond what the LLM the agent is using was originally trained on, enabling it to answer questions based on the latest information available.
 
 <br>
 
