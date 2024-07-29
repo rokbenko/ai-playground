@@ -4,10 +4,25 @@
 
 ## 📖 Description 📖
 
-Python and Node.js examples on how to build a customer support chatbot with the OpenAI Assistants API `v1` beta using the Knowledge Retrieval tool.
+Python and Node.js examples on how to build a customer support chatbot using the OpenAI Assistants API `v1` beta with the Knowledge Retrieval tool.
 
 > [!NOTE]
 > The code in this directory works with the [OpenAI Assistants API `v1` beta](https://platform.openai.com/docs/api-reference/assistants-v1). In April 2024, the [OpenAI Assistants API `v2` beta](https://platform.openai.com/docs/api-reference/assistants) was released. See the [migration guide](https://platform.openai.com/docs/assistants/migration/agents).
+
+<br>
+
+## 🧠 Learning goals 🧠
+
+- **Understanding the flow of the OpenAI Assistants API `v1` beta:** We will explore the complete process of building an assistant using the OpenAI Assistants API `v1` beta. The steps include:
+
+1. Creating an assistant
+2. Creating a thread
+3. Adding a user message to the thread
+4. Running the assistant
+5. Periodically checking the run status to see if it has moved to completed
+6. Retrieving the assistant answer
+
+- **Building a customer support chatbot:** We will apply these steps to build a customer support chatbot using the OpenAI Assistants API `v1` beta with the Knowledge Retrieval tool.
 
 <br>
 
