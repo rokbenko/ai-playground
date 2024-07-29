@@ -8,6 +8,12 @@ Python and Node.js examples on how to get a JSON response using the OpenAI Chat 
 
 <br>
 
+## 🧠 Learning goal 🧠
+
+- **Getting response in JSON format:** Previously, the only way to receive OpenAI API response in JSON format was by specifying this request in the prompt, which was not always reliable. The output was inconsistent, sometimes returning JSON and sometimes not. However, with the recent introduction of the `response_format` parameter, we can now reliably get responses in JSON format.
+
+<br>
+
 ## 🔥 Working example in Python 🔥
 
 If you run [`return_json.py`](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/1-Get_response_in_JSON_format/return_json.py), you should get the following response:
