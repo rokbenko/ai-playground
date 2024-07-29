@@ -67,4 +67,4 @@ Dependencies:
 
 ## 📽️ Demonstration 📽️
 
-![Demonstration of how to chat with a customer support chatbot in a terminal and receive its responses in a streaming way](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/6-TUI_customer_support_chatbot_streaming/screenshot.gif)
+![Demonstration of how to chat with a customer support chatbot in a terminal and receive its responses in a streaming way](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/6-TUI_customer_support_chatbot_streaming/demonstration.gif)

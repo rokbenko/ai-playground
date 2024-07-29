@@ -56,8 +56,8 @@ Dependencies:
 
 Get environment variables:
 
-![Demonstration of how to get environment variables](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/3-GUI_personal_math_tutor/screenshot_env.gif)
+![Demonstration of how to get environment variables](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/3-GUI_personal_math_tutor/demonstration_env.gif)
 
 Chat with a personal math tutor:
 
-![Demonstration of how to chat with a personal math tutor](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/3-GUI_personal_math_tutor/screenshot_chat.gif)
+![Demonstration of how to chat with a personal math tutor](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/3-GUI_personal_math_tutor/demonstration_chat.gif)

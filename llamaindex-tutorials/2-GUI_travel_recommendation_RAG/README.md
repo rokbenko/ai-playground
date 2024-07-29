@@ -44,4 +44,4 @@ Dependencies:
 
 ## 📽️ Demonstration 📽️
 
-![Demonstration of how to chat with the travel recommendation RAG with response streaming in the Streamlit app](https://github.com/rokbenko/ai-playground/blob/main/llamaindex-tutorials/2-GUI_travel_recommendation_RAG/screenshot.gif)
+![Demonstration of how to chat with the travel recommendation RAG with response streaming in the Streamlit app](https://github.com/rokbenko/ai-playground/blob/main/llamaindex-tutorials/2-GUI_travel_recommendation_RAG/demonstration.gif)
