@@ -4,10 +4,25 @@
 
 ## 📖 Description 📖
 
-Python and Node.js examples on how to build a personal math tutor with the OpenAI Assistants API `v1` beta using the Code Interpreter tool.
+Python and Node.js examples on how to build a personal math tutor using the OpenAI Assistants API `v1` beta with the Code Interpreter tool.
 
 > [!NOTE]
 > The code in this directory works with the [OpenAI Assistants API `v1` beta](https://platform.openai.com/docs/api-reference/assistants-v1). In April 2024, the [OpenAI Assistants API `v2` beta](https://platform.openai.com/docs/api-reference/assistants) was released. See the [migration guide](https://platform.openai.com/docs/assistants/migration/agents).
+
+<br>
+
+## 🧠 Learning goals 🧠
+
+- **Understanding the OpenAI Assistants API flow:** We will explore the complete process of building an assistant using the OpenAI Assistants API `v1` beta. The steps include:
+
+1. Creating an assistant
+2. Creating a thread
+3. Adding a user message to the thread
+4. Running the assistant
+5. Periodically checking the run status to see if it has moved to *completed*
+6. Retrieving the assistant answer
+
+- **Building a personal math tutor:** We will apply these steps to build a personal math tutor using the OpenAI Assistants API `v1` beta with the Code Interpreter tool.
 
 <br>
 
