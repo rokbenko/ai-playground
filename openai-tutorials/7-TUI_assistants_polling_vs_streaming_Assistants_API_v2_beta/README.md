@@ -15,8 +15,8 @@ This directory has the following structure:
 │   ├───helpers
 │   │       .env
 │   │       .gitignore
-│   │       tui_assistants_polling_helpers.js
-│   │       tui_assistants_polling_helpers.py
+│   │       tui_assistants_polling_helper.js
+│   │       tui_assistants_polling_helper.py
 │   │
 │   └───manual
 │           .env
@@ -27,8 +27,8 @@ This directory has the following structure:
 └───streaming
         .env
         .gitignore
-        tui_assistants_streaming_helpers.js
-        tui_assistants_streaming_helpers.py
+        tui_assistants_streaming_helper.js
+        tui_assistants_streaming_helper.py
 ```
 
 > [!NOTE]
