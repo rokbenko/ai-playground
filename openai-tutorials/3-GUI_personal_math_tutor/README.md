@@ -11,6 +11,12 @@ Next.js GUI for the <a href="https://github.com/rokbenko/ai-playground/tree/main
 
 <br>
 
+## 🧠 Learning goal 🧠
+
+- **Building a Next.js GUI for the OpenAI Assistants API `v1` beta:** We will build a user-friendly graphical user interface (i.e., GUI) using Next.js, designed to interact with the OpenAI Assistants API `v1` beta. This GUI will offer a ChatGPT-like experience, specifically tailored to engage with the personal math tutor built in the previous tutorial.
+
+<br>
+
 ## 🚀 Installation 🚀
 
 To start using the app, follow these steps:
