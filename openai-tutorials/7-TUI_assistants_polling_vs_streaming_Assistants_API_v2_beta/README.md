@@ -38,8 +38,8 @@ This directory has the following structure:
 
 ## 🧠 Learning goals 🧠
 
-1. **Understanding assistant response handling:** We'll cover the difference between response polling and streaming in the OpenAI Assistants API. Response polling involves periodically checking for the availability of a response after a request is made. On the other hand, response streaming allows response to be transmitted in real-time as it becomes available after a request is made, providing a better UX.
-3. **Implementing response polling and streaming:** We'll show how response polling and streaming can be implemented manually or using SDK helpers. For response polling, in Python, the `create_and_poll` method is an SDK helper that allows us to poll a response after a request is made, while in Node.js, the `createAndPoll` method is an SDK helper that provides the same functionality. For response streaming, both Python and Node.js offer the `stream` method as an SDK helper, that allows us to stream a response after a request is made.
+- **Understanding assistant response handling:** We'll cover the difference between response polling and streaming in the OpenAI Assistants API. Response polling involves periodically checking for the availability of a response after a request is made. On the other hand, response streaming allows response to be transmitted in real-time as it becomes available after a request is made, providing a better UX.
+- **Implementing response polling and streaming:** We'll show how response polling and streaming can be implemented manually or using SDK helpers. For response polling, in Python, the `create_and_poll` method is an SDK helper that allows us to poll a response after a request is made, while in Node.js, the `createAndPoll` method is an SDK helper that provides the same functionality. For response streaming, both Python and Node.js offer the `stream` method as an SDK helper, that allows us to stream a response after a request is made.
 
 <br>
 
