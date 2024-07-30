@@ -433,7 +433,7 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
   <tr>
     <td>#1</td>
     <td>Milvus Standalone starter</td>
-    <td>Python and Node.js examples on how to install Milvus Standalone using Docker, connect to a Milvus server and list all collections</td>
+    <td>Python and Node.js examples on how to install Milvus Standalone using Docker, connect to a server and list all collections</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
       <img alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-%23202020?style=flat&logo=javascript">
@@ -450,7 +450,7 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
   <tr>
     <td>#2</td>
     <td>Attu starter</td>
-    <td>Instructions on how to run Attu, a GUI for Milvus, using Docker</td>
+    <td>Instructions on how to run Attu, a GUI for Milvus Standalone, using Docker</td>
     <td>
       <img alt="Docker badge" src="https://img.shields.io/badge/Docker-%23202020?style=flat&logo=docker">
     </td>
@@ -464,10 +464,11 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
   <tr>
     <td>#3</td>
     <td>Text similarity search</td>
-    <td>Python example on how to do text similarity search with Milvus (<i>Note: input vector is calculated with spaCy</i>)</td>
+    <td>Python example on how to do text similarity search with Milvus Standalone (<i>Note: input vector is calculated with spaCy</i>)</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
       <img alt="spaCy badge" src="https://img.shields.io/badge/spaCy-%23202020?style=flat&logo=spacy">
+      <img alt="Docker badge" src="https://img.shields.io/badge/Docker-%23202020?style=flat&logo=docker">
     </td>
     <td>
       <a href="https://github.com/rokbenko/ai-playground/tree/main/milvus-tutorials/3-Text_similarity_search">GitHub</a>
@@ -495,9 +496,10 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
   <tr>
     <td>#1</td>
     <td>Add a new entity label to NER</td>
-    <td>Jupyter Notebook example on how to add a new entity label to spaCy's default NER</td>
+    <td>Jupyter Notebook example on how to add a new entity label to spaCy's default NER model</td>
     <td>
       <img alt="Jupyter Notebook badge" src="https://img.shields.io/badge/Jupyter%20Notebook-%23202020?style=flat&logo=jupyter">
+      <img alt="spaCy badge" src="https://img.shields.io/badge/spaCy-%23202020?style=flat&logo=spacy">
     </td>
     <td>
       <a href="https://github.com/rokbenko/ai-playground/tree/main/spacy-tutorials/1-Add_new_entity_label_to_NER">GitHub</a>
