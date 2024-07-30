@@ -8,6 +8,12 @@ Python and Node.js examples on how to use the Gemini Pro API.
 
 <br>
 
+## 🧠 Learning goal 🧠
+
+- **Getting to know the Gemini Pro API:** We will make a simple API request to the Gemini Pro API.
+
+<br>
+
 ## 🔥 Working example in Python 🔥
 
 If you run [`gemini_pro.py`](https://github.com/rokbenko/ai-playground/blob/main/google-tutorials/1-Gemini_Pro_API_starter/gemini_pro.py), you should get a response:
