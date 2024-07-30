@@ -26,7 +26,7 @@ Python and Node.js TUIs for the <a href="https://github.com/rokbenko/ai-playgrou
 
 ## 🧠 Learning goal 🧠
 
-- **Building Python and Node.js TUIs for the OpenAI Assistants API `v1` beta:** We will build a terminal user interface (i.e., TUI) using Python and Node.js, designed to interact with the OpenAI Assistants API `v1` beta. These TUIs are specifically tailored to chat with the customer support chatbot built in the previous tutorial.
+- **Building Python and Node.js TUIs for the OpenAI Assistants API `v1` beta:** We will build a terminal user interface (i.e., TUI) using Python and Node.js, designed to interact with the OpenAI Assistants API `v1` beta. These TUIs are specifically tailored to chat with the customer support chatbot built in the [previous](https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_customer_support_chatbot) tutorial.
 
 <br>
 
