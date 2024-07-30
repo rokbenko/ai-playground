@@ -299,7 +299,7 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
   <tr>
     <td>#1</td>
     <td>Create Llama app</td>
-    <td>Instructions on how to create a LlamaIndex chat streaming app using the OpenAI model and Next.js GUI with 1 command in 2 minutes</td>
+    <td>Instructions on how to create a LlamaIndex chat streaming app using an OpenAI LLM and Next.js GUI with 1 command in 2 minutes</td>
     <td>
       <img alt="Next.js badge" src="https://img.shields.io/badge/Next.js-%23202020?style=flat&logo=nextdotjs">
     </td>
