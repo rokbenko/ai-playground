@@ -354,10 +354,10 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
     <td>
       Python examples on how to:<br>
       <ul>
-        <li>create a Fetch.ai agent with a startup task</li>
-        <li>create a Fetch.ai agent with an interval task</li>
-        <li>create a Fetch.ai agent and get its address</li>
-        <li>create a Fetch.ai stateful agent</li>
+        <li>build a Fetch.ai agent with a startup task</li>
+        <li>build a Fetch.ai agent with an interval task</li>
+        <li>build a Fetch.ai agent and get its address</li>
+        <li>build a Fetch.ai stateful agent</li>
       </ul>
     </td>
     <td>
