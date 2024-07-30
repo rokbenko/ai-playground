@@ -13,7 +13,7 @@ Next.js GUI for the <a href="https://github.com/rokbenko/ai-playground/tree/main
 
 ## 🧠 Learning goal 🧠
 
-- **Building a Next.js GUI for the OpenAI Assistants API `v1` beta:** We will build a user-friendly graphical user interface (i.e., GUI) using Next.js, designed to interact with the OpenAI Assistants API `v1` beta. This GUI will offer a ChatGPT-like experience, specifically tailored to chat with the personal math tutor built in the [previous](https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/2-Build_personal_math_tutor) tutorial.
+- **Building a Next.js GUI for the OpenAI Assistants API `v1` beta:** We will build a user-friendly graphical user interface (i.e., GUI) using Next.js, designed to interact with the OpenAI Assistants API `v1` beta. Next.js is an open-source app framework that allows us to build server-side rendered (i.e., SSR) and statically generated web apps using React. It enables us to create highly performant, SEO-friendly web apps with a robust set of features, including automatic code splitting, optimized performance, and a rich ecosystem of plugins and tools for seamless development. This GUI will offer a ChatGPT-like experience, specifically tailored to chat with the personal math tutor built in the [previous](https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/2-Build_personal_math_tutor) tutorial.
 
 <br>
 
