@@ -19,6 +19,30 @@ Python example on how to use the Snowflake Cortex LLM functions.
 
 <br>
 
+## 🧠 Learning goals 🧠
+
+- **Setting up Snowflake Cortex:** We will set up Snowflake Cortex, a comprehensive platform within the Snowflake ecosystem designed for developing, deploying, and managing ML and AI applications. The steps include:
+
+1. Creating a Snowflake account
+2. Choosing the correct cloud provider
+3. Getting the Snowflake user and password for environment variables
+4. Getting the Snowflake account for environment variable
+5. Setting the Default Warehouse parameter
+6. Setting environment variables
+7. Installing the Snowflake SDK
+
+- **Exploring [Snowflake Cortex LLM functions](https://docs.snowflake.com/en/user-guide/snowflake-cortex/llm-functions):** We will explore several functions provided by Snowflake Cortex to perform various LLM tasks. This includes:
+
+    - `Summarize()`: Generating a summary of a given text
+    - `Complete()`: Providing text completions based on a prompt
+    - `ExtractAnswer()`: Extracting answers to specific questions from the text
+    - `Sentiment()`: Analyzing the sentiment of the text
+    - `Translate()`: Translating text from one language to another
+
+- **Running LLM functions:** We will test the Snowflake Cortex LLM functions with sample text. This will demonstrate how to use these functions to perform real-world text analysis and processing tasks, showcasing their effectiveness and practical applications.
+
+<br>
+
 ## 🔥 Working example in Python 🔥
 
 If you run [`snowflake_cortex_llm.py`](https://github.com/rokbenko/ai-playground/blob/main/snowflake-tutorials/1-Snowflake_Cortex_LLM_functions_starter/snowflake_cortex_llm.py), you should get an output:
