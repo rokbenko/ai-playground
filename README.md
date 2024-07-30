@@ -210,8 +210,6 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
   </tr>
 </table>
 
-<br>
-
 ### [Google](https://deepmind.google/)
 
 <table>
@@ -339,8 +337,6 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
     </td>
   </tr>
 </table>
-
-<br>
 
 ### [Fetch.ai](https://fetch.ai/)
 
