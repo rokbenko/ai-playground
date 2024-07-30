@@ -64,7 +64,7 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
       Build a personal math tutor*<br>
       <sup>*Assistants API <code>v1</code> beta</sup>
     </td>
-    <td>Python and Node.js examples on how to build a personal math tutor with the OpenAI Assistants API <code>v1</code> beta using the Code Interpreter tool</td>
+    <td>Python and Node.js examples on how to build a personal math tutor using the OpenAI Assistants API <code>v1</code> beta with the Code Interpreter tool</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
       <img alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-%23202020?style=flat&logo=javascript">
@@ -102,7 +102,7 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
       Build a customer support chatbot*<br>
       <sup>*Assistants API <code>v1</code> beta</sup>
     </td>
-    <td>Python and Node.js examples on how to build a customer support chatbot with the OpenAI Assistants API <code>v1</code> beta using the Knowledge Retrieval tool</td>
+    <td>Python and Node.js examples on how to build a customer support chatbot using the OpenAI Assistants API <code>v1</code> beta with the Knowledge Retrieval tool</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
       <img alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-%23202020?style=flat&logo=javascript">
