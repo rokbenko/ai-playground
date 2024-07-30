@@ -8,6 +8,12 @@ Python examples on how to make Fetch.ai agents communicate with each other local
 
 <br>
 
+## 🧠 Learning goal 🧠
+
+- **Understanding local and remote communication between Fetch.ai agents:** We will explore how Fetch.ai agents can communicate both locally and remotely. We will set up two agents, Alice and Bob, to greet each other in both scenarios. For local communication, Alice and Bob will exchange greetings within the same environment. Remote communication is achieved through [Almanac contracts](https://fetch.ai/docs/concepts/fetch-network/almanac), leveraging Fetch.ai's decentralized framework to enable agents to interact across different environments.
+
+<br>
+
 ## 🔥 Working examples in Python 🔥
 
 ### Local communication
