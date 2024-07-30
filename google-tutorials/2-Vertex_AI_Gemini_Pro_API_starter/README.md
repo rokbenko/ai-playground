@@ -12,7 +12,7 @@ Python and Node.js examples on how to use the Vertex AI Gemini Pro API.
 
 - **Setting up Vertex AI:** We will set up Vertex AI, a comprehensive platform within the Google Cloud Platform designed for developing, deploying, and managing ML and AI applications. The steps include:
 
-1. Signing in to Google Cloud Platform
+1. Creating a Google Cloud Platform account
 2. Creating our first project
 3. Enabling the Vertex AI API
 4. Setting up Application Default Credentials using IAM, which includes:
