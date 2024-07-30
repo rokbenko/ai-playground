@@ -8,6 +8,25 @@ Instructions on how to run Attu, a GUI for Milvus, using Docker.
 
 <br>
 
+## 🧠 Learning goals 🧠
+
+- **Setting up [Attu](https://milvus.io/docs/v2.1.x/attu.md) with Docker:** We will learn how to set up Attu using Docker. Attu is an open-source management tool for Milvus. It features an intuitive graphical user interface (i.e., GUI), allowing you to easily interact with your databases. With just a few clicks, you can visualize your cluster status, manage metadata, perform data queries, and much more. The steps include:
+
+1. Getting your `IPv4` address
+2. Running the Docker command to start the Attu container
+3. Verifying the setup by checking Docker Desktop and accessing the Attu dashboard via localhost
+
+- **Managing Milvus databases with Attu:** We will explore how to manage Milvus databases in Attu by performing the following tasks:
+
+    - Adding a Milvus collection in Attu
+    - Creating an index for the Milvus collection in Attu
+    - Loading the Milvus collection in Attu
+    - Using spaCy to convert text to embedding vectors (using Python)
+    - Storing embedding vectors in a JSON file (using Python)
+    - Importing the data via JSON file and previewing it in Attu
+
+<br>
+
 ## 💡 How to run Attu (GUI for Milvus) 💡
 
 First, run the following command to get your `IPv4 Address`:
