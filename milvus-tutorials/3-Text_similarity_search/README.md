@@ -8,6 +8,21 @@ Python example on how to do text similarity search with Milvus (_Note: input vec
 
 <br>
 
+## 🧠 Learning goals 🧠
+
+- **Setting up Milvus Standalone for text similarity search:** We will learn how to set up Milvus Standalone for text similarity search by:
+
+    - Running Milvus Standalone Docker containers composed in the [previous](https://github.com/rokbenko/ai-playground/tree/main/milvus-tutorials/1-Milvus_standalone_starter) tutorial
+    - Understanding the *Movies* collection and its structure created in the [previous](https://github.com/rokbenko/ai-playground/tree/main/milvus-tutorials/2-Attu_starter) tutorial
+
+- **Performing text similarity search:** We will explore the process of conducting text similarity searches with Milvus Standalone, covering:
+
+    - Generating embedding vectors with spaCy: Utilizing spaCy to convert user queries into embedding vectors suitable for similarity search.
+    - Executing similarity searches: Configuring Milvus Standalone to perform similarity searches on the *Movies* collection.
+    - Interpreting search results: Analyzing the distances returned by Milvus Standalone to find the most relevant items from the *Movies* collection to the user query.
+
+<br>
+
 ## ℹ️ Collection info ℹ️
 
 The _Movies_ collection had the following data:
