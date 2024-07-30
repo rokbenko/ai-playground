@@ -8,6 +8,14 @@ Streamlit GUI for a travel recommendation RAG with response streaming using Llam
 
 <br>
 
+## 🧠 Learning goals 🧠
+
+- **Building a travel recommendation RAG using LlamaIndex:** We will build a Retrieval-Augmented Generation (i.e., RAG) app for travel recommendations using LlamaIndex and data sourced from a JSON file. This app integrates an OpenAI LLM to provide personalized travel suggestions based on user questions and the retrieved data from the JSON file.
+- **Getting to know Streamlit:** We will build a user-friendly graphical user interface (i.e., GUI) using Streamlit, designed to interact with the travel recommendation RAG. Streamlit is an open-source app framework that allows us to build custom web apps for ML and AI projects with minimal coding. This GUI will offer a Python equivalent ChatGPT-like experience, specifically tailored to chat with the travel recommendation RAG.
+- **Adding response streaming functionality:** We will add response streaming to our Streamlit GUI by combining Streamlit components with LlamaIndex. Response streaming allows for partial results to be delivered in real-time as they are generated, rather than waiting for the entire response to be ready. This feature enhances the user experience by providing faster feedback and making interactions feel more dynamic and engaging. It's particularly useful for applications where quick, responsive communication is critical, such as in chatbots.
+
+<br>
+
 ## 🚀 Installation 🚀
 
 To start using the app, follow these steps:
