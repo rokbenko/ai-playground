@@ -11,6 +11,12 @@ Python and Node.js TUIs for the <a href="https://github.com/rokbenko/ai-playgrou
 
 <br>
 
+## 🧠 Learning goal 🧠
+
+- **Adding response streaming functionality in the OpenAI Assistants API `v1` beta:** We will add response streaming to our TUIs built in the previous tutorial. Response streaming allows for partial results to be delivered in real-time as they are generated, rather than waiting for the entire response to be ready. This feature enhances the user experience by providing faster feedback and making interactions feel more dynamic and engaging. It's particularly useful for applications where quick, responsive communication is critical, such as in chatbots.
+
+<br>
+
 ## 🔥 Working example in Python 🔥
 
 If you run [`tui_customer_support_chatbot_streaming.py`](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/6-TUI_customer_support_chatbot_streaming/tui_customer_support_chatbot_streaming.py), you should be able to chat with the customer support chatbot in a terminal and receive its responses in a **streaming(!)** way:
