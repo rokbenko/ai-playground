@@ -8,6 +8,20 @@ Python and Node.js examples on how to install Milvus Standalone using Docker, co
 
 <br>
 
+## 🧠 Learning goals 🧠
+
+- **Understanding vector databases and Milvus:** We will learn about vector databases, which are specialized for handling high-dimensional data and are crucial for tasks like similarity search. Milvus is an open-source vector database that excels in these areas.
+
+- **Setting up Milvus Standalone with Docker:** We will set up Milvus Standalone, a powerful vector database, using Docker. The steps include:
+
+1. Installing Docker Desktop
+2. Downloading the YAML file to configure Milvus Standalone
+3. Starting Docker containers to run Milvus Standalone
+
+- **Connecting to Milvus Standalone:** We will connect to the Milvus Standalone instance using the Milvus SDK and list all collections in the database.
+
+<br>
+
 ## 💡 How to build Milvus Docker containers 💡
 
 Run the following command to build Milvus Docker containers from the [`docker-compose.yml`](https://github.com/rokbenko/ai-playground/blob/main/milvus-tutorials/1-Milvus_standalone_starter/docker-compose.yml) file:
