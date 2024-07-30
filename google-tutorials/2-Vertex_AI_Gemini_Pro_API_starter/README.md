@@ -15,7 +15,7 @@ Python and Node.js examples on how to use the Vertex AI Gemini Pro API.
 1. Signing in to Google Cloud Platform
 2. Creating our first project
 3. Enabling the Vertex AI API
-4. Setting up Application Default Credentials using IAM, which includes
+4. Setting up Application Default Credentials using IAM, which includes:
     - Creating a service account
     - Generating a JSON key
 5. Setting the JSON key as an environment variable
