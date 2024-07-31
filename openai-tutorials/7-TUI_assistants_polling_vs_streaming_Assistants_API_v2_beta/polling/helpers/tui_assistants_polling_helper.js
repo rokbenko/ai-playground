@@ -270,7 +270,6 @@ async function addUserMessage(myThread, userInput) {
       return myThreadMessage;
     } else {
       // If yes, add the attachments parameter
-
       // Iterate over attachments
       for (const attachment of attachments) {
         const fileID = attachment.fileID;
