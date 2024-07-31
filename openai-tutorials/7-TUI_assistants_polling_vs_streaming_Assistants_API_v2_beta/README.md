@@ -91,8 +91,8 @@ Before running any of the Python or Node.js scripts, follow the instructions bel
 ## 🔥 Working examples in Python 🔥
 
 - **Manual response polling:** If you run [`tui_assistants_polling_manual.py`](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/7-TUI_assistants_polling_vs_streaming_Assistants_API_v2_beta/polling/manual/tui_assistants_polling_manual.py), you should be able to chat with an assistant and the assistant's answers should display in a polling manner.
-- **Response polling with helpers:** If you run [`tui_assistants_polling_helper.py`](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/7-TUI_assistants_polling_vs_streaming_Assistants_API_v2_beta/polling/helpers/tui_assistants_polling_helper.py), you should be able to chat with an assistant and the assistant's answers should display in a polling manner.
-- **Response streaming with helpers:** Coming soon... ✨
+- **Response polling with a helper:** If you run [`tui_assistants_polling_helper.py`](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/7-TUI_assistants_polling_vs_streaming_Assistants_API_v2_beta/polling/helpers/tui_assistants_polling_helper.py), you should be able to chat with an assistant and the assistant's answers should display in a polling manner.
+- **Response streaming with a helper:** If you run [`tui_assistants_streaming_helper.py`](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/7-TUI_assistants_polling_vs_streaming_Assistants_API_v2_beta/streaming/tui_assistants_streaming_helper.py), you should be able to chat with an assistant and the assistant's answers should display in a streaming manner.
 
 ### ⚒️ Tech stack ⚒️
 
@@ -112,8 +112,8 @@ Dependencies:
 ## 🔥 Working examples in Node.js 🔥
 
 - **Manual response polling:** If you run [`tui_assistants_polling_manual.js`](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/7-TUI_assistants_polling_vs_streaming_Assistants_API_v2_beta/polling/manual/tui_assistants_polling_manual.js), you should be able to chat with an assistant and the assistant's answers should display in a polling manner.
-- **Response polling with helpers:** If you run [`tui_assistants_polling_helper.js`](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/7-TUI_assistants_polling_vs_streaming_Assistants_API_v2_beta/polling/helpers/tui_assistants_polling_helper.js), you should be able to chat with an assistant and the assistant's answers should display in a polling manner.
-- **Response streaming with helpers:** Coming soon... ✨
+- **Response polling with a helper:** If you run [`tui_assistants_polling_helper.js`](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/7-TUI_assistants_polling_vs_streaming_Assistants_API_v2_beta/polling/helpers/tui_assistants_polling_helper.js), you should be able to chat with an assistant and the assistant's answers should display in a polling manner.
+- **Response streaming with a helper:** If you run [`tui_assistants_streaming_helper.js`](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/7-TUI_assistants_polling_vs_streaming_Assistants_API_v2_beta/streaming/tui_assistants_streaming_helper.js), you should be able to chat with an assistant and the assistant's answers should display in a streaming manner.
 
 ### ⚒️ Tech stack ⚒️
 
