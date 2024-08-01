@@ -4,7 +4,7 @@
 
 ## 📖 Description 📖
 
-Python and Node.js TUIs for assistants to show the difference between response polling (manual or with helpers) and streaming (with helpers).
+Python and Node.js TUIs for assistants to show the difference between response polling (manual or with a helper) and streaming (with a helper).
 
 This directory has the following structure:
 
