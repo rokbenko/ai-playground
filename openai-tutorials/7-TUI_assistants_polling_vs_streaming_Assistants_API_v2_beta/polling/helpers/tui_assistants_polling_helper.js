@@ -404,11 +404,10 @@ async function main() {
     // Step 3: Add the user question to the thread messages
     const myThreadMessage = await addUserMessage(myThread, userQuestion);
 
-    // Step 4: Run the assistant
-    // Step 5: Periodically retrieve the run to check its status using the polling helper
+    // Step 4: Run the assistant and periodically retrieve the run to check its status using the polling helper
     const myRetrievedRun = await runAssistantAndRetrieveRun(myThread);
 
-    // Step 6: If the run is completed, display the assistant answer
+    // Step 5: If the run is completed, display the assistant answer
     if (myRetrievedRun.status === "completed") {
       await retrieveAssistantAnswer(myThread);
     }

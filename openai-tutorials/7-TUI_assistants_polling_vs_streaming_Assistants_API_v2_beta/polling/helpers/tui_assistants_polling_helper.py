@@ -250,8 +250,7 @@ while True:
         transient=True,
     ) as live:
         try:
-            # Step 4: Run the assistant
-            # Step 5: Periodically retrieve the run to check its status using the polling helper
+            # Step 4: Run the assistant and periodically retrieve the run to check its status using the polling helper
             my_run = client.beta.threads.runs.create_and_poll(  # Polling helper
                 poll_interval_ms=5000,  # Poll assistant response every 5 seconds
                 thread_id=my_thread.id,
@@ -266,7 +265,7 @@ while True:
             )
             exit(1)
 
-        # Step 6: If the run is completed, display the assistant answer
+        # Step 5: If the run is completed, display the assistant answer
         if my_run.status == "completed":
             try:
                 # Retrieve all messages from the thread
