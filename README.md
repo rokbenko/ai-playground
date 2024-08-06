@@ -166,10 +166,10 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
       <img alt="Node.js badge" src="https://img.shields.io/badge/Node.js-%23202020?style=flat&logo=nodedotjs">
     </td>
     <td>
-      <a href="#">Coming soon... ✨</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/7-TUI_assistants_polling_vs_streaming_Assistants_API_v2_beta">GitHub</a>
     </td>
     <td>
-      <a href="#">Coming soon... ✨</a>
+      <a href="https://youtu.be/_uUSclN-O9M">YouTube</a>
     </td>
   </tr>
   <tr>
