@@ -132,20 +132,10 @@ Dependencies:
 
 ## 📽️ Demonstration 📽️
 
-Python response polling example:
+Python response polling using a helper example (i.e., [`tui_assistants_polling_helper.py`](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/7-TUI_assistants_polling_vs_streaming_Assistants_API_v2_beta/polling/helpers/tui_assistants_polling_helper.py)):
 
-Coming soon... ✨
+<img alt="Demonstration of the Python response polling using a helper example" src="https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/7-TUI_assistants_polling_vs_streaming_Assistants_API_v2_beta/demonstration_polling.gif" height="768" />
 
-Python response streaming example:
+Python response streaming using a helper example (i.e., [`tui_assistants_streaming_helper.py`](https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/7-TUI_assistants_polling_vs_streaming_Assistants_API_v2_beta/streaming/tui_assistants_streaming_helper.py)):
 
-Coming soon... ✨
-
-<br>
-
-Node.js response polling example:
-
-Coming soon... ✨
-
-Node.js response streaming example:
-
-Coming soon... ✨
+<img alt="Demonstration of the Python response streaming using a helper example" src="https://github.com/rokbenko/ai-playground/blob/main/openai-tutorials/7-TUI_assistants_polling_vs_streaming_Assistants_API_v2_beta/demonstration_streaming.gif" height="768" />
