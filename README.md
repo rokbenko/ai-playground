@@ -52,10 +52,10 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
       <img alt="Node.js badge" src="https://img.shields.io/badge/Node.js-%23202020?style=flat&logo=nodedotjs">
     </td>
     <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/1-Get_response_in_JSON_format">GitHub</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/1-Get_response_in_JSON_format" target="_blank">GitHub</a>
     </td>
     <td>
-      <a href="https://youtu.be/o4q2qsGKVkE">YouTube</a>
+      <a href="https://youtu.be/o4q2qsGKVkE" target="_blank">YouTube</a>
     </td>
   </tr>
   <tr>
@@ -71,10 +71,10 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
       <img alt="Node.js badge" src="https://img.shields.io/badge/Node.js-%23202020?style=flat&logo=nodedotjs">
     </td>
     <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/2-Build_personal_math_tutor">GitHub</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/2-Build_personal_math_tutor" target="_blank">GitHub</a>
     </td>
     <td>
-      <a href="https://youtu.be/F-KRs6vg4mM">YouTube</a>
+      <a href="https://youtu.be/F-KRs6vg4mM" target="_blank">YouTube</a>
     </td>
   </tr>
   <tr>
@@ -90,10 +90,10 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
       <img alt="Material UI badge" src="https://img.shields.io/badge/Material%20UI-%23202020?style=flat&logo=mui">
     </td>
     <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/3-GUI_personal_math_tutor">GitHub</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/3-GUI_personal_math_tutor" target="_blank">GitHub</a>
     </td>
     <td>
-      <a href="https://youtu.be/QThg_MqiYCo">YouTube</a>
+      <a href="https://youtu.be/QThg_MqiYCo" target="_blank">YouTube</a>
     </td>
   </tr>
   <tr>
@@ -109,10 +109,10 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
       <img alt="Node.js badge" src="https://img.shields.io/badge/Node.js-%23202020?style=flat&logo=nodedotjs">
     </td>
     <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_customer_support_chatbot">GitHub</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_customer_support_chatbot" target="_blank">GitHub</a>
     </td>
     <td>
-      <a href="https://youtu.be/xbgX8fu78DI">YouTube</a>
+      <a href="https://youtu.be/xbgX8fu78DI" target="_blank">YouTube</a>
     </td>
   </tr>
   <tr>
@@ -128,10 +128,10 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
       <img alt="Node.js badge" src="https://img.shields.io/badge/Node.js-%23202020?style=flat&logo=nodedotjs">
     </td>
     <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/5-TUI_customer_support_chatbot">GitHub</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/5-TUI_customer_support_chatbot" target="_blank">GitHub</a>
     </td>
     <td>
-      <a href="https://youtu.be/RUZwYQnIX_0">YouTube</a>
+      <a href="https://youtu.be/RUZwYQnIX_0" target="_blank">YouTube</a>
     </td>
   </tr>
   <tr>
@@ -147,10 +147,10 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
       <img alt="Node.js badge" src="https://img.shields.io/badge/Node.js-%23202020?style=flat&logo=nodedotjs">
     </td>
     <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/6-TUI_customer_support_chatbot_streaming">GitHub</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/6-TUI_customer_support_chatbot_streaming" target="_blank">GitHub</a>
     </td>
     <td>
-      <a href="https://youtu.be/d8dsFlLATrw">YouTube</a>
+      <a href="https://youtu.be/d8dsFlLATrw" target="_blank">YouTube</a>
     </td>
   </tr>
   <tr>
@@ -166,10 +166,10 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
       <img alt="Node.js badge" src="https://img.shields.io/badge/Node.js-%23202020?style=flat&logo=nodedotjs">
     </td>
     <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/7-TUI_assistants_polling_vs_streaming_Assistants_API_v2_beta">GitHub</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/7-TUI_assistants_polling_vs_streaming_Assistants_API_v2_beta" target="_blank">GitHub</a>
     </td>
     <td>
-      <a href="https://youtu.be/_uUSclN-O9M">YouTube</a>
+      <a href="https://youtu.be/_uUSclN-O9M" target="_blank">YouTube</a>
     </td>
   </tr>
   <tr>
@@ -230,10 +230,10 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
       <img alt="Node.js badge" src="https://img.shields.io/badge/Node.js-%23202020?style=flat&logo=nodedotjs">
     </td>
     <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/google-tutorials/1-Gemini_Pro_API_starter">GitHub</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/google-tutorials/1-Gemini_Pro_API_starter" target="_blank">GitHub</a>
     </td>
     <td>
-      <a href="https://youtu.be/0qv_4x1K6hU">YouTube</a>
+      <a href="https://youtu.be/0qv_4x1K6hU" target="_blank">YouTube</a>
     </td>
   </tr>
   <tr>
@@ -246,10 +246,10 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
       <img alt="Node.js badge" src="https://img.shields.io/badge/Node.js-%23202020?style=flat&logo=nodedotjs">
     </td>
     <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/google-tutorials/2-Vertex_AI_Gemini_Pro_API_starter">GitHub</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/google-tutorials/2-Vertex_AI_Gemini_Pro_API_starter" target="_blank">GitHub</a>
     </td>
     <td>
-      <a href="https://youtu.be/I8W-4oq1onY">YouTube</a>
+      <a href="https://youtu.be/I8W-4oq1onY" target="_blank">YouTube</a>
     </td>
   </tr>
 </table>
@@ -277,10 +277,10 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
     <img alt="Node.js badge" src="https://img.shields.io/badge/Node.js-%23202020?style=flat&logo=nodedotjs">
   </td>
   <td>
-    <a href="https://github.com/rokbenko/ai-playground/tree/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily">GitHub</a>
+    <a href="https://github.com/rokbenko/ai-playground/tree/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily" target="_blank">GitHub</a>
   </td>
   <td>
-    <a href="https://youtu.be/Qa0B5m0t1Cs">YouTube</a>
+    <a href="https://youtu.be/Qa0B5m0t1Cs" target="_blank">YouTube</a>
   </td>
 </table>
 
@@ -302,10 +302,10 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
       <img alt="Next.js badge" src="https://img.shields.io/badge/Next.js-%23202020?style=flat&logo=nextdotjs">
     </td>
     <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/llamaindex-tutorials/1-Create_llama">GitHub</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/llamaindex-tutorials/1-Create_llama" target="_blank">GitHub</a>
     </td>
     <td>
-      <a href="https://youtu.be/IQqiIfRLNY4">YouTube</a>
+      <a href="https://youtu.be/IQqiIfRLNY4" target="_blank">YouTube</a>
     </td>
   </tr>
   <tr>
@@ -316,10 +316,10 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
       <img alt="Streamlit badge" src="https://img.shields.io/badge/Streamlit-%23202020?style=flat&logo=streamlit">
     </td>
     <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/llamaindex-tutorials/2-GUI_travel_recommendation_RAG">GitHub</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/llamaindex-tutorials/2-GUI_travel_recommendation_RAG" target="_blank">GitHub</a>
     </td>
     <td>
-      <a href="https://youtu.be/93uru3QmgAo">YouTube</a>
+      <a href="https://youtu.be/93uru3QmgAo" target="_blank">YouTube</a>
     </td>
   </tr>
   <tr>
@@ -330,10 +330,10 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
     </td>
     <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/llamaindex-tutorials/3-Eval_travel_recommendation_RAG">GitHub</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/llamaindex-tutorials/3-Eval_travel_recommendation_RAG" target="_blank">GitHub</a>
     </td>
     <td>
-      <a href="https://youtu.be/l5z_Peocss0">YouTube</a>
+      <a href="https://youtu.be/l5z_Peocss0" target="_blank">YouTube</a>
     </td>
   </tr>
 </table>
@@ -364,10 +364,10 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
     </td>
     <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/fetchai-tutorials/1-uAgents_starter">GitHub</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/fetchai-tutorials/1-uAgents_starter" target="_blank">GitHub</a>
     </td>
     <td>
-      <a href="https://youtu.be/AZhKvDc2O20">YouTube</a>
+      <a href="https://youtu.be/AZhKvDc2O20" target="_blank">YouTube</a>
     </td>
   </tr>
   <tr>
@@ -378,10 +378,10 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
     </td>
     <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/fetchai-tutorials/2-uAgents_communication">GitHub</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/fetchai-tutorials/2-uAgents_communication" target="_blank">GitHub</a>
     </td>
     <td>
-      <a href="https://youtu.be/40sixkWgXGc">YouTube</a>
+      <a href="https://youtu.be/40sixkWgXGc" target="_blank">YouTube</a>
     </td>
   </tr>
 </table>
@@ -408,10 +408,10 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
     </td>
     <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/snowflake-tutorials/1-Snowflake_Cortex_LLM_functions_starter">GitHub</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/snowflake-tutorials/1-Snowflake_Cortex_LLM_functions_starter" target="_blank">GitHub</a>
     </td>
     <td>
-      <a href="https://youtu.be/3vCuoezBMEY">YouTube</a>
+      <a href="https://youtu.be/3vCuoezBMEY" target="_blank">YouTube</a>
     </td>
   </tr>
 </table>
@@ -441,10 +441,10 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
       <img alt="Docker badge" src="https://img.shields.io/badge/Docker-%23202020?style=flat&logo=docker">
     </td>
     <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/milvus-tutorials/1-Milvus_standalone_starter">GitHub</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/milvus-tutorials/1-Milvus_standalone_starter" target="_blank">GitHub</a>
     </td>
     <td>
-      <a href="https://youtu.be/OD5FS7qUfBQ">YouTube</a>
+      <a href="https://youtu.be/OD5FS7qUfBQ" target="_blank">YouTube</a>
     </td>
   </tr>
   <tr>
@@ -455,10 +455,10 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
       <img alt="Docker badge" src="https://img.shields.io/badge/Docker-%23202020?style=flat&logo=docker">
     </td>
     <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/milvus-tutorials/2-Attu_starter">GitHub</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/milvus-tutorials/2-Attu_starter" target="_blank">GitHub</a>
     </td>
     <td>
-      <a href="https://youtu.be/oUQUVcJBnYk">YouTube</a>
+      <a href="https://youtu.be/oUQUVcJBnYk" target="_blank">YouTube</a>
     </td>
   </tr>
   <tr>
@@ -471,10 +471,10 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
       <img alt="Docker badge" src="https://img.shields.io/badge/Docker-%23202020?style=flat&logo=docker">
     </td>
     <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/milvus-tutorials/3-Text_similarity_search">GitHub</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/milvus-tutorials/3-Text_similarity_search" target="_blank">GitHub</a>
     </td>
     <td>
-      <a href="https://youtu.be/ySZp0rcGr4A">YouTube</a>
+      <a href="https://youtu.be/ySZp0rcGr4A" target="_blank">YouTube</a>
     </td>
   </tr>
 </table>
@@ -502,10 +502,10 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
       <img alt="spaCy badge" src="https://img.shields.io/badge/spaCy-%23202020?style=flat&logo=spacy">
     </td>
     <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/spacy-tutorials/1-Add_new_entity_label_to_NER">GitHub</a>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/spacy-tutorials/1-Add_new_entity_label_to_NER" target="_blank">GitHub</a>
     </td>
     <td>
-      <a href="https://youtu.be/W-0EOzFomO0">YouTube</a>
+      <a href="https://youtu.be/W-0EOzFomO0" target="_blank">YouTube</a>
     </td>
   </tr>
 </table>
