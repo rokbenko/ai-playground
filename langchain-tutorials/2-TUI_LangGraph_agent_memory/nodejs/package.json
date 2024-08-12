@@ -1,0 +1,20 @@
+{
+  "name": "langgraph-agent-with-a-memory",
+  "version": "1.0.0",
+  "description": "Node.js TUI for a LangGraph agent using the MemorySaver class to get a memory, the Tavily tool and an OpenAI LLM",
+  "main": "tui_langgraph_agent_memory.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rok Benko",
+  "license": "MIT",
+  "dependencies": {
+    "@langchain/community": "^0.2.25",
+    "@langchain/core": "^0.2.23",
+    "@langchain/langgraph": "^0.0.33",
+    "@langchain/openai": "^0.2.6",
+    "langchain": "^0.2.15",
+    "terminal-kit": "^3.1.1"
+  },
+  "type": "module"
+}
