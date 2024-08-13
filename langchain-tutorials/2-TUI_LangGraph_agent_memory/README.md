@@ -4,7 +4,7 @@
 
 ## 📖 Description 📖
 
-Python and Node.js TUIs for a LangGraph ReAct agent using the MemorySaver class to get a memory, the Tavily tool and an OpenAI LLM.
+Add memory to the [#1 TUI for a LangGraph agent with a web connection through Tavily](https://github.com/rokbenko/ai-playground/tree/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily) tutorial.
 
 This directory has the following structure:
 
