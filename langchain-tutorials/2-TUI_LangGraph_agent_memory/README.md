@@ -249,10 +249,10 @@ Dependencies:
 
 ## 📽️ Demonstration 📽️
 
-An example where the agent doesn't need to use the Tavily tool (the goal is for the agent to remember what's the user's name—the answer is Bob):
+An example of a question where the agent doesn't need to use the Tavily tool (the goal is for the agent to know what's the user's name — the answer is Bob):
 
-Coming soon... ✨
+![Demonstration of a question where the agent doesn't need to use the Tavily tool](https://github.com/rokbenko/ai-playground/blob/main/langchain-tutorials/2-TUI_LangGraph_agent_memory/demonstration_no_tools.gif)
 
-An example where the agent does need to use the Tavily tool (the goal is for the agent to remember what we want to know about New York—the answer is weather):
+An example of a question where the agent does need to use the Tavily tool (the goal is for the agent to know what we want to know about New York — the answer is weather):
 
-Coming soon... ✨
+![Demonstration of a question where the agent does need to use the Tavily tool](https://github.com/rokbenko/ai-playground/blob/main/langchain-tutorials/2-TUI_LangGraph_agent_memory/demonstration_tools.gif)
