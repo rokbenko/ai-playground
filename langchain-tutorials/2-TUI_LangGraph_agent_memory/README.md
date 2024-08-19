@@ -4,7 +4,7 @@
 
 ## 📖 Description 📖
 
-Add memory to the [#1 TUI for a LangGraph agent with a web connection through Tavily](https://github.com/rokbenko/ai-playground/tree/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily) tutorial.
+Add memory to the [#1 TUI for a LangGraph agent with a web connection via the Tavily tool](https://github.com/rokbenko/ai-playground/tree/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily) tutorial.
 
 This directory has the following structure:
 
