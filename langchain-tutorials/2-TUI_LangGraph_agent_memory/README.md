@@ -1,4 +1,4 @@
-# #2 Python and Node.js TUIs for a LangGraph agent with a memory
+# #2 Python and Node.js TUIs for a LangGraph agent with memory
 
 <br>
 
