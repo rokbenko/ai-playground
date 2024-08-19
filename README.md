@@ -270,7 +270,7 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
   </tr>
   <tr>
     <td>#1</td>
-    <td>TUI for a LangGraph agent with a web connection through Tavily</td>
+    <td>TUI for a LangGraph agent with a web connection via the Tavily tool</td>
     <td>Python and Node.js TUIs for a LangGraph ReAct agent using the Tavily tool to get a web connection and an OpenAI LLM</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
@@ -286,8 +286,8 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
   </tr>
   <tr>
     <td>#2</td>
-    <td>TUI for a LangGraph agent with a memory</td>
-    <td>Add memory to the <a href="https://github.com/rokbenko/ai-playground/tree/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily">#1 TUI for a LangGraph agent with a web connection through Tavily</a> tutorial</td>
+    <td>TUI for a LangGraph agent with memory</td>
+    <td>Add memory to the <a href="https://github.com/rokbenko/ai-playground/tree/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily">#1 TUI for a LangGraph agent with a web connection via the Tavily tool</a> tutorial</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
       <img alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-%23202020?style=flat&logo=javascript">
@@ -298,6 +298,22 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
     </td>
     <td>
       <a href="https://youtu.be/GMaGG8UBek8" target="_blank">YouTube</a>
+    </td>
+  </tr>
+  <tr>
+    <td>#3</td>
+    <td>TUI for a LangGraph agent with persistent memory using PostgreSQL</td>
+    <td>Add persistent memory using PostgreSQL to the <a href="https://github.com/rokbenko/ai-playground/tree/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily">#1 TUI for a LangGraph agent with a web connection via the Tavily tool</a> tutorial</td>
+    <td>
+      <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
+      <img alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-%23202020?style=flat&logo=javascript">
+      <img alt="Node.js badge" src="https://img.shields.io/badge/Node.js-%23202020?style=flat&logo=nodedotjs">
+    </td>
+    <td>
+      <a href="#">Coming soon... ✨</a>
+    </td>
+    <td>
+      <a href="#">Coming soon... ✨</a>
     </td>
   </tr>
 </table>
