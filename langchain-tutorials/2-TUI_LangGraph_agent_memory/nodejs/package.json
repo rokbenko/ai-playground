@@ -1,7 +1,7 @@
 {
-  "name": "langgraph-agent-with-a-memory",
+  "name": "langgraph-agent-with-memory",
   "version": "1.0.0",
-  "description": "Node.js TUI for a LangGraph agent using the MemorySaver class to get a memory, the Tavily tool and an OpenAI LLM",
+  "description": "Node.js TUI for a LangGraph agent using the MemorySaver class to get memory",
   "main": "tui_langgraph_agent_memory.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
