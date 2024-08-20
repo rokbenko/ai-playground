@@ -49,7 +49,7 @@ Before running [`tui_langgraph_agent_memory.py`](https://github.com/rokbenko/ai-
 1. Clone the repository: `git clone https://github.com/rokbenko/ai-playground.git`
 2. Change the directory: `cd ai-playground/langchain-tutorials/2-TUI_LangGraph_agent_memory/python`
 3. Create a virtual environment named `my-venv`: `python -m venv my-venv`
-4. Activate the virtual environment `my-venv`: `my-venv\Scripts\activate`
+4. Activate the virtual environment `my-venv`: `my-venv/scripts/activate`
 5. Install the dependencies: `python -m pip install -r requirements.txt`
 6. Create an `.env` file to set up your environment variables
 7. Run the Python script: `python tui_langgraph_agent_memory.py`
