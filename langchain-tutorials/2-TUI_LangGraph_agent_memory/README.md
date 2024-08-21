@@ -6,6 +6,11 @@
 
 Add memory to the [#1 TUI for a LangGraph agent with a web connection via the Tavily tool](https://github.com/rokbenko/ai-playground/tree/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily) tutorial.
 
+> [!NOTE]
+> In this tutorial, we'll implement in-memory storage for a LangGraph agent using the `MemorySaver` class. The data is stored temporarily in the computer's RAM, enabling quick access and retrieval during the agent's operation. However, this memory  will be lost when the script exits or the program is terminated, as it isn't stored persistently.
+>
+> If you're looking for a persistent memory implementation for a LangGraph agent, please see the [#3 TUI for a LangGraph agent with persistent memory using PostgreSQL](https://github.com/rokbenko/ai-playground/tree/main/langchain-tutorials/3-TUI_LangGraph_agent_PostgreSQL_memory) tutorial.
+
 This directory has the following structure:
 
 ```
@@ -33,7 +38,7 @@ This directory has the following structure:
 
 - **Understanding LangGraph [checkpointers](https://github.com/langchain-ai/langgraph/tree/main/libs/checkpoint):** Checkpointers provide a persistence layer for LangGraph. They allow you to interact with and manage the graph's state. When you use a graph with a checkpointer, the checkpointer saves a checkpoint of the graph state at every superstep, enabling several powerful capabilities like human-in-the-loop, "memory" between interactions, and more.
 
-- **Implementing in-memory storage using the [MemorySaver](https://langchain-ai.github.io/langgraphjs/reference/classes/index.MemorySaver.html) class:** We'll show how to enhance a LangGraph ReAct agent by adding in-memory storage capabilities using the MemorySaver class. The MemorySaver class provides a practical implementation of checkpointers with a LangGraph agent. This feature allows your agent to memorize the conversation. In-memory storage means the data is temporarily stored in the computer's RAM, allowing for quick access and retrieval during the agent's operation. However, this memory will be lost when the script exits or the program is terminated, as it is not stored persistently.
+- **Implementing in-memory storage using the [`MemorySaver`](https://langchain-ai.github.io/langgraphjs/reference/classes/index.MemorySaver.html) class:** We'll show how to enhance a LangGraph ReAct agent by adding in-memory storage capabilities using the MemorySaver class. The MemorySaver class provides a practical implementation of checkpointers with a LangGraph agent. This feature allows your agent to memorize the conversation. In-memory storage means the data is temporarily stored in the computer's RAM, allowing for quick access and retrieval during the agent's operation. However, this memory will be lost when the script exits or the program is terminated, as it isn't stored persistently.
 
 <br>
 
