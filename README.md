@@ -19,6 +19,7 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
   - [Frameworks](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#%EF%B8%8F-frameworks-%EF%B8%8F)<br>
     - [LangChain](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#langchain)<br>
     - [LlamaIndex](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#llamaindex)<br>
+    - [JigsawStack](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#jigsawstack)<br>
     - [Fetch.ai](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#fetchai)<br>
   - [Cloud](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#%EF%B8%8F-cloud-%EF%B8%8F)<br>
     - [Snowflake](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#snowflake)<br>
@@ -185,10 +186,10 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
       <img alt="Material UI badge" src="https://img.shields.io/badge/Material%20UI-%23202020?style=flat&logo=mui">
     </td>
     <td>
-      <a href="#">Coming soon... ✨</a>
+      Coming soon... ✨
     </td>
     <td>
-      <a href="#">Coming soon... ✨</a>
+      Coming soon... ✨
     </td>
   </tr>
   <tr>
@@ -202,10 +203,10 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
       <img alt="Streamlit badge" src="https://img.shields.io/badge/Streamlit-%23202020?style=flat&logo=streamlit">
     </td>
     <td>
-      <a href="#">Coming soon... ✨</a>
+      Coming soon... ✨
     </td>
     <td>
-      <a href="#">Coming soon... ✨</a>
+      Coming soon... ✨
     </td>
   </tr>
 </table>
@@ -310,10 +311,10 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
       <img alt="Node.js badge" src="https://img.shields.io/badge/Node.js-%23202020?style=flat&logo=nodedotjs">
     </td>
     <td>
-      <a href="#">Coming soon... ✨</a>
+      Coming soon... ✨
     </td>
     <td>
-      <a href="#">Coming soon... ✨</a>
+      Coming soon... ✨
     </td>
   </tr>
 </table>
@@ -368,6 +369,32 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
     </td>
     <td>
       <a href="https://youtu.be/l5z_Peocss0" target="_blank">YouTube</a>
+    </td>
+  </tr>
+</table>
+
+### [JigsawStack](https://jigsawstack.com/)
+
+<table>
+  <tr>
+    <th></th>
+    <th>Tutorial title</th>
+    <th>Tutorial description</th>
+    <th>Tech stack</th>
+    <th colspan="2">Links</th>
+  </tr>
+  <tr>
+    <td>#1</td>
+    <td>GUI for a personal recipe assistant</td>
+    <td>Streamlit GUI for a personal recipe assistant using multiple JigsawStack APIs that suggests recipes based on what you have in your fridge</td>
+    <td>
+      <img alt="Streamlit badge" src="https://img.shields.io/badge/Streamlit-%23202020?style=flat&logo=streamlit">
+    </td>
+    <td>
+      Coming soon... ✨
+    </td>
+    <td>
+      Coming soon... ✨
     </td>
   </tr>
 </table>
