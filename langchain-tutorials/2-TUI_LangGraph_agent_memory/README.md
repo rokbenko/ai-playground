@@ -7,7 +7,7 @@
 Add memory to the [#1 TUI for a LangGraph agent with a web connection via the Tavily tool](https://github.com/rokbenko/ai-playground/tree/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily) tutorial.
 
 > [!NOTE]
-> In this tutorial, we'll implement in-memory storage for a LangGraph agent using the `MemorySaver` class. The data is stored temporarily in the computer's RAM, enabling quick access and retrieval during the agent's operation. However, this memory  will be lost when the script exits or the program is terminated, as it isn't stored persistently.
+> In this tutorial, we'll implement in-memory storage for a LangGraph agent using the `MemorySaver` class. The data is stored temporarily in the computer's RAM, enabling quick access and retrieval during the agent's operation. However, this memory will be lost when the script exits or the app is terminated, as it isn't stored persistently.
 >
 > If you're looking for a persistent memory implementation for a LangGraph agent, please see the [#3 TUI for a LangGraph agent with persistent memory using PostgreSQL](https://github.com/rokbenko/ai-playground/tree/main/langchain-tutorials/3-TUI_LangGraph_agent_PostgreSQL_memory) tutorial.
 
