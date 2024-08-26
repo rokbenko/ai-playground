@@ -50,7 +50,7 @@ Before running [`tui_langgraph_agent_postgresql_memory.py`](https://github.com/r
 7. Run the Python script: `python tui_langgraph_agent_postgresql_memory.py`
 
 > [!WARNING]
-> Deactivate the virtual environment `my-venv` after you are finished by running the following command:
+> Deactivate the virtual environment `my-venv` after you're finished by running the following command:
 >
 > ```
 > deactivate
@@ -91,7 +91,7 @@ Before running [`tui_langgraph_agent_postgresql_memory.py`](https://github.com/r
 > ```
 
 > [!NOTE]
-> `venv` is a built-in Python module that allows you to create and manage virtual environments. If you have Python `v3.3` or higher installed, you can start using `venv` right away.
+> `venv` is a built-in Python module that allows you to create and manage virtual environments. If you have Python `3.3` or higher installed, you can start using `venv` right away.
 
 <br>
 
