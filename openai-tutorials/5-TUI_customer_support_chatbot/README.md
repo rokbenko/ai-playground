@@ -13,11 +13,9 @@ Python and Node.js TUIs for the <a href="https://github.com/rokbenko/ai-playgrou
 > <br><br>
 > The weird responses I got were the following:
 >
-> - _Assistant: I currently do not have access to the file you uploaded. Could you provide some details about what you're selling or any specific questions you have in mind?_
-> - _Assistant: I currently don't have the ability to directly access the contents of the file you uploaded. However, if you can provide some details or specific questions about the
->   than happy to assist you in finding the information you need._
+> - _Assistant: I currently do not have access to the file you uploaded. Could you provide some details or any specific questions you have in mind?_
+> - _Assistant: I currently don't have the ability to directly access the contents of the file you uploaded. However, if you can provide some details or specific questions, I would be happy to assist you in finding the information you need._
 > - _Assistant: I currently don't have visibility into the specific contents of the file you've uploaded. Could you provide more details about the file or its contents so that I can assist you further?_
-> - _Assistant: I see you've uploaded a file. How can I assist you with it?_
 
 > [!NOTE]
 > The code in this directory works with the [OpenAI Assistants API `v1` beta](https://platform.openai.com/docs/api-reference/assistants-v1). In April 2024, the [OpenAI Assistants API `v2` beta](https://platform.openai.com/docs/api-reference/assistants) was released. See the [migration guide](https://platform.openai.com/docs/assistants/migration/agents).
