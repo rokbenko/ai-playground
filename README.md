@@ -307,8 +307,6 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
     <td>Add persistent memory using PostgreSQL to the <a href="https://github.com/rokbenko/ai-playground/tree/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily">#1 TUI for a LangGraph agent with a web connection via the Tavily tool</a> tutorial</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
-      <img alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-%23202020?style=flat&logo=javascript">
-      <img alt="Node.js badge" src="https://img.shields.io/badge/Node.js-%23202020?style=flat&logo=nodedotjs">
     </td>
     <td>
       Coming soon... ✨
