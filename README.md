@@ -384,7 +384,7 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
   <tr>
     <td>#1</td>
     <td>GUI for a personal recipe assistant</td>
-    <td>Streamlit GUI for a personal recipe assistant using multiple JigsawStack APIs that suggests recipes based on what you have in your fridge</td>
+    <td>Streamlit GUI for a personal recipe assistant that generates recipes based on the available ingredients recognized from the uploaded photo and selected preferences by the user</td>
     <td>
       <img alt="Streamlit badge" src="https://img.shields.io/badge/Streamlit-%23202020?style=flat&logo=streamlit">
     </td>
