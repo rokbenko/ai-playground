@@ -1,4 +1,4 @@
-# #2 Streamlit GUI for a travel recommendation RAG with response streaming
+# #2 Streamlit GUI for a travel recommendation RAG
 
 <br>
 
