@@ -56,27 +56,27 @@ Before running any of the Python or Node.js scripts, follow the instructions bel
 >
 > Your `.env` file should contain at least the following environment variables:
 >
-> ```
-> OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxx
-> OPENAI_ASSISTANT_ID=asst_xxxxxxxxxxxxxxxxxxxxxxxxx
+> ```bash
+> OPENAI_API_KEY = "sk-xxxxxxxxxxxxxxxxxxxxxxxxx"
+> OPENAI_ASSISTANT_ID = "asst_xxxxxxxxxxxxxxxxxxxxxxxxx"
 > ```
 >
 > If you want to attach a file to your assistant, your `.env` file must also contain the file ID as an environment variable, starting with *OPENAI_FILE_ID_*:
 >
-> ```
-> OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxx
-> OPENAI_ASSISTANT_ID=asst_xxxxxxxxxxxxxxxxxxxxxxxxx
-> OPENAI_FILE_ID_1=file-xxxxxxxxxxxxxxxxxxxxxxxxx
+> ```bash
+> OPENAI_API_KEY = "sk-xxxxxxxxxxxxxxxxxxxxxxxxx"
+> OPENAI_ASSISTANT_ID = "asst_xxxxxxxxxxxxxxxxxxxxxxxxx"
+> OPENAI_FILE_ID_1 = "file-xxxxxxxxxxxxxxxxxxxxxxxxx"
 > ```
 >
 > If you want to attach multiple files to your assistant, your `.env` file must also contain multiple file IDs as environment variables, all starting with *OPENAI_FILE_ID_* and followed by distinct identifiers:
 >
-> ```
-> OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxx
-> OPENAI_ASSISTANT_ID=asst_xxxxxxxxxxxxxxxxxxxxxxxxx
-> OPENAI_FILE_ID_1=file-xxxxxxxxxxxxxxxxxxxxxxxxx
-> OPENAI_FILE_ID_2=file-xxxxxxxxxxxxxxxxxxxxxxxxx
-> OPENAI_FILE_ID_3=file-xxxxxxxxxxxxxxxxxxxxxxxxx
+> ```bash
+> OPENAI_API_KEY = "sk-xxxxxxxxxxxxxxxxxxxxxxxxx"
+> OPENAI_ASSISTANT_ID = "asst_xxxxxxxxxxxxxxxxxxxxxxxxx"
+> OPENAI_FILE_ID_1 = "file-xxxxxxxxxxxxxxxxxxxxxxxxx"
+> OPENAI_FILE_ID_2 = "file-xxxxxxxxxxxxxxxxxxxxxxxxx"
+> OPENAI_FILE_ID_3 = "file-xxxxxxxxxxxxxxxxxxxxxxxxx"
 > ```
 >
 > Ensure that each file ID environment variable has a unique identifier following *OPENAI_FILE_ID_*. Do not use the same identifier for multiple file IDs (e.g., avoid using `OPENAI_FILE_ID_1` and `OPENAI_FILE_ID_1`). The suffixes (e.g., `1`, `2`, `3`) can be letters or numbers, as long as each is distinct.
