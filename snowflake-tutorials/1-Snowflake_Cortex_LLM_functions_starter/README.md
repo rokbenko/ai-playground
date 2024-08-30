@@ -12,9 +12,9 @@ Python example on how to use the Snowflake Cortex LLM functions.
 > Your `.env` file should contain the following environment variables:
 >
 > ```bash
-> SNOWFLAKE_ACCOUNT="xxxxxxx-xxxxxxx"
-> SNOWFLAKE_USER="xxxxx"
-> SNOWFLAKE_USER_PASSWORD="xxxxx"
+> SNOWFLAKE_ACCOUNT = "xxxxxxx-xxxxxxx"
+> SNOWFLAKE_USER = "xxxxx"
+> SNOWFLAKE_USER_PASSWORD = "xxxxx"
 > ```
 
 <br>
