@@ -32,9 +32,9 @@ To start using the app, follow these steps:
 > Your `.env` file should contain the following environment variables:
 >
 > ```bash
-> OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxx
-> OPENAI_ASSISTANT_ID=asst_xxxxxxxxxxxxxxxxxxxxxxxxx
-> OPENAI_THREAD_ID=thread_xxxxxxxxxxxxxxxxxxxxxxxxx
+> OPENAI_API_KEY = "sk-xxxxxxxxxxxxxxxxxxxxxxxxx"
+> OPENAI_ASSISTANT_ID = "asst_xxxxxxxxxxxxxxxxxxxxxxxxx"
+> OPENAI_THREAD_ID = "thread_xxxxxxxxxxxxxxxxxxxxxxxxx"
 > ```
 
 <br>
