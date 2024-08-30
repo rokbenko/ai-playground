@@ -64,9 +64,9 @@ Before running [`tui_langgraph_agent_tavily.py`](https://github.com/rokbenko/ai-
 > [!IMPORTANT]
 > Your `.env` file should contain the following environment variables:
 >
-> ```
-> OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxx
-> TAVILY_API_KEY=tvly-xxxxxxxxxxxxxxxxxxxxxxxxx
+> ```bash
+> OPENAI_API_KEY = "sk-xxxxxxxxxxxxxxxxxxxxxxxxx"
+> TAVILY_API_KEY = "tvly-xxxxxxxxxxxxxxxxxxxxxxxxx"
 > ```
 
 > [!TIP]
@@ -117,9 +117,9 @@ Before running [`tui_langgraph_agent_tavily.py`](https://github.com/rokbenko/ai-
 > [!IMPORTANT]
 > Your `.env` file should contain the following environment variables:
 >
-> ```
-> OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxx
-> TAVILY_API_KEY=tvly-xxxxxxxxxxxxxxxxxxxxxxxxx
+> ```bash
+> OPENAI_API_KEY = "sk-xxxxxxxxxxxxxxxxxxxxxxxxx"
+> TAVILY_API_KEY = "tvly-xxxxxxxxxxxxxxxxxxxxxxxxx"
 > ```
 
 <br>
