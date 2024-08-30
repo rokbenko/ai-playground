@@ -50,4 +50,4 @@ Dependencies:
 
 ## 📽️ Demonstration 📽️
 
-Coming soon... ✨
+![Demonstration of the app](https://github.com/rokbenko/ai-playground/blob/main/jigsawstack-tutorials/1-GUI_personal_recipe_assistant/demonstration.gif)
