@@ -10,7 +10,7 @@ Streamlit GUI for a personal recipe assistant that generates recipes based on th
 
 ## 🧠 Learning goal 🧠
 
-- **Understanding [JigsawStack](https://jigsawstack.com/):** JigsawStack is an SDK designed to streamline the integration of AI functionalities into various tech stacks. It offers a comprehensive suite of APIs that provide capabilities such as an advanced prompt engine, web scraping, image generation, sentiment analysis, prediction, object detection, speech-to-text conversion, and text-to-speech conversion, among others. Its user-friendly design allows developers to quickly implement features without extensive configuration, ensuring a smooth developer experience. Built on a globally distributed serverless edge network, JigsawStack guarantees low latency, high availability, and seamless scalability.
+- **Understanding [JigsawStack](https://jigsawstack.com/):** JigsawStack is an SDK designed to streamline the integration of AI functionalities into various tech stacks. It offers a comprehensive suite of APIs that provide capabilities such as an advanced prompt engine, web scraping, image generation, vision OCR, TTS, and STT, among others. Its user-friendly design allows developers to quickly implement features without extensive configuration, ensuring a smooth developer experience. Built on a globally distributed serverless edge network, JigsawStack guarantees low latency, high availability, and seamless scalability.
 
 <br>
 
