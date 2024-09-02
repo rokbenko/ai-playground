@@ -83,9 +83,7 @@ You should get the following response:
 > 2. A heartwarming family drama centered around love, loss, and the bonds that endure (distance: 145.62991333007812) <br>
 > 3. A spine-chilling horror story set in a haunted mansion with dark secrets lurking within (distance: 194.28439331054688)
 
-<br>
-
-## ⚒️ Tech stack ⚒️
+### ⚒️ Tech stack ⚒️
 
 OS:
 
