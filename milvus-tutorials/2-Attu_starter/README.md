@@ -1,4 +1,4 @@
-# #2 Attu (GUI for Milvus) starter
+# #2 Attu starter
 
 <br>
 
