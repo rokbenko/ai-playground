@@ -27,31 +27,33 @@ Instructions on how to run Attu, a GUI for Milvus, using Docker.
 
 <br>
 
-## 💡 How to run Attu (GUI for Milvus) 💡
+## 🚀 Installation 🚀
 
-First, run the following command to get your `IPv4 Address`:
+### Getting the `IPv4` address
+
+Run the following command to get your `IPv4` address:
 
 ```bash
 ipconfig
 ```
 
-Second, run the following command to start a container for running Attu:
+### Starting the Docker container
+
+Run the following command to start the Docker container for running Attu:
 
 ```bash
 docker run --name attu -p 8000:3000 -e HOST_URL=http://xxx.xxx.x.x:8000 -e MILVUS_URL=http://xxx.xxx.x.x:19530 zilliz/attu:v2.3.6
 ```
 
-Where `xxx.xxx.x.x` is your `IPv4 Address`.
+Where `xxx.xxx.x.x` is your `IPv4` address.
 
-<br>
-
-## 💡 How to get embeddings 💡
+### Creating embedding vectors
 
 If you run [`get_embeddings.py`](https://github.com/rokbenko/ai-playground/blob/main/milvus-tutorials/2-Attu_starter/get_embeddings.py), you will get a JSON file with key-value pairs matching collection fields in Attu.
 
 See the <a href="https://github.com/rokbenko/ai-playground/blob/main/milvus-tutorials/2-Attu_starter/dummy_data.json">JSON file</a> generated in the tutorial.
 
-### ⚒️ Tech stack ⚒️
+#### ⚒️ Tech stack ⚒️
 
 OS:
 
