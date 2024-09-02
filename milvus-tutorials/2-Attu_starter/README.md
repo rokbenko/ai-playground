@@ -37,6 +37,8 @@ Run the following command to get your `IPv4` address:
 ipconfig
 ```
 
+<br>
+
 ### Starting the Docker container
 
 Run the following command to start the Docker container for running Attu:
@@ -46,6 +48,8 @@ docker run --name attu -p 8000:3000 -e HOST_URL=http://xxx.xxx.x.x:8000 -e MILVU
 ```
 
 Where `xxx.xxx.x.x` is your `IPv4` address.
+
+<br>
 
 ### Creating embedding vectors
 
