@@ -4,7 +4,7 @@
 
 ## 📖 Description 📖
 
-Instructions on how to run Attu, a GUI for Milvus, using Docker.
+Instructions on how to run Attu, a GUI for Milvus Standalone, using Docker.
 
 <br>
 
@@ -16,7 +16,7 @@ Instructions on how to run Attu, a GUI for Milvus, using Docker.
 2. Running the Docker command to start the Attu container
 3. Verifying the setup by checking Docker Desktop and accessing the Attu dashboard via localhost
 
-- **Managing Milvus databases with Attu:** We will explore how to manage Milvus databases in Attu by performing the following tasks:
+- **Managing Milvus Standalone database with Attu:** We will explore how to manage the Milvus Standalone database in Attu by performing the following tasks:
 
     - Adding a Milvus collection in Attu
     - Creating an index for the Milvus collection in Attu
