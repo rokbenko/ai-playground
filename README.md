@@ -492,7 +492,7 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
   <tr>
     <td>#1</td>
     <td>Milvus Standalone starter</td>
-    <td>Python and Node.js examples on how to install Milvus Standalone using Docker, connect to a server and list all collections</td>
+    <td>Python and Node.js examples on how to install Milvus Standalone using Docker, connect to a Milvus Standalone server and list all Milvus collections</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
       <img alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-%23202020?style=flat&logo=javascript">
