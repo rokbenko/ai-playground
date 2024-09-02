@@ -4,7 +4,7 @@
 
 ## 📖 Description 📖
 
-Python and Node.js examples on how to install Milvus Standalone using Docker, connect to a Milvus server and list all collections.
+Python and Node.js examples on how to install Milvus Standalone using Docker, connect to a Milvus Standalone server and list all Milvus collections.
 
 <br>
 
@@ -22,11 +22,13 @@ Python and Node.js examples on how to install Milvus Standalone using Docker, co
 
 <br>
 
-## 💡 How to build Milvus Docker containers 💡
+## 🚀 Installation 🚀
 
-Run the following command to build Milvus Docker containers from the [`docker-compose.yml`](https://github.com/rokbenko/ai-playground/blob/main/milvus-tutorials/1-Milvus_standalone_starter/docker-compose.yml) file:
+### Starting the Docker container
 
-```
+Run the following command to start the Docker container from the [`docker-compose.yml`](https://github.com/rokbenko/ai-playground/blob/main/milvus-tutorials/1-Milvus_standalone_starter/docker-compose.yml) file for running Milvus Standalone:
+
+```bash
 docker compose up -d
 ```
 
