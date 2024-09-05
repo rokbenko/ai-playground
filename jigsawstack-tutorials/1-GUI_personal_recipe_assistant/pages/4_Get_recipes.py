@@ -601,11 +601,11 @@ def main():
 
         # Body for tab "Generate recipes"
         with tab_recipe:
-            # If recipe prompt ID is not stored in session state, display error message
+            # If recipe prompt ID is not stored in session state, display warning message
             if "recipe_prompt_id" not in st.session_state:
-                st.error(
-                    body="Recipe prompt not created yet. Please switch to the 'Manage prompts' tab and create the recipe prompt.",
-                    icon="❌",
+                st.warning(
+                    body="No recipe prompt has been created yet. Please switch to the 'Manage prompts' tab and create the recipe prompt.",
+                    icon="⚠️",
                 )
 
             # If recipe prompt ID is stored in session state, display ingredients and preferences and generate recipes
