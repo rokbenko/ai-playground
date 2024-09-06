@@ -217,7 +217,7 @@ def main():
 
                     st.session_state["preferences"] = preferences_dict
 
-                    st.switch_page("pages/4_Get_recipes.py")
+                    st.switch_page("pages/4_Generate_recipes.py")
         with col_right:
             st.write("&nbsp;")
 
