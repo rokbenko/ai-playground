@@ -389,10 +389,10 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
       <img alt="Streamlit badge" src="https://img.shields.io/badge/Streamlit-%23202020?style=flat&logo=streamlit">
     </td>
     <td>
-      Coming soon... ✨
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/jigsawstack-tutorials/1-GUI_personal_recipe_assistant" target="_blank">GitHub</a>
     </td>
     <td>
-      Coming soon... ✨
+      <a href="https://youtu.be/qcwp_qCOoCs" target="_blank">YouTube</a>
     </td>
   </tr>
 </table>
