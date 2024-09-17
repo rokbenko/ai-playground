@@ -47,7 +47,7 @@ OS:
 
 Dependencies:
 
-- [OpenAI Node.js API SDK](https://www.npmjs.com/package/openai) `4.20.0`
+- [OpenAI Node.js SDK](https://www.npmjs.com/package/openai) `4.20.0`
 - [Next.js](https://www.npmjs.com/package/next) `14.0.3`
 - [React](https://www.npmjs.com/package/react) `18.2.0`
 - [TypeScript](https://www.npmjs.com/package/typescript) `5.0.4`
