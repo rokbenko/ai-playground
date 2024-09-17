@@ -1,10 +1,8 @@
 <div align="center">
 
-# Code from tutorials presented on<br> the [Code AI with Rok](https://www.youtube.com/@rokbenko?sub_confirmation=1)<br> YouTube channel
+# Code from tutorials presented on the<br> [Code AI with Rok](https://www.youtube.com/@rokbenko?sub_confirmation=1) YouTube channel
 
 Enjoying what you find in this repository? Your star ⭐ would be greatly appreciated!
-
-Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenko">community</a>.
 
 <br>
 
@@ -19,11 +17,11 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
   - [Frameworks](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#%EF%B8%8F-frameworks-%EF%B8%8F)<br>
     - [LangChain](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#langchain)<br>
     - [LlamaIndex](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#llamaindex)<br>
-    - [JigsawStack](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#jigsawstack)<br>
     - [Fetch.ai](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#fetchai)<br>
+    - [JigsawStack](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#jigsawstack)<br>
   - [Cloud](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#%EF%B8%8F-cloud-%EF%B8%8F)<br>
     - [Snowflake](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#snowflake)<br>
-  - [Vector databases](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#%EF%B8%8F-vector-databases-%EF%B8%8F)<br>
+  - [Vector DBs](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#%EF%B8%8F-vector-databases-%EF%B8%8F)<br>
     - [Milvus](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#milvus)<br>
   - [NLP](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-nlp-)<br>
     - [spaCy](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#spacy)<br>
@@ -171,42 +169,6 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
     </td>
     <td>
       <a href="https://youtu.be/_uUSclN-O9M" target="_blank">YouTube</a>
-    </td>
-  </tr>
-  <tr>
-    <td>#8</td>
-    <td>
-      Next.js GUI for assistants with response streaming*<br>
-      <sup>*Assistants API <code>v2</code> beta</sup>
-    </td>
-    <td>Next.js GUI for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/2-Build_personal_math_tutor">#2 Build a personal math tutor</a> and <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_customer_support_chatbot">#4 Build a customer support chatbot</a> tutorials with response streaming</td>
-    <td>
-      <img alt="Next.js badge" src="https://img.shields.io/badge/Next.js-%23202020?style=flat&logo=nextdotjs">
-      <img alt="Tailwind CSS badge" src="https://img.shields.io/badge/Tailwind%20CSS-%23202020?style=flat&logo=tailwindcss">
-      <img alt="Material UI badge" src="https://img.shields.io/badge/Material%20UI-%23202020?style=flat&logo=mui">
-    </td>
-    <td>
-      Coming soon... ✨
-    </td>
-    <td>
-      Coming soon... ✨
-    </td>
-  </tr>
-  <tr>
-    <td>#9</td>
-    <td>
-      Streamlit GUI for assistants with response streaming*<br>
-      <sup>*Assistants API <code>v2</code> beta</sup>
-    </td>
-    <td>Streamlit GUI for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/2-Build_personal_math_tutor">#2 Build a personal math tutor</a> and <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_customer_support_chatbot">#4 Build a customer support chatbot</a> tutorials with response streaming</td>
-    <td>
-      <img alt="Streamlit badge" src="https://img.shields.io/badge/Streamlit-%23202020?style=flat&logo=streamlit">
-    </td>
-    <td>
-      Coming soon... ✨
-    </td>
-    <td>
-      Coming soon... ✨
     </td>
   </tr>
 </table>
@@ -371,32 +333,6 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
   </tr>
 </table>
 
-### [JigsawStack](https://jigsawstack.com/)
-
-<table>
-  <tr>
-    <th></th>
-    <th>Tutorial title</th>
-    <th>Tutorial description</th>
-    <th>Tech stack</th>
-    <th colspan="2">Links</th>
-  </tr>
-  <tr>
-    <td>#1</td>
-    <td>GUI for a personal recipe assistant</td>
-    <td>Streamlit GUI for a personal recipe assistant that generates recipes based on the available ingredients recognized from the uploaded photo and selected preferences by the user</td>
-    <td>
-      <img alt="Streamlit badge" src="https://img.shields.io/badge/Streamlit-%23202020?style=flat&logo=streamlit">
-    </td>
-    <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/jigsawstack-tutorials/1-GUI_personal_recipe_assistant" target="_blank">GitHub</a>
-    </td>
-    <td>
-      <a href="https://youtu.be/qcwp_qCOoCs" target="_blank">YouTube</a>
-    </td>
-  </tr>
-</table>
-
 ### [Fetch.ai](https://fetch.ai/)
 
 <table>
@@ -445,6 +381,32 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
   </tr>
 </table>
 
+### [JigsawStack](https://jigsawstack.com/)
+
+<table>
+  <tr>
+    <th></th>
+    <th>Tutorial title</th>
+    <th>Tutorial description</th>
+    <th>Tech stack</th>
+    <th colspan="2">Links</th>
+  </tr>
+  <tr>
+    <td>#1</td>
+    <td>GUI for a personal recipe assistant</td>
+    <td>Streamlit GUI for a personal recipe assistant that generates recipes based on the available ingredients recognized from the uploaded photo and selected preferences by the user</td>
+    <td>
+      <img alt="Streamlit badge" src="https://img.shields.io/badge/Streamlit-%23202020?style=flat&logo=streamlit">
+    </td>
+    <td>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/jigsawstack-tutorials/1-GUI_personal_recipe_assistant" target="_blank">GitHub</a>
+    </td>
+    <td>
+      <a href="https://youtu.be/qcwp_qCOoCs" target="_blank">YouTube</a>
+    </td>
+  </tr>
+</table>
+
 <br>
 
 ## ☁️ Cloud ☁️
@@ -477,7 +439,7 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
 
 <br>
 
-## 🗃️ Vector databases 🗃️
+## 🗃️ Vector DBs 🗃️
 
 ### [Milvus](https://milvus.io/)
 
@@ -540,7 +502,7 @@ Do you want to support me? 👉 Join my <a href="https://www.patreon.com/rokbenk
 
 <br>
 
-## 🤖 NLP 🤖
+## 💬 NLP 💬
 
 ### [spaCy](https://spacy.io/)
 
