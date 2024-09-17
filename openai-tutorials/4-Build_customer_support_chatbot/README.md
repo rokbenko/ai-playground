@@ -86,7 +86,7 @@ OS:
 Dependencies:
 
 - [Python](https://www.python.org/) `3.12.1`
-- [OpenAI Python API SDK](https://pypi.org/project/openai/) `1.7.2`
+- [OpenAI Python SDK](https://pypi.org/project/openai/) `1.7.2`
 
 <br>
 
@@ -139,4 +139,4 @@ OS:
 Dependencies:
 
 - [Node.js](https://nodejs.org/en) `21.2.0`
-- [OpenAI Node.js API SDK](https://www.npmjs.com/package/openai) `4.24.7`
+- [OpenAI Node.js SDK](https://www.npmjs.com/package/openai) `4.24.7`
