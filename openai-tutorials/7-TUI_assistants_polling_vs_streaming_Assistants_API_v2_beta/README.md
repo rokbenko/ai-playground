@@ -103,7 +103,7 @@ OS:
 Dependencies:
 
 - [Python](https://www.python.org/) `3.11.8`
-- [OpenAI Python API SDK](https://pypi.org/project/openai/) `1.37.0`
+- [OpenAI Python SDK](https://pypi.org/project/openai/) `1.37.0`
 - [Rich](https://pypi.org/project/rich/) `13.7.1`
 - [Dotenv](https://pypi.org/project/python-dotenv/) `1.0.1`
 
@@ -124,7 +124,7 @@ OS:
 Dependencies:
 
 - [Node.js](https://nodejs.org/en) `21.2.0`
-- [OpenAI Node.js API SDK](https://www.npmjs.com/package/openai) `4.53.0`
+- [OpenAI Node.js SDK](https://www.npmjs.com/package/openai) `4.53.0`
 - [Terminal Kit](https://www.npmjs.com/package/terminal-kit) `3.1.1`
 - [Dotenv](https://www.npmjs.com/package/dotenv) `16.4.5`
 
