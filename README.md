@@ -171,6 +171,22 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
       <a href="https://youtu.be/_uUSclN-O9M" target="_blank">YouTube</a>
     </td>
   </tr>
+  <tr>
+    <td>#8</td>
+    <td>LLMs explained</td>
+    <td>Python and Node.js examples on how LLMs work using the OpenAI SDK <code>top_logprobs</code> parameter</td>
+    <td>
+      <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
+      <img alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-%23202020?style=flat&logo=javascript">
+      <img alt="Node.js badge" src="https://img.shields.io/badge/Node.js-%23202020?style=flat&logo=nodedotjs">
+    </td>
+    <td>
+      Coming soon... ✨
+    </td>
+    <td>
+      Coming soon... ✨
+    </td>
+  </tr>
 </table>
 
 ### [Google](https://deepmind.google/)
