@@ -44,8 +44,7 @@ def main():
         ],
         logprobs=True,  # Necessary for logprobs to work
         top_logprobs=5,  # Number of top logprobs to return
-        max_completion_tokens=50,
-        stop=".",
+        stop="\n",
     )
 
     # Retrieve logprobs
