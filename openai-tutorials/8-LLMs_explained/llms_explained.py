@@ -42,7 +42,7 @@ def main():
             },
             {"role": "user", "content": "Einstein"},
         ],
-        logprobs=True,  # Necessary for logprobs to work
+        logprobs=True,  # Necessary for top logprobs to work
         top_logprobs=5,  # Number of top logprobs to return
         stop="\n",
     )

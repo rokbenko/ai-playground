@@ -40,7 +40,7 @@ async function main() {
       },
       { role: "user", content: "Einstein" },
     ],
-    logprobs: true, // Necessary for logprobs to work
+    logprobs: true, // Necessary for top logprobs to work
     top_logprobs: 5, // Number of top logprobs to return
     stop: "\n",
   });
