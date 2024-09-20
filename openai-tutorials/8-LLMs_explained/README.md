@@ -10,7 +10,7 @@ Python and Node.js examples on how LLMs work using the OpenAI SDK `top_logprobs`
 
 ## 🧠 Learning goal 🧠
 
-- **Learning how LLMs work:** By utilizing parameters `logprobs` and `top_logprobs`, we can see exactly which tokens the LLM considered at each step of generating a response and how confident it was about each option. This insight provides a more practical understanding of how LLMs predict the next word based on context. LLMs are designed to predict the next token in a sequence, using prior tokens to guide their choices. With the `logprobs` parameter set to `True`/`true`, the LLM returns the log probabilities for each token in the response. By adding the `top_logprobs` parameter, we can examine the top N most likely tokens the LLM considered and the likelihood of each.
+- **Understanding LLMs:** By utilizing parameters `logprobs` and `top_logprobs`, we can see exactly which tokens the LLM considered at each step of generating a response and how confident it was about each option. This insight provides a more practical understanding of how LLMs predict the next word based on context. LLMs are designed to predict the next token in a sequence, using prior tokens to guide their choices. With the `logprobs` parameter set to `True`/`true`, the LLM returns the log probabilities for each token in the response. By adding the `top_logprobs` parameter, we can examine the top N most likely tokens the LLM considered and the likelihood of each.
 
 <br>
 
