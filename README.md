@@ -181,10 +181,10 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
       <img alt="Node.js badge" src="https://img.shields.io/badge/Node.js-%23202020?style=flat&logo=nodedotjs">
     </td>
     <td>
-      Coming soon... ✨
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/8-LLMs_explained" target="_blank">GitHub</a>
     </td>
     <td>
-      Coming soon... ✨
+      <a href="https://youtu.be/cervFqzf7ec" target="_blank">YouTube</a>
     </td>
   </tr>
 </table>
