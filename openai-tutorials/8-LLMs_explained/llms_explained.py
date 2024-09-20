@@ -52,12 +52,13 @@ def main():
 
     # Iterate and display logprobs
     for logprob in logprobs:
-        print(f'Token: "{logprob.token}"')
+        print(f'Chosen token: "{logprob.token}"')
+        print("----------------------------------------")
         print(f"Top logprobs:")
 
         for idx, top_logprob in enumerate(logprob.top_logprobs, start=1):
             print(f'{idx}. Token: "{top_logprob.token}"')
-            print(f"   Probability: {top_logprob.logprob}")
+            print(f"   Log probability: {top_logprob.logprob}")
 
         print("\n")
 

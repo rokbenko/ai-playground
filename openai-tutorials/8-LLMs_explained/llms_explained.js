@@ -50,12 +50,13 @@ async function main() {
 
   // Iterate and display logprobs
   for (const logprob of logprobs) {
-    console.log(`Token: "${logprob.token}"`);
+    console.log(`Chosen token: "${logprob.token}"`);
+    console.log("----------------------------------------");
     console.log("Top logprobs:");
 
     logprob.top_logprobs.forEach((top_logprob, idx) => {
       console.log(`${idx + 1}. Token: "${top_logprob.token}"`);
-      console.log(`   Probability: ${top_logprob.logprob}`);
+      console.log(`   Log probability: ${top_logprob.logprob}`);
     });
 
     console.log("\n");
