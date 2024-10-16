@@ -1,0 +1,123 @@
+2024-10-16 23:05:23: task_name="calculate_cost", task="Calculate the cost of CrewAI usage based on Guest Research Crew
+
+total_tokens=24667 prompt_tokens=17040 completion_tokens=7627 successful_requests=6
+
+Questions Research Crew
+
+total_tokens=35531 prompt_tokens=33575 completion_tokens=1956 successful_requests=3 by utilizing Python. All usage is based on the Anthropic Claude 3 Haiku model, which costs $0.25 / 1 million input tokens and $1.25 / 1 million output tokens. Write and execute Python code to make calculations. The calculated number is just an estimated cost because Cost Calculation crew itself also uses some tokens that are not included in the Guest Research Crew
+
+total_tokens=24667 prompt_tokens=17040 completion_tokens=7627 successful_requests=6
+
+Questions Research Crew
+
+total_tokens=35531 prompt_tokens=33575 completion_tokens=1956 successful_requests=3 although a lot less than other crews. There are two CrewAI crews that are included in Guest Research Crew
+
+total_tokens=24667 prompt_tokens=17040 completion_tokens=7627 successful_requests=6
+
+Questions Research Crew
+
+total_tokens=35531 prompt_tokens=33575 completion_tokens=1956 successful_requests=3: Guest Research crew and Questions Research crew.
+", agent="Senior Mathematician", status="started"
+
+2024-10-16 23:05:43: task_name="calculate_cost", task="Calculate the cost of CrewAI usage based on Guest Research Crew
+
+total_tokens=24667 prompt_tokens=17040 completion_tokens=7627 successful_requests=6
+
+Questions Research Crew
+
+total_tokens=35531 prompt_tokens=33575 completion_tokens=1956 successful_requests=3 by utilizing Python. All usage is based on the Anthropic Claude 3 Haiku model, which costs $0.25 / 1 million input tokens and $1.25 / 1 million output tokens. Write and execute Python code to make calculations. The calculated number is just an estimated cost because Cost Calculation crew itself also uses some tokens that are not included in the Guest Research Crew
+
+total_tokens=24667 prompt_tokens=17040 completion_tokens=7627 successful_requests=6
+
+Questions Research Crew
+
+total_tokens=35531 prompt_tokens=33575 completion_tokens=1956 successful_requests=3 although a lot less than other crews. There are two CrewAI crews that are included in Guest Research Crew
+
+total_tokens=24667 prompt_tokens=17040 completion_tokens=7627 successful_requests=6
+
+Questions Research Crew
+
+total_tokens=35531 prompt_tokens=33575 completion_tokens=1956 successful_requests=3: Guest Research crew and Questions Research crew.
+", agent="Senior Mathematician", status="completed", output="# CrewAI Usage Cost Report
+
+## Guest Research Crew Cost
+
+The Guest Research Crew had the following usage:
+- Total Tokens: 24,667
+- Prompt Tokens: 17,040
+- Completion Tokens: 7,627
+- Successful Requests: 6
+
+Using the Anthropic Claude 3 Haiku model pricing of $0.25 per 1 million input tokens and $1.25 per 1 million output tokens, the cost for the Guest Research Crew is calculated as:
+
+```python
+input_token_cost = 0.25 / 1000000
+output_token_cost = 1.25 / 1000000
+cost_guest_crew = (prompt_tokens_guest * input_token_cost + completion_tokens_guest * output_token_cost) * successful_requests_guest
+cost_guest_crew = ($0.00425 + $0.00953) * 6 = $0.08378
+```
+
+The total cost for the Guest Research Crew is **$0.08**.
+
+## Questions Research Crew Cost
+
+The Questions Research Crew had the following usage:
+- Total Tokens: 35,531
+- Prompt Tokens: 33,575
+- Completion Tokens: 1,956
+- Successful Requests: 3
+
+Using the same pricing model, the cost for the Questions Research Crew is calculated as:
+
+```python
+cost_questions_crew = (prompt_tokens_questions * input_token_cost + completion_tokens_questions * output_token_cost) * successful_requests_questions
+cost_questions_crew = ($0.00839 + $0.00245) * 3 = $0.03252
+```
+
+The total cost for the Questions Research Crew is **$0.03**.
+
+## Total Cost
+
+The total cost for the Guest Research Crew and the Questions Research Crew is:
+
+```python
+total_cost = cost_guest_crew + cost_questions_crew
+total_cost = $0.08 + $0.03 = $0.11
+```
+
+The total estimated cost is **$0.11**.
+
+## Code Used for Calculations
+
+```python
+import math
+
+# Guest Research Crew
+total_tokens_guest = 24667
+prompt_tokens_guest = 17040
+completion_tokens_guest = 7627
+successful_requests_guest = 6
+
+# Questions Research Crew  
+total_tokens_questions = 35531
+prompt_tokens_questions = 33575
+completion_tokens_questions = 1956
+successful_requests_questions = 3
+
+# Anthropic Claude 3 Haiku model costs
+input_token_cost = 0.25 / 1000000
+output_token_cost = 1.25 / 1000000
+
+# Calculate costs
+cost_guest_crew = (prompt_tokens_guest * input_token_cost + completion_tokens_guest * output_token_cost) * successful_requests_guest
+cost_questions_crew = (prompt_tokens_questions * input_token_cost + completion_tokens_questions * output_token_cost) * successful_requests_questions
+
+total_cost = cost_guest_crew + cost_questions_crew
+
+print(f'Guest Research Crew Cost: ${cost_guest_crew:.2f}')
+print(f'Questions Research Crew Cost: ${cost_questions_crew:.2f}')
+print(f'Total Cost: ${total_cost:.2f}')
+```
+
+*Note: The calculated cost is an estimate because the Cost Calculation crew also uses some tokens that are not reflected in the initial calculation shown above. These costs are excluded because the exact number of tokens used by this crew is only available after execution (i.e., when you're reading this). However, the token usage is expected to be minimal. To get the complete total, you can manually add the Cost Calculation crew's token usage from the `log_token_usage.txt` file to the Total Cost calculated by CrewAI.*"
+

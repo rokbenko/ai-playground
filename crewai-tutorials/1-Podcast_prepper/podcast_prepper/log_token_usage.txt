@@ -1,0 +1,11 @@
+Guest Research Crew
+
+total_tokens=24667 prompt_tokens=17040 completion_tokens=7627 successful_requests=6
+
+Questions Research Crew
+
+total_tokens=35531 prompt_tokens=33575 completion_tokens=1956 successful_requests=3
+
+Cost Calculation Crew
+
+total_tokens=6879 prompt_tokens=4616 completion_tokens=2263 successful_requests=3

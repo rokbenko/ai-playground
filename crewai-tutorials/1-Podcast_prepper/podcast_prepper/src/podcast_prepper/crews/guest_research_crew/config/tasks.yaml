@@ -1,0 +1,48 @@
+research_task:
+  agent: senior_researcher
+  description: >
+    Conduct an in-depth investigation into {guest}, gathering relevant
+    information from various sources. Focus on their background, education,
+    career milestones, public image, notable achievements, personal life,
+    influence and impact, challenges and controversies, publications and works, 
+    awards and honors, philanthropy and activism, and current projects.
+  expected_output: >
+    A comprehensive narrative detailing the life and career of {guest},
+    including: - Background: A thorough overview of their early life and
+    upbringing. - Education: Information about their academic achievements and
+    institutions attended. - Career Milestones: Key points in their professional
+    journey and significant roles held. - Public Image: Insights into how they
+    are perceived by the public and media. - Notable Achievements: Major
+    accomplishments and recognitions received. - Personal Life: Details about
+    their family, relationships, and personal interests. - Influence and Impact:
+    Discussion of their contributions to their field or community. - Challenges
+    and Controversies: Notable challenges faced and controversies encountered. -
+    Publications and Works: A list of significant works authored or contributed
+    to. - Awards and Honors: Recognition received throughout their career. -
+    Philanthropy and Activism: Involvement in charitable causes and activism
+    efforts. - Current Projects: Information about ongoing initiatives or
+    projects they are working on. Additionally, all links to sources used in the
+    research should be included at the end of the report for reference.
+
+report_task:
+  agent: senior_reporter
+  description: >
+    Develop a detailed report based on the in-depth investigation into {guest}.
+    Ensure that all details, including specific numbers, dates, names, and
+    factual data from the research task, are included without summarization. The
+    report should preserve the thoroughness of the research, presenting all
+    relevant details in each section, allowing readers to gain an in-depth
+    understanding of {guest}.
+  expected_output: >
+    A highly detailed and well-structured report in markdown format, containing
+    distinct sections for each key insight with clear headings and thorough
+    explanations. Don't start the report with a sentence like "Here is the
+    detailed report on Rok Benko:". Just start with the heading (i.e., "#") and
+    then the content. The report must retain all factual data, including names,
+    numbers, statistics, and specific events as presented in the research task.
+    It should cover {guest}'s background, education, career milestones, public
+    image, notable achievements, personal life, influence and impact, challenges
+    and controversies, publications and works, awards and honors, philanthropy
+    and activism, and current projects, with no omission of critical details.
+    Additionally, all links to sources used in the research should be included
+    at the end of the report for reference.
