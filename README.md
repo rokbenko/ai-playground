@@ -380,6 +380,38 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
 
 ## 🤖 Agents 🤖
 
+### [CrewAI](https://www.crewai.com/)
+
+<table>
+  <tr>
+    <th></th>
+    <th>Tutorial title</th>
+    <th>Tutorial description</th>
+    <th>Tech stack</th>
+    <th colspan="2">Links</th>
+  </tr>
+  <tr>
+    <td>#1</td>
+    <td>Podcast prepper</td>
+    <td>Python example using CrewAI, Anthropic LLM and Exa tool, designed for podcast hosts, helping them:<br>
+      <ul>
+        <li>research a guest</li>
+        <li>prepare detailed insights about the guest</li>
+        <li>suggest relevant questions for an upcoming episode with the guest</li>
+      </ul>
+    </td>
+    <td>
+      <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
+    </td>
+    <td>
+      Coming soon... ✨
+    </td>
+    <td>
+      Coming soon... ✨
+    </td>
+  </tr>
+</table>
+
 ### [Fetch.ai](https://fetch.ai/)
 
 <table>
