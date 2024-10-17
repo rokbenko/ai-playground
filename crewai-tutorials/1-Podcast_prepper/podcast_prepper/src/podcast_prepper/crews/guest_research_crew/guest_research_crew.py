@@ -18,7 +18,7 @@ class GuestResearchCrew:
             config=self.agents_config["senior_researcher"],
             llm=LLM(
                 api_key=os.getenv("ANTHROPIC_API_KEY"),
-                model="anthropic/claude-3-haiku-20240307",
+                model="anthropic/claude-3-5-sonnet-20240620",
             ),
             respect_context_window=True,
             max_iter=1,
@@ -26,30 +26,11 @@ class GuestResearchCrew:
             tools=[ExaGuestResearchTool()],
         )
 
-    @agent
-    def senior_reporter(self) -> Agent:
-        return Agent(
-            config=self.agents_config["senior_reporter"],
-            llm=LLM(
-                api_key=os.getenv("ANTHROPIC_API_KEY"),
-                model="anthropic/claude-3-haiku-20240307",
-            ),
-            respect_context_window=True,
-            max_iter=1,
-            verbose=True,
-        )
-
     @task
     def research_task(self) -> Task:
         return Task(
             config=self.tasks_config["research_task"],
             human_input=True,
-        )
-
-    @task
-    def report_task(self) -> Task:
-        return Task(
-            config=self.tasks_config["report_task"],
         )
 
     @crew

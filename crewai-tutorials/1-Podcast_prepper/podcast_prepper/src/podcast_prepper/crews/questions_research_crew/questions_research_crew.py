@@ -2,7 +2,6 @@ import os
 from dotenv import load_dotenv
 from crewai import Agent, Crew, Process, Task, LLM
 from crewai.project import CrewBase, agent, crew, task
-from podcast_prepper.tools.custom_tool import ExaQuestionsResearchTool
 
 load_dotenv()
 
@@ -18,12 +17,11 @@ class QuestionsResearchCrew:
             config=self.agents_config["senior_journalist"],
             llm=LLM(
                 api_key=os.getenv("ANTHROPIC_API_KEY"),
-                model="anthropic/claude-3-haiku-20240307",
+                model="anthropic/claude-3-5-sonnet-20240620",
             ),
             respect_context_window=True,
             max_iter=1,
             verbose=True,
-            tools=[ExaQuestionsResearchTool()],
         )
 
     @task

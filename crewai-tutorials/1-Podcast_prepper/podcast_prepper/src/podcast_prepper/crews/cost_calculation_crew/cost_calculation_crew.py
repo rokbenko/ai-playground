@@ -17,7 +17,7 @@ class CostCalculationCrew:
             config=self.agents_config["senior_mathematician"],
             llm=LLM(
                 api_key=os.getenv("ANTHROPIC_API_KEY"),
-                model="anthropic/claude-3-haiku-20240307",
+                model="anthropic/claude-3-5-sonnet-20240620",
             ),
             respect_context_window=True,
             max_iter=1,
@@ -26,9 +26,9 @@ class CostCalculationCrew:
         )
 
     @task
-    def calculate_cost(self) -> Task:
+    def cost_calculation_task(self) -> Task:
         return Task(
-            config=self.tasks_config["calculate_cost"],
+            config=self.tasks_config["cost_calculation_task"],
         )
 
     @crew

@@ -20,30 +20,9 @@ class ExaGuestResearchTool(BaseTool):
             type="keyword",
             use_autoprompt=False,
             num_results=10,
-            text={"max_characters": 3000},
+            text={"max_characters": 5000},
             summary=False,
             livecrawl="always",
-        )
-
-        return response
-
-
-class ExaQuestionsResearchTool(BaseTool):
-    name: str = "Exa Questions Research"
-    description: str = (
-        "Search the web for information based on the guest's report to create questions for the guest"
-    )
-
-    def _run(self, topics: str) -> str:
-        exa_tool = Exa(api_key=os.getenv("EXA_API_KEY"))
-
-        response = exa_tool.search_and_contents(
-            query=topics,
-            type="auto",
-            use_autoprompt=True,
-            num_results=50,
-            text={"max_characters": 1000},
-            summary=True,
         )
 
         return response

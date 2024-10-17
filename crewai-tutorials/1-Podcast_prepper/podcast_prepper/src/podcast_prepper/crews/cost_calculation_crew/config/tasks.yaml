@@ -1,14 +1,19 @@
-calculate_cost:
+cost_calculation_task:
   agent: senior_mathematician
   description: >
     Calculate the cost of CrewAI usage based on {usage_information} by utilizing
-    Python. All usage is based on the Anthropic Claude 3 Haiku model, which
-    costs $0.25 / 1 million input tokens and $1.25 / 1 million output tokens.
-    Write and execute Python code to make calculations. The calculated number is
-    just an estimated cost because Cost Calculation crew itself also uses some
-    tokens that are not included in the {usage_information} although a lot less
-    than other crews. There are two CrewAI crews that are included in
+    Python. All usage is based on the Anthropic Claude 3.5 Sonnet model, which
+    costs $3 / 1 million input tokens and $15 / 1 million output tokens. Write
+    and execute Python code to make calculations. The calculated number is just
+    an estimated cost because Cost Calculation crew itself also uses some tokens
+    that are not included in the {usage_information} although a lot less than
+    other crews. There are two CrewAI crews that are included in
     {usage_information}: Guest Research crew and Questions Research crew.
+    Completely ignore the "Successful Request" number in the
+    {usage_information}. For a correct calculation, you only need to consider
+    "Input Tokens" and "Output Tokens" in the {usage_information}. However,
+    please include "Successful Requests" from the {usage_information} in the
+    markdown report.
   expected_output: >
     A highly detailed and well-structured report in markdown format, containing
     details about usage and costs. The report should be structured into four
@@ -16,12 +21,13 @@ calculate_cost:
     with the Guest Research Crew. - Questions Research Crew Cost: Include the
     costs incurred by the Questions Research Crew. - Total Cost: Summarize the
     total cost by adding the costs of both crews. - Code Used for Calculations:
-    Include the Python code used for performing the cost calculations. At the
+    Include the Python code used for performing the cost calculations. The
+    report should have a title (i.e., "#") and subtitles (i.e., "##"). At the
     bottom add the following note: "*Note: The calculated cost is an estimate
     because the Cost Calculation crew also uses some tokens that are not
     reflected in the initial calculation shown above. These costs are excluded
     because the exact number of tokens used by this crew is only available after
     execution (i.e., when you're reading this). However, the token usage is
-    expected to be minimal. To get the complete total, you can manually add the
-    Cost Calculation crew's token usage from the `log_token_usage.txt` file to the
-    Total Cost calculated by CrewAI.*"
+    expected to be approximately $0.03. To get the complete total, you can
+    manually calculate and add the Cost Calculation crew's cost to the Total
+    Cost calculated by CrewAI. See the from the `log_token_usage.txt` file.*"

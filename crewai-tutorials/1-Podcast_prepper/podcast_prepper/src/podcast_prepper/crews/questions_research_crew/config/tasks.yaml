@@ -10,4 +10,5 @@ journalism_task:
     A list of a minimum of 20 insightful questions in markdown format that are
     relevant to {guest_information}. The questions should be phrased in the
     first person and progress chronologically, starting from the guest's early
-    life and experiences to their current situation.
+    life and experiences to their current situation. The report should have a
+    title (i.e., "#").

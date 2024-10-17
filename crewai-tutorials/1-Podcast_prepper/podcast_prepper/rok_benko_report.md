@@ -1,85 +1,109 @@
-# Rok Benko: A Multifaceted Prodigy in the World of Technology
+# Rok Benko: A Comprehensive Profile
 
-## Background
-Rok Benko is a self-taught developer from Ljubljana, Slovenia who has made a remarkable impact in the tech industry. His passion for technology was ignited during a 2-hour high school lecture on HTML and CSS, which sparked his curiosity to learn more. Ever since then, Rok has been on a relentless journey of self-improvement, driven by his insatiable thirst for knowledge.
-
-## Education
-Despite not having a formal computer science degree, Rok has been actively engaged in continuous learning. He has used online resources, tutorials, and communities like Stack Overflow to hone his skills and stay up-to-date with the latest technological advancements.
+## Background and Education
+Rok Benko is a self-taught developer from Ljubljana, Slovenia. His journey into the world of technology began with a simple two-hour high school lecture on HTML and CSS. Despite the initial result being aesthetically unpleasing, it sparked a curiosity in Rok that led him to dedicate time every day after school to learning more about web development.
 
 ## Career Milestones
-Rok's career has been nothing short of extraordinary. He has emerged as the #1 contributor on Stack Overflow for questions related to the OpenAI API, a testament to his deep understanding of cutting-edge AI technologies. Rok's expertise and contributions have been recognized by the community, as he has become the first user to earn several prestigious badges on the platform, including the silver OpenAI API badge and multiple bronze badges for ChatGPT API, GPT-3, and OpenAI API.
+- Became the top answerer of all time for OpenAI API questions on Stack Overflow
+- First user on Stack Overflow to earn the silver openai-api badge (25 August 2023)
+- First user on Stack Overflow to earn the bronze openai-api badge (30 March 2023)
+- First user on Stack Overflow to earn the bronze chatgpt-api badge (11 May 2023)
+- First user on Stack Overflow to earn the bronze gpt-3 badge (16 May 2023)
 
-## Public Image and Notable Achievements
-Rok's public image is that of a passionate, driven, and highly knowledgeable individual. He has built a strong presence on social media, particularly on Twitter (https://www.x.com/rokbenko) and through his popular YouTube channel, "Code AI with Rok" (https://www.youtube.com/@rokbenko), where he shares tutorials and insights on various AI and technology-related topics.
+## Public Image
+Rok Benko has established himself as a prominent figure in the AI and development community. He is known for his expertise in OpenAI's API and his contributions to Stack Overflow. His public image is that of a knowledgeable, helpful, and passionate developer who is dedicated to sharing his knowledge with others.
 
-## Personal Life and Influence
-While details about Rok's personal life are limited, it is clear that he is deeply committed to his work and to giving back to the community. He is involved in several online communities and has expressed a desire to support others who are just starting their journeys in the tech industry.
+## Notable Achievements
+- Created the "Code AI with Rok" YouTube channel
+- Developed a significant following on various social media platforms
+- Consistently contributes high-quality answers on Stack Overflow, particularly in AI-related topics
+
+## Personal Life
+While specific details about Rok's personal life are limited, we know that he is based in Ljubljana, Slovenia. His passion for technology and learning appears to be a significant part of his personal identity.
+
+## Influence and Impact
+Rok's influence is particularly notable in the AI development community. His contributions on Stack Overflow have helped countless developers navigate the complexities of AI APIs, particularly OpenAI's offerings. Through his YouTube channel and other social media platforms, he continues to educate and inspire others in the field of AI and development.
 
 ## Challenges and Controversies
-There is no information available about any significant challenges or controversies Rok Benko has faced throughout his career. His journey appears to have been one of steady progress and growth, largely free from major obstacles.
+No significant challenges or controversies were found in the research about Rok Benko.
 
 ## Publications and Works
-Rok Benko's primary contributions have been through his active participation on Stack Overflow, where he has shared his knowledge and expertise with the broader developer community. He has also created a GitHub repository (https://github.com/rokbenko/ai-playground) showcasing code samples and tutorials from his "Code AI with Rok" YouTube channel.
+- GitHub repository: ai-playground (https://github.com/rokbenko/ai-playground)
+  This repository contains code from tutorials presented on his YouTube channel, covering various AI-related topics including OpenAI, Gemini, LlamaIndex, and more.
+- YouTube tutorials on AI and development topics
 
 ## Awards and Honors
-Rok Benko's exceptional contributions to the Stack Overflow community have been recognized through several prestigious badges, including the silver OpenAI API badge and multiple bronze badges for ChatGPT API, GPT-3, and OpenAI API.
+While specific awards were not mentioned, Rok's achievements on Stack Overflow, particularly being the first to earn various AI-related badges, can be considered honors in the developer community.
 
 ## Philanthropy and Activism
-There is no publicly available information about Rok Benko's involvement in philanthropic or activist endeavors.
+Rok mentions "giving back to the Stack Overflow community" as it was one of his main sources of knowledge when he was beginning his journey. This suggests a commitment to community support and knowledge sharing.
 
 ## Current Projects
-Rok Benko's current focus appears to be on creating educational content for his "Code AI with Rok" YouTube channel, where he shares tutorials and insights on various AI and technology-related topics. He is also actively contributing to the Stack Overflow community and maintaining his GitHub repository.
+- Maintaining and updating his GitHub repository with new AI tutorials
+- Creating content for his "Code AI with Rok" YouTube channel
+- Continuing to contribute to Stack Overflow, particularly in AI-related topics
 
-## Sources
-- https://github.com/rokbenko
-- https://stackoverflow.com/users/10347145/rok-benko
-- https://linktr.ee/rokbenko
-- https://www.x.com/rokbenko
-- https://www.youtube.com/@rokbenko
+## References
+1. GitHub Profile: https://github.com/rokbenko
+2. Stack Overflow Profile: https://stackoverflow.com/users/10347145/rok-benko
+3. Twitter Profile: https://www.x.com/rokbenko
+4. LinkedIn Profile: https://www.linkedin.com/in/rokbenko/
+5. YouTube Channel: https://www.youtube.com/@rokbenko
+6. GitHub Repository: https://github.com/rokbenko/ai-playground
 
 ---
 
-# Thoughtful Questions for Guest Rok Benko
+# Insightful Questions for Rok Benko: From Self-Taught Developer to AI Influencer
 
-1. Rok, I'm fascinated by your journey into technology. What was it about that 2-hour high school lecture on HTML and CSS that sparked your initial curiosity and passion for this field? 
+1. Your journey into tech began with a two-hour high school lecture on HTML and CSS. Can you describe that moment and how it sparked your curiosity? What was it about web development that captivated you?
 
-2. Given your lack of formal computer science training, how have you been able to develop such a deep understanding of cutting-edge technologies like the OpenAI API? What has your self-teaching process looked like over the years?
+2. As a self-taught developer, what were some of the biggest challenges you faced in your early learning journey? How did you overcome them?
 
-3. Your contributions as the #1 contributor on Stack Overflow for OpenAI API questions are truly remarkable. What drives you to be so actively engaged in sharing your knowledge with the broader developer community? 
+3. You dedicated time every day after school to learn more about web development. How did you maintain that discipline and motivation, especially as a young student?
 
-4. The prestigious badges you've earned on Stack Overflow, including the silver OpenAI API badge, are a testament to your expertise. How do you view these accolades, and what do they mean to you personally?
+4. Stack Overflow played a significant role in your learning process. How did you transition from being a learner on the platform to becoming one of its top contributors?
 
-5. Your public presence, particularly on platforms like Twitter and YouTube, paints the picture of a passionate, driven, and highly knowledgeable individual. How have you cultivated this persona, and what role does it play in your overall goals and aspirations?
+5. You've become the top answerer of all time for OpenAI API questions on Stack Overflow. What drew you to specialize in this area, and how has this expertise shaped your career?
 
-6. While details about your personal life are limited, it's clear that you are deeply committed to your work. What inspires this level of dedication, and how do you maintain a healthy work-life balance?
+6. Being the first to earn various AI-related badges on Stack Overflow is quite an achievement. What does this recognition mean to you personally and professionally?
 
-7. Given the lack of information about any significant challenges or controversies in your career, what would you say has been the key to your steady progress and growth in the technology industry? 
+7. Your GitHub repository, ai-playground, contains code from your YouTube tutorials. How do you decide which topics to cover, and how do you balance depth with accessibility for your audience?
 
-8. Your GitHub repository and "Code AI with Rok" YouTube channel suggest a strong interest in creating educational content. What motivates you to share your knowledge in this way, and what impact are you hoping to have on aspiring developers?
+8. As the creator of the "Code AI with Rok" YouTube channel, what inspired you to start sharing your knowledge through video content? How has this platform affected your approach to teaching and learning?
 
-9. As someone who has achieved remarkable success without a formal computer science degree, what advice would you give to young people interested in technology who may not have a traditional educational background?
+9. You've developed a significant following on various social media platforms. How do you manage your online presence while maintaining authenticity and providing value to your followers?
 
-10. Looking ahead, where do you see your career heading? Are there any new areas of technology or research that you are particularly excited about exploring?
+10. Your public image is that of a knowledgeable, helpful, and passionate developer. How do you ensure you're living up to this reputation, and what challenges does it present?
 
-11. You've mentioned a desire to support others who are just starting their journeys in the tech industry. Can you elaborate on how you plan to give back to the community and help foster the next generation of developers?
+11. As someone deeply involved in AI development, what ethical considerations do you grapple with, and how do you address them in your work and teachings?
 
-12. In a world that is rapidly evolving with new technologies, what philosophical perspectives or guiding principles help you navigate the complexities and ensure that your work remains meaningful and impactful?
+12. You've mentioned "giving back to the Stack Overflow community" as important to you. Can you elaborate on your philosophy of knowledge sharing and its importance in the tech community?
 
-13. If you could go back in time and give your younger self one piece of advice, what would it be, and how do you think it might have shaped your path to where you are today?
+13. Your influence in the AI development community is notable. How do you see your role in shaping the future of AI education and development?
 
-14. How do you maintain your passion and enthusiasm for technology in the face of the constant changes and challenges that come with working in this field? What keeps you motivated and engaged?
+14. Being based in Ljubljana, Slovenia, how has your location influenced your perspective on global tech trends and the AI industry?
 
-15. Your career trajectory has been truly remarkable, from that 2-hour high school lecture to your current status as a respected and influential figure in the technology community. What do you consider to be the most significant milestones or turning points along your journey?
+15. As AI rapidly evolves, how do you stay current with the latest developments, and what advice would you give to others trying to keep pace with the field?
 
-16. As an individual who has achieved such remarkable success without a formal education in computer science, do you believe that the traditional educational system is adequately preparing young people for the realities of the modern tech landscape? What changes, if any, would you like to see in how technology is taught and learned?
+16. Looking back at your journey from a high school student intrigued by HTML to a prominent figure in AI development, what has been the most surprising aspect of your career path?
 
-17. Given your deep understanding of emerging technologies like artificial intelligence, how do you envision the future role of AI in our daily lives, and what ethical considerations do you believe need to be at the forefront of this technological development?
+17. Your passion for technology seems to be a significant part of your identity. How do you balance this with other aspects of your life, and what advice would you give to young developers about work-life balance?
 
-18. Your achievements have been primarily recognized within the developer community, but do you have any aspirations or plans to expand your influence and impact beyond the tech world? How might your expertise and perspective be valuable in other domains?
+18. As someone who has navigated the complexities of AI APIs, particularly OpenAI's offerings, what do you see as the biggest challenges and opportunities in this space for developers?
 
-19. What lessons have you learned from your experiences in the technology industry that you believe could be applied to other fields or aspects of life? How have these lessons shaped your worldview and approach to problem-solving?
+19. You've achieved a lot without formal education in computer science. What are your thoughts on the role of traditional education versus self-learning in the rapidly evolving tech industry?
 
-20. As someone who has demonstrated an exceptional ability to teach and share knowledge, do you have any thoughts on the role of technology-enabled education and how it might transform the way we learn and acquire new skills in the future?
+20. Looking ahead, what are your goals for the future? Are there any new areas of AI or development you're excited to explore or projects you're planning to undertake?
+
+21. Given your experience with various AI technologies, how do you envision the impact of AI on society and the job market in the next decade?
+
+22. As someone who has built a career around sharing knowledge, how do you approach learning from others? Are there any mentors or figures in the tech world who have particularly inspired you?
+
+23. Your journey shows the power of curiosity and dedication. What advice would you give to someone who feels inspired by technology but doesn't know where to start?
+
+24. Reflecting on your achievements, what do you consider your most significant contribution to the AI and development community so far, and why?
+
+25. As we conclude, if you could go back and give advice to your younger self just starting out in web development, what would you say?
 
 ---
 
@@ -87,81 +111,68 @@ Rok Benko's current focus appears to be on creating educational content for his 
 
 ## Guest Research Crew Cost
 
-The Guest Research Crew had the following usage:
-- Total Tokens: 24,667
-- Prompt Tokens: 17,040
-- Completion Tokens: 7,627
-- Successful Requests: 6
+The Guest Research Crew usage details are as follows:
+- Input Tokens: 15,927
+- Output Tokens: 2,948
+- Successful Requests: 4
 
-Using the Anthropic Claude 3 Haiku model pricing of $0.25 per 1 million input tokens and $1.25 per 1 million output tokens, the cost for the Guest Research Crew is calculated as:
-
-```python
-input_token_cost = 0.25 / 1000000
-output_token_cost = 1.25 / 1000000
-cost_guest_crew = (prompt_tokens_guest * input_token_cost + completion_tokens_guest * output_token_cost) * successful_requests_guest
-cost_guest_crew = ($0.00425 + $0.00953) * 6 = $0.08378
-```
-
-The total cost for the Guest Research Crew is **$0.08**.
+Calculated cost:
+- Input Token Cost: $0.0478 (15,927 * $3 / 1,000,000)
+- Output Token Cost: $0.0442 (2,948 * $15 / 1,000,000)
+- Total Guest Research Crew Cost: $0.0920
 
 ## Questions Research Crew Cost
 
-The Questions Research Crew had the following usage:
-- Total Tokens: 35,531
-- Prompt Tokens: 33,575
-- Completion Tokens: 1,956
-- Successful Requests: 3
+The Questions Research Crew usage details are as follows:
+- Input Tokens: 2,852
+- Output Tokens: 938
+- Successful Requests: 1
 
-Using the same pricing model, the cost for the Questions Research Crew is calculated as:
-
-```python
-cost_questions_crew = (prompt_tokens_questions * input_token_cost + completion_tokens_questions * output_token_cost) * successful_requests_questions
-cost_questions_crew = ($0.00839 + $0.00245) * 3 = $0.03252
-```
-
-The total cost for the Questions Research Crew is **$0.03**.
+Calculated cost:
+- Input Token Cost: $0.0086 (2,852 * $3 / 1,000,000)
+- Output Token Cost: $0.0141 (938 * $15 / 1,000,000)
+- Total Questions Research Crew Cost: $0.0227
 
 ## Total Cost
 
-The total cost for the Guest Research Crew and the Questions Research Crew is:
-
-```python
-total_cost = cost_guest_crew + cost_questions_crew
-total_cost = $0.08 + $0.03 = $0.11
-```
-
-The total estimated cost is **$0.11**.
+The total cost for both crews is calculated as follows:
+- Guest Research Crew Cost: $0.0920
+- Questions Research Crew Cost: $0.0227
+- Total Cost: $0.1147
 
 ## Code Used for Calculations
 
 ```python
-import math
+# Constants
+INPUT_TOKEN_COST = 3 / 1_000_000  # $3 per 1 million input tokens
+OUTPUT_TOKEN_COST = 15 / 1_000_000  # $15 per 1 million output tokens
 
 # Guest Research Crew
-total_tokens_guest = 24667
-prompt_tokens_guest = 17040
-completion_tokens_guest = 7627
-successful_requests_guest = 6
+guest_input_tokens = 15927
+guest_output_tokens = 2948
+guest_successful_requests = 4
 
-# Questions Research Crew  
-total_tokens_questions = 35531
-prompt_tokens_questions = 33575
-completion_tokens_questions = 1956
-successful_requests_questions = 3
-
-# Anthropic Claude 3 Haiku model costs
-input_token_cost = 0.25 / 1000000
-output_token_cost = 1.25 / 1000000
+# Questions Research Crew
+questions_input_tokens = 2852
+questions_output_tokens = 938
+questions_successful_requests = 1
 
 # Calculate costs
-cost_guest_crew = (prompt_tokens_guest * input_token_cost + completion_tokens_guest * output_token_cost) * successful_requests_guest
-cost_questions_crew = (prompt_tokens_questions * input_token_cost + completion_tokens_questions * output_token_cost) * successful_requests_questions
+def calculate_cost(input_tokens, output_tokens):
+    input_cost = input_tokens * INPUT_TOKEN_COST
+    output_cost = output_tokens * OUTPUT_TOKEN_COST
+    return input_cost + output_cost
 
-total_cost = cost_guest_crew + cost_questions_crew
+guest_cost = calculate_cost(guest_input_tokens, guest_output_tokens)
+questions_cost = calculate_cost(questions_input_tokens, questions_output_tokens)
+total_cost = guest_cost + questions_cost
 
-print(f'Guest Research Crew Cost: ${cost_guest_crew:.2f}')
-print(f'Questions Research Crew Cost: ${cost_questions_crew:.2f}')
-print(f'Total Cost: ${total_cost:.2f}')
+# Print results
+print(f"Guest Research Crew Cost: ${guest_cost:.4f}")
+print(f"Questions Research Crew Cost: ${questions_cost:.4f}")
+print(f"Total Cost: ${total_cost:.4f}")
+print(f"Guest Research Crew Successful Requests: {guest_successful_requests}")
+print(f"Questions Research Crew Successful Requests: {questions_successful_requests}")
 ```
 
-*Note: The calculated cost is an estimate because the Cost Calculation crew also uses some tokens that are not reflected in the initial calculation shown above. These costs are excluded because the exact number of tokens used by this crew is only available after execution (i.e., when you're reading this). However, the token usage is expected to be minimal. To get the complete total, you can manually add the Cost Calculation crew's token usage from the `log_token_usage.txt` file to the Total Cost calculated by CrewAI.*
+*Note: The calculated cost is an estimate because the Cost Calculation crew also uses some tokens that are not reflected in the initial calculation shown above. These costs are excluded because the exact number of tokens used by this crew is only available after execution (i.e., when you're reading this). However, the token usage is expected to be approximately $0.03. To get the complete total, you can manually calculate and add the Cost Calculation crew's cost to the Total Cost calculated by CrewAI. See the from the `log_token_usage.txt` file.*
