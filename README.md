@@ -18,7 +18,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     - [LangChain](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#langchain)<br>
     - [LlamaIndex](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#llamaindex)<br>
     - [JigsawStack](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#jigsawstack)<br>
-  - [Agents](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#agents)
+  - [Agents](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-agents-)
     - [Fetch.ai](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#fetchai)<br>
   - [Cloud](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#%EF%B8%8F-cloud-%EF%B8%8F)<br>
     - [Snowflake](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#snowflake)<br>
