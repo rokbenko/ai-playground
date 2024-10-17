@@ -17,8 +17,9 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   - [Frameworks](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#%EF%B8%8F-frameworks-%EF%B8%8F)<br>
     - [LangChain](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#langchain)<br>
     - [LlamaIndex](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#llamaindex)<br>
-    - [Fetch.ai](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#fetchai)<br>
     - [JigsawStack](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#jigsawstack)<br>
+  - [Agents](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#agents)
+    - [Fetch.ai](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#fetchai)<br>
   - [Cloud](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#%EF%B8%8F-cloud-%EF%B8%8F)<br>
     - [Snowflake](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#snowflake)<br>
   - [Vector DBs](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#%EF%B8%8F-vector-databases-%EF%B8%8F)<br>
@@ -349,6 +350,36 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   </tr>
 </table>
 
+### [JigsawStack](https://jigsawstack.com/)
+
+<table>
+  <tr>
+    <th></th>
+    <th>Tutorial title</th>
+    <th>Tutorial description</th>
+    <th>Tech stack</th>
+    <th colspan="2">Links</th>
+  </tr>
+  <tr>
+    <td>#1</td>
+    <td>GUI for a personal recipe assistant</td>
+    <td>Streamlit GUI for a personal recipe assistant that generates recipes based on the available ingredients recognized from the uploaded photo and selected preferences by the user</td>
+    <td>
+      <img alt="Streamlit badge" src="https://img.shields.io/badge/Streamlit-%23202020?style=flat&logo=streamlit">
+    </td>
+    <td>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/jigsawstack-tutorials/1-GUI_personal_recipe_assistant" target="_blank">GitHub</a>
+    </td>
+    <td>
+      <a href="https://youtu.be/qcwp_qCOoCs" target="_blank">YouTube</a>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+## 🤖 Agents 🤖
+
 ### [Fetch.ai](https://fetch.ai/)
 
 <table>
@@ -393,32 +424,6 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     </td>
     <td>
       <a href="https://youtu.be/40sixkWgXGc" target="_blank">YouTube</a>
-    </td>
-  </tr>
-</table>
-
-### [JigsawStack](https://jigsawstack.com/)
-
-<table>
-  <tr>
-    <th></th>
-    <th>Tutorial title</th>
-    <th>Tutorial description</th>
-    <th>Tech stack</th>
-    <th colspan="2">Links</th>
-  </tr>
-  <tr>
-    <td>#1</td>
-    <td>GUI for a personal recipe assistant</td>
-    <td>Streamlit GUI for a personal recipe assistant that generates recipes based on the available ingredients recognized from the uploaded photo and selected preferences by the user</td>
-    <td>
-      <img alt="Streamlit badge" src="https://img.shields.io/badge/Streamlit-%23202020?style=flat&logo=streamlit">
-    </td>
-    <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/jigsawstack-tutorials/1-GUI_personal_recipe_assistant" target="_blank">GitHub</a>
-    </td>
-    <td>
-      <a href="https://youtu.be/qcwp_qCOoCs" target="_blank">YouTube</a>
     </td>
   </tr>
 </table>
