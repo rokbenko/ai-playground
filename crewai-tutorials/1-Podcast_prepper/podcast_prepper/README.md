@@ -11,6 +11,8 @@ It's designed for podcast hosts, helping them:
  - prepare detailed insights about the guest, and
  - suggest relevant questions for an upcoming episode with the guest.
 
+👉 Refer to the [`rok_benko_report.md`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/rok_benko_report.md) file for an example of the final report, if the entered guest is *Rok Benko*.
+
 <br>
 
 ## 🧐 Problem addressed 🧐
