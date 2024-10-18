@@ -1,146 +1,84 @@
-2024-10-17 15:13:03: task_name="cost_calculation_task", task="Calculate the cost of CrewAI usage based on Guest Research Crew
+2024-10-18 14:31:01: task_name="cost_calculation_task", task="Estimate the cost of CrewAI usage using Guest Research Crew
 
-total_tokens=18875 prompt_tokens=15927 completion_tokens=2948 successful_requests=4
-
-Questions Research Crew
-
-total_tokens=3790 prompt_tokens=2852 completion_tokens=938 successful_requests=1 by utilizing Python. All usage is based on the Anthropic Claude 3.5 Sonnet model, which costs $3 / 1 million input tokens and $15 / 1 million output tokens. Write and execute Python code to make calculations. The calculated number is just an estimated cost because Cost Calculation crew itself also uses some tokens that are not included in the Guest Research Crew
-
-total_tokens=18875 prompt_tokens=15927 completion_tokens=2948 successful_requests=4
+total_tokens=17973 prompt_tokens=14410 completion_tokens=3563 successful_requests=4
 
 Questions Research Crew
 
-total_tokens=3790 prompt_tokens=2852 completion_tokens=938 successful_requests=1 although a lot less than other crews. There are two CrewAI crews that are included in Guest Research Crew
-
-total_tokens=18875 prompt_tokens=15927 completion_tokens=2948 successful_requests=4
-
-Questions Research Crew
-
-total_tokens=3790 prompt_tokens=2852 completion_tokens=938 successful_requests=1: Guest Research crew and Questions Research crew. Completely ignore the "Successful Request" number in the Guest Research Crew
-
-total_tokens=18875 prompt_tokens=15927 completion_tokens=2948 successful_requests=4
-
-Questions Research Crew
-
-total_tokens=3790 prompt_tokens=2852 completion_tokens=938 successful_requests=1. For a correct calculation, you only need to consider "Input Tokens" and "Output Tokens" in the Guest Research Crew
-
-total_tokens=18875 prompt_tokens=15927 completion_tokens=2948 successful_requests=4
-
-Questions Research Crew
-
-total_tokens=3790 prompt_tokens=2852 completion_tokens=938 successful_requests=1. However, please include "Successful Requests" from the Guest Research Crew
-
-total_tokens=18875 prompt_tokens=15927 completion_tokens=2948 successful_requests=4
-
-Questions Research Crew
-
-total_tokens=3790 prompt_tokens=2852 completion_tokens=938 successful_requests=1 in the markdown report.
+total_tokens=4797 prompt_tokens=3908 completion_tokens=889 successful_requests=1 with Python. The calculations will be based on the Anthropic Claude 3.5 Sonnet model, which charges $3 per million input tokens and $15 per million output tokens. Write and execute the Python code for these calculations. Note that the estimated costs may not reflect the full expense since the Cost Calculation crew also consumes some tokens not included in the usage_information, albeit significantly less than other crews. Additionally, the Exa tool incurs costs that are not captured in the usage_information, as the API does not provide usage data. The usage_information includes two CrewAI crews: the Guest Research crew and the Questions Research crew. Ignore the "Successful Request" count in the usage_information for the calculations; only consider "Input Tokens" and "Output Tokens." However, include the "Successful Requests" for both crews in the markdown report for informational purposes.
 ", agent="Senior Mathematician", status="started"
 
-2024-10-17 15:13:47: task_name="cost_calculation_task", task="Calculate the cost of CrewAI usage based on Guest Research Crew
+2024-10-18 14:31:26: task_name="cost_calculation_task", task="Estimate the cost of CrewAI usage using Guest Research Crew
 
-total_tokens=18875 prompt_tokens=15927 completion_tokens=2948 successful_requests=4
-
-Questions Research Crew
-
-total_tokens=3790 prompt_tokens=2852 completion_tokens=938 successful_requests=1 by utilizing Python. All usage is based on the Anthropic Claude 3.5 Sonnet model, which costs $3 / 1 million input tokens and $15 / 1 million output tokens. Write and execute Python code to make calculations. The calculated number is just an estimated cost because Cost Calculation crew itself also uses some tokens that are not included in the Guest Research Crew
-
-total_tokens=18875 prompt_tokens=15927 completion_tokens=2948 successful_requests=4
+total_tokens=17973 prompt_tokens=14410 completion_tokens=3563 successful_requests=4
 
 Questions Research Crew
 
-total_tokens=3790 prompt_tokens=2852 completion_tokens=938 successful_requests=1 although a lot less than other crews. There are two CrewAI crews that are included in Guest Research Crew
-
-total_tokens=18875 prompt_tokens=15927 completion_tokens=2948 successful_requests=4
-
-Questions Research Crew
-
-total_tokens=3790 prompt_tokens=2852 completion_tokens=938 successful_requests=1: Guest Research crew and Questions Research crew. Completely ignore the "Successful Request" number in the Guest Research Crew
-
-total_tokens=18875 prompt_tokens=15927 completion_tokens=2948 successful_requests=4
-
-Questions Research Crew
-
-total_tokens=3790 prompt_tokens=2852 completion_tokens=938 successful_requests=1. For a correct calculation, you only need to consider "Input Tokens" and "Output Tokens" in the Guest Research Crew
-
-total_tokens=18875 prompt_tokens=15927 completion_tokens=2948 successful_requests=4
-
-Questions Research Crew
-
-total_tokens=3790 prompt_tokens=2852 completion_tokens=938 successful_requests=1. However, please include "Successful Requests" from the Guest Research Crew
-
-total_tokens=18875 prompt_tokens=15927 completion_tokens=2948 successful_requests=4
-
-Questions Research Crew
-
-total_tokens=3790 prompt_tokens=2852 completion_tokens=938 successful_requests=1 in the markdown report.
-", agent="Senior Mathematician", status="completed", output="# CrewAI Usage Cost Report
+total_tokens=4797 prompt_tokens=3908 completion_tokens=889 successful_requests=1 with Python. The calculations will be based on the Anthropic Claude 3.5 Sonnet model, which charges $3 per million input tokens and $15 per million output tokens. Write and execute the Python code for these calculations. Note that the estimated costs may not reflect the full expense since the Cost Calculation crew also consumes some tokens not included in the usage_information, albeit significantly less than other crews. Additionally, the Exa tool incurs costs that are not captured in the usage_information, as the API does not provide usage data. The usage_information includes two CrewAI crews: the Guest Research crew and the Questions Research crew. Ignore the "Successful Request" count in the usage_information for the calculations; only consider "Input Tokens" and "Output Tokens." However, include the "Successful Requests" for both crews in the markdown report for informational purposes.
+", agent="Senior Mathematician", status="completed", output="# Estimated Cost of CrewAI Usage
 
 ## Guest Research Crew Cost
 
-The Guest Research Crew usage details are as follows:
-- Input Tokens: 15,927
-- Output Tokens: 2,948
+- Input Tokens: 14,410
+- Output Tokens: 3,563
 - Successful Requests: 4
 
-Calculated cost:
-- Input Token Cost: $0.0478 (15,927 * $3 / 1,000,000)
-- Output Token Cost: $0.0442 (2,948 * $15 / 1,000,000)
-- Total Guest Research Crew Cost: $0.0920
+- Input Cost: $0.04323 (14,410 * $3 / 1,000,000)
+- Output Cost: $0.053445 (3,563 * $15 / 1,000,000)
+- Total Cost: $0.096675
 
 ## Questions Research Crew Cost
 
-The Questions Research Crew usage details are as follows:
-- Input Tokens: 2,852
-- Output Tokens: 938
+- Input Tokens: 3,908
+- Output Tokens: 889
 - Successful Requests: 1
 
-Calculated cost:
-- Input Token Cost: $0.0086 (2,852 * $3 / 1,000,000)
-- Output Token Cost: $0.0141 (938 * $15 / 1,000,000)
-- Total Questions Research Crew Cost: $0.0227
+- Input Cost: $0.011724 (3,908 * $3 / 1,000,000)
+- Output Cost: $0.013335 (889 * $15 / 1,000,000)
+- Total Cost: $0.025059
 
 ## Total Cost
 
-The total cost for both crews is calculated as follows:
-- Guest Research Crew Cost: $0.0920
-- Questions Research Crew Cost: $0.0227
-- Total Cost: $0.1147
+Total Estimated Cost: $0.121734 ($0.096675 + $0.025059)
 
 ## Code Used for Calculations
 
 ```python
-# Constants
-INPUT_TOKEN_COST = 3 / 1_000_000  # $3 per 1 million input tokens
-OUTPUT_TOKEN_COST = 15 / 1_000_000  # $15 per 1 million output tokens
+# Define token costs
+INPUT_TOKEN_COST = 3 / 1000000  # $3 per million input tokens
+OUTPUT_TOKEN_COST = 15 / 1000000  # $15 per million output tokens
 
-# Guest Research Crew
-guest_input_tokens = 15927
-guest_output_tokens = 2948
+# Guest Research Crew data
+guest_input_tokens = 14410
+guest_output_tokens = 3563
 guest_successful_requests = 4
 
-# Questions Research Crew
-questions_input_tokens = 2852
-questions_output_tokens = 938
+# Questions Research Crew data
+questions_input_tokens = 3908
+questions_output_tokens = 889
 questions_successful_requests = 1
 
-# Calculate costs
-def calculate_cost(input_tokens, output_tokens):
-    input_cost = input_tokens * INPUT_TOKEN_COST
-    output_cost = output_tokens * OUTPUT_TOKEN_COST
-    return input_cost + output_cost
+# Calculate costs for Guest Research Crew
+guest_input_cost = guest_input_tokens * INPUT_TOKEN_COST
+guest_output_cost = guest_output_tokens * OUTPUT_TOKEN_COST
+guest_total_cost = guest_input_cost + guest_output_cost
 
-guest_cost = calculate_cost(guest_input_tokens, guest_output_tokens)
-questions_cost = calculate_cost(questions_input_tokens, questions_output_tokens)
-total_cost = guest_cost + questions_cost
+# Calculate costs for Questions Research Crew
+questions_input_cost = questions_input_tokens * INPUT_TOKEN_COST
+questions_output_cost = questions_output_tokens * OUTPUT_TOKEN_COST
+questions_total_cost = questions_input_cost + questions_output_cost
+
+# Calculate total cost
+total_cost = guest_total_cost + questions_total_cost
 
 # Print results
-print(f"Guest Research Crew Cost: ${guest_cost:.4f}")
-print(f"Questions Research Crew Cost: ${questions_cost:.4f}")
-print(f"Total Cost: ${total_cost:.4f}")
-print(f"Guest Research Crew Successful Requests: {guest_successful_requests}")
-print(f"Questions Research Crew Successful Requests: {questions_successful_requests}")
+print(f"Guest Research Crew Cost: ${guest_total_cost:.6f}")
+print(f"  Input Cost: ${guest_input_cost:.6f}")
+print(f"  Output Cost: ${guest_output_cost:.6f}")
+print(f"Questions Research Crew Cost: ${questions_total_cost:.6f}")
+print(f"  Input Cost: ${questions_input_cost:.6f}")
+print(f"  Output Cost: ${questions_output_cost:.6f}")
+print(f"Total Estimated Cost: ${total_cost:.6f}")
 ```
 
-*Note: The calculated cost is an estimate because the Cost Calculation crew also uses some tokens that are not reflected in the initial calculation shown above. These costs are excluded because the exact number of tokens used by this crew is only available after execution (i.e., when you're reading this). However, the token usage is expected to be approximately $0.03. To get the complete total, you can manually calculate and add the Cost Calculation crew's cost to the Total Cost calculated by CrewAI. See the from the `log_token_usage.txt` file.*"
+Note: The reported costs are estimates due to the consumption of tokens by the Cost Calculation crew and Exa tool, which are not accounted for in the usage data. The actual cost may be slightly higher than the estimated amount presented here."
 
