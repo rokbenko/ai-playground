@@ -33,7 +33,7 @@ Fuzzy_Mic_2021 saying:
 
 ## 🧠 Learning Goal 🧠
 
-- **Solving the addressed problem with CrewAI:** We'll demonstrate how the CrewAI framework can drastically reduce the time required for podcast preparation by leveraging a multi-agent AI system. By employing [CrewAI Flows](https://docs.crewai.com/concepts/flows), we cut down the preparation time from 4 hours to just 1 minute, achieving a 99% reduction in time spent, all for ≈$0.13 in total!
+- **Solving the addressed problem with CrewAI:** We'll demonstrate how the CrewAI framework can drastically reduce the time required for podcast preparation by leveraging a multi-agent AI system. By employing [CrewAI Flows](https://docs.crewai.com/concepts/flows), we cut down the preparation time from 4 hours to just ≈3 minutes, achieving a 98.75% reduction in time spent, all for ≈$0.13 in total!
 
 > [!NOTE]
 > This $0.13 covers all expenses, including both the Anthropic LLM and Exa tool. For more details about the cost, refer to the [Behind the Scenes](https://github.com/rokbenko/ai-playground/tree/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper#-behind-the-scenes-) section.
