@@ -1,11 +1,11 @@
 journalism_task:
   agent: senior_journalist
   description: >
-    Conduct web research to formulate a set of relevant and thought-provoking
-    questions for the guest based on {guest_information}. Ensure that the
-    questions are well-considered, engaging, and phrased in the first person to
-    encourage a more personal dialogue. The questions may explore philosophical
-    themes that encourage deeper reflection and discussion.
+    Formulate a set of relevant and thought-provoking questions for the guest
+    based on {guest_information}. Ensure that the questions are well-considered,
+    engaging, and phrased in the first person to encourage a more personal
+    dialogue. The questions may explore philosophical themes that encourage
+    deeper reflection and discussion.
   expected_output: >
     A list of a minimum of 20 insightful questions in markdown format that are
     relevant to {guest_information}. The questions should be phrased in the
