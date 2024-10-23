@@ -4,7 +4,6 @@ from pydantic import BaseModel
 from crewai.flow.flow import Flow, listen, start
 from .crews.guest_research_crew.guest_research_crew import GuestResearchCrew
 from .crews.questions_research_crew.questions_research_crew import QuestionsResearchCrew
-from .crews.cost_calculation_crew.cost_calculation_crew import CostCalculationCrew
 from rich.console import Console
 from rich.prompt import Prompt
 
@@ -16,7 +15,6 @@ class PodcastPrepperState(BaseModel):
     user_input: str = ""
     crewai_output: str = ""
     token_usage: str = ""
-    calculated_cost: str = ""
 
 
 class PodcastPrepperFlow(Flow[PodcastPrepperState]):
@@ -99,40 +97,6 @@ class PodcastPrepperFlow(Flow[PodcastPrepperState]):
             file.write(token_usage_str)
 
     @listen(save_questions_for_guest_and_token_usage)
-    def calculate_cost(self):
-        with open("log_token_usage.txt", "r") as file:
-            usage_information = file.read()
-
-        crewai_output = (
-            CostCalculationCrew()
-            .crew()
-            .kickoff(
-                inputs={
-                    "usage_information": usage_information,
-                }
-            )
-        )
-
-        self.state.crewai_output = crewai_output.raw
-        self.state.token_usage = crewai_output.token_usage
-
-        token_usage_str = str(self.state.token_usage)
-
-        with open("log_token_usage.txt", "a") as file:
-            file.write("\n\nCost Calculation Crew\n\n")
-            file.write(token_usage_str)
-
-        output_formatter.print(f"[#66FF66]🤖 CrewAI: \n{crewai_output.raw}[/#66FF66]")
-
-    @listen(calculate_cost)
-    def save_usage_and_cost(self):
-        formatted_user_input = self.state.user_input.lower().replace(" ", "_")
-
-        with open(f"{formatted_user_input}_report.md", "a") as file:
-            file.write("\n\n---\n\n")
-            file.write(self.state.crewai_output)
-
-    @listen(save_usage_and_cost)
     def say_goodbye(self):
         formatted_user_input = self.state.user_input.lower().replace(" ", "_")
 

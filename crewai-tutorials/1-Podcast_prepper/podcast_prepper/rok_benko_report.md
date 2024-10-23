@@ -1,9 +1,11 @@
 # Rok Benko: A Comprehensive Profile
 
 ## Background and Education
+
 Rok Benko is a self-taught developer from Ljubljana, Slovenia. His journey into the world of technology began with a simple two-hour high school lecture on HTML and CSS. Despite the initial result being less than aesthetically pleasing, this experience sparked a curiosity in Rok that would shape his future career. Driven by a desire to improve his skills, he committed to learning HTML and CSS every day after school, laying the foundation for his future in tech.
 
 ## Career Milestones
+
 Rok's career has been marked by significant achievements in the field of AI and software development:
 
 1. Becoming the #1 OpenAI API contributor on Stack Overflow, showcasing his expertise and willingness to share knowledge with the community.
@@ -11,6 +13,7 @@ Rok's career has been marked by significant achievements in the field of AI and 
 3. Developing a strong presence on various coding platforms and social media, including GitHub, Stack Overflow, and LinkedIn.
 
 ## Public Image and Online Presence
+
 Rok maintains an active online presence across several platforms:
 
 - GitHub: [@rokbenko](https://github.com/rokbenko)
@@ -22,6 +25,7 @@ Rok maintains an active online presence across several platforms:
 His online persona is that of a knowledgeable, helpful, and passionate tech enthusiast, always eager to share his insights and assist others in their coding journey.
 
 ## Notable Achievements
+
 Rok has several notable achievements in the Stack Overflow community:
 
 - First user to earn the silver openai-api badge (August 25, 2023)
@@ -32,12 +36,15 @@ Rok has several notable achievements in the Stack Overflow community:
 These achievements underscore his expertise in AI-related technologies, particularly in the OpenAI ecosystem.
 
 ## Personal Life
+
 While specific details about Rok's personal life are limited, we know he is based in Ljubljana, Slovenia. His passion for technology and learning appears to be a significant part of his life, as evidenced by his continuous engagement with coding and AI projects.
 
 ## Influence and Impact
+
 Rok's influence in the tech community is evident through his contributions on Stack Overflow and his educational content on YouTube. He has positioned himself as a go-to resource for developers working with OpenAI's API and other AI technologies. His tutorials and explanations help bridge the gap between complex AI concepts and practical implementation.
 
 ## Publications and Works
+
 Rok maintains a GitHub repository called "ai-playground" where he shares code from tutorials presented on his YouTube channel. This repository covers a wide range of AI-related topics, including:
 
 - OpenAI API usage
@@ -49,6 +56,7 @@ Rok maintains a GitHub repository called "ai-playground" where he shares code fr
 - NLP with spaCy
 
 ## Current Projects
+
 As of the most recent information available, Rok is actively involved in:
 
 1. Creating content for his "Code AI with Rok" YouTube channel
@@ -56,17 +64,21 @@ As of the most recent information available, Rok is actively involved in:
 3. Developing and maintaining his "ai-playground" GitHub repository with various AI-related tutorials and examples
 
 ## Philanthropy and Community Involvement
+
 While not explicitly labeled as philanthropy, Rok's consistent efforts to share knowledge and help others in the coding community can be seen as a form of giving back. He mentions on his Stack Overflow profile that he contributes to the community as it was one of his main sources of knowledge when he was starting out.
 
 ## Challenges and Controversies
+
 There is no information available about any significant challenges or controversies in Rok Benko's career.
 
 ## Awards and Honors
+
 Beyond his Stack Overflow achievements, there is no specific information about formal awards or honors received by Rok Benko.
 
 Rok Benko's journey from a curious high school student to a respected figure in the AI development community showcases the power of self-directed learning and community engagement in the tech world. His contributions to Stack Overflow, educational content on YouTube, and open-source projects on GitHub have established him as a valuable resource for developers working with cutting-edge AI technologies.
 
 ## Sources
+
 - https://github.com/rokbenko
 - https://stackoverflow.com/users/10347145/rok-benko
 - https://www.linkedin.com/posts/rokbenko_how-llms-work-the-simplest-and-most-practical-activity-7242910243343519744-XUJn
@@ -127,73 +139,3 @@ Rok Benko's journey from a curious high school student to a respected figure in 
 24. You've explored various AI applications, from natural language processing to vector databases. Which area do you believe has the most untapped potential for innovation?
 
 25. As we wrap up, if you could send a message to your younger self just starting out in tech, what would you say?
-
----
-
-# Estimated Cost of CrewAI Usage
-
-## Guest Research Crew Cost
-
-- Input Tokens: 14,410
-- Output Tokens: 3,563
-- Successful Requests: 4
-
-- Input Cost: $0.04323 (14,410 * $3 / 1,000,000)
-- Output Cost: $0.053445 (3,563 * $15 / 1,000,000)
-- Total Cost: $0.096675
-
-## Questions Research Crew Cost
-
-- Input Tokens: 3,908
-- Output Tokens: 889
-- Successful Requests: 1
-
-- Input Cost: $0.011724 (3,908 * $3 / 1,000,000)
-- Output Cost: $0.013335 (889 * $15 / 1,000,000)
-- Total Cost: $0.025059
-
-## Total Cost
-
-Total Estimated Cost: $0.121734 ($0.096675 + $0.025059)
-
-## Code Used for Calculations
-
-```python
-# Define token costs
-INPUT_TOKEN_COST = 3 / 1000000  # $3 per million input tokens
-OUTPUT_TOKEN_COST = 15 / 1000000  # $15 per million output tokens
-
-# Guest Research Crew data
-guest_input_tokens = 14410
-guest_output_tokens = 3563
-guest_successful_requests = 4
-
-# Questions Research Crew data
-questions_input_tokens = 3908
-questions_output_tokens = 889
-questions_successful_requests = 1
-
-# Calculate costs for Guest Research Crew
-guest_input_cost = guest_input_tokens * INPUT_TOKEN_COST
-guest_output_cost = guest_output_tokens * OUTPUT_TOKEN_COST
-guest_total_cost = guest_input_cost + guest_output_cost
-
-# Calculate costs for Questions Research Crew
-questions_input_cost = questions_input_tokens * INPUT_TOKEN_COST
-questions_output_cost = questions_output_tokens * OUTPUT_TOKEN_COST
-questions_total_cost = questions_input_cost + questions_output_cost
-
-# Calculate total cost
-total_cost = guest_total_cost + questions_total_cost
-
-# Print results
-print(f"Guest Research Crew Cost: ${guest_total_cost:.6f}")
-print(f"  Input Cost: ${guest_input_cost:.6f}")
-print(f"  Output Cost: ${guest_output_cost:.6f}")
-print(f"Questions Research Crew Cost: ${questions_total_cost:.6f}")
-print(f"  Input Cost: ${questions_input_cost:.6f}")
-print(f"  Output Cost: ${questions_output_cost:.6f}")
-print(f"Total Estimated Cost: ${total_cost:.6f}")
-```
-
-Note: The reported costs are estimates due to the consumption of tokens by the Cost Calculation crew and Exa tool, which are not accounted for in the usage data. The actual cost may be slightly higher than the estimated amount presented here.

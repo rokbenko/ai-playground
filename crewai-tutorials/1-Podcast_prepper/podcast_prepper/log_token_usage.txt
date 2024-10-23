@@ -5,7 +5,3 @@ total_tokens=17973 prompt_tokens=14410 completion_tokens=3563 successful_request
 Questions Research Crew
 
 total_tokens=4797 prompt_tokens=3908 completion_tokens=889 successful_requests=1
-
-Cost Calculation Crew
-
-total_tokens=4140 prompt_tokens=2834 completion_tokens=1306 successful_requests=2

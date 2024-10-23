@@ -13,7 +13,7 @@ crewai = { extras = ["tools"], version = ">=0.70.1,<1.0.0" }
 exa-py = "*"
 
 [tool.poetry.scripts]
-start = "podcast_prepper.main:main"
+flow = "podcast_prepper.main:main"
 plot = "podcast_prepper.main:plot"
 
 [build-system]
