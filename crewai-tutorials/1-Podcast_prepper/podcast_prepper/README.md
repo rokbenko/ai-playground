@@ -33,10 +33,10 @@ Fuzzy_Mic_2021 saying:
 
 ## 🧠 Learning Goal 🧠
 
-- **Solving the addressed problem with CrewAI:** We'll demonstrate how the CrewAI framework can drastically reduce the time required for podcast preparation by leveraging a multi-agent AI system. By employing [CrewAI Flows](https://docs.crewai.com/concepts/flows), we cut down the preparation time from 4 hours to just 1 minute, achieving a 99% reduction in time spent, all for approximately $0.13 in total!
+- **Solving the addressed problem with CrewAI:** We'll demonstrate how the CrewAI framework can drastically reduce the time required for podcast preparation by leveraging a multi-agent AI system. By employing [CrewAI Flows](https://docs.crewai.com/concepts/flows), we cut down the preparation time from 4 hours to just 1 minute, achieving a 99% reduction in time spent, all for ≈$0.13 in total!
 
 > [!NOTE]
-> This $0.13 covers all expenses, including both the Anthropic LLM and Exa tool. For more details about the cost, refer to the [Behind the Scenes](https://github.com/rokbenko/ai-playground/tree/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper#-behind-the-sceenes-) section.
+> This $0.13 covers all expenses, including both the Anthropic LLM and Exa tool. For more details about the cost, refer to the [Behind the Scenes](https://github.com/rokbenko/ai-playground/tree/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper#-behind-the-scenes-) section.
 
 <br>
 
@@ -47,10 +47,10 @@ Fuzzy_Mic_2021 saying:
 
 1. Clone the repository: `git clone https://github.com/rokbenko/ai-playground.git`
 2. Change the directory: `cd ai-playground/crewai-tutorials/1-Podcast_prepper/podcast_prepper`
-3. Create an `.env` file in the root directory to set up your environment variables (*Note: See which ones below.*)
+3. Create an `.env` file in the root directory to set up your environment variables (*Note: Refer to the example below for the required environment variables.*)
 4. Install the dependencies using Poetry: `poetry install` (*Note: This may take a few minutes. Be patient!*)
 5. Activate the virtual environment using Poetry: `poetry shell`
-6. Run the CrewAI flow using Poetry: `poetry run start`
+6. Run the CrewAI flow using Poetry: `poetry run flow`
 
 > [!IMPORTANT]
 > Your `.env` file should contain the following environment variables:
@@ -78,14 +78,14 @@ For more detailed information, please refer to the [`poetry.lock`](https://githu
 
 ## ⚙️ Workflow ⚙️
 
-1. Run the CrewAI flow: `poetry run start`
+1. Run the CrewAI flow using Poetry: `poetry run flow`
 2. Enter the guest's first and last name
 3. CrewAI working... (*Note: You don't need to do anything.*)
 4. When the Guest Research crew collects data on the guest, it will prompt you for human input (i.e., feedback)
 5. CrewAI working... (*Note: You don't need to do anything.*)
 6. The project's final output is saved in the format `<name>_<surname>_report.md` (*Note: For an example, refer to the [`rok_benko_report.md`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/rok_benko_report.md) file, generated if the entered guest is Rok Benko.*)
 
-After starting the CrewAI flow, a terminal input prompt will appear, as shown in the screenshot below. Enter the guest's first and last name. For example, I entered *Rok Benko*.
+After running the CrewAI flow, a terminal input prompt will appear, as shown in the screenshot below. Enter the guest's first and last name. For example, I entered *Rok Benko*.
 
 ![Guest input prompt](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/guest_input_prompt.png)
 
@@ -142,18 +142,34 @@ It consists of two crews, each designed to handle specific aspects of podcast pr
 ### Poetry
 
 The [pyproject.toml](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/pyproject.toml) file includes two commands:
-- `start` (full command: `poetry run start`), which runs the flow.
+- `flow` (full command: `poetry run flow`), which runs the flow.
 - `plot` (full command: `poetry run plot`), which plots the flow.
 
 ### Cost
 
-The total cost depends on the flow run, but it typically ranges between $0.12 and $0.14 when using [Anthropic Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet) LLM. Even if it reaches $0.15, consider the value of your time. Would you trade $0.15 for 4 hours of manual work?
+The total cost depends on the flow run, but it's typically ≈$0.13 when using the [Anthropic Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet) LLM. As of writing this, it costs $3 per million input tokens and $15 per million output tokens. See the [Anthropic Pricing page](https://www.anthropic.com/pricing#anthropic-api). Even if the total cost reaches $0.14 or $0.15, consider the value of your time. Would you trade $0.15 for 4 hours of manual work?
 
-I tried using a cheaper, less capable LLM, but errors can occur since these models work less effectively with CrewAI ([source](https://github.com/crewAIInc/crewAI/issues/103#issuecomment-1902667402)). Even if no errors happen, the final report tends to be of much lower quality. For this reason, I suggest using one of the top LLMs, like [Anthropic Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet), to ensure both reliability and high-quality final report.
+Here’s a detailed cost breakdown based on the [`log_token_usage.txt`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/log_token_usage.txt) file:
+- [Anthropic Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet) LLM costs: $0.121734
+    - Guest Research crew: $0.096675
+        - Prompt tokens used: 14,410 → $0.04323 (`14,410 * (3 / 1.000.000)`)
+        - Completion tokens used: 3,563 → $0.053445 (`3,563 * (15 / 1.000.000)`)
+    - Questions Research crew: $0.025059
+        - Prompt tokens used: 3,908 → $0.011724 (`3,908 * (3 / 1.000.000)`)
+        - Completion tokens used: 889 → $0.013335 (`889 * (15 / 1.000.000)`)
+- Exa tool costs (*Note: Estimated, refer to the note below.*): $0.015
+
+This brings the total cost to $0.136734. Again, I want to emphasize that the total cost depends on the flow run, but it's typically ≈$0.13.
+
+> [!TIP]
+> I tried using a cheaper, less capable LLM, but errors can occur since these models work less effectively with CrewAI ([source](https://github.com/crewAIInc/crewAI/issues/103#issuecomment-1902667402)). Even if no errors happen, the final report tends to be of lower quality. For this reason, I suggest using one of the top LLMs, like [Anthropic Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet), to ensure both reliability and high-quality final report.
+
+> [!NOTE]
+> Currently, the Exa dashboard doesn't provide visibility into the exact cost per run. However, these expenses are generally small. Over many runs building this project, I spent only $0.65 on Exa. Estimating the cost per run at $0.015 is likely a reasonable approximation.
 
 ### Plot
 
-[CrewAI Flows](https://docs.crewai.com/concepts/flows) also enables us to visualize the workflow by [plotting the flow](https://docs.crewai.com/concepts/flows#plot-flows). I configured the command for plotting the flow as `poetry run plot`. The screenshot below is derived from the [`crewai_flow.html`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/crewai_flow.html) file generated by the CrewAI CLI.
+[CrewAI Flows](https://docs.crewai.com/concepts/flows) also enables us to visualize the workflow by [plotting the flow](https://docs.crewai.com/concepts/flows#plot-flows). I configured the command for plotting the flow as `poetry run plot`. The screenshot below is derived from the [`crewai_flow.html`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/crewai_flow.html) file generated by the command.
 
 > [!TIP]
 > For higher quality, click on the image.
@@ -166,5 +182,6 @@ I tried using a cheaper, less capable LLM, but errors can occur since these mode
 
 For demonstration purposes, I ran the project and entered *Rok Benko* as a guest. You can review the outputs from the following files:
 - [`log_guest_research_crew.txt`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/log_guest_research_crew.txt) file for the output from the Guest Research crew,
-- [`log_questions_research_crew.txt`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/log_questions_research_crew.txt) file for the output from the Questions Research crew, and
-- [`rok_benko_report.md`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/rok_benko_report.md) file for the final report.
+- [`log_questions_research_crew.txt`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/log_questions_research_crew.txt) file for the output from the Questions Research crew,
+- [`log_token_usage.txt`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/log_token_usage.txt) file for the token usage, and
+- [`rok_benko_report.md`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/rok_benko_report.md) file for the final report on the guest.
