@@ -1,6 +1,4 @@
-# #1 Podcast prepper
-
-<br>
+# #1 Podcast Prepper
 
 ## 📖 Description 📖
 
@@ -15,7 +13,7 @@ It's designed for podcast hosts, helping them:
 
 <br>
 
-## 🧐 Problem addressed 🧐
+## 🧐 Problem Addressed 🧐
 
 The screenshot below shows [Google Trends](https://trends.google.com/trends/explore?date=all_2008&gprop=youtube&q=podcast&hl=en-US) data for the search term *podcast* on YouTube worldwide from 2008 to the present, highlighting a clear long-term upward trend in podcast popularity.
 
@@ -33,18 +31,16 @@ Fuzzy_Mic_2021 saying:
 
 <br>
 
-## 🧠 Learning goal 🧠
+## 🧠 Learning Goal 🧠
 
-- **Solving the addressed problem with CrewAI:** We'll demonstrate how the CrewAI framework can drastically reduce the time required for podcast preparation by leveraging a multi-agent AI system. By employing [CrewAI Flows](https://docs.crewai.com/concepts/flows), we cut down the preparation time from 4 hours to just 1 minute, achieving a 99% reduction in time spent, all for approximately $0.12!
+- **Solving the addressed problem with CrewAI:** We'll demonstrate how the CrewAI framework can drastically reduce the time required for podcast preparation by leveraging a multi-agent AI system. By employing [CrewAI Flows](https://docs.crewai.com/concepts/flows), we cut down the preparation time from 4 hours to just 1 minute, achieving a 99% reduction in time spent, all for approximately $0.13 in total!
 
 > [!NOTE]
-> The cost depends on the flow run, but it typically ranges between $0.11 and $0.13 when using [Anthropic Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet) LLM. Even if it reaches $0.15, consider the value of your time. Would you trade $0.15 for 4 hours of manual work?
->
-> I tested using a cheaper, less capable LLM, but errors can occur since these models work less effectively with CrewAI ([source](https://github.com/crewAIInc/crewAI/issues/103#issuecomment-1902667402)). Even if no errors happen, the final report tends to be of much lower quality. For this reason, I suggest using one of the top LLMs, like [Anthropic Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet), to ensure both reliability and high-quality output.
+> This $0.13 covers all expenses, including both the Anthropic LLM and Exa tool. For more details about the cost, refer to the [Behind the Scenes](https://github.com/rokbenko/ai-playground/tree/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper#-behind-the-sceenes-) section.
 
 <br>
 
-## 🚀 Installation 🚀
+## 🚀 Getting Started 🚀
 
 > [!NOTE]
 > The instructions are specific to Windows. For macOS or Linux, please use the corresponding commands for your operating system.
@@ -66,7 +62,7 @@ Fuzzy_Mic_2021 saying:
 
 <br>
 
-## ⚒️ Tech stack ⚒️
+## ⚒️ Tech Stack ⚒️
 
 The project uses the following main tech stack:
 - [Python](https://www.python.org/)
@@ -87,7 +83,7 @@ For more detailed information, please refer to the [`poetry.lock`](https://githu
 3. CrewAI working... (*Note: You don't need to do anything.*)
 4. When the Guest Research crew collects data on the guest, it will prompt you for human input (i.e., feedback)
 5. CrewAI working... (*Note: You don't need to do anything.*)
-6. The project's final output is saved in the format `<name>_<surname>_report.md` (*Note: For an example, refer to the [`rok_benko_report.md`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/rok_benko_report.md) file, generated when I entered *Rok Benko* as a guest.*)
+6. The project's final output is saved in the format `<name>_<surname>_report.md` (*Note: For an example, refer to the [`rok_benko_report.md`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/rok_benko_report.md) file, generated if the entered guest is Rok Benko.*)
 
 After starting the CrewAI flow, a terminal input prompt will appear, as shown in the screenshot below. Enter the guest's first and last name. For example, I entered *Rok Benko*.
 
@@ -116,11 +112,13 @@ After starting the CrewAI flow, a terminal input prompt will appear, as shown in
 
 <br>
 
-## 🎭 Behind the sceenes 🎭
+## 🎭 Behind the Scenes 🎭
+
+### Project
 
 The project was built with [CrewAI Flows](https://docs.crewai.com/concepts/flows) by running `crewai create flow podcast_prepper`. Flows simplify CrewAI workflow creation by enabling you to easily chain together multiple crews, manage and share state between different tasks, and implement conditional logic, loops, and branching within your workflows, all while ensuring dynamic and responsive interactions.
 
-It consists of three main crews, each designed to handle specific aspects of podcast preparation:
+It consists of two crews, each designed to handle specific aspects of podcast preparation:
 
 1. **Guest Research crew**
 - Description: The Guest Research crew is responsible for conducting an in-depth investigation into the podcast guest. It gathers comprehensive information about the guest's background, career milestones, public image, and more, ensuring a well-rounded profile.
@@ -141,25 +139,21 @@ It consists of three main crews, each designed to handle specific aspects of pod
 - Tools used by this crew: No tools are specified for this crew.
 - Log: You can review an example log from the Questions Research crew, generated when I entered *Rok Benko*, by checking the [`log_questions_research_crew.txt`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/log_questions_research_crew.txt) file.
 
-3. **Cost Calculation crew**
-- Description: The Cost Calculation crew is responsible for calculating the cost of the current flow run based on token usage. It provides a detailed report of the costs.
-- Agents in this crew:
-  - Senior Mathematician: This agent calculates costs and is proficient in Python for performing calculations.
-- Tasks in this crew:
-  - Cost Calculation: This task involves calculating the cost of CrewAI usage by analyzing token usage data. The output is a markdown report detailing the costs for each crew and the total cost, including the Python code used for calculations.
-- Tools used by this crew: No tools are specified for this crew. However, the Senior Mathematician agent has set the `allow_code_execution parameter` to `True`, which enables the agent to use CrewAI's internal code execution tool (i.e., [CodeInterpreterTool](https://docs.crewai.com/tools/codeinterpretertool)).
-- Log: You can review an example log from the Cost Calculation crew, generated when I entered *Rok Benko*, by checking the [`log_cost_calculation_crew.txt`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/log_cost_calculation_crew.txt) file.
+### Poetry
 
-> [!NOTE]
-> The calculated cost by the Cost Calculation crew is just an estimate because:
->  - The Cost Calculation crew itself also uses some tokens that are not reflected in the calculation.
->  - The Exa tool incurs costs that are not reflected in the calculation.
-> 
-> The Cost Calculation crew's costs are excluded because the exact number of tokens used by this crew is only available after execution. However, the token usage of the Cost Calculation crew is expected to be approximately $0.03 when using [Anthropic Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet) LLM. To get the complete total, you can manually calculate and add the Cost Calculation crew's cost to the Total Cost calculated in the [`rok_benko_report.md`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/rok_benko_report.md) file. To manually calculate the cost of the Cost Calculation crew, refer to the Cost Calculation Crew section in the [`log_token_usage.txt`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/log_token_usage.txt) file, then manually calculate the cost for prompt and completion tokens. All agents utilize the [Anthropic Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet) LLM, which incurs a charge of $3 per million input (i.e., prompt) tokens and $15 per million output (i.e., completion) tokens. See the [Anthropic Pricing page](https://www.anthropic.com/pricing#anthropic-api).
->
-> The Exa tool costs are excluded because the Exa dashboard currently does not provide visibility into the exact costs per run. However, the expenses should not be huge. Overall, I spent $0.65 on Exa during my numerous(!) flow runs while working on this project.
+The [pyproject.toml](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/pyproject.toml) file includes two commands:
+- `start` (full command: `poetry run start`), which runs the flow.
+- `plot` (full command: `poetry run plot`), which plots the flow.
 
-CrewAI Flows also enables us to visualize the workflow. I configured the command for plotting the flow as `poetry run plot`. The screenshot below is derived from the [`crewai_flow.html`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/crewai_flow.html) file generated by the CrewAI CLI.
+### Cost
+
+The total cost depends on the flow run, but it typically ranges between $0.12 and $0.14 when using [Anthropic Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet) LLM. Even if it reaches $0.15, consider the value of your time. Would you trade $0.15 for 4 hours of manual work?
+
+I tried using a cheaper, less capable LLM, but errors can occur since these models work less effectively with CrewAI ([source](https://github.com/crewAIInc/crewAI/issues/103#issuecomment-1902667402)). Even if no errors happen, the final report tends to be of much lower quality. For this reason, I suggest using one of the top LLMs, like [Anthropic Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet), to ensure both reliability and high-quality final report.
+
+### Plot
+
+[CrewAI Flows](https://docs.crewai.com/concepts/flows) also enables us to visualize the workflow by [plotting the flow](https://docs.crewai.com/concepts/flows#plot-flows). I configured the command for plotting the flow as `poetry run plot`. The screenshot below is derived from the [`crewai_flow.html`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/crewai_flow.html) file generated by the CrewAI CLI.
 
 > [!TIP]
 > For higher quality, click on the image.
@@ -172,6 +166,5 @@ CrewAI Flows also enables us to visualize the workflow. I configured the command
 
 For demonstration purposes, I ran the project and entered *Rok Benko* as a guest. You can review the outputs from the following files:
 - [`log_guest_research_crew.txt`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/log_guest_research_crew.txt) file for the output from the Guest Research crew,
-- [`log_questions_research_crew.txt`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/log_questions_research_crew.txt) file for the output from the Questions Research crew,
-- [`log_cost_calculation_crew.txt`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/log_cost_calculation_crew.txt) file for the output from the Cost Calculation crew, and
+- [`log_questions_research_crew.txt`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/log_questions_research_crew.txt) file for the output from the Questions Research crew, and
 - [`rok_benko_report.md`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/rok_benko_report.md) file for the final report.
