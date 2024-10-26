@@ -62,10 +62,10 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   <tr>
     <td>#2</td>
     <td>
-      Build a personal math tutor*<br>
+      Build a Personal Math Tutor*<br>
       <sup>*Assistants API <code>v1</code> beta</sup>
     </td>
-    <td>Python and Node.js examples on how to build a personal math tutor using the OpenAI Assistants API <code>v1</code> beta with the Code Interpreter tool</td>
+    <td>Python and Node.js examples on how to build a Personal Math Tutor using the OpenAI Assistants API <code>v1</code> beta with the Code Interpreter tool</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
       <img alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-%23202020?style=flat&logo=javascript">
@@ -81,10 +81,10 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   <tr>
     <td>#3</td>
     <td>
-      GUI for a personal math tutor*<br>
+      GUI for a Personal Math Tutor*<br>
       <sup>*Assistants API <code>v1</code> beta</sup>
     </td>
-    <td>Next.js GUI for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/2-Build_personal_math_tutor">#2 Build a personal math tutor</a> tutorial</td>
+    <td>Next.js GUI for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/2-Build_personal_math_tutor">#2 Build a Personal Math Tutor</a> tutorial</td>
     <td>
       <img alt="Next.js badge" src="https://img.shields.io/badge/Next.js-%23202020?style=flat&logo=nextdotjs">
       <img alt="Tailwind CSS badge" src="https://img.shields.io/badge/Tailwind%20CSS-%23202020?style=flat&logo=tailwindcss">
@@ -100,10 +100,10 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   <tr>
     <td>#4</td>
     <td>
-      Build a customer support chatbot*<br>
+      Build a Customer Support Chatbot*<br>
       <sup>*Assistants API <code>v1</code> beta</sup>
     </td>
-    <td>Python and Node.js examples on how to build a customer support chatbot using the OpenAI Assistants API <code>v1</code> beta with the Knowledge Retrieval tool</td>
+    <td>Python and Node.js examples on how to build a Customer Support Chatbot using the OpenAI Assistants API <code>v1</code> beta with the Knowledge Retrieval tool</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
       <img alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-%23202020?style=flat&logo=javascript">
@@ -119,10 +119,10 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   <tr>
     <td>#5</td>
     <td>
-      TUI for a customer support chatbot*<br>
+      TUI for a Customer Support Chatbot*<br>
       <sup>*Assistants API <code>v1</code> beta</sup>
     </td>
-    <td>Python and Node.js TUIs for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_customer_support_chatbot">#4 Build a customer support chatbot</a> tutorial</td>
+    <td>Python and Node.js TUIs for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_customer_support_chatbot">#4 Build a Customer Support Chatbot</a> tutorial</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
       <img alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-%23202020?style=flat&logo=javascript">
@@ -138,10 +138,10 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   <tr>
     <td>#6</td>
     <td>
-      TUI for a customer support chatbot with response streaming*<br>
+      TUI for a Customer Support Chatbot with response streaming*<br>
       <sup>*Assistants API <code>v1</code> beta</sup>
     </td>
-    <td>Python and Node.js TUIs for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_customer_support_chatbot">#4 Build a customer support chatbot</a> tutorial with response streaming</td>
+    <td>Python and Node.js TUIs for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_customer_support_chatbot">#4 Build a Customer Support Chatbot</a> tutorial with response streaming</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
       <img alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-%23202020?style=flat&logo=javascript">
@@ -323,8 +323,8 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   </tr>
   <tr>
     <td>#2</td>
-    <td>GUI for a travel recommendation RAG</td>
-    <td>Streamlit GUI for a travel recommendation RAG with response streaming using LlamaIndex with an OpenAI LLM</td>
+    <td>GUI for a Travel Recommendation RAG</td>
+    <td>Streamlit GUI for a Travel Recommendation RAG with response streaming using LlamaIndex with an OpenAI LLM</td>
     <td>
       <img alt="Streamlit badge" src="https://img.shields.io/badge/Streamlit-%23202020?style=flat&logo=streamlit">
     </td>
@@ -337,8 +337,8 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   </tr>
   <tr>
     <td>#3</td>
-    <td>Eval of a travel recommendation RAG</td>
-    <td>Evaluation of the <a href="https://github.com/rokbenko/ai-playground/tree/main/llamaindex-tutorials/2-GUI_travel_recommendation_RAG">#2 GUI for a travel recommendation RAG</a> tutorial</td>
+    <td>Eval of a Travel Recommendation RAG</td>
+    <td>Evaluation of the <a href="https://github.com/rokbenko/ai-playground/tree/main/llamaindex-tutorials/2-GUI_travel_recommendation_RAG">#2 GUI for a Travel Recommendation RAG</a> tutorial</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
     </td>
@@ -363,8 +363,8 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   </tr>
   <tr>
     <td>#1</td>
-    <td>GUI for a personal recipe assistant</td>
-    <td>Streamlit GUI for a personal recipe assistant that generates recipes based on the available ingredients recognized from the uploaded photo and selected preferences by the user</td>
+    <td>GUI for a Personal Recipe Assistant</td>
+    <td>Streamlit GUI for a Personal Recipe Assistant that generates recipes based on the available ingredients recognized from the uploaded photo and selected preferences by the user</td>
     <td>
       <img alt="Streamlit badge" src="https://img.shields.io/badge/Streamlit-%23202020?style=flat&logo=streamlit">
     </td>
