@@ -405,10 +405,10 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
     </td>
     <td>
-      Coming soon... ✨
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper" target="_blank">GitHub</a>
     </td>
     <td>
-      Coming soon... ✨
+      <a href="https://youtu.be/vUQZvc5NTPw" target="_blank">YouTube</a>
     </td>
   </tr>
 </table>
