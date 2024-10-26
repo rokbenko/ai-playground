@@ -393,7 +393,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   </tr>
   <tr>
     <td>#1</td>
-    <td>Podcast prepper</td>
+    <td>Podcast Prepper</td>
     <td>Python example using CrewAI, Anthropic LLM and Exa tool, designed for podcast hosts, helping them:<br>
       <ul>
         <li>research a guest</li>
