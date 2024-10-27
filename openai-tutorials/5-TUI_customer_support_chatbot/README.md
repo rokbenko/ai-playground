@@ -1,10 +1,8 @@
-# #5 Python and Node.js TUIs for a customer support chatbot
-
-<br>
+# #5 Python and Node.js TUIs for the Customer Support Chatbot
 
 ## 📖 Description 📖
 
-Python and Node.js TUIs for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_customer_support_chatbot">#4 Build a customer support chatbot</a> tutorial.
+Python and Node.js TUIs for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_customer_support_chatbot">#4 Customer Support Chatbot</a> tutorial.
 
 > [!WARNING]
 > The assistant might sometimes behave strangely. The Assistants API is still in beta, and it seems that OpenAI has trouble keeping it realiable, as discussed on the official <a href="https://community.openai.com/t/assistant-not-able-to-access-uploaded-file/524495/1">OpenAI forum</a>.
