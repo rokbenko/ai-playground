@@ -1,7 +1,5 @@
 # #2 Vertex AI Gemini Pro API starter
 
-<br>
-
 ## 📖 Description 📖
 
 Python and Node.js examples on how to use the Vertex AI Gemini Pro API.
