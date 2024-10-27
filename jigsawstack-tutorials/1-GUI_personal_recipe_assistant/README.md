@@ -1,10 +1,8 @@
-# #1 Streamlit GUI for a personal recipe assistant
-
-<br>
+# #1 Streamlit GUI for a Personal Recipe Assistant
 
 ## 📖 Description 📖
 
-Streamlit GUI for a personal recipe assistant that generates recipes based on the available ingredients recognized from the uploaded photo and selected preferences by the user.
+Streamlit GUI for a Personal Recipe Assistant that generates recipes based on the available ingredients recognized from the uploaded photo and selected preferences by the user.
 
 <br>
 
@@ -14,7 +12,7 @@ Streamlit GUI for a personal recipe assistant that generates recipes based on th
 
 <br>
 
-## 🚀 Installation 🚀
+## 🚀 Getting started 🚀
 
 To start using the app, follow these steps:
 
