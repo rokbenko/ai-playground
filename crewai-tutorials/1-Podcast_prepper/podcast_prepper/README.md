@@ -13,7 +13,7 @@ It's designed for podcast hosts, helping them:
 
 <br>
 
-## 🧐 Problem Addressed 🧐
+## 🧐 Problem addressed 🧐
 
 The screenshot below shows [Google Trends](https://trends.google.com/trends/explore?date=all_2008&gprop=youtube&q=podcast&hl=en-US) data for the search term *podcast* on YouTube worldwide from 2008 to the present, highlighting a clear long-term upward trend in podcast popularity.
 
@@ -31,16 +31,16 @@ Fuzzy_Mic_2021 saying:
 
 <br>
 
-## 🧠 Learning Goal 🧠
+## 🧠 Learning goal 🧠
 
 - **Solving the addressed problem with CrewAI:** We'll demonstrate how the CrewAI framework can drastically reduce the time required for podcast preparation by leveraging a multi-agent AI system. By employing [CrewAI Flows](https://docs.crewai.com/concepts/flows), we cut down the preparation time from 4 hours to just ≈3 minutes, achieving a 98.75% reduction in time spent, all for ≈$0.13 in total!
 
 > [!NOTE]
-> This $0.13 covers all expenses, including both the Anthropic LLM and Exa tool. For more details about the cost, refer to the [Behind the Scenes](https://github.com/rokbenko/ai-playground/tree/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper#-behind-the-scenes-) section.
+> This $0.13 covers all expenses, including both the Anthropic LLM and Exa tool. For more details about the cost, refer to the [Behind the scenes](https://github.com/rokbenko/ai-playground/tree/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper#-behind-the-scenes-) section.
 
 <br>
 
-## 🚀 Getting Started 🚀
+## 🚀 Getting started 🚀
 
 > [!NOTE]
 > The instructions are specific to Windows. For macOS or Linux, please use the corresponding commands for your operating system.
@@ -62,7 +62,7 @@ Fuzzy_Mic_2021 saying:
 
 <br>
 
-## ⚒️ Tech Stack ⚒️
+## ⚒️ Tech stack ⚒️
 
 The project uses the following main tech stack:
 - [Python](https://www.python.org/)
@@ -112,7 +112,7 @@ After running the CrewAI flow, a terminal input prompt will appear, as shown in 
 
 <br>
 
-## 🎭 Behind the Scenes 🎭
+## 🎭 Behind the scenes 🎭
 
 ### Project
 
