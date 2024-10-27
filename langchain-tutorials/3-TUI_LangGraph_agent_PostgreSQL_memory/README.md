@@ -1,10 +1,8 @@
 # #3 Python TUI for a LangGraph agent with persistent memory using PostgreSQL
 
-<br>
-
 ## 📖 Description 📖
 
-Add persistent memory using PostgreSQL to the [#1 TUI for a LangGraph agent with a web connection via the Tavily tool](https://github.com/rokbenko/ai-playground/tree/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily) tutorial.
+Add persistent memory using PostgreSQL to the [#1 TUI for a LangGraph agent with a web connection](https://github.com/rokbenko/ai-playground/tree/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily) tutorial.
 
 > [!NOTE]
 > This tutorial currently includes an example in Python only. While I typically provide both Python and Node.js examples, the LangGraph Node.js SDK has not yet implemented the specific class (i.e., `AsyncPostgresSaver`) required for this tutorial.
@@ -32,7 +30,7 @@ This directory has the following structure:
 
 <br>
 
-## 🚀 Installation 🚀
+## 🚀 Getting started 🚀
 
 Before running [`tui_langgraph_agent_postgresql_memory.py`](https://github.com/rokbenko/ai-playground/blob/main/langchain-tutorials/3-TUI_LangGraph_agent_PostgreSQL_memory/python/tui_langgraph_agent_postgresql_memory.py), follow the instructions below.
 
