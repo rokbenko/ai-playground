@@ -1,10 +1,8 @@
-# #3 Evaluation of a travel recommendation RAG
-
-<br>
+# #3 Evaluation of the Travel Recommendation RAG
 
 ## 📖 Description 📖
 
-Evaluation of the <a href="https://github.com/rokbenko/ai-playground/tree/main/llamaindex-tutorials/2-GUI_travel_recommendation_RAG">#2 GUI for a travel recommendation RAG</a> tutorial.
+Evaluation of the <a href="https://github.com/rokbenko/ai-playground/tree/main/llamaindex-tutorials/2-GUI_travel_recommendation_RAG">#2 GUI for a Travel Recommendation RAG</a> tutorial.
 
 <br>
 
