@@ -1,10 +1,8 @@
-# #2 Streamlit GUI for a travel recommendation RAG
-
-<br>
+# #2 Streamlit GUI for a Travel Recommendation RAG
 
 ## 📖 Description 📖
 
-Streamlit GUI for a travel recommendation RAG with response streaming using LlamaIndex with an OpenAI LLM.
+Streamlit GUI for a Travel Recommendation RAG with response streaming using LlamaIndex and OpenAI LLM.
 
 <br>
 
@@ -16,7 +14,7 @@ Streamlit GUI for a travel recommendation RAG with response streaming using Llam
 
 <br>
 
-## 🚀 Installation 🚀
+## 🚀 Getting started 🚀
 
 To start using the app, follow these steps:
 
