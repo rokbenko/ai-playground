@@ -1,10 +1,11 @@
 # #3 Text similarity search
 
-<br>
-
 ## 📖 Description 📖
 
-Python example on how to do text similarity search with Milvus Standalone (_Note: input vector is calculated with spaCy_).
+Python example on how to do text similarity search with Milvus Standalone.
+
+> [!NOTE]
+> The input vector is calculated with spaCy.
 
 <br>
 
@@ -83,7 +84,9 @@ You should get the following response:
 > 2. A heartwarming family drama centered around love, loss, and the bonds that endure (distance: 145.62991333007812) <br>
 > 3. A spine-chilling horror story set in a haunted mansion with dark secrets lurking within (distance: 194.28439331054688)
 
-### ⚒️ Tech stack ⚒️
+<br>
+
+## ⚒️ Tech stack ⚒️
 
 OS:
 
