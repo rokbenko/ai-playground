@@ -1,6 +1,4 @@
-# #1 Get response in JSON format
-
-<br>
+# #1 Response in JSON format
 
 ## 📖 Description 📖
 
