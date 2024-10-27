@@ -324,7 +324,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   <tr>
     <td>#2</td>
     <td>GUI for a Travel Recommendation RAG</td>
-    <td>Streamlit GUI for a Travel Recommendation RAG with response streaming using LlamaIndex with OpenAI LLM</td>
+    <td>Streamlit GUI for a Travel Recommendation RAG with response streaming using LlamaIndex and OpenAI LLM</td>
     <td>
       <img alt="Streamlit badge" src="https://img.shields.io/badge/Streamlit-%23202020?style=flat&logo=streamlit">
     </td>
