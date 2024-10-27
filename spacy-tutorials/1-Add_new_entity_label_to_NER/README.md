@@ -1,12 +1,8 @@
 # #1 Add a new entity label to NER
 
-<br>
+## 📖 Description 📖
 
-## Short description
-
-Jupyter Notebook example on how to add a new entity label to spaCy's default NER.
-
-See the <a href="https://github.com/rokbenko/ai-playground/blob/main/spacy-tutorials/1-Add_new_entity_label_to_NER/new_entity_label.ipynb">`new_entity_label.ipynb`</a> file with comments.
+Jupyter Notebook example on how to add a new entity label to spaCy's default NER model.
 
 <br>
 
@@ -21,6 +17,12 @@ See the <a href="https://github.com/rokbenko/ai-playground/blob/main/spacy-tutor
     - Incorporating aliases: Adding patterns for aliases (e.g., *XAU/USD* for gold) to ensure that additional relevant articles are captured.
 
 - **Evaluating and improving results:** We will analyze the outcomes of our refined NER approach, assessing how the custom patterns and aliases contribute to the improved detection of relevant financial articles.
+
+<br>
+
+## 🚀 Getting started 🚀
+
+See the <a href="https://github.com/rokbenko/ai-playground/blob/main/spacy-tutorials/1-Add_new_entity_label_to_NER/new_entity_label.ipynb">`new_entity_label.ipynb`</a> file with comments.
 
 <br>
 
