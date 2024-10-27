@@ -1,7 +1,5 @@
 # #2 uAgents communication
 
-<br>
-
 ## 📖 Description 📖
 
 Python examples on how to make Fetch.ai agents communicate with each other locally or remotely using Almanac contracts.
@@ -29,8 +27,6 @@ If you run [`alice_and_bob.py`](https://github.com/rokbenko/ai-playground/blob/m
 > INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [&nbsp;&nbsp; Bob]: I've received a message from agent1q2x0um5u8achgq24drv5krwqm6xdz5dewyw6k0nlp0h4un350gwyz8vps4y: 'Hello, Bob! I'm agent Alice.'<br>
 > INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Alice]: I've received a message from agent1q0y5kq3h2s904zkrjtx7wz3z2mgj3j6k5w9tqs5wtpm0hryc6me0sg9gkuh: 'Hello, Alice! I'm agent Bob.'<br>
 > INFO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [&nbsp;&nbsp; Bob]: I've received a message from agent1q2x0um5u8achgq24drv5krwqm6xdz5dewyw6k0nlp0h4un350gwyz8vps4y: 'Hello, Bob! I'm agent Alice.'
-
-<br>
 
 ### Remote communication
 
