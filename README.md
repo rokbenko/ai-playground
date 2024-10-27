@@ -45,7 +45,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   </tr>
   <tr>
     <td>#1</td>
-    <td>Get response in JSON format</td>
+    <td>Response in JSON format</td>
     <td>Python and Node.js examples on how to get a JSON response using the OpenAI Chat Completions API</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
@@ -62,7 +62,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   <tr>
     <td>#2</td>
     <td>
-      Build a Personal Math Tutor*<br>
+      Personal Math Tutor*<br>
       <sup>*Assistants API <code>v1</code> beta</sup>
     </td>
     <td>Python and Node.js examples on how to build a Personal Math Tutor using the OpenAI Assistants API <code>v1</code> beta with the Code Interpreter tool</td>
@@ -81,10 +81,10 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   <tr>
     <td>#3</td>
     <td>
-      GUI for a Personal Math Tutor*<br>
+      GUI for the Personal Math Tutor*<br>
       <sup>*Assistants API <code>v1</code> beta</sup>
     </td>
-    <td>Next.js GUI for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/2-Build_personal_math_tutor">#2 Build a Personal Math Tutor</a> tutorial</td>
+    <td>Next.js GUI for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/2-Build_personal_math_tutor">#2 Personal Math Tutor</a> tutorial</td>
     <td>
       <img alt="Next.js badge" src="https://img.shields.io/badge/Next.js-%23202020?style=flat&logo=nextdotjs">
       <img alt="Tailwind CSS badge" src="https://img.shields.io/badge/Tailwind%20CSS-%23202020?style=flat&logo=tailwindcss">
@@ -100,7 +100,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   <tr>
     <td>#4</td>
     <td>
-      Build a Customer Support Chatbot*<br>
+      Customer Support Chatbot*<br>
       <sup>*Assistants API <code>v1</code> beta</sup>
     </td>
     <td>Python and Node.js examples on how to build a Customer Support Chatbot using the OpenAI Assistants API <code>v1</code> beta with the Knowledge Retrieval tool</td>
@@ -119,10 +119,10 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   <tr>
     <td>#5</td>
     <td>
-      TUI for a Customer Support Chatbot*<br>
+      TUI for the Customer Support Chatbot*<br>
       <sup>*Assistants API <code>v1</code> beta</sup>
     </td>
-    <td>Python and Node.js TUIs for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_customer_support_chatbot">#4 Build a Customer Support Chatbot</a> tutorial</td>
+    <td>Python and Node.js TUIs for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_customer_support_chatbot">#4 Customer Support Chatbot</a> tutorial</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
       <img alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-%23202020?style=flat&logo=javascript">
@@ -138,10 +138,10 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   <tr>
     <td>#6</td>
     <td>
-      TUI for a Customer Support Chatbot with response streaming*<br>
+      TUI for the Customer Support Chatbot with response streaming*<br>
       <sup>*Assistants API <code>v1</code> beta</sup>
     </td>
-    <td>Python and Node.js TUIs for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_customer_support_chatbot">#4 Build a Customer Support Chatbot</a> tutorial with response streaming</td>
+    <td>Python and Node.js TUIs for the <a href="https://github.com/rokbenko/ai-playground/tree/main/openai-tutorials/4-Build_customer_support_chatbot">#4 Customer Support Chatbot</a> tutorial with response streaming</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
       <img alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-%23202020?style=flat&logo=javascript">
@@ -251,8 +251,8 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   </tr>
   <tr>
     <td>#1</td>
-    <td>TUI for a LangGraph agent with a web connection via the Tavily tool</td>
-    <td>Python and Node.js TUIs for a LangGraph ReAct agent using the Tavily tool to get a web connection and an OpenAI LLM</td>
+    <td>TUI for a LangGraph agent with a web connection</td>
+    <td>Python and Node.js TUIs for a LangGraph ReAct agent using OpenAI LLM and Tavily tool to get a web connection</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
       <img alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-%23202020?style=flat&logo=javascript">
@@ -268,7 +268,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   <tr>
     <td>#2</td>
     <td>TUI for a LangGraph agent with memory</td>
-    <td>Add memory to the <a href="https://github.com/rokbenko/ai-playground/tree/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily">#1 TUI for a LangGraph agent with a web connection via the Tavily tool</a> tutorial</td>
+    <td>Add memory to the <a href="https://github.com/rokbenko/ai-playground/tree/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily">#1 TUI for a LangGraph agent with a web connection</a> tutorial</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
       <img alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-%23202020?style=flat&logo=javascript">
@@ -284,7 +284,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   <tr>
     <td>#3</td>
     <td>TUI for a LangGraph agent with persistent memory using PostgreSQL</td>
-    <td>Add persistent memory using PostgreSQL to the <a href="https://github.com/rokbenko/ai-playground/tree/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily">#1 TUI for a LangGraph agent with a web connection via the Tavily tool</a> tutorial</td>
+    <td>Add persistent memory using PostgreSQL to the <a href="https://github.com/rokbenko/ai-playground/tree/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily">#1 TUI for a LangGraph agent with a web connection</a> tutorial</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
     </td>
@@ -309,8 +309,8 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   </tr>
   <tr>
     <td>#1</td>
-    <td>Create Llama app</td>
-    <td>Instructions on how to create a LlamaIndex chat streaming app using Next.js GUI and an OpenAI LLM with 1 command in 2 minutes</td>
+    <td>Create Llama app with 1 command in 2 minutes</td>
+    <td>Instructions on how to create a LlamaIndex chat streaming app using Next.js GUI and OpenAI LLM with 1 command in 2 minutes</td>
     <td>
       <img alt="Next.js badge" src="https://img.shields.io/badge/Next.js-%23202020?style=flat&logo=nextdotjs">
     </td>
@@ -324,7 +324,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   <tr>
     <td>#2</td>
     <td>GUI for a Travel Recommendation RAG</td>
-    <td>Streamlit GUI for a Travel Recommendation RAG with response streaming using LlamaIndex with an OpenAI LLM</td>
+    <td>Streamlit GUI for a Travel Recommendation RAG with response streaming using LlamaIndex with OpenAI LLM</td>
     <td>
       <img alt="Streamlit badge" src="https://img.shields.io/badge/Streamlit-%23202020?style=flat&logo=streamlit">
     </td>
@@ -542,7 +542,6 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <td>Python example on how to do text similarity search with Milvus Standalone (<i>Note: input vector is calculated with spaCy</i>)</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
-      <img alt="spaCy badge" src="https://img.shields.io/badge/spaCy-%23202020?style=flat&logo=spacy">
       <img alt="Docker badge" src="https://img.shields.io/badge/Docker-%23202020?style=flat&logo=docker">
     </td>
     <td>
@@ -574,7 +573,6 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
     <td>Jupyter Notebook example on how to add a new entity label to spaCy's default NER model</td>
     <td>
       <img alt="Jupyter Notebook badge" src="https://img.shields.io/badge/Jupyter%20Notebook-%23202020?style=flat&logo=jupyter">
-      <img alt="spaCy badge" src="https://img.shields.io/badge/spaCy-%23202020?style=flat&logo=spacy">
     </td>
     <td>
       <a href="https://github.com/rokbenko/ai-playground/tree/main/spacy-tutorials/1-Add_new_entity_label_to_NER" target="_blank">GitHub</a>
