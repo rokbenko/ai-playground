@@ -1,7 +1,5 @@
 # #7 Python and Node.js TUIs for assistants: response polling vs. streaming
 
-<br>
-
 ## 📖 Description 📖
 
 Python and Node.js TUIs for assistants to show the difference between response polling (manual or with a helper) and streaming (with a helper).
@@ -43,7 +41,7 @@ This directory has the following structure:
 
 <br>
 
-## 🚀 Installation 🚀
+## 🚀 Getting started 🚀
 
 Before running any of the Python or Node.js scripts, follow the instructions below.
 
