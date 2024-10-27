@@ -1,7 +1,5 @@
 # #1 Snowflake Cortex LLM functions starter
 
-<br>
-
 ## 📖 Description 📖
 
 Python example on how to use the Snowflake Cortex LLM functions.
