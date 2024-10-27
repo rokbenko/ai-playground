@@ -337,7 +337,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
   </tr>
   <tr>
     <td>#3</td>
-    <td>Eval of a Travel Recommendation RAG</td>
+    <td>Eval of the Travel Recommendation RAG</td>
     <td>Evaluation of the <a href="https://github.com/rokbenko/ai-playground/tree/main/llamaindex-tutorials/2-GUI_travel_recommendation_RAG">#2 GUI for a Travel Recommendation RAG</a> tutorial</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
