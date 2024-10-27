@@ -1,7 +1,5 @@
 # #1 Milvus Standalone starter
 
-<br>
-
 ## 📖 Description 📖
 
 Python and Node.js examples on how to install Milvus Standalone using Docker, connect to a Milvus Standalone server and list all Milvus collections.
@@ -22,7 +20,7 @@ Python and Node.js examples on how to install Milvus Standalone using Docker, co
 
 <br>
 
-## 🚀 Installation 🚀
+## 🚀 Getting started 🚀
 
 ### Starting the Docker container
 
