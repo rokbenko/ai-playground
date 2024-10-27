@@ -1,10 +1,8 @@
 # #2 Python and Node.js TUIs for a LangGraph agent with memory
 
-<br>
-
 ## 📖 Description 📖
 
-Add memory to the [#1 TUI for a LangGraph agent with a web connection via the Tavily tool](https://github.com/rokbenko/ai-playground/tree/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily) tutorial.
+Add memory to the [#1 TUI for a LangGraph agent with a web connection](https://github.com/rokbenko/ai-playground/tree/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily) tutorial.
 
 > [!NOTE]
 > In this tutorial, we'll implement in-memory storage for a LangGraph agent using the `MemorySaver` class. The data is stored temporarily in the computer's RAM, enabling quick access and retrieval during the agent's operation. However, this memory will be lost when the script exits or the app is terminated, as it isn't stored persistently.
@@ -42,7 +40,7 @@ This directory has the following structure:
 
 <br>
 
-## 🚀 Installation 🚀
+## 🚀 Getting started 🚀
 
 Before running [`tui_langgraph_agent_memory.py`](https://github.com/rokbenko/ai-playground/blob/main/langchain-tutorials/2-TUI_LangGraph_agent_memory/python/tui_langgraph_agent_memory.py) or [`tui_langgraph_agent_memory.js`](https://github.com/rokbenko/ai-playground/blob/main/langchain-tutorials/2-TUI_LangGraph_agent_memory/nodejs/tui_langgraph_agent_memory.js), follow the instructions below.
 
