@@ -1,10 +1,8 @@
-# #1 Python and Node.js TUIs for a LangGraph agent with a web connection through Tavily
-
-<br>
+# #1 Python and Node.js TUIs for a LangGraph agent with a web connection
 
 ## 📖 Description 📖
 
-Python and Node.js TUIs for a LangGraph ReAct agent using the Tavily tool to get a web connection and an OpenAI LLM.
+Python and Node.js TUIs for a LangGraph ReAct agent using OpenAI LLM and Tavily tool to get a web connection.
 
 This directory has the following structure:
 
@@ -37,7 +35,7 @@ This directory has the following structure:
 
 <br>
 
-## 🚀 Installation 🚀
+## 🚀 Getting started 🚀
 
 Before running [`tui_langgraph_agent_tavily.py`](https://github.com/rokbenko/ai-playground/blob/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily/python/tui_langgraph_agent_tavily.py) or [`tui_langgraph_agent_tavily.js`](https://github.com/rokbenko/ai-playground/blob/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily/nodejs/tui_langgraph_agent_tavily.js), follow the instructions below.
 
