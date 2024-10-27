@@ -1,10 +1,8 @@
-# #4 Build a customer support chatbot
-
-<br>
+# #4 Customer Support Chatbot
 
 ## 📖 Description 📖
 
-Python and Node.js examples on how to build a customer support chatbot using the OpenAI Assistants API `v1` beta with the Knowledge Retrieval tool.
+Python and Node.js examples on how to build a Customer Support Chatbot using the OpenAI Assistants API `v1` beta with the Knowledge Retrieval tool.
 
 > [!WARNING]
 > The assistant might sometimes behave strangely. The Assistants API is still in beta, and it seems that OpenAI has trouble keeping it realiable, as discussed on the official <a href="https://community.openai.com/t/assistant-not-able-to-access-uploaded-file/524495/1">OpenAI forum</a>.
