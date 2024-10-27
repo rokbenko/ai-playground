@@ -1,7 +1,5 @@
 # #8 LLMs explained
 
-<br>
-
 ## 📖 Description 📖
 
 Python and Node.js examples on how LLMs work using the OpenAI SDK `top_logprobs` parameter.
