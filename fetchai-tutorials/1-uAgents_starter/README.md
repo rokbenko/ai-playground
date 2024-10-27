@@ -1,7 +1,5 @@
 # #1 uAgents starter
 
-<br>
-
 ## 📖 Description 📖
 
 Python examples on how to:
