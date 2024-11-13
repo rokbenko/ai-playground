@@ -42,6 +42,11 @@ Fuzzy_Mic_2021 saying:
 
 ## 🚀 Getting started 🚀
 
+> [!IMPORTANT]
+> This project requires Python `>=3.10 <=3.13` and Poetry for dependency management. Please install both before proceeding:
+> - [Download Python](https://www.python.org/downloads/)
+> - [Install Poetry](https://python-poetry.org/docs/#installation)
+
 > [!NOTE]
 > The instructions are specific to Windows. For macOS or Linux, please use the corresponding commands for your operating system.
 
