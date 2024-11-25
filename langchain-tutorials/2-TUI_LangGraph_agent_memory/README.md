@@ -194,6 +194,9 @@ Dependencies:
 
 ## 🔥 Working example in Node.js 🔥
 
+> [!NOTE]
+> The check mark (i.e., ✔️) and cross mark (i.e., ❌) emojis are not part of the agent's actual responses. They were added manually in this README file to highlight the parts of the chat that the tutorial is designed to address.
+
 If you run [`tui_langgraph_agent_memory.js`](https://github.com/rokbenko/ai-playground/blob/main/langchain-tutorials/2-TUI_LangGraph_agent_memory/nodejs/tui_langgraph_agent_memory.js), you should be able to chat with the agent in a terminal:
 
 > User:<br>
@@ -206,7 +209,7 @@ If you run [`tui_langgraph_agent_memory.js`](https://github.com/rokbenko/ai-play
 > Tell me what's my name.
 > <br><br>
 > Agent:<br>
-> Your name is Bob!
+> Your name is Bob! ✔️
 > <br><br>
 > User:<br>
 > Quit
@@ -227,7 +230,7 @@ If you run [`tui_langgraph_agent_memory.js`](https://github.com/rokbenko/ai-play
 > Tell me what's my name.
 > <br><br>
 > Agent:<br>
-> I'm unable to know your name as I don't have that information. If there's anything specific you'd like me to help you with, feel free to ask!
+> I'm unable to know your name as I don't have that information. If there's anything specific you'd like me to help you with, feel free to ask! ❌
 > <br><br>
 > User:<br>
 > Quit
@@ -255,10 +258,14 @@ Dependencies:
 
 ## 📽️ Demonstration 📽️
 
-An example of a question where the agent doesn't need to use the Tavily tool (the goal is for the agent to know what's the user's name — the answer is Bob):
+### Without Tavily tool
+
+An example of a question where the agent doesn't need to use the Tavily tool to give an answer. The goal is for the agent to know what's the user's name — the answer is Bob:
 
 ![Demonstration of a question where the agent doesn't need to use the Tavily tool](https://github.com/rokbenko/ai-playground/blob/main/langchain-tutorials/2-TUI_LangGraph_agent_memory/demonstration_no_tools.gif)
 
-An example of a question where the agent does need to use the Tavily tool (the goal is for the agent to know what we want to know about New York — the answer is weather):
+### With Tavily tool
+
+An example of a question where the agent does need to use the Tavily tool to give an answer. The goal is for the agent to know what we want to know about New York — the answer is weather:
 
 ![Demonstration of a question where the agent does need to use the Tavily tool](https://github.com/rokbenko/ai-playground/blob/main/langchain-tutorials/2-TUI_LangGraph_agent_memory/demonstration_tools.gif)
