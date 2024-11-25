@@ -59,7 +59,7 @@ Before running [`tui_langgraph_agent_postgresql_memory.py`](https://github.com/r
 > Your `.env` file should contain the following environment variables:
 >
 > ```bash
-> OPENAI_API_KEY = "sk-xxxxxxxxxxxxxxxxxxxxxxxxx"
+> ANTHROPIC_API_KEY = "sk-xxxxxxxxxxxxxxxxxxxxxxxxx"
 > TAVILY_API_KEY = "tvly-xxxxxxxxxxxxxxxxxxxxxxxxx"
 > ```
 
