@@ -129,6 +129,9 @@ Before running [`tui_langgraph_agent_memory.py`](https://github.com/rokbenko/ai-
 
 ## 🔥 Working example in Python 🔥
 
+> [!NOTE]
+> The check mark (i.e., ✔️) and cross mark (i.e., ❌) emojis are not part of the agent's actual responses. They were added manually in this README file to highlight the parts of the chat that the tutorial is designed to address.
+
 If you run [`tui_langgraph_agent_memory.py`](https://github.com/rokbenko/ai-playground/blob/main/langchain-tutorials/2-TUI_LangGraph_agent_memory/python/tui_langgraph_agent_memory.py), you should be able to chat with the agent in a terminal:
 
 > User:<br>
