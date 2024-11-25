@@ -96,6 +96,9 @@ Before running [`tui_langgraph_agent_postgresql_memory.py`](https://github.com/r
 
 ## 🔥 Working example in Python 🔥
 
+> [!NOTE]
+> The check mark (i.e., ✔️) and cross mark (i.e., ❌) emojis are not part of the agent's actual responses. They were added manually in this README file to highlight the parts of the chat that the tutorial is designed to address.
+
 If you run [`tui_langgraph_agent_postgresql_memory.py`](https://github.com/rokbenko/ai-playground/blob/main/langchain-tutorials/3-TUI_LangGraph_agent_PostgreSQL_memory/python/tui_langgraph_agent_postgresql_memory.py), you should be able to chat with the agent in a terminal:
 
 #### Chat #1
@@ -120,7 +123,7 @@ If you run [`tui_langgraph_agent_postgresql_memory.py`](https://github.com/rokbe
 > Tell me what's my name.
 > <br><br>
 > Agent:<br>
-> Your name is Bob!
+> Your name is Bob! ✔️
 > <br><br>
 > User:<br>
 > Quit
@@ -129,7 +132,7 @@ If you run [`tui_langgraph_agent_postgresql_memory.py`](https://github.com/rokbe
 > Have a nice day! 👋
 
 > [!NOTE]
-> If the persistent memory wouldn't be implemented, the chat would look as follows:
+> If only in-memory storage would be implemented (i.e., not persistent storage using PostgreSQL), the chat would look as follows:
 >
 > #### Chat #1
 > > User:<br>
@@ -152,7 +155,7 @@ If you run [`tui_langgraph_agent_postgresql_memory.py`](https://github.com/rokbe
 > Tell me what's my name.
 > <br><br>
 > Agent:<br>
-> I'm unable to know your name as I don't have that information. If there's anything specific you'd like me to help you with, feel free to ask!
+> I'm unable to know your name as I don't have that information. If there's anything specific you'd like me to help you with, feel free to ask! ❌
 > <br><br>
 > User:<br>
 > Quit
