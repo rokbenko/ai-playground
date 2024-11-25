@@ -2,7 +2,9 @@
 
 # Code from tutorials presented on the<br> [Code AI with Rok](https://www.youtube.com/@rokbenko?sub_confirmation=1) YouTube channel
 
-Enjoying what you find in this repository? Your star ⭐ would be greatly appreciated!
+I may have *slightly* overhyped this repo to my mom. Help me hit 150 ⭐ and make it true!
+
+[![ai-playground repository stars](https://img.shields.io/github/stars/rokbenko/ai-playground?style=social)](https://github.com/rokbenko/ai-playground)
 
 <br>
 
@@ -11,7 +13,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
 <details>
   <summary>Table of contents</summary>
   
-  - [LLMs](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-llms-)<br>
+  - [LLM providers](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-llms-)<br>
     - [OpenAI](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#openai)<br>
     - [Google](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#google)<br>
   - [Frameworks](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#%EF%B8%8F-frameworks-%EF%B8%8F)<br>
@@ -31,7 +33,7 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
 
 <br>
 
-## 👾 LLMs 👾
+## 👾 LLM providers 👾
 
 ### [OpenAI](https://openai.com/)
 
