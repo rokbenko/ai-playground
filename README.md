@@ -1,6 +1,6 @@
 <div align="center">
 
-# Code from tutorials presented on the<br> [Code AI with Rok](https://www.youtube.com/@rokbenko?sub_confirmation=1) YouTube channel
+# Code from YouTube channel<br> [Code AI with Rok](https://www.youtube.com/@rokbenko?sub_confirmation=1)
 
 I may have *slightly* overhyped this repo to my mom. Help me hit 150 ⭐ and make it true!
 
@@ -13,7 +13,7 @@ I may have *slightly* overhyped this repo to my mom. Help me hit 150 ⭐ and mak
 <details>
   <summary>Table of contents</summary>
   
-  - [LLM providers](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-llms-)<br>
+  - [LLM providers](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-llm-providers-)<br>
     - [OpenAI](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#openai)<br>
     - [Google](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#google)<br>
   - [Frameworks](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#%EF%B8%8F-frameworks-%EF%B8%8F)<br>
