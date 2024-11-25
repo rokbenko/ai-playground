@@ -173,15 +173,15 @@ Dependencies:
 
 - [Python](https://www.python.org/) `3.11.8`
 - [Dotenv](https://pypi.org/project/python-dotenv/) `1.0.1`
-- [LangChain Python SDK](https://pypi.org/project/langchain/) `0.2.14`
-- [LangChain Core Python SDK](https://pypi.org/project/langchain-core/) `0.2.33`
-- [LangChain Community Python SDK](https://pypi.org/project/langchain-community/) `0.2.12`
-- [LangChain OpenAI Python SDK](https://pypi.org/project/langchain-openai/) `0.1.22`
-- [LangGraph Python SDK](https://pypi.org/project/langgraph/) `0.2.4`
-- [LangGraph PostgreSQL Checkpointer](https://pypi.org/project/langgraph-checkpoint-postgres/) `1.0.3`
-- [PostgreSQL Python Adapter](https://pypi.org/project/psycopg/) `3.2.1`
-- [PostgreSQL Python Connection Pool](https://pypi.org/project/psycopg-pool/) `3.2.2`
-- [Rich](https://pypi.org/project/rich/) `13.7.1`
+- [LangChain Python SDK](https://pypi.org/project/langchain/) `0.3.8`
+- [LangChain Core Python SDK](https://pypi.org/project/langchain-core/) `0.3.21`
+- [LangChain Community Python SDK](https://pypi.org/project/langchain-community/) `0.3.8`
+- [LangChain Anthropic Python SDK](https://pypi.org/project/langchain-anthropic/) `0.3.0`
+- [LangGraph Python SDK](https://pypi.org/project/langgraph/) `0.2.53`
+- [LangGraph PostgreSQL Checkpointer](https://pypi.org/project/langgraph-checkpoint-postgres/) `2.0.3`
+- [PostgreSQL Python Adapter](https://pypi.org/project/psycopg/) `3.2.3`
+- [PostgreSQL Python Connection Pool](https://pypi.org/project/psycopg-pool/) `3.2.4`
+- [Rich](https://pypi.org/project/rich/) `13.9.4`
 
 <br>
 
