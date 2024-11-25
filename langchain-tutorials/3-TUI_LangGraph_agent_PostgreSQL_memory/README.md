@@ -187,10 +187,14 @@ Dependencies:
 
 ## 📽️ Demonstration 📽️
 
-An example of a question where the agent doesn't need to use the Tavily tool (the goal is for the agent to know what's the user's name *after the first chat is quitted* — the answer is Bob):
+### Without Tavily tool
+
+An example of a question where the agent doesn't need to use the Tavily tool to give an answer. The goal is for the agent to know what's the user's name, even if the chat is quit and restarted multiple times — the answer is Bob:
 
 Coming soon... ✨
 
-An example of a question where the agent does need to use the Tavily tool (the goal is for the agent to know what we want to know about New York *after the first chat is quitted* — the answer is weather):
+### With Tavily tool
+
+An example of a question where the agent does need to use the Tavily tool to give an answer. The goal is for the agent to know what we want to know about New York, even if the chat is quit and restarted multiple times — the answer is weather:
 
 Coming soon... ✨
