@@ -141,7 +141,7 @@ If you run [`tui_langgraph_agent_memory.py`](https://github.com/rokbenko/ai-play
 > Tell me what's my name.
 > <br><br>
 > Agent:<br>
-> Your name is Bob!
+> Your name is Bob! ✔️
 > <br><br>
 > User:<br>
 > Quit
@@ -162,7 +162,7 @@ If you run [`tui_langgraph_agent_memory.py`](https://github.com/rokbenko/ai-play
 > Tell me what's my name.
 > <br><br>
 > Agent:<br>
-> I'm unable to know your name as I don't have that information. If there's anything specific you'd like me to help you with, feel free to ask!
+> I'm unable to know your name as I don't have that information. If there's anything specific you'd like me to help you with, feel free to ask! ❌
 > <br><br>
 > User:<br>
 > Quit
