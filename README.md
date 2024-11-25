@@ -587,7 +587,13 @@ Enjoying what you find in this repository? Your star ⭐ would be greatly apprec
 
 ## ⭐ Star history ⭐
 
-[![Star history chart](https://api.star-history.com/svg?repos=rokbenko/ai-playground&type=Date)](https://star-history.com/#rokbenko/ai-playground&Date)
+<a href="https://star-history.com/#rokbenko/ai-playground&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=rokbenko/ai-playground&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=rokbenko/ai-playground&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=rokbenko/ai-playground&type=Date" />
+ </picture>
+</a>
 
 <br>
 
