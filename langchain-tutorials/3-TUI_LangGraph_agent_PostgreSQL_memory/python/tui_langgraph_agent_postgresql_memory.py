@@ -3,7 +3,7 @@ import os
 import sys
 import asyncio
 from dotenv import load_dotenv
-from langchain_openai import ChatOpenAI
+from langchain_anthropic import ChatAnthropic
 from langchain_community.tools.tavily_search import TavilySearchResults
 from psycopg_pool import AsyncConnectionPool
 from psycopg.rows import dict_row
@@ -18,8 +18,10 @@ load_dotenv()
 # Initialize Rich for better output formatting and visualization
 rich = Console()
 
-# Initialize OpenAI LLM
-llm = ChatOpenAI(api_key=os.getenv("OPENAI_API_KEY"), model="gpt-4o-mini")
+# Initialize Anthropic LLM
+llm = ChatAnthropic(
+    api_key=os.getenv("ANTHROPIC_API_KEY"), model="claude-3-haiku-20240307"
+)
 
 # Initialize Tavily
 tavily = TavilySearchResults(max_results=3)
