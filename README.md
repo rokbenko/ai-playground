@@ -2,7 +2,8 @@
 
 # Code from YouTube channel<br> [Code AI with Rok](https://www.youtube.com/@rokbenko?sub_confirmation=1)
 
-I may have *slightly* overhyped this repo to my mom. Help me hit 150 ⭐ and make it true!
+Found something awesome here?<br>
+Star this repo and help me hit 150 ⭐!
 
 [![ai-playground repository stars](https://img.shields.io/github/stars/rokbenko/ai-playground?style=social)](https://github.com/rokbenko/ai-playground)
 
