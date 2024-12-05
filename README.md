@@ -292,10 +292,10 @@ Star this repo and help me hit 150 ⭐!
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
     </td>
     <td>
-      Coming soon... ✨
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/langchain-tutorials/3-TUI_LangGraph_agent_PostgreSQL_memory" target="_blank">GitHub</a>
     </td>
     <td>
-      Coming soon... ✨
+      <a href="https://youtu.be/hE8C2M8GRLo" target="_blank">YouTube</a>
     </td>
   </tr>
 </table>
