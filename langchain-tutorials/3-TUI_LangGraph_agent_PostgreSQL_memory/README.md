@@ -24,7 +24,7 @@ This directory has the following structure:
 
 <br>
 
-## 🧠 Learning goal 🧠
+## 🧠 Learning goals 🧠
 
 - **Understanding LangGraph [PostgreSQL checkpointers](https://github.com/langchain-ai/langgraph/tree/main/libs/checkpoint-postgres):** PostgreSQL checkpointers provide a persistence layer for LangGraph using PostgreSQL. They allow you to interact with and manage the graph's state, leveraging PostgreSQL. When you use a graph with a PostgreSQL checkpointer, the checkpointer saves a checkpoint of the graph state in PostgreSQL at every superstep, enabling several powerful capabilities like human-in-the-loop, "memory" between interactions, and more.
 - **Implementing persistent storage using the [`AsyncPostgresSaver`](https://langchain-ai.github.io/langgraph/reference/checkpoints/#langgraph.checkpoint.postgres.aio.AsyncPostgresSaver) class:** We'll show how to enhance a LangGraph ReAct agent by adding persistent storage capabilities using the `AsyncPostgresSaver` class. The `AsyncPostgresSaver` class provides a practical implementation of a PostgreSQL checkpointer with a LangGraph agent. This feature allows your agent to memorize the conversation even if the script exits or the program is terminated, as it's stored persistently. The implementation leverages an async connection pool to manage connections to the PostgreSQL database. Async connections allow non-blocking database operations, enabling other parts of your application to continue running while waiting for database tasks to complete.
