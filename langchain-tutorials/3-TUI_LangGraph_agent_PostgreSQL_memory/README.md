@@ -187,14 +187,6 @@ Dependencies:
 
 ## 📽️ Demonstration 📽️
 
-### Without Tavily tool
+After the chat is restarted, the agent, whether it uses the Tavily tool or not to provide an answer, retains the user's name (i.e., Bob) and understands what information is needed about New York (i.e., weather).
 
-An example of a question where the agent doesn't need to use the Tavily tool to give an answer. The goal is for the agent to know what's the user's name, even if the chat is quit and restarted multiple times — the answer is Bob:
-
-Coming soon... ✨
-
-### With Tavily tool
-
-An example of a question where the agent does need to use the Tavily tool to give an answer. The goal is for the agent to know what we want to know about New York, even if the chat is quit and restarted multiple times — the answer is weather:
-
-Coming soon... ✨
+![Demonstration](https://github.com/rokbenko/ai-playground/blob/main/langchain-tutorials/3-TUI_LangGraph_agent_PostgreSQL_memory/demonstration.gif)
