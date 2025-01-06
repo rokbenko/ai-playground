@@ -298,6 +298,16 @@ Star this repo and help me hit 170 ⭐!
       <a href="https://youtu.be/hE8C2M8GRLo" target="_blank">YouTube</a>
     </td>
   </tr>
+  <tr>
+    <td>#4</td>
+    <td>TUI for a LangGraph agent with persistent memory using PostgreSQL and LangSmith observability</td>
+    <td>Add observability using LangSmith to the <a href="">#3 TUI for a LangGraph agent with persistent memory using PostgreSQL</a> tutorial</td>
+    <td>
+      <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
+    </td>
+    <td>Coming soon... ✨</td>
+    <td>Coming soon... ✨</td>
+  </tr>
 </table>
 
 ### [LlamaIndex](https://www.llamaindex.ai/)
