@@ -1,0 +1,9 @@
+python-dotenv==1.0.1
+langchain==0.3.14
+langchain-core==0.3.29
+langchain-community==0.3.14
+langchain-mistralai==0.2.4
+langgraph==0.2.61
+langgraph-checkpoint-postgres==2.0.9
+psycopg[binary,pool]==3.2.3
+rich==13.9.4
