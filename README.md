@@ -301,7 +301,7 @@ Star this repo and help me hit 170 ⭐!
   <tr>
     <td>#4</td>
     <td>TUI for a LangGraph agent with persistent memory using PostgreSQL and LangSmith observability</td>
-    <td>Add observability using LangSmith to the <a href="">#3 TUI for a LangGraph agent with persistent memory using PostgreSQL</a> tutorial</td>
+    <td>Add observability using LangSmith to the <a href="https://github.com/rokbenko/ai-playground/tree/main/langchain-tutorials/3-TUI_LangGraph_agent_PostgreSQL_memory">#3 TUI for a LangGraph agent with persistent memory using PostgreSQL</a> tutorial</td>
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
     </td>
