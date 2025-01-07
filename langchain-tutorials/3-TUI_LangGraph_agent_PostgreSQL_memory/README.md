@@ -4,7 +4,7 @@
 
 Add persistent memory using PostgreSQL to the [#1 TUI for a LangGraph agent with a web connection](https://github.com/rokbenko/ai-playground/tree/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily) tutorial.
 
-This directory will have the following structure after completing the steps in the *Getting started* section:
+This directory will have the following structure after completing the steps in the [*Getting started*](https://github.com/rokbenko/ai-playground/tree/main/langchain-tutorials/3-TUI_LangGraph_agent_PostgreSQL_memory#-getting-started-) section:
 
 ```
 │   README.md
