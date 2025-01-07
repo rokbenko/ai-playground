@@ -6,7 +6,7 @@ Add observability using LangSmith to the [#3 TUI for a LangGraph agent with pers
 
 In the previous tutorial, we demonstrated how to implement persistent memory for a LangGraph agent using PostgreSQL. However, after sharing the tutorial on social media, I received feedback pointing out that this approach consumes more tokens. This observation is valid. In this tutorial, we’ll use LangSmith for observability to confirm this and provide deeper insights into token usage.
 
-This directory will have the following structure after completing the steps in the [*Getting started*](https://github.com/rokbenko/ai-playground/edit/main/langchain-tutorials/4-LangSmith_observability_starter/README.md#-getting-started-) section:
+This directory will have the following structure after completing the steps in the [*Getting started*](https://github.com/rokbenko/ai-playground/tree/main/langchain-tutorials/4-LangSmith_observability_starter#-getting-started-) section:
 
 ```
 │   README.md
