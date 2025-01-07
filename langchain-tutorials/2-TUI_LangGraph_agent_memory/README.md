@@ -9,7 +9,7 @@ Add memory to the [#1 TUI for a LangGraph agent with a web connection](https://g
 >
 > If you're looking for a persistent memory implementation for a LangGraph agent, please see the [#3 TUI for a LangGraph agent with persistent memory using PostgreSQL](https://github.com/rokbenko/ai-playground/tree/main/langchain-tutorials/3-TUI_LangGraph_agent_PostgreSQL_memory) tutorial.
 
-This directory has the following structure:
+This directory will have the following structure after completing the steps in the *Getting started* section:
 
 ```
 │   README.md
