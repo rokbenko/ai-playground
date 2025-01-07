@@ -26,7 +26,7 @@ This directory will have the following structure after completing the steps in t
 
 <br>
 
-## 🧠 Learning goals 🧠
+## 🧠 Learning goal 🧠
 
 - **Getting to know [LangSmith](https://docs.smith.langchain.com/) for observability:** LangSmith is a platform for building production-grade LLM apps. It allows you to closely monitor and evaluate your LLM app, so you can ship quickly and with confidence. We'll show how to start using LangSmith and observe LLM apps.
 
