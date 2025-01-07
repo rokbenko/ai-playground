@@ -175,7 +175,7 @@ Dependencies:
 - [LangGraph Python SDK](https://pypi.org/project/langgraph/) `0.2.53`
 - [LangGraph PostgreSQL Checkpointer](https://pypi.org/project/langgraph-checkpoint-postgres/) `2.0.3`
 - [PostgreSQL Python Adapter](https://pypi.org/project/psycopg/) `3.2.3`
-- [PostgreSQL Python Connection Pool](https://pypi.org/project/psycopg-pool/) `3.2.4`
+- [PostgreSQL Python Connection Pool](https://pypi.org/project/psycopg-pool/) `3.2.3`
 - [Rich](https://pypi.org/project/rich/) `13.9.4`
 
 <br>
