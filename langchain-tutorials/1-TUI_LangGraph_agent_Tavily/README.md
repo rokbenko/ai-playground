@@ -4,7 +4,7 @@
 
 Python and Node.js TUIs for a LangGraph ReAct agent using OpenAI LLM and Tavily tool to get a web connection.
 
-This directory will have the following structure after completing the steps in the *Getting started* section:
+This directory will have the following structure after completing the steps in the [*Getting started*](https://github.com/rokbenko/ai-playground/tree/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily#-getting-started-) section:
 
 ```
 │   README.md
