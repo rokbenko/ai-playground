@@ -62,7 +62,7 @@ Before running [`test_langsmith_observability.py`](https://github.com/rokbenko/a
 > Your `.env` file should contain the following environment variables:
 >
 > ```bash
-> MISTRAL_API_KEY="xxxxxxxxxxxxxxxxxxxxxxxxx"
+> MISTRAL_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxx"
 >
 > TAVILY_API_KEY = "tvly-xxxxxxxxxxxxxxxxxxxxxxxxx"
 >
@@ -73,10 +73,10 @@ Before running [`test_langsmith_observability.py`](https://github.com/rokbenko/a
 > PSQL_DATABASE = "agent_chat"
 > PSQL_SSLMODE = "disable"
 > 
-> LANGCHAIN_TRACING_V2=true
-> LANGCHAIN_ENDPOINT="https://api.smith.langchain.com"
-> LANGCHAIN_API_KEY="lsv2_pt_xxxxxxxxxxxxxxxxxxxxxxxxx"
-> LANGCHAIN_PROJECT="YouTube LangSmith tutorial"
+> LANGCHAIN_TRACING_V2 = true
+> LANGCHAIN_ENDPOINT = "https://api.smith.langchain.com"
+> LANGCHAIN_API_KEY = "lsv2_pt_xxxxxxxxxxxxxxxxxxxxxxxxx"
+> LANGCHAIN_PROJECT = "YouTube LangSmith tutorial"
 > ```
 
 > [!TIP]
