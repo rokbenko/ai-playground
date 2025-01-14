@@ -305,8 +305,12 @@ Star this repo and help me hit 170 ⭐!
     <td>
       <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
     </td>
-    <td>Coming soon... ✨</td>
-    <td>Coming soon... ✨</td>
+    <td>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/langchain-tutorials/4-LangSmith_observability_starter" target="_blank">GitHub</a>
+    </td>
+    <td>
+      <a href="https://youtu.be/fU-TEVNrRYY" target="_blank">YouTube</a>
+    </td>
   </tr>
 </table>
 
