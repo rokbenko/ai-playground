@@ -1,21 +1,22 @@
-# #1 Podcast Prepper
+# #1 Podcast prepper
 
 ## 📖 Description 📖
 
-Python example using [CrewAI](https://www.crewai.com/), [Anthropic Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet) as an	LLM, and [Exa](https://exa.ai/) as a tool.
+Python example using [CrewAI](https://www.crewai.com/), [Anthropic Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet) as an LLM, and [Exa](https://exa.ai/) as a tool.
 
 It's designed for podcast hosts, helping them:
- - research a guest,
- - prepare detailed insights about the guest, and
- - suggest relevant questions for an upcoming episode with the guest.
 
-👉 Refer to the [`rok_benko_report.md`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/rok_benko_report.md) file for an example of the final report, if the entered guest is *Rok Benko*.
+- research a guest,
+- prepare detailed insights about the guest, and
+- suggest relevant questions for an upcoming episode with the guest.
+
+👉 Refer to the [`rok_benko_report.md`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/rok_benko_report.md) file for an example of the final report, if the entered guest is _Rok Benko_.
 
 <br>
 
 ## 🧐 Problem addressed 🧐
 
-The screenshot below shows [Google Trends](https://trends.google.com/trends/explore?date=all_2008&gprop=youtube&q=podcast&hl=en-US) data for the search term *podcast* on YouTube worldwide from 2008 to the present, highlighting a clear long-term upward trend in podcast popularity.
+The screenshot below shows [Google Trends](https://trends.google.com/trends/explore?date=all_2008&gprop=youtube&q=podcast&hl=en-US) data for the search term _podcast_ on YouTube worldwide from 2008 to the present, highlighting a clear long-term upward trend in podcast popularity.
 
 ![Google Trends data for the search term "podcast" on YouTube from 2008 to the present](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/google_trends_podcast_on_youtube.png)
 
@@ -44,6 +45,7 @@ Fuzzy_Mic_2021 saying:
 
 > [!IMPORTANT]
 > This project requires Python `>=3.10 <=3.13` and Poetry for dependency management. Please install both before proceeding:
+>
 > - [Download Python](https://www.python.org/downloads/)
 > - [Install Poetry](https://python-poetry.org/docs/#installation)
 
@@ -52,8 +54,8 @@ Fuzzy_Mic_2021 saying:
 
 1. Clone the repository: `git clone https://github.com/rokbenko/ai-playground.git`
 2. Change the directory: `cd ai-playground/crewai-tutorials/1-Podcast_prepper/podcast_prepper`
-3. Create an `.env` file in the root directory to set up your environment variables (*Note: Refer to the example below for the required environment variables.*)
-4. Install the dependencies using Poetry: `poetry install` (*Note: This may take a few minutes. Be patient!*)
+3. Create an `.env` file in the root directory to set up your environment variables (_Note: Refer to the example below for the required environment variables._)
+4. Install the dependencies using Poetry: `poetry install` (_Note: This may take a few minutes. Be patient!_)
 5. Activate the virtual environment using Poetry: `poetry shell`
 6. Run the CrewAI flow using Poetry: `poetry run flow`
 
@@ -70,6 +72,7 @@ Fuzzy_Mic_2021 saying:
 ## ⚒️ Tech stack ⚒️
 
 The project uses the following main tech stack:
+
 - [Python](https://www.python.org/)
 - [Python-dotenv](https://pypi.org/project/python-dotenv/)
 - [Asyncio](https://pypi.org/project/asyncio/)
@@ -85,35 +88,35 @@ For more detailed information, please refer to the [`poetry.lock`](https://githu
 
 1. Run the CrewAI flow using Poetry: `poetry run flow`
 2. Enter the guest's first and last name
-3. CrewAI working... (*Note: You don't need to do anything.*)
+3. CrewAI working... (_Note: You don't need to do anything._)
 4. When the Guest Research crew collects data on the guest, it will prompt you for human input (i.e., feedback)
-5. CrewAI working... (*Note: You don't need to do anything.*)
-6. The project's final output is saved in the format `<name>_<surname>_report.md` (*Note: For an example, refer to the [`rok_benko_report.md`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/rok_benko_report.md) file, generated if the entered guest is Rok Benko.*)
+5. CrewAI working... (_Note: You don't need to do anything._)
+6. The project's final output is saved in the format `<name>_<surname>_report.md` (_Note: For an example, refer to the [`rok_benko_report.md`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/rok_benko_report.md) file, generated if the entered guest is Rok Benko._)
 
-After running the CrewAI flow, a terminal input prompt will appear, as shown in the screenshot below. Enter the guest's first and last name. For example, I entered *Rok Benko*.
+After running the CrewAI flow, a terminal input prompt will appear, as shown in the screenshot below. Enter the guest's first and last name. For example, I entered _Rok Benko_.
 
 ![Guest input prompt](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/guest_input_prompt.png)
 
 > [!WARNING]
-> After the Guest Research crew collects data on the guest, it will prompt you for human input. At this stage, you can make any necessary corrections or simply respond with something like *Everything is fine, continue*. **It's crucial to provide input, even if you're satisfied with the report, as the flow will not continue without your confirmation.** You have the flexibility to edit, add, or request the deletion of any information gathered by the crew. Additionally, you can specify what you don't like in the report, and the crew will rerun the process, making adjustments to improve the report based on your feedback.
+> After the Guest Research crew collects data on the guest, it will prompt you for human input. At this stage, you can make any necessary corrections or simply respond with something like _Everything is fine, continue_. **It's crucial to provide input, even if you're satisfied with the report, as the flow will not continue without your confirmation.** You have the flexibility to edit, add, or request the deletion of any information gathered by the crew. Additionally, you can specify what you don't like in the report, and the crew will rerun the process, making adjustments to improve the report based on your feedback.
 >
->  [CrewAI's human-in-the-loop](https://docs.crewai.com/how-to/human-input-on-execution) integration is particularly useful for the project in the following scenarios:
+> [CrewAI's human-in-the-loop](https://docs.crewai.com/how-to/human-input-on-execution) integration is particularly useful for the project in the following scenarios:
 >
 > - **Identifying incorrect data:** The Guest Research crew may collect data about a person who shares the same first and last name but is not your guest. For instance, the crew might list a social media profile link for someone else with the same name.
->   - Solution: You can provide input like, *Change the Twitter link to https://www.x.com/rokbenko, remove the Facebook link completely as this is not the Rok Benko who will be my guest, and add his YouTube channel link I found online: https://www.youtube.com/@rokbenko*.
+>   - Solution: You can provide input like, _Change the Twitter link to https://www.x.com/rokbenko, remove the Facebook link completely as this is not the Rok Benko who will be my guest, and add his YouTube channel link I found online: https://www.youtube.com/@rokbenko_.
 > - **Requesting a full report:** The Guest Research crew may occasionally return a short summary instead of a complete markdown report on the guest.
->   - Solution: Simply respond with, *Write a full markdown report*.
+>   - Solution: Simply respond with, _Write a full markdown report_.
 
 > [!IMPORTANT]
-> Don't use phrases like *My guest is \<Name> \<Surname>*. This will not generate the expected report due to the configuration of the Exa web search tool. Only enter the guest's first and last name.
+> Don't use phrases like _My guest is \<Name> \<Surname>_. This will not generate the expected report due to the configuration of the Exa web search tool. Only enter the guest's first and last name.
 >
-> ✔️ *\<Name> \<Surname>*<br>
-> ❌ *Guest: \<Name> \<Surname>*<br>
-> ❌ *I will guest \<Name> \<Surname>*<br>
-> ❌ *My guest is \<Name> \<Surname>*
+> ✔️ _\<Name> \<Surname>_<br>
+> ❌ _Guest: \<Name> \<Surname>_<br>
+> ❌ _I will guest \<Name> \<Surname>_<br>
+> ❌ _My guest is \<Name> \<Surname>_
 
 > [!NOTE]
-> Keep in mind that this project is primarily a *proof-of-concept*. While it works well most of the time, occasional errors may occur, or the CrewAI output may not meet expectations. In such cases, rerunning the flow or using the *human-in-the-loop* feature more effectively should help resolve the issue.
+> Keep in mind that this project is primarily a _proof-of-concept_. While it works well most of the time, occasional errors may occur, or the CrewAI output may not meet expectations. In such cases, rerunning the flow or using the _human-in-the-loop_ feature more effectively should help resolve the issue.
 
 <br>
 
@@ -126,6 +129,7 @@ The project was built with [CrewAI Flows](https://docs.crewai.com/concepts/flows
 It consists of two crews, each designed to handle specific aspects of podcast preparation:
 
 1. **Guest Research crew**
+
 - Description: The Guest Research crew is responsible for conducting an in-depth investigation into the podcast guest. It gathers comprehensive information about the guest's background, career milestones, public image, and more, ensuring a well-rounded profile.
 - Agents in this crew:
   - Senior Researcher: This agent conducts an in-depth investigation into the podcast guest.
@@ -133,20 +137,22 @@ It consists of two crews, each designed to handle specific aspects of podcast pr
   - Research: This task involves gathering detailed information about the guest, focusing on aspects such as background, education, career milestones, and more. The output is a structured markdown report.
 - Tools used by this crew:
   - Exa: This tool searches the web for information about the guest.
-- Log: You can review an example log from the Guest Research crew, generated when I entered *Rok Benko* as a guest, by checking the [`log_guest_research_crew.txt`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/log_guest_research_crew.txt) file.
+- Log: You can review an example log from the Guest Research crew, generated when I entered _Rok Benko_ as a guest, by checking the [`log_guest_research_crew.txt`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/log_guest_research_crew.txt) file.
 
 2. **Questions Research crew**
+
 - Description: The Questions Research crew is responsible for formulating a set of relevant and thought-provoking questions for the guest. It ensures the questions are designed to be engaging and encourage a personal dialogue, often exploring philosophical themes.
 - Agents in this crew:
   - Senior Journalist: This agent creates insightful questions for the podcast guest.
 - Tasks in this crew:
   - Journalism: This task involves forming questions based on the guest's report made by the previous crew. The output is a markdown list of questions, phrased in the first person and structured chronologically.
 - Tools used by this crew: No tools are specified for this crew.
-- Log: You can review an example log from the Questions Research crew, generated when I entered *Rok Benko*, by checking the [`log_questions_research_crew.txt`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/log_questions_research_crew.txt) file.
+- Log: You can review an example log from the Questions Research crew, generated when I entered _Rok Benko_, by checking the [`log_questions_research_crew.txt`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/log_questions_research_crew.txt) file.
 
 ### Poetry
 
 The [pyproject.toml](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/pyproject.toml) file includes two commands:
+
 - `flow` (full command: `poetry run flow`), which runs the flow.
 - `plot` (full command: `poetry run plot`), which plots the flow.
 
@@ -155,14 +161,15 @@ The [pyproject.toml](https://github.com/rokbenko/ai-playground/blob/main/crewai-
 The total cost depends on the flow run, but it's typically ≈$0.13 when using the [Anthropic Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet) LLM. As of writing this, it costs $3 per million input tokens and $15 per million output tokens. See the [Anthropic Pricing page](https://www.anthropic.com/pricing#anthropic-api). Even if the total cost reaches $0.14 or $0.15, consider the value of your time. Would you trade $0.15 for 4 hours of manual work?
 
 Here’s a detailed cost breakdown based on the [`log_token_usage.txt`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/log_token_usage.txt) file:
+
 - [Anthropic Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet) LLM costs: $0.121734
-    - Guest Research crew: $0.096675
-        - Prompt tokens used: 14,410 → $0.04323 (`14,410 * (3 / 1.000.000)`)
-        - Completion tokens used: 3,563 → $0.053445 (`3,563 * (15 / 1.000.000)`)
-    - Questions Research crew: $0.025059
-        - Prompt tokens used: 3,908 → $0.011724 (`3,908 * (3 / 1.000.000)`)
-        - Completion tokens used: 889 → $0.013335 (`889 * (15 / 1.000.000)`)
-- Exa tool costs (*Note: Estimated, refer to the note below.*): $0.015
+  - Guest Research crew: $0.096675
+    - Prompt tokens used: 14,410 → $0.04323 (`14,410 * (3 / 1.000.000)`)
+    - Completion tokens used: 3,563 → $0.053445 (`3,563 * (15 / 1.000.000)`)
+  - Questions Research crew: $0.025059
+    - Prompt tokens used: 3,908 → $0.011724 (`3,908 * (3 / 1.000.000)`)
+    - Completion tokens used: 889 → $0.013335 (`889 * (15 / 1.000.000)`)
+- Exa tool costs (_Note: Estimated, refer to the note below._): $0.015
 
 This brings the total cost to $0.136734. Again, I want to emphasize that the total cost depends on the flow run, but it's typically ≈$0.13.
 
@@ -185,7 +192,8 @@ This brings the total cost to $0.136734. Again, I want to emphasize that the tot
 
 ## 📽️ Demonstration 📽️
 
-For demonstration purposes, I ran the project and entered *Rok Benko* as a guest. You can review the outputs from the following files:
+For demonstration purposes, I ran the project and entered _Rok Benko_ as a guest. You can review the outputs from the following files:
+
 - [`log_guest_research_crew.txt`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/log_guest_research_crew.txt) file for the output from the Guest Research crew,
 - [`log_questions_research_crew.txt`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/log_questions_research_crew.txt) file for the output from the Questions Research crew,
 - [`log_token_usage.txt`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/log_token_usage.txt) file for the token usage, and
