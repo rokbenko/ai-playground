@@ -4,7 +4,6 @@ version = "0.1.0"
 description = "CrewAI-powered application designed for podcast hosts, helping them research guests, prepare detailed insights, and suggest relevant questions for upcoming episodes."
 authors = ["Rok Benko"]
 
-
 [tool.poetry.dependencies]
 python = ">=3.10,<=3.13"
 python-dotenv = "*"
