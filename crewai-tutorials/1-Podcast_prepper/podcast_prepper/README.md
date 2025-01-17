@@ -18,7 +18,7 @@ It's designed for podcast hosts, helping them:
 
 The screenshot below shows [Google Trends](https://trends.google.com/trends/explore?date=all_2008&gprop=youtube&q=podcast&hl=en-US) data for the search term _podcast_ on YouTube worldwide from 2008 to the present, highlighting a clear long-term upward trend in podcast popularity.
 
-![Google Trends data for the search term "podcast" on YouTube from 2008 to the present](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/google_trends_podcast_on_youtube.png)
+![Google Trends data for the search term "podcast" on YouTube from 2008 to the present](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/assets/images/google_trends_podcast_on_youtube.png)
 
 But according to the [Reddit thread](https://www.reddit.com/r/podcasting/comments/18a3f26/how_do_you_prepare_for_interviewing_guests_how/), preparing for a podcast can take several hours!
 
@@ -94,7 +94,7 @@ For more detailed information, please refer to the [`poetry.lock`](https://githu
 
 After running the CrewAI flow, a terminal input prompt will appear, as shown in the screenshot below. Enter the guest's first and last name. For example, I entered _Rok Benko_.
 
-![Guest input prompt](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/guest_input_prompt.png)
+![Guest input prompt](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/assets/images/guest_input_prompt.png)
 
 > [!WARNING]
 > After the Guest Research crew collects data on the guest, it will prompt you for human input. At this stage, you can make any necessary corrections or simply respond with something like _Everything is fine, continue_. **It's crucial to provide input, even if you're satisfied with the report, as the flow will not continue without your confirmation.** You have the flexibility to edit, add, or request the deletion of any information gathered by the crew. Additionally, you can specify what you don't like in the report, and the crew will rerun the process, making adjustments to improve the report based on your feedback.
@@ -185,7 +185,7 @@ This brings the total cost to $0.136734. Again, I want to emphasize that the tot
 > [!TIP]
 > For higher quality, click on the image.
 
-![Flow plot](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/crewai_flow.png)
+![Flow plot](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/1-Podcast_prepper/podcast_prepper/assets/images/crewai_flow.png)
 
 <br>
 
