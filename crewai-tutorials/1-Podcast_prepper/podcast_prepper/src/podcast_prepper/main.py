@@ -7,7 +7,6 @@ from .crews.questions_research_crew.questions_research_crew import QuestionsRese
 from rich.console import Console
 from rich.prompt import Prompt
 
-
 output_formatter = Console()
 
 
