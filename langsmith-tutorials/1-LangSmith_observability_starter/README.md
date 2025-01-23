@@ -1,4 +1,4 @@
-# #4 LangSmith observability starter
+# #1 LangSmith observability starter
 
 ## 📖 Description 📖
 
@@ -6,7 +6,7 @@ Add observability using LangSmith to the [#3 TUI for a LangGraph agent with pers
 
 In the previous tutorial, we demonstrated how to implement persistent memory for a LangGraph agent using PostgreSQL. However, after sharing the tutorial on social media, I received feedback pointing out that this approach consumes more tokens. This observation is valid. In this tutorial, we’ll use LangSmith for observability to confirm this and provide deeper insights into token usage.
 
-This directory will have the following structure after completing the steps in the [_Getting started_](https://github.com/rokbenko/ai-playground/tree/main/langgraph-tutorials/4-LangSmith_observability_starter#-getting-started-) section:
+This directory will have the following structure after completing the steps in the [_Getting started_](https://github.com/rokbenko/ai-playground/tree/main/langsmith-tutorials/1-LangSmith_observability_starter#-getting-started-) section:
 
 ```
 │   README.md
@@ -34,7 +34,7 @@ This directory will have the following structure after completing the steps in t
 
 ## 🚀 Getting started 🚀
 
-Before running [`test_langsmith_observability.py`](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/4-LangSmith_observability_starter/python/test_langsmith_observability.py) or [`tui_langsmith_observability.py`](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/4-LangSmith_observability_starter/python/tui_langsmith_observability.py), follow the instructions below.
+Before running [`test_langsmith_observability.py`](https://github.com/rokbenko/ai-playground/blob/main/langsmith-tutorials/1-LangSmith_observability_starter/python/test_langsmith_observability.py) or [`tui_langsmith_observability.py`](https://github.com/rokbenko/ai-playground/blob/main/langsmith-tutorials/1-LangSmith_observability_starter/python/tui_langsmith_observability.py), follow the instructions below.
 
 > [!NOTE]
 > The instructions are specific to Windows. For macOS or Linux, please use the corresponding commands for your operating system.
@@ -42,7 +42,7 @@ Before running [`test_langsmith_observability.py`](https://github.com/rokbenko/a
 ### Python
 
 1. Clone the repository: `git clone https://github.com/rokbenko/ai-playground.git`
-2. Change the directory: `cd ai-playground/langgraph-tutorials/4-LangSmith_observability_starter/python`
+2. Change the directory: `cd ai-playground/langsmith-tutorials/1-LangSmith_observability_starter/python`
 3. Create a virtual environment named `my-venv`: `python -m venv my-venv`
 4. Activate the virtual environment `my-venv`: `my-venv/scripts/activate`
 5. Install the dependencies: `python -m pip install -r requirements.txt`
@@ -101,13 +101,13 @@ Before running [`test_langsmith_observability.py`](https://github.com/rokbenko/a
 > You can verify that the virtual environment is _activated_ successfully if you see `(my-venv)` at the beginning of your terminal prompt, like this:
 >
 > ```
-> (my-venv) C:\your\path\to\ai-playground\langgraph-tutorials\4-LangSmith_observability_starter\python
+> (my-venv) C:\your\path\to\ai-playground\langsmith-tutorials\1-LangSmith_observability_starter\python
 > ```
 >
 > You can verify that the virtual environment is _deactivated_ successfully if you don't see `(my-venv)` anymore at the beginning of your terminal prompt, like this:
 >
 > ```
-> C:\your\path\to\ai-playground\langgraph-tutorials\4-LangSmith_observability_starter\python
+> C:\your\path\to\ai-playground\langsmith-tutorials\1-LangSmith_observability_starter\python
 > ```
 
 > [!NOTE] > `venv` is a built-in Python module that allows you to create and manage virtual environments. If you have Python `3.3` or higher installed, you can start using `venv` right away.
@@ -116,16 +116,16 @@ Before running [`test_langsmith_observability.py`](https://github.com/rokbenko/a
 
 ## 🔥 Working example in Python 🔥
 
-If you’ve set up the `.env` file correctly, you should see a report in the LangSmith dashboard after running [`test_langsmith_observability.py`](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/4-LangSmith_observability_starter/python/test_langsmith_observability.py):
+If you’ve set up the `.env` file correctly, you should see a report in the LangSmith dashboard after running [`test_langsmith_observability.py`](https://github.com/rokbenko/ai-playground/blob/main/langsmith-tutorials/1-LangSmith_observability_starter/python/test_langsmith_observability.py):
 
-![LangSmith test run dashboard screenshot](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/4-LangSmith_observability_starter/python/langsmith_test.png)
+![LangSmith test run dashboard screenshot](https://github.com/rokbenko/ai-playground/blob/main/langsmith-tutorials/1-LangSmith_observability_starter/python/langsmith_test.png)
 
-In the screenshot above, the `LANGCHAIN_PROJECT` environment variable in the `.env` file was set to `test`, which is why the traced project's name appeared as _test_ in LangSmith. To test LangSmith, I ran [`test_langsmith_observability.py`](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/4-LangSmith_observability_starter/python/test_langsmith_observability.py), greeted the LangGraph agent with _Hello, world!_, and received the agent's response _Hello! How can I assist you today? Let's chat about anything you'd like._ 😊 After that, I typed _Quit_ to exit the chat. Both the input and output combined consumed a total of 28 tokens.
+In the screenshot above, the `LANGCHAIN_PROJECT` environment variable in the `.env` file was set to `test`, which is why the traced project's name appeared as _test_ in LangSmith. To test LangSmith, I ran [`test_langsmith_observability.py`](https://github.com/rokbenko/ai-playground/blob/main/langsmith-tutorials/1-LangSmith_observability_starter/python/test_langsmith_observability.py), greeted the LangGraph agent with _Hello, world!_, and received the agent's response _Hello! How can I assist you today? Let's chat about anything you'd like._ 😊 After that, I typed _Quit_ to exit the chat. Both the input and output combined consumed a total of 28 tokens.
 
 > [!NOTE]
 > If you notice three runs in the screenshot above, please ignore them. I ran the Python script three times while exploring LangSmith for the first time, just to test how it works. Two of those runs are duplicates. The conversation described above with _Hello, world!_ should result in just one run.
 
-After confirming that LangSmith was working, I ran [`tui_langsmith_observability.py`](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/4-LangSmith_observability_starter/python/tui_langsmith_observability.py) three times, as detailed below:
+After confirming that LangSmith was working, I ran [`tui_langsmith_observability.py`](https://github.com/rokbenko/ai-playground/blob/main/langsmith-tutorials/1-LangSmith_observability_starter/python/tui_langsmith_observability.py) three times, as detailed below:
 
 #### Chat #1
 
@@ -177,15 +177,15 @@ Each chat session resulted in a separate run, and LangSmith generated a report f
 
 **LangSmith report for the first chat session:**
 
-![LangSmith TUI first run dashboard screenshot](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/4-LangSmith_observability_starter/python/langsmith_tui_run_1.png)
+![LangSmith TUI first run dashboard screenshot](https://github.com/rokbenko/ai-playground/blob/main/langsmith-tutorials/1-LangSmith_observability_starter/python/langsmith_tui_run_1.png)
 
 **LangSmith report for the second chat session:**
 
-![LangSmith TUI second run dashboard screenshot](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/4-LangSmith_observability_starter/python/langsmith_tui_run_2.png)
+![LangSmith TUI second run dashboard screenshot](https://github.com/rokbenko/ai-playground/blob/main/langsmith-tutorials/1-LangSmith_observability_starter/python/langsmith_tui_run_2.png)
 
 **LangSmith report for the third chat session:**
 
-![LangSmith TUI third run dashboard screenshot](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/4-LangSmith_observability_starter/python/langsmith_tui_run_3.png)
+![LangSmith TUI third run dashboard screenshot](https://github.com/rokbenko/ai-playground/blob/main/langsmith-tutorials/1-LangSmith_observability_starter/python/langsmith_tui_run_3.png)
 
 > [!NOTE]
 > The screenshots were taken after the third chat session was completed, which is why all three screenshots show all three runs. In reality, after the first chat session, LangSmith displayed one run. After the second, it displayed two runs. And after the third, it displayed three runs.
@@ -220,9 +220,9 @@ Dependencies:
 
 ## 📽️ Demonstration 📽️
 
-Take a look at the following screenshots that demonstrate the LangSmith integration in action as described in the [_Working example in Python_](https://github.com/rokbenko/ai-playground/tree/main/langgraph-tutorials/4-LangSmith_observability_starter#-working-example-in-python-) section:
+Take a look at the following screenshots that demonstrate the LangSmith integration in action as described in the [_Working example in Python_](https://github.com/rokbenko/ai-playground/tree/main/langsmith-tutorials/1-LangSmith_observability_starter#-working-example-in-python-) section:
 
-- [Test LangSmith run report](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/4-LangSmith_observability_starter/python/langsmith_test.png)
-- [First LangSmith TUI run report](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/4-LangSmith_observability_starter/python/langsmith_tui_run_1.png)
-- [Second LangSmith TUI run report](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/4-LangSmith_observability_starter/python/langsmith_tui_run_2.png)
-- [Third LangSmith TUI run report](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/4-LangSmith_observability_starter/python/langsmith_tui_run_3.png)
+- [Test LangSmith run report](https://github.com/rokbenko/ai-playground/blob/main/langsmith-tutorials/1-LangSmith_observability_starter/python/langsmith_test.png)
+- [First LangSmith TUI run report](https://github.com/rokbenko/ai-playground/blob/main/langsmith-tutorials/1-LangSmith_observability_starter/python/langsmith_tui_run_1.png)
+- [Second LangSmith TUI run report](https://github.com/rokbenko/ai-playground/blob/main/langsmith-tutorials/1-LangSmith_observability_starter/python/langsmith_tui_run_2.png)
+- [Third LangSmith TUI run report](https://github.com/rokbenko/ai-playground/blob/main/langsmith-tutorials/1-LangSmith_observability_starter/python/langsmith_tui_run_3.png)
