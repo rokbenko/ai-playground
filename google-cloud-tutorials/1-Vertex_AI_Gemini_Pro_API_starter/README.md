@@ -1,4 +1,4 @@
-# #2 Vertex AI Gemini Pro API starter
+# #1 Vertex AI Gemini Pro API starter
 
 ## 📖 Description 📖
 
