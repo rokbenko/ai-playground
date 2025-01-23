@@ -14,8 +14,8 @@ Python and Node.js examples on how to use the Vertex AI Gemini Pro API.
 2. Creating our first project
 3. Enabling the Vertex AI API
 4. Setting up Application Default Credentials using IAM, which includes:
-    - Creating a service account
-    - Generating a JSON key
+   - Creating a service account
+   - Generating a JSON key
 5. Setting the JSON key as an environment variable
 6. Installing the Vertex AI SDK
 
@@ -25,7 +25,7 @@ Python and Node.js examples on how to use the Vertex AI Gemini Pro API.
 
 ## 🔥 Working example in Python 🔥
 
-If you run [`vertex_gemini_pro.py`](https://github.com/rokbenko/ai-playground/blob/main/google-tutorials/2-Vertex_AI_Gemini_Pro_API_starter/vertex_gemini_pro.py), you should get a response:
+If you run [`vertex_gemini_pro.py`](https://github.com/rokbenko/ai-playground/blob/main/google-cloud-tutorials/1-Vertex_AI_Gemini_Pro_API_starter/vertex_gemini_pro.py), you should get a response:
 
 > Hi there! How can I assist you today?
 
@@ -44,7 +44,7 @@ Dependencies:
 
 ## 🔥 Working example in Node.js 🔥
 
-If you run [`vertex_gemini_pro.js`](https://github.com/rokbenko/ai-playground/blob/main/google-tutorials/2-Vertex_AI_Gemini_Pro_API_starter/vertex_gemini_pro.js), you should get a response:
+If you run [`vertex_gemini_pro.js`](https://github.com/rokbenko/ai-playground/blob/main/google-cloud-tutorials/1-Vertex_AI_Gemini_Pro_API_starter/vertex_gemini_pro.js), you should get a response:
 
 > Hi there! How can I assist you today?
 
