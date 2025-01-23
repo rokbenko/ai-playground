@@ -220,7 +220,7 @@ Dependencies:
 
 ## 📽️ Demonstration 📽️
 
-Take a look at the following screenshots that demonstrate the LangSmith integration in action as described in the [_Working example in Python_](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/4-LangSmith_observability_starter/README.md#-getting-started-) section:
+Take a look at the following screenshots that demonstrate the LangSmith integration in action as described in the [_Working example in Python_](https://github.com/rokbenko/ai-playground/tree/main/langgraph-tutorials/4-LangSmith_observability_starter#-working-example-in-python-) section:
 
 - [Test LangSmith run report](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/4-LangSmith_observability_starter/python/langsmith_test.png)
 - [First LangSmith TUI run report](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/4-LangSmith_observability_starter/python/langsmith_tui_run_1.png)
