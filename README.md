@@ -49,6 +49,8 @@ Star this repo and help me hit 200 ⭐!
   - [Cloud](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#%EF%B8%8F-cloud-%EF%B8%8F)<br>
     - [Google Cloud](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#google-cloud)<br>
     - [Snowflake](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#snowflake)<br>
+  - [Monitoring](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-monitoring-)<br>
+    - [LangSmith](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#langsmith)<br>
   - [Vector DBs](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#%EF%B8%8F-vector-dbs-%EF%B8%8F)<br>
     - [Milvus](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#milvus)<br>
   - [NLP](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-nlp-)<br>
