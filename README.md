@@ -44,12 +44,12 @@ Star this repo and help me hit 200 ⭐!
     - [JigsawStack](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#jigsawstack)<br>
   - [Agents](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-agents-)
     - [LangGraph](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#langgraph)<br>
-    - [CrewAI](https://github.com/rokbenko/ai-playground/tree/main?tab=readme-ov-file#crewai)<br> 
+    - [CrewAI](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#crewai)<br> 
     - [Fetch.ai](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#fetchai)<br>
   - [Cloud](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#%EF%B8%8F-cloud-%EF%B8%8F)<br>
     - [Google Cloud](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#google-cloud)<br>
     - [Snowflake](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#snowflake)<br>
-  - [Vector DBs](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#%EF%B8%8F-vector-databases-%EF%B8%8F)<br>
+  - [Vector DBs](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#%EF%B8%8F-vector-dbs-%EF%B8%8F)<br>
     - [Milvus](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#milvus)<br>
   - [NLP](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-nlp-)<br>
     - [spaCy](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#spacy)<br>
