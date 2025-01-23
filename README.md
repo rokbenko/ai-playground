@@ -40,10 +40,10 @@ Star this repo and help me hit 200 ⭐!
     - [OpenAI](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#openai)<br>
     - [Google](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#google)<br>
   - [Frameworks](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#%EF%B8%8F-frameworks-%EF%B8%8F)<br>
-    - [LangChain](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#langchain)<br>
     - [LlamaIndex](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#llamaindex)<br>
     - [JigsawStack](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#jigsawstack)<br>
   - [Agents](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-agents-)
+    - [LangGraph](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#langgraph)<br>
     - [CrewAI](https://github.com/rokbenko/ai-playground/tree/main?tab=readme-ov-file#crewai)<br> 
     - [Fetch.ai](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#fetchai)<br>
   - [Cloud](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#%EF%B8%8F-cloud-%EF%B8%8F)<br>
