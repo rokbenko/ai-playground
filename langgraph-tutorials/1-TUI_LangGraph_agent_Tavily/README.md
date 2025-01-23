@@ -4,7 +4,7 @@
 
 Python and Node.js TUIs for a LangGraph ReAct agent using OpenAI LLM and Tavily tool to get a web connection.
 
-This directory will have the following structure after completing the steps in the [*Getting started*](https://github.com/rokbenko/ai-playground/tree/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily#-getting-started-) section:
+This directory will have the following structure after completing the steps in the [_Getting started_](https://github.com/rokbenko/ai-playground/tree/main/langgraph-tutorials/1-TUI_LangGraph_agent_Tavily#-getting-started-) section:
 
 ```
 │   README.md
@@ -37,7 +37,7 @@ This directory will have the following structure after completing the steps in t
 
 ## 🚀 Getting started 🚀
 
-Before running [`tui_langgraph_agent_tavily.py`](https://github.com/rokbenko/ai-playground/blob/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily/python/tui_langgraph_agent_tavily.py) or [`tui_langgraph_agent_tavily.js`](https://github.com/rokbenko/ai-playground/blob/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily/nodejs/tui_langgraph_agent_tavily.js), follow the instructions below.
+Before running [`tui_langgraph_agent_tavily.py`](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/1-TUI_LangGraph_agent_Tavily/python/tui_langgraph_agent_tavily.py) or [`tui_langgraph_agent_tavily.js`](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/1-TUI_LangGraph_agent_Tavily/nodejs/tui_langgraph_agent_tavily.js), follow the instructions below.
 
 > [!NOTE]
 > The instructions are specific to Windows. For macOS or Linux, please use the corresponding commands for your operating system.
@@ -45,7 +45,7 @@ Before running [`tui_langgraph_agent_tavily.py`](https://github.com/rokbenko/ai-
 ### Python
 
 1. Clone the repository: `git clone https://github.com/rokbenko/ai-playground.git`
-2. Change the directory: `cd ai-playground/langchain-tutorials/1-TUI_LangGraph_agent_Tavily/python`
+2. Change the directory: `cd ai-playground/langgraph-tutorials/1-TUI_LangGraph_agent_Tavily/python`
 3. Create a virtual environment named `my-venv`: `python -m venv my-venv`
 4. Activate the virtual environment `my-venv`: `my-venv/scripts/activate`
 5. Install the dependencies: `python -m pip install -r requirements.txt`
@@ -92,22 +92,21 @@ Before running [`tui_langgraph_agent_tavily.py`](https://github.com/rokbenko/ai-
 > You can verify that the virtual environment is _activated_ successfully if you see `(my-venv)` at the beginning of your terminal prompt, like this:
 >
 > ```
-> (my-venv) C:\your\path\to\ai-playground\langchain-tutorials\1-TUI_LangGraph_agent_Tavily\python
+> (my-venv) C:\your\path\to\ai-playground\langgraph-tutorials\1-TUI_LangGraph_agent_Tavily\python
 > ```
 >
 > You can verify that the virtual environment is _deactivated_ successfully if you don't see `(my-venv)` anymore at the beginning of your terminal prompt, like this:
 >
 > ```
-> C:\your\path\to\ai-playground\langchain-tutorials\1-TUI_LangGraph_agent_Tavily\python
+> C:\your\path\to\ai-playground\langgraph-tutorials\1-TUI_LangGraph_agent_Tavily\python
 > ```
 
-> [!NOTE]
-> `venv` is a built-in Python module that allows you to create and manage virtual environments. If you have Python `3.3` or higher installed, you can start using `venv` right away.
+> [!NOTE] > `venv` is a built-in Python module that allows you to create and manage virtual environments. If you have Python `3.3` or higher installed, you can start using `venv` right away.
 
 ### Node.js
 
 1. Clone the repository: `git clone https://github.com/rokbenko/ai-playground.git`
-2. Change the directory: `cd ai-playground/langchain-tutorials/1-TUI_LangGraph_agent_Tavily/nodejs`
+2. Change the directory: `cd ai-playground/langgraph-tutorials/1-TUI_LangGraph_agent_Tavily/nodejs`
 3. Install the dependencies: `npm i`
 4. Create an `.env` file to set up your environment variables
 5. Run the Node.js script: `node tui_langgraph_agent_tavily.js`
@@ -124,7 +123,7 @@ Before running [`tui_langgraph_agent_tavily.py`](https://github.com/rokbenko/ai-
 
 ## 🔥 Working example in Python 🔥
 
-If you run [`tui_langgraph_agent_tavily.py`](https://github.com/rokbenko/ai-playground/blob/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily/python/tui_langgraph_agent_tavily.py), you should be able to chat with the agent in a terminal:
+If you run [`tui_langgraph_agent_tavily.py`](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/1-TUI_LangGraph_agent_Tavily/python/tui_langgraph_agent_tavily.py), you should be able to chat with the agent in a terminal:
 
 > User:<br>
 > Hi, I'm Bob!
@@ -167,7 +166,7 @@ Dependencies:
 
 ## 🔥 Working example in Node.js 🔥
 
-If you run [`tui_langgraph_agent_tavily.js`](https://github.com/rokbenko/ai-playground/blob/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily/nodejs/tui_langgraph_agent_tavily.js), you should be able to chat with the agent in a terminal:
+If you run [`tui_langgraph_agent_tavily.js`](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/1-TUI_LangGraph_agent_Tavily/nodejs/tui_langgraph_agent_tavily.js), you should be able to chat with the agent in a terminal:
 
 > User:<br>
 > Hi, I'm Bob!
@@ -209,4 +208,4 @@ Dependencies:
 
 ## 📽️ Demonstration 📽️
 
-![Demonstration of how to chat in a terminal with the LangGraph ReAct agent with a web connection through Tavily](https://github.com/rokbenko/ai-playground/blob/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily/demonstration.gif)
+![Demonstration of how to chat in a terminal with the LangGraph ReAct agent with a web connection through Tavily](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/1-TUI_LangGraph_agent_Tavily/demonstration.gif)

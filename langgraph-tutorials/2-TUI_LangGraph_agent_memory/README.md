@@ -2,14 +2,14 @@
 
 ## 📖 Description 📖
 
-Add memory to the [#1 TUI for a LangGraph agent with a web connection](https://github.com/rokbenko/ai-playground/tree/main/langchain-tutorials/1-TUI_LangGraph_agent_Tavily) tutorial.
+Add memory to the [#1 TUI for a LangGraph agent with a web connection](https://github.com/rokbenko/ai-playground/tree/main/langgraph-tutorials/1-TUI_LangGraph_agent_Tavily) tutorial.
 
 > [!NOTE]
 > In this tutorial, we'll implement in-memory storage for a LangGraph agent using the `MemorySaver` class. The data is stored temporarily in the computer's RAM, enabling quick access and retrieval during the agent's operation. However, this memory will be lost when the script exits or the app is terminated, as it isn't stored persistently.
 >
-> If you're looking for a persistent memory implementation for a LangGraph agent, please see the [#3 TUI for a LangGraph agent with persistent memory using PostgreSQL](https://github.com/rokbenko/ai-playground/tree/main/langchain-tutorials/3-TUI_LangGraph_agent_PostgreSQL_memory) tutorial.
+> If you're looking for a persistent memory implementation for a LangGraph agent, please see the [#3 TUI for a LangGraph agent with persistent memory using PostgreSQL](https://github.com/rokbenko/ai-playground/tree/main/langgraph-tutorials/3-TUI_LangGraph_agent_PostgreSQL_memory) tutorial.
 
-This directory will have the following structure after completing the steps in the [*Getting started*](https://github.com/rokbenko/ai-playground/tree/main/langchain-tutorials/2-TUI_LangGraph_agent_memory#-getting-started-) section:
+This directory will have the following structure after completing the steps in the [_Getting started_](https://github.com/rokbenko/ai-playground/tree/main/langgraph-tutorials/2-TUI_LangGraph_agent_memory#-getting-started-) section:
 
 ```
 │   README.md
@@ -42,7 +42,7 @@ This directory will have the following structure after completing the steps in t
 
 ## 🚀 Getting started 🚀
 
-Before running [`tui_langgraph_agent_memory.py`](https://github.com/rokbenko/ai-playground/blob/main/langchain-tutorials/2-TUI_LangGraph_agent_memory/python/tui_langgraph_agent_memory.py) or [`tui_langgraph_agent_memory.js`](https://github.com/rokbenko/ai-playground/blob/main/langchain-tutorials/2-TUI_LangGraph_agent_memory/nodejs/tui_langgraph_agent_memory.js), follow the instructions below.
+Before running [`tui_langgraph_agent_memory.py`](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/2-TUI_LangGraph_agent_memory/python/tui_langgraph_agent_memory.py) or [`tui_langgraph_agent_memory.js`](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/2-TUI_LangGraph_agent_memory/nodejs/tui_langgraph_agent_memory.js), follow the instructions below.
 
 > [!NOTE]
 > The instructions are specific to Windows. For macOS or Linux, please use the corresponding commands for your operating system.
@@ -50,7 +50,7 @@ Before running [`tui_langgraph_agent_memory.py`](https://github.com/rokbenko/ai-
 ### Python
 
 1. Clone the repository: `git clone https://github.com/rokbenko/ai-playground.git`
-2. Change the directory: `cd ai-playground/langchain-tutorials/2-TUI_LangGraph_agent_memory/python`
+2. Change the directory: `cd ai-playground/langgraph-tutorials/2-TUI_LangGraph_agent_memory/python`
 3. Create a virtual environment named `my-venv`: `python -m venv my-venv`
 4. Activate the virtual environment `my-venv`: `my-venv/scripts/activate`
 5. Install the dependencies: `python -m pip install -r requirements.txt`
@@ -97,22 +97,21 @@ Before running [`tui_langgraph_agent_memory.py`](https://github.com/rokbenko/ai-
 > You can verify that the virtual environment is _activated_ successfully if you see `(my-venv)` at the beginning of your terminal prompt, like this:
 >
 > ```
-> (my-venv) C:\your\path\to\ai-playground\langchain-tutorials\2-TUI_LangGraph_agent_memory\python
+> (my-venv) C:\your\path\to\ai-playground\langgraph-tutorials\2-TUI_LangGraph_agent_memory\python
 > ```
 >
 > You can verify that the virtual environment is _deactivated_ successfully if you don't see `(my-venv)` anymore at the beginning of your terminal prompt, like this:
 >
 > ```
-> C:\your\path\to\ai-playground\langchain-tutorials\2-TUI_LangGraph_agent_memory\python
+> C:\your\path\to\ai-playground\langgraph-tutorials\2-TUI_LangGraph_agent_memory\python
 > ```
 
-> [!NOTE]
-> `venv` is a built-in Python module that allows you to create and manage virtual environments. If you have Python `3.3` or higher installed, you can start using `venv` right away.
+> [!NOTE] > `venv` is a built-in Python module that allows you to create and manage virtual environments. If you have Python `3.3` or higher installed, you can start using `venv` right away.
 
 ### Node.js
 
 1. Clone the repository: `git clone https://github.com/rokbenko/ai-playground.git`
-2. Change the directory: `cd ai-playground/langchain-tutorials/2-TUI_LangGraph_agent_memory/nodejs`
+2. Change the directory: `cd ai-playground/langgraph-tutorials/2-TUI_LangGraph_agent_memory/nodejs`
 3. Install the dependencies: `npm i`
 4. Create an `.env` file to set up your environment variables
 5. Run the Node.js script: `node tui_langgraph_agent_memory.js`
@@ -132,7 +131,7 @@ Before running [`tui_langgraph_agent_memory.py`](https://github.com/rokbenko/ai-
 > [!NOTE]
 > The check mark (i.e., ✔️) and cross mark (i.e., ❌) emojis are not part of the agent's actual responses. They were added manually in this README file to highlight the parts of the chat that the tutorial is designed to address.
 
-If you run [`tui_langgraph_agent_memory.py`](https://github.com/rokbenko/ai-playground/blob/main/langchain-tutorials/2-TUI_LangGraph_agent_memory/python/tui_langgraph_agent_memory.py), you should be able to chat with the agent in a terminal:
+If you run [`tui_langgraph_agent_memory.py`](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/2-TUI_LangGraph_agent_memory/python/tui_langgraph_agent_memory.py), you should be able to chat with the agent in a terminal:
 
 > User:<br>
 > Hi, I'm Bob!
@@ -155,23 +154,24 @@ If you run [`tui_langgraph_agent_memory.py`](https://github.com/rokbenko/ai-play
 > [!NOTE]
 > If the memory wouldn't be implemented, the chat would look as follows:
 > <br>
+>
 > > User:<br>
-> Hi, I'm Bob!
-> <br><br>
-> Agent:<br>
-> Hello Bob! How can I assist you today?
-> <br><br>
-> User:<br>
-> Tell me what's my name.
-> <br><br>
-> Agent:<br>
-> I'm unable to know your name as I don't have that information. If there's anything specific you'd like me to help you with, feel free to ask! ❌
-> <br><br>
-> User:<br>
-> Quit
-> <br><br>
-> Agent:<br>
-> Have a nice day! 👋
+> > Hi, I'm Bob!
+> > <br><br>
+> > Agent:<br>
+> > Hello Bob! How can I assist you today?
+> > <br><br>
+> > User:<br>
+> > Tell me what's my name.
+> > <br><br>
+> > Agent:<br>
+> > I'm unable to know your name as I don't have that information. If there's anything specific you'd like me to help you with, feel free to ask! ❌
+> > <br><br>
+> > User:<br>
+> > Quit
+> > <br><br>
+> > Agent:<br>
+> > Have a nice day! 👋
 
 ### ⚒️ Tech stack ⚒️
 
@@ -197,7 +197,7 @@ Dependencies:
 > [!NOTE]
 > The check mark (i.e., ✔️) and cross mark (i.e., ❌) emojis are not part of the agent's actual responses. They were added manually in this README file to highlight the parts of the chat that the tutorial is designed to address.
 
-If you run [`tui_langgraph_agent_memory.js`](https://github.com/rokbenko/ai-playground/blob/main/langchain-tutorials/2-TUI_LangGraph_agent_memory/nodejs/tui_langgraph_agent_memory.js), you should be able to chat with the agent in a terminal:
+If you run [`tui_langgraph_agent_memory.js`](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/2-TUI_LangGraph_agent_memory/nodejs/tui_langgraph_agent_memory.js), you should be able to chat with the agent in a terminal:
 
 > User:<br>
 > Hi, I'm Bob!
@@ -220,23 +220,24 @@ If you run [`tui_langgraph_agent_memory.js`](https://github.com/rokbenko/ai-play
 > [!NOTE]
 > If the memory wouldn't be implemented, the chat would look as follows:
 > <br>
+>
 > > User:<br>
-> Hi, I'm Bob!
-> <br><br>
-> Agent:<br>
-> Hello Bob! How can I assist you today?
-> <br><br>
-> User:<br>
-> Tell me what's my name.
-> <br><br>
-> Agent:<br>
-> I'm unable to know your name as I don't have that information. If there's anything specific you'd like me to help you with, feel free to ask! ❌
-> <br><br>
-> User:<br>
-> Quit
-> <br><br>
-> Agent:<br>
-> Have a nice day!
+> > Hi, I'm Bob!
+> > <br><br>
+> > Agent:<br>
+> > Hello Bob! How can I assist you today?
+> > <br><br>
+> > User:<br>
+> > Tell me what's my name.
+> > <br><br>
+> > Agent:<br>
+> > I'm unable to know your name as I don't have that information. If there's anything specific you'd like me to help you with, feel free to ask! ❌
+> > <br><br>
+> > User:<br>
+> > Quit
+> > <br><br>
+> > Agent:<br>
+> > Have a nice day!
 
 ### ⚒️ Tech stack ⚒️
 
@@ -262,10 +263,10 @@ Dependencies:
 
 An example of a question where the agent doesn't need to use the Tavily tool to give an answer. The goal is for the agent to know what's the user's name — the answer is Bob:
 
-![Demonstration of a question where the agent doesn't need to use the Tavily tool](https://github.com/rokbenko/ai-playground/blob/main/langchain-tutorials/2-TUI_LangGraph_agent_memory/demonstration_no_tools.gif)
+![Demonstration of a question where the agent doesn't need to use the Tavily tool](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/2-TUI_LangGraph_agent_memory/demonstration_no_tools.gif)
 
 ### With Tavily tool
 
 An example of a question where the agent does need to use the Tavily tool to give an answer. The goal is for the agent to know what we want to know about New York — the answer is weather:
 
-![Demonstration of a question where the agent does need to use the Tavily tool](https://github.com/rokbenko/ai-playground/blob/main/langchain-tutorials/2-TUI_LangGraph_agent_memory/demonstration_tools.gif)
+![Demonstration of a question where the agent does need to use the Tavily tool](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/2-TUI_LangGraph_agent_memory/demonstration_tools.gif)
