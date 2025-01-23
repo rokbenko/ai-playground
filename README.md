@@ -641,11 +641,11 @@ Star this repo and help me hit 200 ⭐!
 
 Thank you for considering contributing to my repository. While I don't accept direct additions of tutorials, I warmly welcome contributions in the following forms:
 
-- **Reporting major issues**: Found a bug, or error? Feel free to open an issue on GitHub. Be sure to provide as much detail as possible, including steps to reproduce the issue.
-- **Fixing minor issues**: Found a typo, grammatical error, or other small issue? Feel free to open a pull request to fix them directly.
-- **Making suggestions**: Have an idea how I can enhance my tutorials or topics I should cover? Share your thoughts by creating a new issue outlining your suggestion. I'll carefully consider all reasonable ideas.
+- **Reporting major issues:** Found a bug, or error? Feel free to open an issue on GitHub. Be sure to provide as much detail as possible, including steps to reproduce the issue.
+- **Fixing minor issues:** Found a typo, grammatical error, or other small issue? Feel free to open a pull request to fix them directly.
+- **Making suggestions:** Have an idea how I can enhance my tutorials or topics I should cover? Share your thoughts by creating a new issue outlining your suggestion. I'll carefully consider all reasonable ideas.
 
-To [contribute](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project), do the following:
+To contribute:
 
 1.  Fork this repository.
 2.  Make your desired changes.
@@ -658,4 +658,4 @@ I'll review your pull request and get back to you as soon as possible.
 
 ## 📄 License 📄
 
-This project is open source and available under the [MIT License](https://github.com/rokbenko/ai-playground/blob/main/LICENSE).
+This project is open source and available under the MIT [license](https://github.com/rokbenko/ai-playground/blob/main/LICENSE).
