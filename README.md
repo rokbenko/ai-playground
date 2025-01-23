@@ -3,13 +3,35 @@
 # Code from YouTube channel<br> [Code AI with Rok](https://www.youtube.com/@rokbenko?sub_confirmation=1)
 
 Found something awesome here?<br>
-Star this repo and help me hit 180 ⭐!
+Star this repo and help me hit 200 ⭐!
 
 [![ai-playground repository stars](https://img.shields.io/github/stars/rokbenko/ai-playground?style=social)](https://github.com/rokbenko/ai-playground)
 
 <br>
 
+<img src="https://cdn.simpleicons.org/openai/000/FFF" alt="OpenAI logo" width=20 height=20 align=center>
+<img src="https://cdn.simpleicons.org/anthropic/000/CC9B7A" alt="Anthropic logo" width=24 height=24 align=center>
+<img src="https://cdn.simpleicons.org/googlegemini/000/2E96FF" alt="Gemini logo" width=24 height=24 align=center>  
+<img src="https://avatars.githubusercontent.com/u/132372032?s=200&v=4" alt="Mistral logo" width=24 height=24 align=center>&nbsp;&nbsp;&nbsp;&nbsp;
+
+<img src="https://cdn.simpleicons.org/langchain/000/FFF" alt="LangChain logo" width=36 height=36 align=center>
+<img src="https://docs.llamaindex.ai/en/stable/_static/assets/LlamaSquareBlack.svg" alt="LlamaIndex logo" width=28 height=28 align=center>&nbsp;&nbsp;&nbsp;&nbsp;
+
+<img src="https://cdn.simpleicons.org/langgraph/000/FFF" alt="LangGraph logo" width=36 height=36 align=center>
+<img src="https://avatars.githubusercontent.com/u/170677839?s=200&v=4" alt="CrewAI logo" width=24 height=24 align=center>
+<img src="https://avatars.githubusercontent.com/u/40889903?s=200&v=4" alt="Fetch.ai logo" width=24 height=24 align=center>&nbsp;&nbsp;&nbsp;&nbsp;
+
+<img src="https://avatars.githubusercontent.com/u/2810941?s=200&v=4" alt="Vertex AI logo" width=24 height=24 align=center>
+<img src="https://cdn.simpleicons.org/snowflake/000/00A1D9" alt="Snowflake logo" width=22 height=22 align=center>&nbsp;&nbsp;&nbsp;&nbsp;
+
+<img src="https://avatars.githubusercontent.com/u/177543?s=200&v=4" alt="PostgreSQL logo" width=24 height=24 align=center>
+<img src="https://cdn.simpleicons.org/milvus/000/33B6F2" alt="Milvus logo" width=28 height=28 align=center>&nbsp;&nbsp;&nbsp;&nbsp;
+
+<img src="https://cdn.simpleicons.org/spacy/000/09A3D5" alt="spaCy logo" width=36 height=36 align=center>
+
 </div>
+
+<br>
 
 <details>
   <summary>Table of contents</summary>
@@ -619,11 +641,11 @@ Star this repo and help me hit 180 ⭐!
 
 Thank you for considering contributing to my repository. While I don't accept direct additions of tutorials, I warmly welcome contributions in the following forms:
 
-- **Reporting major issues**: Found a bug, or error? Feel free to open an issue on GitHub. Be sure to provide as much detail as possible, including steps to reproduce the issue.
-- **Fixing minor issues**: Found a typo, grammatical error, or other small issue? Feel free to open a pull request to fix them directly.
-- **Making suggestions**: Have an idea how I can enhance my tutorials or topics I should cover? Share your thoughts by creating a new issue outlining your suggestion. I'll carefully consider all reasonable ideas.
+- **Reporting major issues:** Found a bug, or error? Feel free to open an issue on GitHub. Be sure to provide as much detail as possible, including steps to reproduce the issue.
+- **Fixing minor issues:** Found a typo, grammatical error, or other small issue? Feel free to open a pull request to fix them directly.
+- **Making suggestions:** Have an idea how I can enhance my tutorials or topics I should cover? Share your thoughts by creating a new issue outlining your suggestion. I'll carefully consider all reasonable ideas.
 
-To [contribute](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project), do the following:
+To contribute:
 
 1.  Fork this repository.
 2.  Make your desired changes.
@@ -636,4 +658,4 @@ I'll review your pull request and get back to you as soon as possible.
 
 ## 📄 License 📄
 
-This project is open source and available under the [MIT License](https://github.com/rokbenko/ai-playground/blob/main/LICENSE).
+This project is open source and available under the MIT [license](https://github.com/rokbenko/ai-playground/blob/main/LICENSE).
