@@ -242,22 +242,6 @@ Star this repo and help me hit 200 ⭐!
       <a href="https://youtu.be/0qv_4x1K6hU" target="_blank">YouTube</a>
     </td>
   </tr>
-  <tr>
-    <td>#2</td>
-    <td>Vertex AI Gemini Pro API starter</td>
-    <td>Python and Node.js examples on how to use the Vertex AI Gemini Pro API</td>
-    <td>
-      <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
-      <img alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-%23202020?style=flat&logo=javascript">
-      <img alt="Node.js badge" src="https://img.shields.io/badge/Node.js-%23202020?style=flat&logo=nodedotjs">
-    </td>
-    <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/google-tutorials/2-Vertex_AI_Gemini_Pro_API_starter" target="_blank">GitHub</a>
-    </td>
-    <td>
-      <a href="https://youtu.be/I8W-4oq1onY" target="_blank">YouTube</a>
-    </td>
-  </tr>
 </table>
 
 <br>
@@ -503,6 +487,35 @@ Star this repo and help me hit 200 ⭐!
 <br>
 
 ## ☁️ Cloud ☁️
+
+### [Google Cloud](https://cloud.google.com/)
+
+<table>
+  <tr>
+    <th></th>
+    <th>Tutorial title</th>
+    <th>Tutorial description</th>
+    <th>Tech stack</th>
+    <th colspan="2">Links</th>
+  </tr>
+  <tr>
+    <td>#1</td>
+    <td>Vertex AI Gemini Pro API starter</td>
+    <td>Python and Node.js examples on how to use the Vertex AI Gemini Pro API</td>
+    <td>
+      <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
+      <img alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-%23202020?style=flat&logo=javascript">
+      <img alt="Node.js badge" src="https://img.shields.io/badge/Node.js-%23202020?style=flat&logo=nodedotjs">
+    </td>
+    <td>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/google-cloud-tutorials/1-Vertex_AI_Gemini_Pro_API_starter" target="_blank">GitHub</a>
+    </td>
+    <td>
+      <a href="https://youtu.be/I8W-4oq1onY" target="_blank">YouTube</a>
+    </td>
+  </tr>
+</table>
+
 
 ### [Snowflake](https://www.snowflake.com/en/)
 
