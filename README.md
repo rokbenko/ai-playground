@@ -9,7 +9,29 @@ Star this repo and help me hit 200 ⭐!
 
 <br>
 
+<img src="https://cdn.simpleicons.org/openai/000/FFF" alt="OpenAI logo" width=20 height=20 align=center>
+<img src="https://cdn.simpleicons.org/anthropic/000/CC9B7A" alt="Anthropic logo" width=24 height=24 align=center>
+<img src="https://cdn.simpleicons.org/googlegemini/000/2E96FF" alt="Gemini logo" width=24 height=24 align=center>  
+<img src="https://avatars.githubusercontent.com/u/132372032?s=200&v=4" alt="Mistral logo" width=24 height=24 align=center>&nbsp;&nbsp;&nbsp;&nbsp;
+
+<img src="https://cdn.simpleicons.org/langchain/000/FFF" alt="LangChain logo" width=36 height=36 align=center>
+<img src="https://docs.llamaindex.ai/en/stable/_static/assets/LlamaSquareBlack.svg" alt="LlamaIndex logo" width=28 height=28 align=center>&nbsp;&nbsp;&nbsp;&nbsp;
+
+<img src="https://cdn.simpleicons.org/langgraph/000/FFF" alt="LangGraph logo" width=36 height=36 align=center>
+<img src="https://avatars.githubusercontent.com/u/170677839?s=200&v=4" alt="CrewAI logo" width=24 height=24 align=center>
+<img src="https://avatars.githubusercontent.com/u/40889903?s=200&v=4" alt="Fetch.ai logo" width=24 height=24 align=center>&nbsp;&nbsp;&nbsp;&nbsp;
+
+<img src="https://avatars.githubusercontent.com/u/2810941?s=200&v=4" alt="Vertex AI logo" width=24 height=24 align=center>
+<img src="https://cdn.simpleicons.org/snowflake/000/00A1D9" alt="Snowflake logo" width=22 height=22 align=center>&nbsp;&nbsp;&nbsp;&nbsp;
+
+<img src="https://avatars.githubusercontent.com/u/177543?s=200&v=4" alt="PostgreSQL logo" width=24 height=24 align=center>
+<img src="https://cdn.simpleicons.org/milvus/000/33B6F2" alt="Milvus logo" width=28 height=28 align=center>&nbsp;&nbsp;&nbsp;&nbsp;
+
+<img src="https://cdn.simpleicons.org/spacy/000/09A3D5" alt="spaCy logo" width=36 height=36 align=center>
+
 </div>
+
+<br>
 
 <details>
   <summary>Table of contents</summary>
