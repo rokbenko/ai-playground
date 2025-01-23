@@ -389,20 +389,6 @@ Star this repo and help me hit 200 ⭐!
       <a href="https://youtu.be/hE8C2M8GRLo" target="_blank">YouTube</a>
     </td>
   </tr>
-  <tr>
-    <td>#4</td>
-    <td>LangSmith observability starter</td>
-    <td>Add observability using LangSmith to the <a href="https://github.com/rokbenko/ai-playground/tree/main/langgraph-tutorials/3-TUI_LangGraph_agent_PostgreSQL_memory">#3 TUI for a LangGraph agent with persistent memory using PostgreSQL</a> tutorial</td>
-    <td>
-      <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
-    </td>
-    <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/langgraph-tutorials/4-LangSmith_observability_starter" target="_blank">GitHub</a>
-    </td>
-    <td>
-      <a href="https://youtu.be/fU-TEVNrRYY" target="_blank">YouTube</a>
-    </td>
-  </tr>
 </table>
 
 ### [CrewAI](https://www.crewai.com/)
@@ -539,6 +525,36 @@ Star this repo and help me hit 200 ⭐!
     </td>
     <td>
       <a href="https://youtu.be/3vCuoezBMEY" target="_blank">YouTube</a>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+## 📈 Monitoring 📈
+
+### [LangSmith](https://www.langchain.com/langsmith)
+
+<table>
+  <tr>
+    <th></th>
+    <th>Tutorial title</th>
+    <th>Tutorial description</th>
+    <th>Tech stack</th>
+    <th colspan="2">Links</th>
+  </tr>
+  <tr>
+    <td>#1</td>
+    <td>LangSmith observability starter</td>
+    <td>Add observability using LangSmith to the <a href="https://github.com/rokbenko/ai-playground/tree/main/langgraph-tutorials/3-TUI_LangGraph_agent_PostgreSQL_memory">#3 TUI for a LangGraph agent with persistent memory using PostgreSQL</a> tutorial</td>
+    <td>
+      <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
+    </td>
+    <td>
+      <a href="https://github.com/rokbenko/ai-playground/tree/main/langsmith-tutorials/1-LangSmith_observability_starter" target="_blank">GitHub</a>
+    </td>
+    <td>
+      <a href="https://youtu.be/fU-TEVNrRYY" target="_blank">YouTube</a>
     </td>
   </tr>
 </table>
