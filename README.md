@@ -7,6 +7,8 @@ Star this repo and help me hit 200 ⭐!
 
 [![ai-playground repository stars](https://img.shields.io/github/stars/rokbenko/ai-playground?style=social)](https://github.com/rokbenko/ai-playground)
 
+<a href="https://www.buymeacoffee.com/rokbenko"><img src="https://img.buymeacoffee.com/button-api/?text=Keep tutorials brewing&emoji=☕&slug=rokbenko&button_colour=FFDD00&font_colour=000000&font_family=Arial&outline_colour=000000&coffee_colour=ffffff" /></a>
+
 <br>
 
 <img src="https://cdn.simpleicons.org/openai/000/FFF" alt="OpenAI logo" width=20 height=20 align=center>
