@@ -37,6 +37,17 @@ const langgraphAgent = createReactAgent({
 
 // Define an asynchronous function to get the user question
 function getUserQuestion(message) {
+  /**
+   * Prompts the user with a message and returns their input.
+   *
+   * @param {string} message - The message to display to the user.
+   * @returns {Promise<string>} A promise that resolves with the user's input.
+   *
+   * This function creates a readline interface to prompt the user for input.
+   * It displays the provided message and waits for the user to enter something.
+   * Once the user provides input, the function closes the readline interface and resolves the promise with the user's input.
+   */
+
   // Creating a readline interface for reading lines from the standard input (keyboard)
   const rl = readline.createInterface({
     input: process.stdin, // Setting the input stream to the standard input (keyboard)
@@ -60,8 +71,13 @@ function processChunks(chunk) {
   /**
    * Processes a chunk from the agent and displays information about tool calls or the agent's answer.
    *
-   * @param {Object} chunk - The chunk to be processed.
+   * @param {Object} chunk - A dictionary containing information about the agent's messages.
    * @return {void}
+   *
+   * This function processes a chunk of data to check for agent messages.
+   * It iterates over the messages and checks for tool calls.
+   * If a tool call is found, it extracts the tool name and query, then prints a formatted message using the Terminal Kit library.
+   * If no tool call is found, it extracts and prints the agent's answer using the Terminal Kit library.
    */
 
   // Check if the chunk contains an agent's message
@@ -121,6 +137,19 @@ function processChunks(chunk) {
 
 // Define a function to process checkpoints
 async function processCheckpoints(checkpoints) {
+  /**
+   * Processes a list of checkpoints and displays relevant information.
+   *
+   * @param {Array} checkpoints - A list of checkpoints to process.
+   * @returns {void}
+   *
+   * This function processes a list of checkpoints.
+   * It iterates over the checkpoints and displays the following information for each checkpoint:
+   * - Timestamp
+   * - Checkpoint ID
+   * - Messages associated with the checkpoint
+   */
+
   tk.color("white")(
     "\n==========================================================\n"
   );

@@ -26,7 +26,7 @@ langgraph_agent = create_react_agent(model=llm, tools=[tavily])
 # Define a function to process chunks from the agent
 def process_chunks(chunk):
     """
-    Process a chunk of data and extract information about tool calls made by the agent.
+    Processes a chunk from the agent and displays information about tool calls or the agent's answer.
 
     Parameters:
         chunk (dict): A dictionary containing information about the agent's messages.
@@ -34,13 +34,10 @@ def process_chunks(chunk):
     Returns:
         None
 
-    This function processes a chunk of data and checks if it contains information about an agent. If the chunk contains
-    an agent's message, it iterates over the messages in the agent's messages. For each message, it checks if the
-    message contains tool calls. If a tool call is found, the function extracts the tool name and query from the
-    message and prints a formatted message using the Rich library. If no tool call is found, the function extracts
-    the agent's answer from the message and prints it using the Rich library.
-
-    The function uses the Rich library for formatting and printing the messages.
+    This function processes a chunk of data to check for agent messages.
+    It iterates over the messages and checks for tool calls.
+    If a tool call is found, it extracts the tool name and query, then prints a formatted message using the Rich library.
+    If no tool call is found, it extracts and prints the agent's answer using the Rich library.
     """
 
     # Check if the chunk contains an agent's message
