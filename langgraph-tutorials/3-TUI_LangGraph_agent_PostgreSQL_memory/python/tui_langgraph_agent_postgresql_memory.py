@@ -74,10 +74,10 @@ def process_chunks(chunk):
                 # If the message doesn't contain tool calls, extract and display the agent's answer
 
                 # Extract the agent's answer
-                agent_anser = message.content
+                agent_answer = message.content
 
                 # Display the agent's answer
-                rich.print(f"\nAgent:\n{agent_anser}", style="black on white")
+                rich.print(f"\nAgent:\n{agent_answer}", style="black on white")
 
 
 # Define an async function to process checkpoints from the memory
