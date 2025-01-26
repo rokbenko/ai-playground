@@ -14,7 +14,10 @@ load_dotenv()
 rich = Console()
 
 # Initialize OpenAI LLM
-llm = ChatOpenAI(api_key=os.getenv("OPENAI_API_KEY"), model="gpt-3.5-turbo")
+llm = ChatOpenAI(
+    api_key=os.getenv("OPENAI_API_KEY"),
+    model="gpt-3.5-turbo",
+)
 
 # Initialize Tavily
 tavily = TavilySearchResults(max_results=3)

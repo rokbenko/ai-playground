@@ -20,7 +20,8 @@ rich = Console()
 
 # Initialize Anthropic LLM
 llm = ChatAnthropic(
-    api_key=os.getenv("ANTHROPIC_API_KEY"), model="claude-3-haiku-20240307"
+    api_key=os.getenv("ANTHROPIC_API_KEY"),
+    model="claude-3-haiku-20240307",
 )
 
 # Initialize Tavily

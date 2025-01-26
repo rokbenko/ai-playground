@@ -20,7 +20,8 @@ rich = Console()
 
 # Initialize Mistral AI LLM
 llm = ChatMistralAI(
-    api_key=os.getenv("MISTRAL_API_KEY"), model_name="ministral-3b-latest"
+    api_key=os.getenv("MISTRAL_API_KEY"),
+    model_name="ministral-3b-latest",
 )
 
 # Initialize Tavily
