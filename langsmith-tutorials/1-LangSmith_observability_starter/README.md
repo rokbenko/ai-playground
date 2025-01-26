@@ -124,7 +124,8 @@ Before running [`test_langsmith_observability.py`](https://github.com/rokbenko/a
 > C:\your\path\to\ai-playground\langsmith-tutorials\1-LangSmith_observability_starter\python
 > ```
 
-> [!NOTE] > `venv` is a built-in Python module that allows you to create and manage virtual environments. If you have Python `3.3` or higher installed, you can start using `venv` right away.
+> [!NOTE]
+> `venv` is a built-in Python module that allows you to create and manage virtual environments. If you have Python `3.3` or higher installed, you can start using `venv` right away.
 
 <br>
 
