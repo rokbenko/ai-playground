@@ -165,13 +165,6 @@ async def main():
     async with AsyncConnectionPool(
         # The format of the connection string is as follows:
         # "postgres://<username>:<password>@<host>:<port>/<database>?<options>"
-        # In this case:
-        # - Username: postgres
-        # - Password: postgres
-        # - Host: localhost (indicating the database is hosted on the local machine)
-        # - Port: 5432 (the default port for PostgreSQL)
-        # - Database: postgres (the name of the database to connect to)
-        # - Options: sslmode=disable (disables SSL for the connection)
         conninfo=f"postgres://{os.getenv('PSQL_USERNAME')}:{os.getenv('PSQL_PASSWORD')}"
         f"@{os.getenv('PSQL_HOST')}:{os.getenv('PSQL_PORT')}/{os.getenv('PSQL_DATABASE')}"
         f"?sslmode={os.getenv('PSQL_SSLMODE')}",
