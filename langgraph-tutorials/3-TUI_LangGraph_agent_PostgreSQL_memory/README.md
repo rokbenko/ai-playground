@@ -9,6 +9,10 @@ This directory will have the following structure after completing the steps in t
 ```
 │   README.md
 │
+├───assets
+│   └───images
+│           demonstration.gif
+│
 └───python
         my-venv
         .env
@@ -63,6 +67,10 @@ Before running [`tui_langgraph_agent_postgresql_memory.py`](https://github.com/r
 >
 > ```
 > │   README.md
+> │
+> ├───assets
+> │   └───images
+> │           demonstration.gif
 > │
 > └───python
 >         my-venv 👈
@@ -184,4 +192,4 @@ Dependencies:
 
 After the chat is restarted, the agent, whether it uses the Tavily tool or not to provide an answer, retains the user's name (i.e., Bob) and understands what information is needed about New York (i.e., weather).
 
-![Demonstration](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/3-TUI_LangGraph_agent_PostgreSQL_memory/demonstration.gif)
+![Demonstration](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/3-TUI_LangGraph_agent_PostgreSQL_memory/assets/images/demonstration.gif)

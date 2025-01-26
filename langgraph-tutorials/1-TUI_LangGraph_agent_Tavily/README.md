@@ -9,6 +9,10 @@ This directory will have the following structure after completing the steps in t
 ```
 │   README.md
 │
+├───assets
+│   └───images
+│           demonstration.gif
+│
 ├───nodejs
 │       node_modules
 │       .env
@@ -72,6 +76,10 @@ Before running [`tui_langgraph_agent_tavily.py`](https://github.com/rokbenko/ai-
 >
 > ```
 > │   README.md
+> │
+> ├───assets
+> │   └───images
+> │           demonstration.gif
 > │
 > ├───nodejs
 > │       node_modules
@@ -208,4 +216,4 @@ Dependencies:
 
 ## 📽️ Demonstration 📽️
 
-![Demonstration of how to chat in a terminal with the LangGraph ReAct agent with a web connection through Tavily](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/1-TUI_LangGraph_agent_Tavily/demonstration.gif)
+![Demonstration of how to chat in a terminal with the LangGraph ReAct agent with a web connection through Tavily](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/1-TUI_LangGraph_agent_Tavily/assets/images/demonstration.gif)

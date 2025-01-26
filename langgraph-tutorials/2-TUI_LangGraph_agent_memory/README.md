@@ -14,6 +14,11 @@ This directory will have the following structure after completing the steps in t
 ```
 │   README.md
 │
+├───assets
+│   └───images
+│           demonstration_no_tools.gif
+|           demonstration_tools.gif
+│
 ├───nodejs
 │       node_modules
 │       .env
@@ -77,6 +82,11 @@ Before running [`tui_langgraph_agent_memory.py`](https://github.com/rokbenko/ai-
 >
 > ```
 > │   README.md
+> │
+> ├───assets
+> │   └───images
+> │           demonstration_no_tools.gif
+> |           demonstration_tools.gif
 > │
 > ├───nodejs
 > │       node_modules
@@ -263,10 +273,10 @@ Dependencies:
 
 An example of a question where the agent doesn't need to use the Tavily tool to give an answer. The goal is for the agent to know what's the user's name — the answer is Bob:
 
-![Demonstration of a question where the agent doesn't need to use the Tavily tool](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/2-TUI_LangGraph_agent_memory/demonstration_no_tools.gif)
+![Demonstration of a question where the agent doesn't need to use the Tavily tool](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/2-TUI_LangGraph_agent_memory/assets/images/demonstration_no_tools.gif)
 
 ### With Tavily tool
 
 An example of a question where the agent does need to use the Tavily tool to give an answer. The goal is for the agent to know what we want to know about New York — the answer is weather:
 
-![Demonstration of a question where the agent does need to use the Tavily tool](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/2-TUI_LangGraph_agent_memory/demonstration_tools.gif)
+![Demonstration of a question where the agent does need to use the Tavily tool](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/2-TUI_LangGraph_agent_memory/assets/images/demonstration_tools.gif)
