@@ -109,7 +109,8 @@ Before running [`tui_langgraph_agent_tavily.py`](https://github.com/rokbenko/ai-
 > C:\your\path\to\ai-playground\langgraph-tutorials\1-TUI_LangGraph_agent_Tavily\python
 > ```
 
-> [!NOTE] > `venv` is a built-in Python module that allows you to create and manage virtual environments. If you have Python `3.3` or higher installed, you can start using `venv` right away.
+> [!NOTE]
+> `venv` is a built-in Python module that allows you to create and manage virtual environments. If you have Python `3.3` or higher installed, you can start using `venv` right away.
 
 ### Node.js
 
