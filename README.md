@@ -393,6 +393,16 @@ Star this repo and help me hit 200 ⭐!
       <a href="https://youtu.be/hE8C2M8GRLo" target="_blank">YouTube</a>
     </td>
   </tr>
+  <tr>
+    <td>#4</td>
+    <td>TUI for a LangGraph agent with persistent memory using PostgreSQL with pgvector</td>
+    <td>Add persistent memory using PostgreSQL with pgvector to the <a href="https://github.com/rokbenko/ai-playground/tree/main/langgraph-tutorials/1-TUI_LangGraph_agent_Tavily">#1 TUI for a LangGraph agent with a web connection</a> tutorial</td>
+    <td>
+      <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
+    </td>
+    <td>Coming soon... ✨</td>
+    <td>Coming soon... ✨</td>
+  </tr>
 </table>
 
 ### [CrewAI](https://www.crewai.com/)
