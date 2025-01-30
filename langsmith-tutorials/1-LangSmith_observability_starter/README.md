@@ -74,7 +74,7 @@ Before running [`test_langsmith_observability.py`](https://github.com/rokbenko/a
 > TAVILY_API_KEY = "tvly-xxxxxxxxxxxxxxxxxxxxxxxxx"
 >
 > PSQL_USERNAME = "postgres"
-> PSQL_PASSWORD = "xxxxx"
+> PSQL_PASSWORD = "xxxxx" # Username password
 > PSQL_HOST = "localhost"
 > PSQL_PORT = "5432"
 > PSQL_DATABASE = "agent_chat"
