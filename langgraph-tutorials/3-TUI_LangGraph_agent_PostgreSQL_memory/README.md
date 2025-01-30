@@ -66,18 +66,18 @@ Before running [`tui_langgraph_agent_postgresql_memory.py`](https://github.com/r
 > You can verify that the virtual environment is _created_ successfully if you see a folder named `my-venv` inside the `python` directory.
 >
 > ```
-> │   README.md
+> ├── README.md
 > │
-> ├───assets
-> │   └───images
-> │           demonstration.gif
+> ├── assets
+> │   └── images
+> │       └── demonstration.gif
 > │
-> └───python
->         my-venv 👈
->         .env
->         .gitignore
->         requirements.txt
->         tui_langgraph_agent_postgresql_memory.py
+> └── python
+>     ├── my-venv 👈
+>     ├── .env
+>     ├── .gitignore
+>     ├── requirements.txt
+>     └── tui_langgraph_agent_postgresql_memory.py
 > ```
 >
 > You can verify that the virtual environment is _activated_ successfully if you see `(my-venv)` at the beginning of your terminal prompt, like this:
