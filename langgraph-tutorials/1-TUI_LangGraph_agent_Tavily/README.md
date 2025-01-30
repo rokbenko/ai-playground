@@ -7,26 +7,26 @@ Python and Node.js TUIs for a LangGraph ReAct agent using OpenAI LLM and Tavily 
 This directory will have the following structure after completing the steps in the [_Getting started_](https://github.com/rokbenko/ai-playground/tree/main/langgraph-tutorials/1-TUI_LangGraph_agent_Tavily#-getting-started-) section:
 
 ```
-│   README.md
+├── README.md
 │
-├───assets
-│   └───images
-│           demonstration.gif
+├── assets
+│   └── images
+│       └── demonstration.gif
 │
-├───nodejs
-│       node_modules
-│       .env
-│       .gitignore
-│       package-lock.json
-|       package.json
-│       tui_langgraph_agent_tavily.js
+├── nodejs
+│   ├── node_modules
+│   ├── .env
+│   ├── .gitignore
+│   ├── package-lock.json
+│   ├── package.json
+│   └── tui_langgraph_agent_tavily.js
 │
-└───python
-        my-venv
-        .env
-        .gitignore
-        requirements.txt
-        tui_langgraph_agent_tavily.py
+└── python
+    ├── my-venv
+    ├── .env
+    ├── .gitignore
+    ├── requirements.txt
+    └── tui_langgraph_agent_tavily.py
 ```
 
 <br>
