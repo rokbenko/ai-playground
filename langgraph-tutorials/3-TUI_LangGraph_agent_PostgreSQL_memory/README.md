@@ -108,7 +108,7 @@ Before running [`tui_langgraph_agent_postgresql_memory.py`](https://github.com/r
 ## 🔥 Working example in Python 🔥
 
 > [!NOTE]
-> The check mark (i.e., ✔️) and cross mark (i.e., ❌) emojis are not part of the agent's actual responses. They were added manually in this README file to highlight the parts of the chat that the tutorial is designed to address.
+> The check mark (i.e., ✔️) and cross mark (i.e., ❌) emojis are not part of the agent's actual responses. They were added manually in this README.md file to highlight the parts of the chat that the tutorial is designed to address.
 
 If you run [`tui_langgraph_agent_postgresql_memory.py`](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/3-TUI_LangGraph_agent_PostgreSQL_memory/python/tui_langgraph_agent_postgresql_memory.py), you should be able to chat with the agent in a terminal:
 
