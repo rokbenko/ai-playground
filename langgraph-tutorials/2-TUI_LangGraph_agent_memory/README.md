@@ -81,27 +81,27 @@ Before running [`tui_langgraph_agent_memory.py`](https://github.com/rokbenko/ai-
 > You can verify that the virtual environment is _created_ successfully if you see a folder named `my-venv` inside the `python` directory.
 >
 > ```
-> │   README.md
+> ├── README.md
 > │
-> ├───assets
-> │   └───images
-> │           demonstration_no_tools.gif
-> |           demonstration_tools.gif
+> ├── assets
+> │   └── images
+> │       ├── demonstration_no_tools.gif
+> │       └── demonstration_tools.gif
 > │
-> ├───nodejs
-> │       node_modules
-> │       .env
-> │       .gitignore
-> │       package-lock.json
-> |       package.json
-> │       tui_langgraph_agent_memory.js
+> ├── nodejs
+> │   ├── node_modules
+> │   ├── .env
+> │   ├── .gitignore
+> │   ├── package-lock.json
+> │   ├── package.json
+> │   └── tui_langgraph_agent_memory.js
 > │
-> └───python
->         my-venv 👈
->         .env
->         .gitignore
->         requirements.txt
->         tui_langgraph_agent_memory.py
+> └── python
+>     ├── my-venv 👈
+>     ├── .env
+>     ├── .gitignore
+>     ├── requirements.txt
+>     └── tui_langgraph_agent_memory.py
 > ```
 >
 > You can verify that the virtual environment is _activated_ successfully if you see `(my-venv)` at the beginning of your terminal prompt, like this:
