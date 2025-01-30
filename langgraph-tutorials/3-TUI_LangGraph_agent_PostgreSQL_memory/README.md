@@ -60,6 +60,12 @@ Before running [`tui_langgraph_agent_postgresql_memory.py`](https://github.com/r
 > ```bash
 > ANTHROPIC_API_KEY = "sk-xxxxxxxxxxxxxxxxxxxxxxxxx"
 > TAVILY_API_KEY = "tvly-xxxxxxxxxxxxxxxxxxxxxxxxx"
+> PSQL_USERNAME = "postgres"
+> PSQL_PASSWORD = "xxxxx" # Username password
+> PSQL_HOST = "localhost"
+> PSQL_PORT = "5432"
+> PSQL_DATABASE = "agent_chat"
+> PSQL_SSLMODE = "disable"
 > ```
 
 > [!TIP]
