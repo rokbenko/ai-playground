@@ -7,18 +7,18 @@ Add persistent memory using PostgreSQL to the [#1 TUI for a LangGraph agent with
 This directory will have the following structure after completing the steps in the [_Getting started_](https://github.com/rokbenko/ai-playground/tree/main/langgraph-tutorials/3-TUI_LangGraph_agent_PostgreSQL_memory#-getting-started-) section:
 
 ```
-│   README.md
+├── README.md
 │
-├───assets
-│   └───images
-│           demonstration.gif
+├── assets
+│   └── images
+│       └── demonstration.gif
 │
-└───python
-        my-venv
-        .env
-        .gitignore
-        requirements.txt
-        tui_langgraph_agent_postgresql_memory.py
+└── python
+    ├── my-venv
+    ├── .env
+    ├── .gitignore
+    ├── requirements.txt
+    └── tui_langgraph_agent_postgresql_memory.py
 ```
 
 <br>
