@@ -12,27 +12,27 @@ Add memory to the [#1 TUI for a LangGraph agent with a web connection](https://g
 This directory will have the following structure after completing the steps in the [_Getting started_](https://github.com/rokbenko/ai-playground/tree/main/langgraph-tutorials/2-TUI_LangGraph_agent_memory#-getting-started-) section:
 
 ```
-│   README.md
+├── README.md
 │
-├───assets
-│   └───images
-│           demonstration_no_tools.gif
-|           demonstration_tools.gif
+├── assets
+│   └── images
+│       ├── demonstration_no_tools.gif
+│       └── demonstration_tools.gif
 │
-├───nodejs
-│       node_modules
-│       .env
-│       .gitignore
-│       package-lock.json
-|       package.json
-│       tui_langgraph_agent_memory.js
+├── nodejs
+│   ├── node_modules
+│   ├── .env
+│   ├── .gitignore
+│   ├── package-lock.json
+│   ├── package.json
+│   └── tui_langgraph_agent_memory.js
 │
-└───python
-        my-venv
-        .env
-        .gitignore
-        requirements.txt
-        tui_langgraph_agent_memory.py
+└── python
+    ├── my-venv
+    ├── .env
+    ├── .gitignore
+    ├── requirements.txt
+    └── tui_langgraph_agent_memory.py
 ```
 
 <br>
