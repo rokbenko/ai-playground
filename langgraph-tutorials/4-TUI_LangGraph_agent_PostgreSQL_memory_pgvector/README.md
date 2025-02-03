@@ -37,6 +37,22 @@ This directory will have the following structure after completing the steps in t
 - **Exploring limit and threshold similarity [search types](https://github.com/pgvector/pgvector?tab=readme-ov-file#querying) with pgvector:** The project provides two options for similarity search: "limit" and "threshold". The "limit" option retrieves the top N most similar messages, while the "threshold" option retrieves messages that meet a specified similarity threshold. This flexibility allows you to tailor the agent's behavior based on your specific requirements.
 - **Implementing persistent storage using pgvector:** We'll show how to enhance a LangGraph ReAct agent by adding persistent storage capabilities using PostgreSQL and the pgvector extension. This feature allows your agent to store conversation embeddings persistently, ensuring that the context is maintained even if the script exits or the program is terminated. The implementation leverages an async connection pool to manage connections to the PostgreSQL database. Async connections allow non-blocking database operations, enabling other parts of your application to continue running while waiting for database tasks to complete.
 
+> [!NOTE]
+> In this tutorial, we'll use cosine similarity (using pgvector's `<=>` operator) for measuring vector similarities. Cosine similarity measures the cosine of the angle between two vectors, resulting in values between -1 and 1, where:
+>
+> - 1 means the vectors are identical in direction (perfect similarity),
+> - 0 means the vectors are orthogonal (perpendicular, no similarity), and
+> - -1 means the vectors point in opposite directions (perfect dissimilarity).
+> 
+> pgvector offers several other distance functions as well:
+>
+> - L2 distance (using pgvector's `<->` operator),
+> - (negative) inner product (using pgvector's `<#>` operator),
+> - Cosine distance (using pgvector's `<=>` operator),
+> - L1 distance (using pgvector's `<+>` operator),
+> - Hamming distance (using pgvector's `<~>` operator), and
+> - Jaccard distance (using pgvector's `<%>` operator).
+
 <br>
 
 ## 🚀 Getting started 🚀
@@ -319,7 +335,7 @@ If you run [`tui_langgraph_agent_postgresql_memory_pgvector.py --similarity-sear
 #### Chat #21
 
 > [!NOTE]
-> There were multiple conversations before that. It might have been chat #31 or #41, as the Python script was tested extensively before running the final version. At the time, there were dozens of messages stored in PostgreSQL, but PostgreSQL returned all messages (i.e., 11) that met a specified similarity threshold (i.e., `0.25`), as seen below.
+> There were multiple conversations before that. It might have been chat #31 or #41, as the Python script was tested extensively before running the final version. At the time, there were dozens of messages stored in PostgreSQL, but PostgreSQL returned all messages (i.e., 11) that met a specified similarity threshold (i.e., having a cosine similarity greater than `0.75`), as seen below.
 
 > User:<br>
 > What's my name?<br>
