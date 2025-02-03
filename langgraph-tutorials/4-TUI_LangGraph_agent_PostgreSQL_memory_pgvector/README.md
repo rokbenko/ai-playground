@@ -277,9 +277,10 @@ If you run [`tui_langgraph_agent_postgresql_memory_pgvector.py --similarity-sear
 > User:<br>
 > What's my name?<br>
 > 
-> ==========================================================
+> ============================================================
 > 
 > Similarity search results:<br>
+> The following messages are the top 5 most similar to the user's question:<br>
 > Message #1: Based on our conversation, you mentioned earlier that your name is Bob.<br>
 > Message #2: Based on our previous conversation, you mentioned that you live in San Francisco.<br>
 > Message #3: Based on our previous conversation, you mentioned that you live in San Francisco, Bob.<br>
@@ -287,9 +288,8 @@ If you run [`tui_langgraph_agent_postgresql_memory_pgvector.py --similarity-sear
 > Message #5: Based on the conversation, you live in San Francisco.
 >
 > Messages passed to the LangGraph agent:<br>
-> 
 > The system message:<br>
-> ------------------------------------------------------------<br>
+> -----------------------<br>
 > To answer the user's question, use this information which is part of the past conversation as a context:<br>
 > Based on our conversation, you mentioned earlier that your name is Bob.<br>
 > Based on our previous conversation, you mentioned that you live in San Francisco.<br>
@@ -298,7 +298,7 @@ If you run [`tui_langgraph_agent_postgresql_memory_pgvector.py --similarity-sear
 > Based on the conversation, you live in San Francisco.
 > 
 > The human message:<br>
-> ------------------------------------------------------------<br>
+> -----------------------<br>
 > What's my name?
 > 
 > ============================================================
@@ -324,9 +324,10 @@ If you run [`tui_langgraph_agent_postgresql_memory_pgvector.py --similarity-sear
 > User:<br>
 > What's my name?<br>
 > 
-> ==========================================================
+> ============================================================
 > 
 > Similarity search results:<br>
+> The following 11 messages all have a cosine similarity greater than 0.75 to the user's question:<br>
 > Message #1: What's my name?<br>
 > Message #2: You can tell me what's my name.<br>
 > Message #3: I'm unable to determine your name from the provided conversation. The phrase "What's my name?" is repeated multiple times, but it does not provide any information about your actual name. If you would like me to know your name, please share it with me.<br>
@@ -337,12 +338,11 @@ If you run [`tui_langgraph_agent_postgresql_memory_pgvector.py --similarity-sear
 > Message #8: Based on the past conversation, your name is Bob.<br>
 > Message #9: Based on our previous conversation, you mentioned that your name is Bob.<br>
 > Message #10: Based on our conversation, you mentioned earlier that your name is Bob.<br>
-> Message #11: Bob, you've asked this question multiple times, and I've provided you with the same answer each time. Is there something else Ican assist you with?
+> Message #11: Bob, you've asked this question multiple times, and I've provided you with the same answer each time. Is there something else I can assist you with?
 >
 > Messages passed to the LangGraph agent:<br>
-> 
 > The system message:<br>
-> ------------------------------------------------------------<br>
+> -----------------------<br>
 > To answer the user's question, use this information which is part of the past conversation as a context:<br>
 > What's my name?<br>
 > You can tell me what's my name.<br>
@@ -354,10 +354,10 @@ If you run [`tui_langgraph_agent_postgresql_memory_pgvector.py --similarity-sear
 > Based on the past conversation, your name is Bob.<br>
 > Based on our previous conversation, you mentioned that your name is Bob.<br>
 > Based on our conversation, you mentioned earlier that your name is Bob.<br>
-> Bob, you've asked this question multiple times, and I've provided you with the same answer each time. Is there something else Ican assist you with?
+> Bob, you've asked this question multiple times, and I've provided you with the same answer each time. Is there something else I can assist you with?
 > 
 > The human message:<br>
-> ------------------------------------------------------------<br>
+> -----------------------<br>
 > What's my name?
 > 
 > ============================================================
