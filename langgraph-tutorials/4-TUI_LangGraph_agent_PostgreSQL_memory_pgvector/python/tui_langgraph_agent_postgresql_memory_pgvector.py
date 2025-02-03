@@ -277,7 +277,9 @@ async def main():
             # Fetch the similarity search results
             similarity_search_results = await similarity_search.fetchall()
 
-            rich.print("\n==========================================================\n")
+            rich.print(
+                "\n============================================================\n"
+            )
 
             # Display all similarity search result messages
             # Those will be passed to the LangGraph agent as the system message
