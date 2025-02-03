@@ -150,7 +150,7 @@ async def main():
 
     The function supports two options for similarity search:
     - "limit": Returns the top 5 most similar messages.
-    - "threshold": Returns messages that have a cosine similarity greater than 0.25.
+    - "threshold": Returns messages that have a cosine similarity greater than 0.75.
     """
 
     # Connect to the PostgreSQL database using an async connection pool
@@ -234,7 +234,7 @@ async def main():
 
             # If similarity_search_type is "threshold"
             elif similarity_search_type == "threshold":
-                # Return all past messages stored in the database that have a cosine similarity greater than 0.25
+                # Return all past messages stored in the database that have a cosine similarity greater than 0.75
                 similarity_search = await conn.execute(
                     """
                     WITH ranked_messages AS (
@@ -246,7 +246,7 @@ async def main():
                                 ORDER BY 1 - (embedding_vector <=> %s::vector) DESC
                             ) as rn
                         FROM chat
-                        WHERE embedding_vector <=> %s::vector < %s
+                        WHERE 1 - (embedding_vector <=> %s::vector) > %s
                     )
                     SELECT message, cosine_similarity
                     FROM ranked_messages 
@@ -257,7 +257,10 @@ async def main():
                         user_question_embedding,
                         user_question_embedding,
                         user_question_embedding,
-                        0.25,
+                        0.75,  # Cosine similarity threshold (ranges from -1 to 1):
+                        # -1: Vectors point in opposite directions (completely dissimilar)
+                        #  0: Vectors are perpendicular (no similarity)
+                        #  1: Vectors point in same direction (identical similarity)
                     ),
                 )
 
@@ -282,6 +285,18 @@ async def main():
                 "[on deep_sky_blue1]Similarity search results:[/on deep_sky_blue1]",
                 style="deep_sky_blue1",
             )
+
+            if similarity_search_type == "limit":
+                rich.print(
+                    f"The following messages are the top 5 most similar to the user's question:",
+                    style="deep_sky_blue1",
+                )
+
+            elif similarity_search_type == "threshold":
+                rich.print(
+                    f"The following {len(similarity_search_results)} messages all have a cosine similarity greater than 0.75 to the user's question:",
+                    style="deep_sky_blue1",
+                )
 
             for i, query_result in enumerate(similarity_search_results):
                 rich.print(
@@ -328,12 +343,12 @@ async def main():
 
             if system_message:
                 rich.print(
-                    f"\nThe system message:\n------------------------------------------------------------\n{system_message.content}",
+                    f"The system message:\n-----------------------\n{system_message.content}",
                     style="deep_sky_blue1",
                 )
             if human_message:
                 rich.print(
-                    f"\nThe human message:\n------------------------------------------------------------\n{human_message.content}",
+                    f"\nThe human message:\n-----------------------\n{human_message.content}",
                     style="deep_sky_blue1",
                 )
 
