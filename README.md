@@ -43,7 +43,6 @@ Star this repo and help me hit 220 ⭐!
     - [Google](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#google)<br>
   - [Frameworks](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#%EF%B8%8F-frameworks-%EF%B8%8F)<br>
     - [LlamaIndex](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#llamaindex)<br>
-    - [JigsawStack](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#jigsawstack)<br>
   - [Agents](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-agents-)
     - [LangGraph](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#langgraph)<br>
     - [CrewAI](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#crewai)<br> 
@@ -303,32 +302,6 @@ Star this repo and help me hit 220 ⭐!
     </td>
     <td>
       <a href="https://youtu.be/l5z_Peocss0" target="_blank">YouTube</a>
-    </td>
-  </tr>
-</table>
-
-### [JigsawStack](https://jigsawstack.com/)
-
-<table>
-  <tr>
-    <th></th>
-    <th>Tutorial title</th>
-    <th>Tutorial description</th>
-    <th>Tech stack</th>
-    <th colspan="2">Links</th>
-  </tr>
-  <tr>
-    <td>#1</td>
-    <td>GUI for a Personal Recipe Assistant</td>
-    <td>Streamlit GUI for a Personal Recipe Assistant that generates recipes based on the available ingredients recognized from the uploaded photo and selected preferences by the user</td>
-    <td>
-      <img alt="Streamlit badge" src="https://img.shields.io/badge/Streamlit-%23202020?style=flat&logo=streamlit">
-    </td>
-    <td>
-      <a href="https://github.com/rokbenko/ai-playground/tree/main/jigsawstack-tutorials/1-GUI_personal_recipe_assistant" target="_blank">GitHub</a>
-    </td>
-    <td>
-      <a href="https://youtu.be/qcwp_qCOoCs" target="_blank">YouTube</a>
     </td>
   </tr>
 </table>
