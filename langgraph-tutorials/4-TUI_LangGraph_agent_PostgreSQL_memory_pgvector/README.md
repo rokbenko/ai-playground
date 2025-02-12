@@ -422,8 +422,8 @@ The chat can be restarted as many times as needed, and the agent will retrieve a
 
 ### Similarity search using limit-based approach
 
-Coming soon... ✨
+![Demonstration of the limit-based approach](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/4-TUI_LangGraph_agent_PostgreSQL_memory_pgvector/assets/images/demonstration_limit.gif)
 
 ### Similarity search using threshold-based approach
 
-Coming soon... ✨
+![Demonstration of the threshold-based approach](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/4-TUI_LangGraph_agent_PostgreSQL_memory_pgvector/assets/images/demonstration_threshold.gif)
