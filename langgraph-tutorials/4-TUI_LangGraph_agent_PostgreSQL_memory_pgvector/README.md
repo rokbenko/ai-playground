@@ -11,6 +11,7 @@ This directory will have the following structure after completing the steps in t
 │
 ├── assets
 │   └── images
+|       ├── docker_desktop_pgvector_container.png
 |       ├── pgAdmin_create_database_general.png
 |       ├── pgAdmin_create_database.png
 |       ├── pgAdmin_database_query_tool_command.png
@@ -34,7 +35,7 @@ This directory will have the following structure after completing the steps in t
 ## 🧠 Learning goals 🧠
 
 - **Understanding [pgvector](https://github.com/pgvector/pgvector)**: pgvector is an extension for PostgreSQL designed to facilitate the storage, querying, and indexing of high-dimensional vector data. This extension addresses the growing need for managing vector data, particularly in applications related to AI and ML, where vectors are used to represent complex data types such as text, images, and other multi-dimensional datasets.
-- **Exploring limit and threshold similarity [search types](https://github.com/pgvector/pgvector?tab=readme-ov-file#querying) with pgvector:** The project provides two options for similarity search: "limit" and "threshold". The "limit" option retrieves the top N most similar messages, while the "threshold" option retrieves messages that meet a specified similarity threshold. This flexibility allows you to tailor the agent's behavior based on your specific requirements.
+- **Exploring limit and threshold [similarity search types](https://github.com/pgvector/pgvector?tab=readme-ov-file#querying) with pgvector:** The project provides two options for similarity search: "limit" and "threshold". The "limit" option retrieves the top N most similar messages, while the "threshold" option retrieves messages that meet a specified similarity threshold. This flexibility allows you to tailor the agent's behavior based on your specific requirements.
 - **Implementing persistent storage using pgvector:** We'll show how to enhance a LangGraph ReAct agent by adding persistent storage capabilities using PostgreSQL and the pgvector extension. This feature allows your agent to store conversation embeddings persistently, ensuring that the context is maintained even if the script exits or the program is terminated. The implementation leverages an async connection pool to manage connections to the PostgreSQL database. Async connections allow non-blocking database operations, enabling other parts of your application to continue running while waiting for database tasks to complete.
 
 > [!NOTE]
@@ -76,6 +77,7 @@ Before running [`tui_langgraph_agent_postgresql_memory_pgvector.py`](https://git
 > │
 > ├── assets
 > │   └── images
+> |       ├── docker_desktop_pgvector_container.png
 > |       ├── pgAdmin_create_database_general.png
 > |       ├── pgAdmin_create_database.png
 > |       ├── pgAdmin_database_query_tool_command.png
@@ -118,7 +120,7 @@ Before running [`tui_langgraph_agent_postgresql_memory_pgvector.py`](https://git
 > TAVILY_API_KEY = "tvly-xxxxxxxxxxxxxxxxxxxxxxxxx"
 >
 > PSQL_USERNAME = "postgres"
-> PSQL_PASSWORD = "xxxxx" # As set with the Docker command in step 11
+> PSQL_PASSWORD = "xxxx" # As set with the Docker command in step 11
 > PSQL_HOST = "localhost"
 > PSQL_PORT = "5433" # As set with the Docker command in step 11
 > PSQL_DATABASE = "agent_chat_pgvector"
@@ -281,14 +283,16 @@ Where:
 > [!NOTE]
 > The check mark (i.e., ✔️) and cross mark (i.e., ❌) emojis are not part of the agent's actual responses. They were added manually in this README.md file to highlight the parts of the chat that the tutorial is designed to address.
 
-### Similarity search using "limit"
+### Similarity search using limit-based approach
 
-If you run [`tui_langgraph_agent_postgresql_memory_pgvector.py --similarity-search-type=limit`](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/4-TUI_LangGraph_agent_PostgreSQL_memory_pgvector/python/tui_langgraph_agent_postgresql_memory_pgvector.py), you should be able to chat with the agent in a terminal:
+If you run [`tui_langgraph_agent_postgresql_memory_pgvector.py`](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/4-TUI_LangGraph_agent_PostgreSQL_memory_pgvector/python/tui_langgraph_agent_postgresql_memory_pgvector.py) with the `python tui_langgraph_agent_postgresql_memory_pgvector.py --similarity-search-type=limit` command, it will perform a similarity search with a limit-based approach, and you should be able to chat with the agent in a terminal:
 
 #### Chat #20
 
 > [!NOTE]
-> There were multiple conversations before that. It might have been chat #30 or #40, as the Python script was tested extensively before running the final version. At the time, there were dozens of messages stored in PostgreSQL, but PostgreSQL returned the top 5 most similar messages, as seen below.
+> There were multiple conversations before that. It might have been chat #34 or #48, as the Python script was tested extensively before running the final version.
+>
+> At the time the chat below was run, there were dozens of messages stored in PostgreSQL, but PostgreSQL returned the top 5 most similar messages, as seen below.
 
 > User:<br>
 > What's my name?<br>
@@ -328,14 +332,16 @@ If you run [`tui_langgraph_agent_postgresql_memory_pgvector.py --similarity-sear
 > Agent:<br>
 > Have a nice day! 👋
 
-### Similarity search using "threshold"
+### Similarity search using threshold-based approach
 
-If you run [`tui_langgraph_agent_postgresql_memory_pgvector.py --similarity-search-type=threshold`](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/4-TUI_LangGraph_agent_PostgreSQL_memory_pgvector/python/tui_langgraph_agent_postgresql_memory_pgvector.py), you should be able to chat with the agent in a terminal:
+If you run [`tui_langgraph_agent_postgresql_memory_pgvector.py`](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/4-TUI_LangGraph_agent_PostgreSQL_memory_pgvector/python/tui_langgraph_agent_postgresql_memory_pgvector.py) with the `python tui_langgraph_agent_postgresql_memory_pgvector.py --similarity-search-type=threshold` command, it will perform a similarity search with a threshold-based approach, and you should be able to chat with the agent in a terminal:
 
 #### Chat #21
 
 > [!NOTE]
-> There were multiple conversations before that. It might have been chat #31 or #41, as the Python script was tested extensively before running the final version. At the time, there were dozens of messages stored in PostgreSQL, but PostgreSQL returned all messages (i.e., 11) that met a specified similarity threshold (i.e., having a cosine similarity greater than `0.75`), as seen below.
+> There were multiple conversations before that. It might have been chat #35 or #49, as the Python script was tested extensively before running the final version.
+>
+> At the time the chat below was run, there were dozens of messages stored in PostgreSQL, but PostgreSQL returned all messages (i.e., 11) that met a specified similarity threshold (i.e., having a cosine similarity greater than `0.75`), as seen below.
 
 > User:<br>
 > What's my name?<br>
@@ -403,15 +409,21 @@ Dependencies:
 - [Mistral Python SDK](https://pypi.org/project/mistralai/) `1.4.0`
 - [LangChain Mistral Python SDK](https://pypi.org/project/langchain-mistralai/) `0.2.4`
 - [LangGraph Python SDK](https://pypi.org/project/langgraph/) `0.2.67`
-- [LangGraph PostgreSQL Checkpointer](https://pypi.org/project/langgraph-checkpoint-postgres/) `2.0.3`
 - [PostgreSQL Python Adapter](https://pypi.org/project/psycopg/) `3.2.4`
 - [PostgreSQL Python Connection Pool](https://pypi.org/project/psycopg-pool/) `3.2.4`
+- [pgvector Python SDK](https://pypi.org/project/pgvector/) `0.3.6`
 - [Rich](https://pypi.org/project/rich/) `13.9.4`
 
 <br>
 
 ## 📽️ Demonstration 📽️
 
-The chat can be restarted as many times as needed, and the agent will retrieve any necessary information (e.g., user's name or location) from past conversations.
+The chat can be restarted as many times as needed, and the agent will retrieve any necessary information (e.g., user's name) from past conversations.
+
+### Similarity search using limit-based approach
+
+Coming soon... ✨
+
+### Similarity search using threshold-based approach
 
 Coming soon... ✨
