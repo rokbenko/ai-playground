@@ -34,23 +34,33 @@ This directory will have the following structure after completing the steps in t
 
 ## 🧠 Learning goals 🧠
 
-- **Understanding [pgvector](https://github.com/pgvector/pgvector)**: pgvector is an extension for PostgreSQL designed to facilitate the storage, querying, and indexing of high-dimensional vector data. This extension addresses the growing need for managing vector data, particularly in applications related to AI and ML, where vectors are used to represent complex data types such as text, images, and other multi-dimensional datasets.
+- **Understanding [pgvector](https://github.com/pgvector/pgvector)**: pgvector is an extension for PostgreSQL designed to facilitate the storage, querying, and indexing of high-dimensional embedding vector data. This extension addresses the growing need for managing embedding vector data, particularly in applications related to AI and ML, where embedding vectors are used to represent complex data types such as text, images, and other multi-dimensional datasets.
 - **Exploring limit and threshold [similarity search types](https://github.com/pgvector/pgvector?tab=readme-ov-file#querying) with pgvector:** The project provides two options for similarity search: "limit" and "threshold". The "limit" option retrieves the top N most similar messages, while the "threshold" option retrieves messages that meet a specified similarity threshold. This flexibility allows you to tailor the agent's behavior based on your specific requirements.
 - **Implementing persistent storage using pgvector:** We'll show how to enhance a LangGraph ReAct agent by adding persistent storage capabilities using PostgreSQL and the pgvector extension. This feature allows your agent to store conversation embeddings persistently, ensuring that the context is maintained even if the script exits or the program is terminated. The implementation leverages an async connection pool to manage connections to the PostgreSQL database. Async connections allow non-blocking database operations, enabling other parts of your application to continue running while waiting for database tasks to complete.
 
 > [!NOTE]
-> In this tutorial, we'll use cosine similarity (using pgvector's `<=>` operator) for measuring vector similarities. Cosine similarity measures the cosine of the angle between two vectors, resulting in values between -1 and 1, where:
+> In this tutorial, we'll measure embedding vector similarities using **Cosine similarity**, which we'll derive from pgvector's `<=>` operator used for calculating **Cosine distance**. It's important to distinguish between **Cosine distance** and **Cosine similarity**.
 >
-> - 1 means the vectors are identical in direction (perfect similarity),
-> - 0 means the vectors are orthogonal (perpendicular, no similarity), and
-> - -1 means the vectors point in opposite directions (perfect dissimilarity).
+> **Cosine distance** is calculated as follows:
+>
+> Cosine distance $$= 1 - \cos(\theta) = 1 - \frac{a \cdot b}{||a|| \cdot ||b||}$$
 > 
-> pgvector offers several other distance functions as well:
+> While **Cosine similarity** is simply derived from **Cosine distance**, and is calculated as follows:
 >
-> - L2 distance (using pgvector's `<->` operator),
-> - (negative) inner product (using pgvector's `<#>` operator),
+> Cosine similarity $$= 1 -$$ Cosine distance
+> 
+> **Cosine similarity** measures the cosine of the angle between two embedding vectors, resulting in values between -1 and 1, where:
+>
+> - 1 means the two embedding vectors are identical in direction, forming a 0° angle, indicating perfect similarity,
+> - 0 means the two embedding vectors are orthogonal, forming a 90° angle, indicating no similarity, and
+> - -1 means the two embedding vectors point in opposite directions, forming a 180° angle, indicating perfect dissimilarity.
+> 
+> pgvector [offers](https://github.com/pgvector/pgvector?tab=readme-ov-file#querying) several other distance functions as well:
+>
 > - Cosine distance (using pgvector's `<=>` operator),
 > - L1 distance (using pgvector's `<+>` operator),
+> - L2 distance (using pgvector's `<->` operator),
+> - (Negative) inner product (using pgvector's `<#>` operator),
 > - Hamming distance (using pgvector's `<~>` operator), and
 > - Jaccard distance (using pgvector's `<%>` operator).
 
