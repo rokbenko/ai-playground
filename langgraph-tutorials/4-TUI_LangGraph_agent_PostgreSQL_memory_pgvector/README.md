@@ -4,6 +4,8 @@
 
 Add persistent memory using PostgreSQL with pgvector to the [#1 TUI for a LangGraph agent with a web connection](https://github.com/rokbenko/ai-playground/tree/main/langgraph-tutorials/1-TUI_LangGraph_agent_Tavily) tutorial.
 
+![Flow diagram](https://github.com/rokbenko/ai-playground/blob/main/langgraph-tutorials/4-TUI_LangGraph_agent_PostgreSQL_memory_pgvector/assets/images/flow.png)
+
 This directory will have the following structure after completing the steps in the [_Getting started_](https://github.com/rokbenko/ai-playground/tree/main/langgraph-tutorials/4-TUI_LangGraph_agent_PostgreSQL_memory_pgvector#-getting-started-) section:
 
 ```
