@@ -353,7 +353,7 @@ If you run [`tui_langgraph_agent_postgresql_memory_pgvector.py`](https://github.
 > [!NOTE]
 > There were multiple conversations before that. It might have been chat #35 or #49, as the Python script was tested extensively before running the final version.
 >
-> At the time the chat below was run, there were dozens of messages stored in PostgreSQL, but PostgreSQL returned all messages (i.e., 11) that met a specified similarity threshold (i.e., having a cosine similarity greater than `0.75`), as seen below.
+> At the time the chat below was run, there were dozens of messages stored in PostgreSQL, but PostgreSQL returned all messages (i.e., 11) that met a specified similarity threshold (i.e., having a cosine similarity equal to or greater than `0.75`), as seen below.
 
 > User:<br>
 > What's my name?<br>
@@ -361,7 +361,7 @@ If you run [`tui_langgraph_agent_postgresql_memory_pgvector.py`](https://github.
 > ============================================================
 > 
 > Similarity search results:<br>
-> The following 11 messages all have a cosine similarity greater than 0.75 to the user's question:<br>
+> The following 11 messages all have a cosine similarity equal to or greater than 0.75 to the user's question:<br>
 > Message #1: What's my name?<br>
 > Message #2: You can tell me what's my name.<br>
 > Message #3: I'm unable to determine your name from the provided conversation. The phrase "What's my name?" is repeated multiple times, but it does not provide any information about your actual name. If you would like me to know your name, please share it with me.<br>
