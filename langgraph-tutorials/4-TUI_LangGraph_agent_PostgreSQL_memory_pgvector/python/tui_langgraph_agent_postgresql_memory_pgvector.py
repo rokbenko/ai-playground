@@ -109,7 +109,7 @@ async def process_chunks(chunk, conn):
                     inputs=[agent_answer],
                 )
 
-                # Extract the embedding vector for the agent's answer
+                # Retrieve the embedding vector for the agent's answer from the Mistral Embed LLM response
                 agent_answer_embedding = embeddings_response.data[0].embedding
 
                 # Insert the agent's answer and its embedding vector into the database
@@ -206,13 +206,25 @@ async def main():
                 inputs=[user_question],
             )
 
-            # Extract the embedding vector for the user's question
+            # Retrieve the embedding vector for the user's question from the Mistral Embed LLM response
             user_question_embedding = embeddings_response.data[0].embedding
+
+            # Insert the user's question and its embedding vector into the database
+            await conn.execute(
+                "INSERT INTO chat (role, message, embedding_vector) VALUES (%s, %s, %s)",
+                (
+                    "user",
+                    user_question,
+                    user_question_embedding,
+                ),
+            )
 
             # Perform similarity search based on the choosen similarity search type
             # If similarity_search_type is "limit"
             if similarity_search_type == "limit":
-                # Return the top 5 most similar past messages stored in the database
+                # Return the top 5 most similar past messages (i.e., user questions or LangGraph agent answers) from PostgreSQL
+                # Similarity is calculated against the embedding vector of the latest user message
+                # Duplicates are removed by selecting only the first occurrence of each message
                 similarity_search = await conn.execute(
                     """
                     WITH ranked_messages AS (
@@ -234,7 +246,10 @@ async def main():
 
             # If similarity_search_type is "threshold"
             elif similarity_search_type == "threshold":
-                # Return all past messages stored in the database that have a cosine similarity greater than 0.75
+                # Return all past messages (i.e., user questions or LangGraph agent answers) from PostgreSQL with a cosine similarity equal to or greater than 0.75
+                # Similarity is calculated against the embedding vector of the latest user message
+                # Duplicates are removed by selecting only the first occurrence of each message
+                # Results are ordered from most to least similar
                 similarity_search = await conn.execute(
                     """
                     WITH ranked_messages AS (
@@ -246,7 +261,7 @@ async def main():
                                 ORDER BY 1 - (embedding_vector <=> %s::vector) DESC
                             ) as rn
                         FROM chat
-                        WHERE 1 - (embedding_vector <=> %s::vector) > %s
+                        WHERE 1 - (embedding_vector <=> %s::vector) >= %s
                     )
                     SELECT message, cosine_similarity
                     FROM ranked_messages 
@@ -263,16 +278,6 @@ async def main():
                         #  1: Vectors point in same direction (identical similarity)
                     ),
                 )
-
-            # Insert the user's question and its embedding vector into the database
-            await conn.execute(
-                "INSERT INTO chat (role, message, embedding_vector) VALUES (%s, %s, %s)",
-                (
-                    "user",
-                    user_question,
-                    user_question_embedding,
-                ),
-            )
 
             # Fetch the similarity search results
             similarity_search_results = await similarity_search.fetchall()
@@ -306,7 +311,10 @@ async def main():
                     style="deep_sky_blue1",
                 )
 
-            # Prepare messages to be passed to the LangGraph agent
+            # Prepare messages (i.e., human and system messages) to be passed to the LangGraph agent
+            # Add the user's question to the HumanMessage object
+            messages = [HumanMessage(content=user_question)]
+
             # Create a list to store the messages
             similar_messages = []
 
@@ -314,11 +322,8 @@ async def main():
             for query_result in similarity_search_results:
                 similar_messages.append(query_result["message"])
 
-            # Add the user's question to the HumanMessage object
-            messages = [HumanMessage(content=user_question)]
-
             # If there are similar messages returned from the similarity search, add them to the SystemMessage object
-            if similar_messages:
+            if len(similar_messages) > 0:
                 join_similar_messages = "\n".join(similar_messages)
                 system_message = f"To answer the user's question, use this information which is part of the past conversation as a context:\n{join_similar_messages}"
                 messages.insert(0, SystemMessage(content=system_message))
