@@ -150,7 +150,7 @@ async def main():
 
     The function supports two options for similarity search:
     - "limit": Returns the top 5 most similar messages.
-    - "threshold": Returns messages that have a cosine similarity greater than 0.75.
+    - "threshold": Returns messages that have a cosine similarity equal to or greater than 0.75.
     """
 
     # Connect to the PostgreSQL database using an async connection pool
@@ -301,7 +301,7 @@ async def main():
 
             elif similarity_search_type == "threshold":
                 rich.print(
-                    f"The following {len(similarity_search_results)} messages all have a cosine similarity greater than 0.75 to the user's question:",
+                    f"The following {len(similarity_search_results)} messages all have a cosine similarity equal to or greater than 0.75 to the user's question:",
                     style="deep_sky_blue1",
                 )
 
