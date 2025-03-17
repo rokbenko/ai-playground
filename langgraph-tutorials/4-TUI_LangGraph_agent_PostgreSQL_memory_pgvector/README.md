@@ -304,30 +304,30 @@ If you run [`tui_langgraph_agent_postgresql_memory_pgvector.py`](https://github.
 > [!NOTE]
 > There were multiple conversations before that. It might have been chat #34 or #48, as the Python script was tested extensively before running the final version.
 >
-> At the time the chat below was run, there were dozens of messages stored in PostgreSQL, but PostgreSQL returned the top 5 most similar messages, as seen below.
+> At the time the chat below was run, there were dozens of messages stored in PostgreSQL, but PostgreSQL returned the top 5 most similar past messages with the highest cosine similarity to the latest user's question, as seen below.
 
 > User:<br>
 > What's my name?<br>
 > 
 > ============================================================
-> 
+>
 > Similarity search results:<br>
-> The following messages are the top 5 most similar to the user's question:<br>
-> Message #1: Based on our conversation, you mentioned earlier that your name is Bob.<br>
-> Message #2: Based on our previous conversation, you mentioned that you live in San Francisco.<br>
-> Message #3: Based on our previous conversation, you mentioned that you live in San Francisco, Bob.<br>
-> Message #4: Based on our previous conversation, you mentioned that your name is Bob.<br>
-> Message #5: Based on the conversation, you live in San Francisco.
+> Here are the top 5 most similar past messages with the highest cosine similarity to the latest user's question:<br>
+> Message #1 (cosine similarity = 1.00): What's my name?<br>
+> Message #2 (cosine similarity = 0.87): You can tell me what's my name.<br>
+> Message #3 (cosine similarity = 0.87): I'm unable to determine your name from the provided conversation. The phrase "What's my name?" is repeated multiple times, but it does not provide any information about your actual name. If you would like me to know your name, please share it with me.<br>
+> Message #4 (cosine similarity = 0.82): Your name is Bob.<br>
+> Message #5 (cosine similarity = 0.82): You didn't mention your name in the conversation. Could you please tell me your name?
 >
 > Messages passed to the LangGraph agent:<br>
 > The system message:<br>
 > -----------------------<br>
 > To answer the user's question, use this information which is part of the past conversation as a context:<br>
-> Based on our conversation, you mentioned earlier that your name is Bob.<br>
-> Based on our previous conversation, you mentioned that you live in San Francisco.<br>
-> Based on our previous conversation, you mentioned that you live in San Francisco, Bob.<br>
-> Based on our previous conversation, you mentioned that your name is Bob.<br>
-> Based on the conversation, you live in San Francisco.
+> - What's my name?<br>
+> - You can tell me what's my name.<br>
+> - I'm unable to determine your name from the provided conversation. The phrase "What's my name?" is repeated multiple times, but it does not provide any information about your actual name. If you would like me to know your name, please share it with me.<br> 
+> - Your name is Bob.<br>
+> - You didn't mention your name in the conversation. Could you please tell me your name?
 > 
 > The human message:<br>
 > -----------------------<br>
@@ -336,7 +336,7 @@ If you run [`tui_langgraph_agent_postgresql_memory_pgvector.py`](https://github.
 > ============================================================
 > 
 > Agent:<br>
-> Your name is Bob. ✔️
+> Based on the past conversation, your name is Bob. ✔️
 > 
 > User:<br>
 > Quit
@@ -353,42 +353,56 @@ If you run [`tui_langgraph_agent_postgresql_memory_pgvector.py`](https://github.
 > [!NOTE]
 > There were multiple conversations before that. It might have been chat #35 or #49, as the Python script was tested extensively before running the final version.
 >
-> At the time the chat below was run, there were dozens of messages stored in PostgreSQL, but PostgreSQL returned all messages (i.e., 11) that met a specified similarity threshold (i.e., having a cosine similarity equal to or greater than `0.75`), as seen below.
+> At the time the chat below was run, there were dozens of messages stored in PostgreSQL, but PostgreSQL returned all past messages (i.e., 18) with a cosine similarity equal to or greater than 0.75 to the latest user's question, as seen below.
 
 > User:<br>
 > What's my name?<br>
 > 
 > ============================================================
-> 
+>
 > Similarity search results:<br>
-> The following 11 messages all have a cosine similarity equal to or greater than 0.75 to the user's question:<br>
-> Message #1: What's my name?<br>
-> Message #2: You can tell me what's my name.<br>
-> Message #3: I'm unable to determine your name from the provided conversation. The phrase "What's my name?" is repeated multiple times, but it does not provide any information about your actual name. If you would like me to know your name, please share it with me.<br>
-> Message #4: Your name is Bob.<br>
-> Message #5: I don't have access to your name or any personal information. If you'd like to share your name, I can use it in our conversation. Otherwise, I'll continue to assist you without using a name.<br>
-> Message #6: Hi, my name is Bob!<br>
-> Message #7: Where do I live?<br>
-> Message #8: Based on the past conversation, your name is Bob.<br>
-> Message #9: Based on our previous conversation, you mentioned that your name is Bob.<br>
-> Message #10: Based on our conversation, you mentioned earlier that your name is Bob.<br>
-> Message #11: Bob, you've asked this question multiple times, and I've provided you with the same answer each time. Is there something else I can assist you with?
+> Here are the 18 past messages with a cosine similarity equal to or greater than 0.75 to the latest user's question:<br>
+> Message #1 (cosine similarity = 1.00): What's my name?<br>
+> Message #2 (cosine similarity = 0.90): My name is what?<br>
+> Message #3 (cosine similarity = 0.87): You can tell me what's my name.<br>
+> Message #4 (cosine similarity = 0.87): I'm unable to determine your name from the provided conversation. The phrase "What's my name?" is repeated multiple times, but it does not provide any information about your actual name. If you would like me to know your name, please share it with me.<br>
+> Message #5 (cosine similarity = 0.83): I'm sorry, but I still don't know your name. You haven't told me yet. If you'd like me to know your name, please share it with me.<br>
+> Message #6 (cosine similarity = 0.82): Your name is Bob.<br>
+> Message #7 (cosine similarity = 0.82): You didn't mention your name in the conversation. Could you please tell me your name?<br>
+> Message #8 (cosine similarity = 0.82): I don't have access to personal information about you, including your name. If you'd like to share your name orany other information, feel free to do so!<br>
+> Message #9 (cosine similarity = 0.81): I don't have access to your name or any personal information. If you'd like to share your name, I can use it inour conversation. Otherwise, I'll continue to assist you without using a name.<br>
+> Message #10 (cosine similarity = 0.81): Based on the provided conversation, your name is Bob. You stated, "Your name is Bob."<br>
+> Message #11 (cosine similarity = 0.80): Hi, my name is Bob!<br>
+> Message #12 (cosine similarity = 0.79): Based on the past conversation, your name is Bob. You stated, "Your name is Bob."<br>
+> Message #13 (cosine similarity = 0.79): Where do I live?<br>
+> Message #14 (cosine similarity = 0.79): Based on the past conversation, your name is Bob.<br>
+> Message #15 (cosine similarity = 0.78): Based on our previous conversation, you mentioned that your name is Bob.<br>
+> Message #16 (cosine similarity = 0.77): Based on our conversation, you mentioned earlier that your name is Bob.<br>
+> Message #17 (cosine similarity = 0.77): Based on our previous conversation, you mentioned that your name is Bob. You live in San Francisco.<br>
+> Message #18 (cosine similarity = 0.76): Bob, you've asked this question multiple times, and I've provided you with the same answer each time. Is there something else I can assist you with?
 >
 > Messages passed to the LangGraph agent:<br>
 > The system message:<br>
 > -----------------------<br>
 > To answer the user's question, use this information which is part of the past conversation as a context:<br>
-> What's my name?<br>
-> You can tell me what's my name.<br>
-> I'm unable to determine your name from the provided conversation. The phrase "What's my name?" is repeated multiple times, but it does not provide any information about your actual name. If you would like me to know your name, please share it with me.<br>
-> Your name is Bob.<br>
-> I don't have access to your name or any personal information. If you'd like to share your name, I can use it in our conversation. Otherwise, I'll continue to assist you without using a name.<br>
-> Hi, my name is Bob!<br>
-> Where do I live?<br>
-> Based on the past conversation, your name is Bob.<br>
-> Based on our previous conversation, you mentioned that your name is Bob.<br>
-> Based on our conversation, you mentioned earlier that your name is Bob.<br>
-> Bob, you've asked this question multiple times, and I've provided you with the same answer each time. Is there something else I can assist you with?
+> - What's my name?<br>
+> - My name is what?<br>
+> - You can tell me what's my name.<br>
+> - I'm unable to determine your name from the provided conversation. The phrase "What's my name?" is repeated multiple times, but it does not provide any information about your actual name. If you would like me to know your name, please share it with me.<br>
+> - I'm sorry, but I still don't know your name. You haven't told me yet. If you'd like me to know your name, please share it with me.<br>
+> - Your name is Bob.<br>
+> - You didn't mention your name in the conversation. Could you please tell me your name?<br>
+> - I don't have access to personal information about you, including your name. If you'd like to share your name or any other information, feel free to do so!<br>
+> - I don't have access to your name or any personal information. If you'd like to share your name, I can use it in our conversation. Otherwise, I'll continue to assist you without using a name.<br>
+> - Based on the provided conversation, your name is Bob. You stated, "Your name is Bob."<br>
+> - Hi, my name is Bob!<br>
+> - Based on the past conversation, your name is Bob. You stated, "Your name is Bob."<br>
+> - Where do I live?<br>
+> - Based on the past conversation, your name is Bob.<br>
+> - Based on our previous conversation, you mentioned that your name is Bob.<br>
+> - Based on our conversation, you mentioned earlier that your name is Bob.<br>
+> - Based on our previous conversation, you mentioned that your name is Bob. You live in San Francisco.<br>
+> - Bob, you've asked this question multiple times, and I've provided you with the same answer each time. Is there something else I can assist you with?
 > 
 > The human message:<br>
 > -----------------------<br>
