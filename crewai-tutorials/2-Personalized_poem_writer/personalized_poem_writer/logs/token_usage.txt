@@ -1,0 +1,7 @@
+Person research crew:
+
+total_tokens=116806 prompt_tokens=111241 cached_prompt_tokens=0 completion_tokens=5565 successful_requests=7
+
+Poem writer crew:
+
+total_tokens=2247 prompt_tokens=1913 cached_prompt_tokens=0 completion_tokens=334 successful_requests=1

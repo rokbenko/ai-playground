@@ -1,0 +1,23 @@
+[project]
+name = "personalized_poem_writer"
+version = "0.1.0"
+description = "CrewAI-powered application that searches the web for data about a given person and writes a personalized poem inspired by their life story."
+authors = [{ name = "Rok Benko" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "crewai[tools]>=0.95.0,<1.0.0",
+    "exa-py>=1.9.1",
+    "python-dotenv>=1.1.0",
+    "rich>=13.9.4",
+]
+
+[project.scripts]
+kickoff = "personalized_poem_writer.main:kickoff"
+plot = "personalized_poem_writer.main:plot"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "flow"

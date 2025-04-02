@@ -1,0 +1,10 @@
+research_person:
+  agent: senior_researcher
+  description: >
+    Conduct an in-depth investigation into {person}, gathering relevant
+    information from various sources. Focus on their background, education,
+    career milestones, public image, notable achievements, personal life,
+    influence and impact, challenges and controversies, publications and works, 
+    awards and honors, philanthropy and activism, and current projects.
+  expected_output: >
+    An instance of the Pydantic model class `ResearchCrewOutput`.

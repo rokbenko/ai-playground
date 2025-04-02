@@ -1,0 +1,8 @@
+write_poem:
+  agent: senior_writer
+  description: >
+    Generate a funny, light-hearted poem about {person} based on data gathered
+    by the research crew. Try to relate or touch on something from his life
+    story in every sentence. Here's data about {person}: {data}
+  expected_output: |
+    A beautifully crafted poem about {person}.
