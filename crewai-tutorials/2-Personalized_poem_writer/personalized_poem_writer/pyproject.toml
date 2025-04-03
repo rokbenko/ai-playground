@@ -1,7 +1,7 @@
 [project]
 name = "personalized_poem_writer"
 version = "0.1.0"
-description = "CrewAI-powered application that searches the web for data about a given person and writes a personalized poem inspired by their life story."
+description = "CrewAI-powered application designed for creative writers and lyricists, helping them research people, prepare detailed insights, and write a personalized, funny, and light-hearted poem inspired by their life story."
 authors = [{ name = "Rok Benko" }]
 requires-python = ">=3.10,<3.13"
 dependencies = [
