@@ -161,7 +161,7 @@ This brings the total cost to $0.274702. Again, I want to emphasize that the tot
 > [!TIP]
 > For higher quality, click on the image.
 
-![Flow plot](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/2-Personalized_poem_writer/personalized_poem_writer/crewai_flow.png)
+![Flow plot](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/2-Personalized_poem_writer/personalized_poem_writer/assets/images/crewai_flow.png)
 
 <br>
 
