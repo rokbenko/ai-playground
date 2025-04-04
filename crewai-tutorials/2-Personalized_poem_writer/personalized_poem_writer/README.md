@@ -7,8 +7,8 @@ Python example using [CrewAI](https://www.crewai.com/), [Mistral Large 2](https:
 It's designed for creative writers and lyricists, helping them:
 
 - research a person,
-- gather detailed insights about the person, and
-- write a personalized, funny, and light-hearted poem inspired by their life story.
+- prepare detailed insights about the person, and
+- write a personalized, funny, and light-hearted poem inspired by the person's life story.
 
 👉 Refer to the [`rok_benko_poem.txt`](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/2-Personalized_poem_writer/personalized_poem_writer/outputs/rok_benko_poem.txt) file for an example of the poem if the entered person is _Rok Benko_.
 
