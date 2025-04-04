@@ -410,6 +410,22 @@ Star this repo and help me hit 250 ⭐!
       <a href="https://youtu.be/vUQZvc5NTPw" target="_blank">YouTube</a>
     </td>
   </tr>
+  <tr>
+    <td>#2</td>
+    <td>Personalized poem writer</td>
+    <td>Python example using CrewAI, Mistral LLM and Exa tool, designed for creative writers and lyricists, helping them:<br>
+      <ul>
+        <li>research a person</li>
+        <li>prepare detailed insights about the person</li>
+        <li>write a personalized, funny, and light-hearted poem inspired by the person's life story</li>
+      </ul>
+    </td>
+    <td>
+      <img alt="Python badge" src="https://img.shields.io/badge/Python-%23202020?style=flat&logo=python">
+    </td>
+    <td>Coming soon... ✨</td>
+    <td>Coming soon... ✨</td>
+  </tr>
 </table>
 
 ### [Fetch.ai](https://fetch.ai/)
