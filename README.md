@@ -3,7 +3,7 @@
 # Code from YouTube channel<br> [Code AI with Rok](https://www.youtube.com/@rokbenko?sub_confirmation=1)
 
 Found something awesome here?<br>
-Star this repo and help me hit 250 ⭐!
+Star this repo and help me hit 260 ⭐!
 
 [![ai-playground repository stars](https://img.shields.io/github/stars/rokbenko/ai-playground?style=social)](https://github.com/rokbenko/ai-playground)
 
