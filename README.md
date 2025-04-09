@@ -7,7 +7,7 @@ Star this repo and help me hit 260 ⭐!
 
 [![ai-playground repository stars](https://img.shields.io/github/stars/rokbenko/ai-playground?style=social)](https://github.com/rokbenko/ai-playground)
 
-<sub><a href="https://github.com/rokbenko/ai-playground?tab=readme-ov-file#%EF%B8%8F-my-story-%EF%B8%8F">Why am I using AI voiceover?</a></sub>
+<sub><a href="https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-my-story-">Why am I using AI voiceover?</a></sub>
 
 <br>
 
@@ -58,7 +58,7 @@ Star this repo and help me hit 260 ⭐!
     - [Milvus](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#milvus)<br>
   - [NLP](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-nlp-)<br>
     - [spaCy](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#spacy)<br>
-  - [My story](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#%EF%B8%8F-my-story-%EF%B8%8F)<br>
+  - [My story](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-my-story-)<br>
   - [Star history](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-star-history-)<br>
   - [Contributions](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-contributions-)<br>
   - [License](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-license-)
