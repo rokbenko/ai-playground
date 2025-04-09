@@ -7,6 +7,8 @@ Star this repo and help me hit 260 ⭐!
 
 [![ai-playground repository stars](https://img.shields.io/github/stars/rokbenko/ai-playground?style=social)](https://github.com/rokbenko/ai-playground)
 
+<sub><a href="https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-my-story-">Why am I using AI voiceover?</a></sub>
+
 <br>
 
 <img src="https://cdn.simpleicons.org/openai/000/FFF" alt="OpenAI logo" width=20 height=20 align=center>
@@ -33,8 +35,10 @@ Star this repo and help me hit 260 ⭐!
 
 <br>
 
+## 📚 Table of contents 📚
+
 <details>
-  <summary>Table of contents</summary>
+  <summary>Click to expand</summary>
   
   - [LLM providers](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-llm-providers-)<br>
     - [OpenAI](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#openai)<br>
@@ -658,6 +662,70 @@ Star this repo and help me hit 260 ⭐!
 
 <br>
 
+## ✍️ My story ✍️
+
+I started this YouTube channel in November 2023. At the time, I was working full-time as a developer and also helping people solve issues with the OpenAI API on Stack Overflow on a daily basis. I didn’t have much free time, but I still wanted to share my knowledge in video format. Using AI voiceover was the only way I could realistically make tutorials without burning out. It saved me from filming myself and needing any special equipment.
+
+Some people mention the voiceover in the comments. I get it. Everyone has different preferences.
+
+But... **Making just one 10-minute tutorial takes me 25+ hours!**
+
+Here’s what goes into it:
+
+- 🔍 **Researching**
+    - I always try to cover the latest stuff in AI.
+    - I spend time reading official documentation.
+    - I test everything myself before sharing it.
+
+- 💻 **Coding**
+    - I spend hours writing and debugging code.
+    - I add comments and docstrings so it’s easier to follow.
+    - I organize GitHub repo by framework to keep it neat.
+
+- ✍️ **Scripting**
+    - I think a lot about what’s important and what’s not.
+    - I try to keep things clear and to the point.
+    - I always aim to explain even complex concepts in a simple way.
+    - I make sure everything is practically explained, no theoretical fluff.
+
+- 🎥 **Recording**
+    - I record everything: the code editor, browser for installation steps or docs, and past examples when they help.
+    - I show the full process, not just the code.
+    - I demonstrate things live, like output examples or how tools behave.
+
+- 🗣️ **Voiceover**
+    - I use AI to generate voiceover.
+    - I rework the script and try again in case AI mispronounces something.
+
+- 🎞️ **Editing**
+    - I cut out boring parts, like when my computer lags.
+    - I blur secrets when I show `.env` files.
+    - I make sure the video flows well and stays focused.
+
+- 📤 **Uploading**
+    - I organize my YouTube channel so it’s easy to find videos by framework.
+    - I add timestamps so you can jump to the part you need.
+    - I write a detailed description of the video, so whether you want to reach out to me, get the links I mention, or support me, you can find everything there.
+
+- 🧾 **Writing**
+    - I write the `README.md` file with helpful notes, tips, warnings, output examples, screenshots, GIFs, and more.
+    - I use grammar checkers to make sure it’s clean.
+    - I double-check all the links to make sure nothing’s broken.
+
+- 📣 **Sharing**
+    - I write posts for LinkedIn and X to help people discover the content.
+    - I always link back and forth between the YouTube video and GitHub code so everything stays connected.
+
+And I do all of this for free. Yes, you’ll see ads on YouTube, but I’m not earning anything from them. My channel doesn’t meet all the requirements for monetization (yet).
+
+I still believe the tutorials bring value, even with the robotic voice here and there. Even if it doesn’t feel as natural, the content and information are what matter most. I believe my channel brings value because I focus on delivering high-quality content, rather than worrying about how natural the voice sounds.
+
+So yeah, that’s why I’m using AI voiceover. Anyway, you're here to learn, not to judge my voice’s acting career, right?
+
+Thanks for the support! ❤️
+
+<br>
+
 ## ⭐ Star history ⭐
 
 <a href="https://star-history.com/#rokbenko/ai-playground&Date">
@@ -673,7 +741,7 @@ Star this repo and help me hit 260 ⭐!
 
 ## 🤝 Contributing 🤝
 
-Thank you for considering contributing to my repository. While I don't accept direct additions of tutorials, I warmly welcome contributions in the following forms:
+Thank you for considering contributing to my repo. While I don't accept direct additions of tutorials, I warmly welcome contributions in the following forms:
 
 - **Reporting major issues:** Found a bug, or error? Feel free to open an issue on GitHub. Be sure to provide as much detail as possible, including steps to reproduce the issue.
 - **Fixing minor issues:** Found a typo, grammatical error, or other small issue? Feel free to open a pull request to fix them directly.
@@ -681,7 +749,7 @@ Thank you for considering contributing to my repository. While I don't accept di
 
 To contribute:
 
-1.  Fork this repository.
+1.  Fork this repo.
 2.  Make your desired changes.
 3.  Create a commit and push the changes.
 4.  Create a pull request.
