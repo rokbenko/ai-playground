@@ -58,6 +58,10 @@ Star this repo and help me hit 260 ⭐!
     - [Milvus](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#milvus)<br>
   - [NLP](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-nlp-)<br>
     - [spaCy](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#spacy)<br>
+  - [My story](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#%EF%B8%8F-my-story-%EF%B8%8F)<br>
+  - [Star history](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-star-history-)<br>
+  - [Contributions](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-contributions-)<br>
+  - [License](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-license-)
 </details>
 
 <br>
@@ -662,9 +666,9 @@ Star this repo and help me hit 260 ⭐!
 
 <br>
 
-## ✍️ My story ✍️
+## 🌱 My story 🌱
 
-I started this YouTube channel in November 2023. At the time, I was working full-time as a developer and also helping people solve issues with the OpenAI API on Stack Overflow on a daily basis. I didn’t have much free time, but I still wanted to share my knowledge in video format. Using AI voiceover was the only way I could realistically make tutorials without burning out. It saved me from filming myself and needing any special equipment.
+I started this YouTube channel in November 2023. At the time, I was working full-time as a developer and also being very active on Stack Overflow. I didn’t have much free time, but I still wanted to share my knowledge in video format. Using AI voiceover was the only way I could realistically make tutorials without burning out. It saved me from recording myself and needing any special equipment.
 
 Some people mention the voiceover in the comments. I get it. Everyone has different preferences.
 
@@ -674,13 +678,14 @@ Here’s what goes into it:
 
 - 🔍 **Researching**
     - I always try to cover the latest stuff in AI.
-    - I spend time reading official documentation.
+    - I spend time reading official docs.
     - I test everything myself before sharing it.
 
 - 💻 **Coding**
     - I spend hours writing and debugging code.
     - I add comments and docstrings so it’s easier to follow.
-    - I organize GitHub repo by framework to keep it neat.
+    - I organize the GitHub repo by framework to keep it neat.
+    - I always include the `requirements.txt`, `pyproject.toml`, or `package.json` file so you know exactly which dependency versions to use.
 
 - ✍️ **Scripting**
     - I think a lot about what’s important and what’s not.
@@ -689,9 +694,10 @@ Here’s what goes into it:
     - I make sure everything is practically explained, no theoretical fluff.
 
 - 🎥 **Recording**
-    - I record everything: the code editor, browser for installation steps or docs, and past examples when they help.
+    - I record everything: the code editor, terminal, Docker Desktop, pgAdmin, and the browser for official docs, installation steps, or GitHub repos.
     - I show the full process, not just the code.
-    - I demonstrate things live, like output examples or how tools behave.
+    - I capture how the code behaves in real-time, including command flow and output examples.
+    - I walk you through the entire process step by step.
 
 - 🗣️ **Voiceover**
     - I use AI to generate voiceover.
@@ -716,11 +722,11 @@ Here’s what goes into it:
     - I write posts for LinkedIn and X to help people discover the content.
     - I always link back and forth between the YouTube video and GitHub code so everything stays connected.
 
-And I do all of this for free. Yes, you’ll see ads on YouTube, but I’m not earning anything from them. My channel doesn’t meet all the requirements for monetization (yet).
+I do all of this for free! Yes, you’ll see ads when watching my tutorials, but I’m not earning anything from them. My YouTube channel doesn’t meet all the requirements for monetization (yet).
 
-I still believe the tutorials bring value, even with the robotic voice here and there. Even if it doesn’t feel as natural, the content and information are what matter most. I believe my channel brings value because I focus on delivering high-quality content, rather than worrying about how natural the voice sounds.
+Despite using AI voiceover, I believe my tutorials are valuable. I focus more on delivering quality content than worrying about how natural the voice sounds.
 
-So yeah, that’s why I’m using AI voiceover. Anyway, you're here to learn, not to judge my voice’s acting career, right?
+So yeah, that’s why I’m using AI voiceover. Anyway, you're here to learn, not to judge my voice’s acting career, right? Because I’m not counting on becoming a voice actor anytime soon. Unless they’re casting for a robot.
 
 Thanks for the support! ❤️
 
@@ -739,7 +745,7 @@ Thanks for the support! ❤️
 <br>
 <br>
 
-## 🤝 Contributing 🤝
+## 🤝 Contributions 🤝
 
 Thank you for considering contributing to my repo. While I don't accept direct additions of tutorials, I warmly welcome contributions in the following forms:
 
