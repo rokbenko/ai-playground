@@ -726,7 +726,7 @@ I do all of this for free! Yes, you’ll see ads when watching my tutorials, but
 
 Despite using AI voiceover, I believe my tutorials are valuable. I focus more on delivering quality content than worrying about how natural the voice sounds.
 
-So yeah, that’s why I’m using AI voiceover. Anyway, you're here to learn, not to judge my voice’s acting career, right? Because I’m not counting on becoming a voice actor anytime soon. Unless they’re casting for a robot.
+So yeah, that’s why I’m using AI voiceover. Anyway, you're here to learn coding, not to judge my voice’s acting career, right? Because I’m not counting on becoming a voice actor anytime soon. Unless they’re casting for a robot.
 
 Thanks for the support! ❤️
 
