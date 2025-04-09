@@ -705,7 +705,7 @@ Here’s what goes into it:
 
 - 🎞️ **Editing**
     - I cut out boring parts, like when my computer lags.
-    - I blur secrets when I show `.env` files.
+    - I blur secrets when I show the `.env` file.
     - I make sure the video flows well and stays focused.
 
 - 📤 **Uploading**
