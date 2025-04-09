@@ -7,7 +7,8 @@ Star this repo and help me hit 260 ⭐!
 
 [![ai-playground repository stars](https://img.shields.io/github/stars/rokbenko/ai-playground?style=social)](https://github.com/rokbenko/ai-playground)
 
-<sub><a href="https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-my-story-">Why am I using AI voiceover?</a></sub>
+<sub><a href="https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-my-story-">Why am I using AI voiceover?</a></sub><br>
+<sub><a href="https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-support-">Want to support me?</a></sub>
 
 <br>
 
@@ -59,6 +60,7 @@ Star this repo and help me hit 260 ⭐!
   - [NLP](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-nlp-)<br>
     - [spaCy](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#spacy)<br>
   - [My story](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-my-story-)<br>
+  - [Support](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-support-)<br>
   - [Star history](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-star-history-)<br>
   - [Contributions](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-contributions-)<br>
   - [License](https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-license-)
@@ -727,6 +729,14 @@ I do all of this for free! Yes, you’ll see ads when watching my tutorials, but
 Despite using AI voiceover, I believe my tutorials are valuable. I focus more on delivering quality content than worrying about how natural the voice sounds.
 
 So yeah, that’s why I’m using AI voiceover. Anyway, you're here to learn coding, not to judge my voice’s acting career, right? Because I’m not counting on becoming a voice actor anytime soon. Unless they’re casting for a robot.
+
+<br>
+
+## ☕ Support ☕
+
+If you found my content helpful and want to help keep the tutorials brewing, you can buy me a coffee.
+
+<a href="https://www.buymeacoffee.com/rokbenko"><img src="https://img.buymeacoffee.com/button-api/?text=Keep tutorials brewing&emoji=☕&slug=rokbenko&button_colour=FFDD00&font_colour=000000&font_family=Arial&outline_colour=000000&coffee_colour=ffffff" /></a>
 
 Thanks for the support! ❤️
 
