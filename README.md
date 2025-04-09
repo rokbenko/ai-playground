@@ -7,7 +7,7 @@ Star this repo and help me hit 260 ⭐!
 
 [![ai-playground repository stars](https://img.shields.io/github/stars/rokbenko/ai-playground?style=social)](https://github.com/rokbenko/ai-playground)
 
-<sub><a href="https://github.com/rokbenko/ai-playground?tab=readme-ov-file#-my-story-">Why am I using AI voiceover?</a></sub>
+<sub><a href="https://github.com/rokbenko/ai-playground?tab=readme-ov-file#%EF%B8%8F-my-story-%EF%B8%8F">Why am I using AI voiceover?</a></sub>
 
 <br>
 
