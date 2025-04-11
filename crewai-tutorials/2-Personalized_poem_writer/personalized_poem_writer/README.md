@@ -16,13 +16,15 @@ It's designed for creative writers and lyricists, helping them:
 
 ## 🧐 Problem addressed 🧐
 
-Writing personalized poems can be a time-consuming and challenging task, especially when trying to capture the essence of someone's life story in a creative and engaging way. This project automates the process, allowing users to generate high-quality, personalized poems in just a few minutes. Using ChatGPT can make this process easier, but ChatGPT will never have detailed data about a person. For example, you can tell ChatGPT that _Rok Benko_ is a software developer, but it won’t know that he is an active AI contributor. Consequently, the poem will be too general instead of being truly inspired by his life story.
+Writing personalized poems can be a time-consuming and challenging task, especially when trying to capture the essence of someone's life story in a creative and engaging way. ChatGPT struggles with this task. I tested it with the web search feature turned on and with me (i.e., _Rok Benko_) passed as the person, and while the poem was impressive, it wasn’t about me at all. It was about Rok Benkovič, the former Slovene ski jumper. I clearly asked for a poem inspired by my life story, but ChatGPT completely missed the point. This happened because it sourced the web about Rok Benkovič, not me. Even more confusing, it showed a screenshot of my coding tutorial as a clickable thumbnail, which had nothing to do with the poem.
+
+![ChatGPT test](https://github.com/rokbenko/ai-playground/blob/main/crewai-tutorials/2-Personalized_poem_writer/personalized_poem_writer/assets/images/chatgpt_test.png)
 
 <br>
 
 ## 🧠 Learning goal 🧠
 
-- **Solving the addressed problem with CrewAI:** We'll demonstrate how the CrewAI framework can drastically reduce the time required to write personalized poems by leveraging a multi-agent AI system. By employing [CrewAI Flows](https://docs.crewai.com/concepts/flows), we cut down the time from hours to just ≈4 minutes, achieving a ≈95%+ reduction in time spent, all for ≈$0.27 in total!
+- **Solving the addressed problem with CrewAI:** We'll demonstrate how the CrewAI framework can drastically reduce the time required to write personalized poems by leveraging a multi-agent AI system. By employing [CrewAI Flows](https://docs.crewai.com/concepts/flows), we cut down the writing time from hours to just ≈4 minutes, achieving a ≈95%+ reduction in time spent, all for ≈$0.27 in total!
 
 > [!NOTE]
 > This $0.27 covers all expenses, including both the Mistral LLM and Exa tool. For more details about the cost, refer to the [Behind the scenes](https://github.com/rokbenko/ai-playground/tree/main/crewai-tutorials/2-Personalized_poem_writer/personalized_poem_writer#-behind-the-scenes-) section.
