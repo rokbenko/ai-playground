@@ -9,7 +9,7 @@ load_dotenv()
 class ExaGuestResearchTool(BaseTool):
     name: str = "Exa Guest Research"
     description: str = (
-        "Search the web for information about the given guest to create a report"
+        "Search the web using Exa, one of the best web search APIs for AI, to find information about the given guest"
     )
 
     def _run(self, guest: str) -> str:
