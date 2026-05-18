@@ -12,6 +12,8 @@ completion = client.chat.completions.create(
   response_format={"type": "json_object"}
 )
 
+if not completion.choices or completion.choices[0].message is None:
+    raise ValueError("LLM returned empty or filtered response")
 print(completion.choices[0].message.content)
 
 # Check if the OpenAI API response is a valid JSON

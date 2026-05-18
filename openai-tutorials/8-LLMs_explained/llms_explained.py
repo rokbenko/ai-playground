@@ -48,6 +48,8 @@ def main():
     )
 
     # Retrieve logprobs
+    if not completion.choices or completion.choices[0].logprobs is None:
+        raise ValueError("LLM returned empty response or logprobs unavailable")
     logprobs = completion.choices[0].logprobs.content
 
     # Iterate and display logprobs
